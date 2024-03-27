@@ -11,7 +11,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ed976d0f-9499-4e9e-a97b-c8e4ef6431e0)
   )
-  (fp_text user "K" (at -7.62 -2.6) (layer "F.Fab")
+  (fp_text user "C" (at -7.62 -2.6) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 98a65f17-7849-4b8f-b4bd-cd17a25520bd)
   )
@@ -67,8 +67,8 @@
     (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp b296a4d3-77e2-4daf-bbc0-f5a5c0be21f4))
   (fp_line (start 7.62 0) (end 4.75 0)
     (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 02f06095-e5a7-4970-aeea-60fbde2d9f8d))
+  (pad "1" thru_hole rect (at -7.62 0) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 488b28fb-0cc3-452c-a255-40c2636a5cc2))
   (pad "2" thru_hole oval (at 7.62 0) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 21972d82-e6c5-4d4c-8720-406e71abfb3e))
-  (pad "C" thru_hole rect (at -7.62 0) (size 3.2 3.2) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 488b28fb-0cc3-452c-a255-40c2636a5cc2))
   (model "${ALTIUM3D}/THD_Diode_Generic/DO-201AD_SMC_P15.24mm_Horizontal.step"
     (offset (xyz -7.62 0 0))
     (scale (xyz 1 1 1))

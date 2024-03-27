@@ -57,10 +57,13 @@
     (property "Comment" "" (at 1.27 6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_keywords" "T" (at 0 0 0)
+    (property "ki_keywords" "Q" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "ki_description" "Transistor MOSFET N-Channel, 60V, 400mA, 1.75Ω, SOT-23" (at 0 0 0)
+    (property "ki_description" "Transistor MOSFET N-Channel, SMD, 60V, 400mA, 1.75Ω, SOT-23, Toshiba" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "SOT95P250X110-3?_SOT23-3__123*" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "T2N7002BK_0_0"
@@ -186,10 +189,6 @@
       (rectangle (start -1.524 1.27) (end -1.2065 -1.27)
         (stroke (width 0) (type default))
         (fill (type outline))
-      )
-      (rectangle (start -0.9525 -0.3175) (end -0.9525 -0.3175)
-        (stroke (width 0) (type default))
-        (fill (type none))
       )
       (polyline
         (pts
