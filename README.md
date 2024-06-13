@@ -31,3 +31,39 @@ Library name convention like: **FUNCTION_PARAMETERS_MANUFACTURER**
    - for resistors can be technology (SMD/THD), Package size or LeadSpan, Power rating, tolerance, stability
 - MANUFACTURER:
    - Name of manufacturer ex: Samsung, Panasonic etc. If part is not atomic (haven't MPN), as manufacturer can be entered "Generic"
+
+**Used Reference Designators**
+
+Used letters doesn't meet function's class code according to IEC 60617, nor type codes according to IEEE 315.
+We use own RefDes system. Here is it:
+
+| RefDes | component types|
+|----------|----------------------------------------|
+| BT | Battery |
+| C | Capacitor |
+| CN | Any Connector - Plug or Jack, used for **internal** connecting, header, programming header, ZIF connector, Faston contact etc.|
+| D | Diode - General, Schottky, Zener |
+| F | Fuse |
+| FH | Fuse holder |
+| FLT | Filters EMC/EMI |
+| IC | Integrated Circuit |
+| JP | Jumper, jumer on PCB |
+| K | Relay |
+| L | Inductor |
+| LD | LED Diode |
+| LS | Acoustic indicator, Loud speaker, buzzer |
+| MCU | Microcontroller |
+| MP | Mechanical Parts, Knobs, Nuts, DIN Rail Support |
+| PSU | Power module, DCDC Converter module, ACDC Converter module - not IC |
+| Q | Transistor |
+| R | Resistor, Shunt |
+| RN | Resistor - net |
+| RV | Resistor - variable, potentiometer, trimmer |
+| RT | Resistor - termistor |
+| SW | Switch, push button, DIP switch |
+| TP | Test Point |
+| TVS | Transient voltage supressor, Transient suppresion diode |
+| VR | Varistor |
+| XC | Any Connector - Plug or Jack, used for **external** connecting, Terminal headers, USB, etc.|
+| Y | Oscillator, crystal, quartz, quarts/crystal oscillator |
+
