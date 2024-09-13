@@ -1,5 +1,5 @@
 # Z Elektrik KiCad parts
-Welcome to Z Elektrik KiCad EDA Public library.
+Welcome to Z Elektrik KiCadv8 EDA Public library.
 
 ## Description
 These libraries contains components, which are mostly used in the Z Elektrik, with additional fields as:
