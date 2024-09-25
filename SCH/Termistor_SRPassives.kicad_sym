@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_Varistor_Epcos:RVD1550W54P75"
+		(property "Footprint" "THD_Thermistor_SRPassives:RTD900W500P500"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thyermistor protective NTC, 5R, 1A, -55...200°C, 350V, Disc 6.5mm"
+		(property "Description" "Thermistor protective NTC, 5R, 1A, -55...200°C, 350V, Disc 6.5mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124,7 +124,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" ""
+		(property "OC_TME" "NTCS-06-5R-1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -187,7 +187,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "MOV"
+		(property "ki_keywords" "TH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RTD*"
 			(at 0 0 0)
 			(effects
 				(font
