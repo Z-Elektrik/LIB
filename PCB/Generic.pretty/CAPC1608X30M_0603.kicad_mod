@@ -1,9 +1,9 @@
-(footprint "CAPC1608X30N_0603"
+(footprint "CAPC1608X30M_0603"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Nominal, EIA: 0603, METRIC: 1608, JEDEC: -, IPC: CAPC1608X30N, Body size:1.55x0.85x0.30mm")
+	(descr "Maximum, EIA: 0603, METRIC: 1608, JEDEC: -, IPC: CAPC1608X30M, Body size:1.55x0.85x0.30mm")
 	(tags "CCAP,CAPC")
 	(property "Reference" "REF**"
 		(at 0 -1.43 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CAPC1608X30N_0603"
+	(property "Value" "CAPC1608X30M_0603"
 		(at 0 1.43 0)
 		(layer "F.Fab")
 		(uuid "4e5feb93-e33a-49c0-b9c5-ae5884f54838")
@@ -28,10 +28,10 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 -3.81 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8cd2b3a3-c0a1-4b8f-9bef-cdfe3fb7e713")
+		(uuid "87054739-c3b2-4d7c-b126-9eb9f58a7d38")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "001666ec-6ffc-4188-84d4-a85cc664ec3a")
+		(uuid "41ddc86f-c23f-44d2-9a60-e88568c851e0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "44bf4093-45b0-4995-9f5f-e74050d0d556")
+		(uuid "07fb2996-ef2a-4d54-9fa4-eb6f00dcc096")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -103,7 +103,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b9c75a48-7157-44f5-95c7-6e85ae83aa83")
+		(uuid "73e8d3cb-56cf-4e32-976a-37a5ff19ee6e")
 	)
 	(fp_line
 		(start -1.05 0.65)
@@ -113,7 +113,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "91bd759d-14ef-48c3-9531-e9bd1d577f27")
+		(uuid "743c90b7-a718-46c5-ab10-d9bb30f0edee")
 	)
 	(fp_line
 		(start 1.05 -0.65)
@@ -123,7 +123,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0b76c287-11f3-4990-ba9e-a959cd9743f4")
+		(uuid "46e4a7ae-8040-4d79-8146-464b20bcd1ef")
 	)
 	(fp_line
 		(start 1.05 0.65)
@@ -133,7 +133,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "81473a26-1ce5-4149-88ad-65413cc1c2ee")
+		(uuid "9e15ae13-aa3f-4dfd-943d-d742a138144d")
 	)
 	(fp_line
 		(start -0.8 -0.4)
@@ -260,15 +260,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.8 0)
-		(size 0.95 1)
+		(at -0.9 0)
+		(size 1.15 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "c58e9b6a-2dab-4d85-82e5-e028f5869861")
 	)
 	(pad "2" smd roundrect
-		(at 0.8 0)
-		(size 0.95 1)
+		(at 0.9 0)
+		(size 1.15 1.1)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "1b09de02-3dfe-45c3-8d2f-85ea24417092")
