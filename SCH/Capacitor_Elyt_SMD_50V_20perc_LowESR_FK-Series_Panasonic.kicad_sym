@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "4u7, SMD 1210, 50V, +/-10perc , X7R"
+	(symbol "100u, SMD, 50V, +/-20%, Low ESR"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "4u7/50V"
+		(property "Value" "100u/50V"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Capacitor_NonPolarised_Generic:CAPC3225X250N_1210"
+		(property "Footprint" "Generic:CAPAE830X1020N_Panasonic-F"
 			(at 3.175 1.27 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER71H475KA88%23"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf"
 			(at 3.175 1.27 0)
 			(effects
 				(font
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor ceramic MLCC, SMD 1206, 50V, +/-10%, X7R, Murata"
+		(property "Description" "Capacitor electrolytic, SMD, 50V, Low ESR, 2000-5000Hrs @105°C, FK Series, Panasonic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -61,7 +61,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Murata"
+		(property "MFG" "Panasonic"
 			(at 0.635 4.445 0)
 			(effects
 				(font
@@ -70,7 +70,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM32ER71H475KA88L"
+		(property "MPN" "EEEFK1H101P"
 			(at 3.175 6.985 0)
 			(effects
 				(font
@@ -79,7 +79,7 @@
 				(hide yes)
 			)
 		)
-		(property "Device_Marking" ""
+		(property "Device_Marking" "100 50 FK"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88,7 +88,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C86052"
+		(property "OC_LCSC" "C178548"
 			(at 5.715 9.525 0)
 			(effects
 				(font
@@ -97,7 +97,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "81-GRM32R71H475KA88L"
+		(property "OC_MOUSER" "667-EEE-FK1H101P"
 			(at 8.255 12.065 0)
 			(effects
 				(font
@@ -106,7 +106,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" ""
+		(property "OC_RS" "537-0540"
 			(at 10.795 14.605 0)
 			(effects
 				(font
@@ -115,7 +115,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DISTRELEC" "303-73-234"
+		(property "OC_DISTRELEC" "167-23-868"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124,7 +124,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "GRM32ER71H475KA88L"
+		(property "OC_TME" "EEEFK1H101P"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133,7 +133,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" " 2696021"
+		(property "OC_FARNELL" "9695958"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142,7 +142,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "490-1864-1-ND"
+		(property "OC_DIGIKEY" "PCE3809CT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -151,7 +151,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" "70215"
+		(property "OC_SOS" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "7323"
+		(property "Z-SYSCODE" "6053"
 			(at 0 0 0)
 			(effects
 				(font
@@ -187,7 +187,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "CCAP"
+		(property "ki_keywords" "ECAP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CAPC3225X250?_1210*"
+		(property "ki_fp_filters" "CAPAE830X1020?_Panasonic-F*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -205,7 +205,17 @@
 				(hide yes)
 			)
 		)
-		(symbol "4u7, SMD 1210, 50V, +/-10perc , X7R_0_1"
+		(symbol "100u, SMD, 50V, +/-20%, Low ESR_0_0"
+			(text "+"
+				(at -1.016 1.016 0)
+				(effects
+					(font
+						(size 0.75 0.75)
+					)
+				)
+			)
+		)
+		(symbol "100u, SMD, 50V, +/-20%, Low ESR_0_1"
 			(polyline
 				(pts
 					(xy -0.3302 1.27) (xy -0.3302 -1.27)
@@ -231,7 +241,7 @@
 				)
 			)
 		)
-		(symbol "4u7, SMD 1210, 50V, +/-10perc , X7R_1_1"
+		(symbol "100u, SMD, 50V, +/-20%, Low ESR_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.2098)

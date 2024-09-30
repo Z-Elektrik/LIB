@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0603, 0.1W, 100ppm, 1%, Vishay"
+		(property "Description" "Resistor, SMD 0603, 0.1W, 1%, 100ppm, Vishay"
 			(at 0 0 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -219,6 +219,261 @@
 			)
 		)
 		(symbol "10k, SMD 0603, 0.1W, 100ppm, 1%_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "120R, SMD 0603, 0.1W, 100ppm, 1%"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R/1%"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Resistor_Generic:RESC1608X45N_0603"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data%20Sheet%20CRCW_BCe3.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, SMD 0603, 0.1W, 1%, 100ppm, Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Vishay"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0603120RFKTABC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "71-CRCW0603-120"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "CRCW0603120RFKTABC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RES"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "120R, SMD 0603, 0.1W, 100ppm, 1%_0_1"
+			(rectangle
+				(start -2.54 0.889)
+				(end 2.54 -0.889)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "120R, SMD 0603, 0.1W, 100ppm, 1%_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -451,7 +706,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -706,7 +961,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -961,7 +1216,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1216,7 +1471,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1471,7 +1726,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC1608X45?_0603*"
 			(at 0 0 0)
 			(effects
 				(font

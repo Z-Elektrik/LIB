@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "100u/50V, SMD, Low ESR"
+	(symbol "47u, SMD, 16V, +/-20%, Low ESR"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "100u/50V"
+		(property "Value" "47u/16V"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Generic:CAPAE830X1020N_Panasonic-F"
+		(property "Footprint" "Generic:CAPAE430X580N_Panasonic-B"
 			(at 3.175 1.27 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1240.pdf"
 			(at 3.175 1.27 0)
 			(effects
 				(font
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Capacitor electrolytic, SMD, 50V, Low ESR, 2000Hrs @105°C, Panasonic"
+		(property "Description" "Capacitor electrolytic, SMD, 16V, Low ESR, 2000-5000Hrs @105°C, FT Series, Panasonic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70,7 +70,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "EEEFK1H101P"
+		(property "MPN" "EEEFT1C470AR"
 			(at 3.175 6.985 0)
 			(effects
 				(font
@@ -79,7 +79,7 @@
 				(hide yes)
 			)
 		)
-		(property "Device_Marking" ""
+		(property "Device_Marking" "47 10 FT"
 			(at 0 0 0)
 			(effects
 				(font
@@ -88,7 +88,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C178548"
+		(property "OC_LCSC" "C178589"
 			(at 5.715 9.525 0)
 			(effects
 				(font
@@ -97,7 +97,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "667-EEE-FK1H101P"
+		(property "OC_MOUSER" "667-EEE-FT1C470AR"
 			(at 8.255 12.065 0)
 			(effects
 				(font
@@ -106,7 +106,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" "537-0540"
+		(property "OC_RS" "747-2487"
 			(at 10.795 14.605 0)
 			(effects
 				(font
@@ -115,7 +115,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DISTRELEC" "167-23-868"
+		(property "OC_DISTRELEC" "167-25-285"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124,7 +124,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "EEEFK1H101P"
+		(property "OC_TME" "EEEFT1C470AR"
 			(at 0 0 0)
 			(effects
 				(font
@@ -133,7 +133,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" "9695958"
+		(property "OC_FARNELL" "2065967"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142,7 +142,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "PCE3809CT-ND"
+		(property "OC_DIGIKEY" "P15090CT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "6053"
+		(property "Z-SYSCODE" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CAPAE830X1050?_Case-F*"
+		(property "ki_fp_filters" "CAPAE430X580?_Panasonic-B*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -205,7 +205,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "100u/50V, SMD, Low ESR_0_0"
+		(symbol "47u, SMD, 16V, +/-20%, Low ESR_0_0"
 			(text "+"
 				(at -1.016 1.016 0)
 				(effects
@@ -215,7 +215,7 @@
 				)
 			)
 		)
-		(symbol "100u/50V, SMD, Low ESR_0_1"
+		(symbol "47u, SMD, 16V, +/-20%, Low ESR_0_1"
 			(polyline
 				(pts
 					(xy -0.3302 1.27) (xy -0.3302 -1.27)
@@ -241,7 +241,7 @@
 				)
 			)
 		)
-		(symbol "100u/50V, SMD, Low ESR_1_1"
+		(symbol "47u, SMD, 16V, +/-20%, Low ESR_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.2098)
