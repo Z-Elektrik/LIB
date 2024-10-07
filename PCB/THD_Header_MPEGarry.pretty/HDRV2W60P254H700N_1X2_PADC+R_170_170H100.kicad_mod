@@ -1,0 +1,308 @@
+(footprint "HDRV2W60P254H700N_1X2_PADC+R_170_170H100"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Nominal, EIA: -, JEDEC: -, JEITA: - , IPC: HDRV2W60P254H700N_1X2_PADC+R_170_170H100")
+	(tags "CON2")
+	(property "Reference" "REF**"
+		(at 0 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "24dd6da4-ad43-4f7e-abfb-90b3cd020386")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HDRV2W60P254H700N_1X2_PADC+R_170_170H100"
+		(at 0 2.54 0)
+		(layer "F.Fab")
+		(uuid "f84d6e02-2f8f-4b91-b99c-21962cc5aa5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3833a826-c6c8-48e7-a565-da977d8a49f7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mpe-connector.de/en/products/socket-connectors/female-header-with-turned-contacts-254-mm-1/115-1#115-1-002-0-MTF-XS0"
+		(at 0 -4.485 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "944712e3-c5b5-4e9b-b692-7016f9eeefc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 2.54 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87d7e3d3-4480-4b24-8f0a-a5b3af7a61b3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.54 -1.016)
+		(end -2.54 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9d462133-de26-4b06-88d4-f7482490be53")
+	)
+	(fp_line
+		(start -2.54 1.016)
+		(end 2.54 1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f1c2834-6981-4e48-a6f9-383b63b9fadb")
+	)
+	(fp_line
+		(start 2.54 -1.016)
+		(end -2.54 -1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f4cebdd-f186-40db-936d-7993c639ee1e")
+	)
+	(fp_line
+		(start 2.54 1.016)
+		(end 2.54 -1.016)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08e2fe84-b496-400f-ab85-65601d917b6d")
+	)
+	(fp_rect
+		(start -2.54 0.127)
+		(end -2.794 1.397)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "dc3b5404-2ae7-4f43-95a7-30e8a188aee4")
+	)
+	(fp_rect
+		(start -1.524 1.397)
+		(end -2.794 1.143)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b7e4997f-af54-470f-a443-1137509b3bb7")
+	)
+	(fp_line
+		(start -2.8575 1.3335)
+		(end -2.8575 -1.3335)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "230c675c-8860-4876-9704-7a9af85ad448")
+	)
+	(fp_line
+		(start 2.8575 -1.3335)
+		(end -2.8575 -1.3335)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "39c17294-e698-483c-994f-5054e07bfa8e")
+	)
+	(fp_line
+		(start 2.8575 1.3335)
+		(end -2.8575 1.3335)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fdf1a73e-e919-4ff7-96ab-a672da1ef1f9")
+	)
+	(fp_line
+		(start 2.8575 1.3335)
+		(end 2.8575 -1.3335)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7eacebe8-0e1e-4d7b-8e12-18c7f32fea74")
+	)
+	(fp_line
+		(start -2.54 -1.016)
+		(end -2.54 0.635)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d35368e5-cd39-41ba-995a-5fc771fffcc6")
+	)
+	(fp_line
+		(start -2.54 -1.016)
+		(end 2.54 -1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7c1b5e49-4c69-4579-b895-9dbe52ec65d6")
+	)
+	(fp_line
+		(start -2.54 0.635)
+		(end -2.159 1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd34f028-e4a4-4bff-a08c-df5943b045f7")
+	)
+	(fp_line
+		(start 2.54 -1.016)
+		(end 2.54 1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "287a28a7-7994-4204-8fb4-e7ab0e397af7")
+	)
+	(fp_line
+		(start 2.54 1.016)
+		(end -2.159 1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "436faa43-931b-4b3f-9423-7efb4b218afb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.54 0)
+		(layer "F.Fab")
+		(uuid "d976dc64-6080-4689-b6da-adc0d2e8f218")
+		(effects
+			(font
+				(face "Tahoma")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.536146 -3.14012) (xy -1.485212 -3.136947) (xy -1.441032 -3.131524) (xy -1.390175 -3.118374)
+					(xy -1.344876 -3.09754) (xy -1.327947 -3.087316) (xy -1.288155 -3.056467) (xy -1.2557 -3.019088)
+					(xy -1.243195 -2.999633) (xy -1.222953 -2.9519) (xy -1.213428 -2.900254) (xy -1.211932 -2.866765)
+					(xy -1.215504 -2.813367) (xy -1.22622 -2.764549) (xy -1.246815 -2.715103) (xy -1.269085 -2.680652)
+					(xy -1.304361 -2.641684) (xy -1.346167 -2.608859) (xy -1.38881 -2.584839) (xy -1.424179 -2.57001)
+					(xy -1.060013 -2.125) (xy -1.2366 -2.125) (xy -1.560955 -2.53142) (xy -1.716049 -2.53142) (xy -1.716049 -2.125)
+					(xy -1.852092 -2.125) (xy -1.852092 -2.648656) (xy -1.716049 -2.648656) (xy -1.596614 -2.648656)
+					(xy -1.547781 -2.650573) (xy -1.497467 -2.657457) (xy -1.49159 -2.65867) (xy -1.443238 -2.676659)
+					(xy -1.411722 -2.699947) (xy -1.381001 -2.73916) (xy -1.368247 -2.766625) (xy -1.356793 -2.814488)
+					(xy -1.354081 -2.857484) (xy -1.360283 -2.908012) (xy -1.369957 -2.934665) (xy -1.399867 -2.975237)
+					(xy -1.418805 -2.989863) (xy -1.465282 -3.010869) (xy -1.486217 -3.015997) (xy -1.535229 -3.022317)
+					(xy -1.581471 -3.023813) (xy -1.716049 -3.023813) (xy -1.716049 -2.648656) (xy -1.852092 -2.648656)
+					(xy -1.852092 -3.14105) (xy -1.58831 -3.14105)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.983565 -2.125) (xy -0.983565 -3.14105) (xy -0.344137 -3.14105) (xy -0.344137 -3.019905)
+					(xy -0.847521 -3.019905) (xy -0.847521 -2.750261) (xy -0.378331 -2.750261) (xy -0.378331 -2.629117)
+					(xy -0.847521 -2.629117) (xy -0.847521 -2.246144) (xy -0.344137 -2.246144) (xy -0.344137 -2.125)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.413992 -3.019905) (xy -0.062036 -3.019905) (xy -0.062036 -2.73463) (xy 0.393964 -2.73463)
+					(xy 0.393964 -2.613485) (xy -0.062036 -2.613485) (xy -0.062036 -2.125) (xy -0.19808 -2.125) (xy -0.19808 -3.14105)
+					(xy 0.413992 -3.14105)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.119609 -2.719975) (xy 1.074913 -2.641329) (xy 0.850454 -2.798866) (xy 0.855094 -2.547051)
+					(xy 0.769365 -2.547051) (xy 0.773517 -2.798866) (xy 0.550279 -2.64084) (xy 0.50485 -2.719487) (xy 0.748116 -2.867498)
+					(xy 0.50485 -3.015509) (xy 0.550279 -3.094155) (xy 0.77425 -2.935397) (xy 0.769365 -3.187944) (xy 0.855094 -3.187944)
+					(xy 0.849721 -2.935397) (xy 1.074913 -3.093422) (xy 1.119609 -3.014776) (xy 0.876588 -2.86823)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.883601 -2.719975) (xy 1.838905 -2.641329) (xy 1.614445 -2.798866) (xy 1.619086 -2.547051)
+					(xy 1.533357 -2.547051) (xy 1.537509 -2.798866) (xy 1.314271 -2.64084) (xy 1.268842 -2.719487)
+					(xy 1.512108 -2.867498) (xy 1.268842 -3.015509) (xy 1.314271 -3.094155) (xy 1.538242 -2.935397)
+					(xy 1.533357 -3.187944) (xy 1.619086 -3.187944) (xy 1.613713 -2.935397) (xy 1.838905 -3.093422)
+					(xy 1.883601 -3.014776) (xy 1.640579 -2.86823)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1247da36-2cc8-43ab-9324-0feaaab088e8")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9d54d742-cf6b-462c-ba00-af3478016259")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/THD_Header_MPEGarry/HDRV2W60P254H700.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
