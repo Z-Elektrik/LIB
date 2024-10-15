@@ -2,39 +2,30 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "WR-PHD 61030821821, 2x4pin, 2.54mm, Female"
+	(symbol "TS-110-T-A, 1x10 pin, 2.54mm, Female, Precise, 3.86mm"
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 7.62 0)
+			(at 0 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "WR-PHD 61030821821"
-			(at 0 -10.16 0)
+		(property "Value" "TS-110-T-A"
+			(at 0 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SMD_Header_Wurth:SMD_PinHeader_2x04_P2.54mm_Vertical - 61030821821"
-			(at -1.27 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61030821821.pdf"
-			(at -1.27 -2.54 0)
+		(property "Footprint" "THD_Header_Samtec:TS-110-G-A-2, HDRV10W64P254H386N_1X10_PADRR_180x240_MALE"
+			(at 2.54 23.1775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,8 +33,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Header Socket Dual Female, 2x4 pin, 2.54"
-			(at 0 0 0)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/ts.pdf"
+			(at 0 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +42,8 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "SMD"
-			(at -1.27 -2.54 0)
+		(property "Description" "Header Male, 1x10 pin, 2.54, Precise, H: 3.86mm"
+			(at 0 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,8 +51,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Wurth Elektronik"
-			(at -1.27 -2.54 0)
+		(property "Technology" "THD"
+			(at 0 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -69,8 +60,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61030821821"
-			(at -1.27 -2.54 0)
+		(property "MFG" "Samtec"
+			(at 0 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TS-110-T-A"
+			(at 0 25.7175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Device_Marking" ""
-			(at -1.27 -2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -87,8 +87,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C6400623"
-			(at -1.27 -2.54 0)
+		(property "OC_LCSC" "C6338637"
+			(at 0 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,8 +96,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "710-61030821821"
-			(at -1.27 -2.54 0)
+		(property "OC_MOUSER" "200-TS110TA"
+			(at 0 25.7175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,8 +105,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" ""
-			(at -1.27 -2.54 0)
+		(property "OC_RS" "200-1495"
+			(at 0 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +115,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" ""
-			(at -1.27 -2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +124,7 @@
 			)
 		)
 		(property "OC_TME" ""
-			(at -1.27 -2.54 0)
+			(at 0 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,8 +132,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" "2828004"
-			(at -1.27 -2.54 0)
+		(property "OC_FARNELL" "2856627"
+			(at 0 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,8 +141,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "732-13381-1-ND"
-			(at -1.27 -2.54 0)
+		(property "OC_DIGIKEY" "SAM1112-10-ND"
+			(at 0 25.7175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,7 +151,7 @@
 			)
 		)
 		(property "OC_SOS" ""
-			(at -1.27 -2.54 0)
+			(at 0 18.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Assembly_Note" ""
-			(at -1.27 -2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +169,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at -1.27 -2.54 0)
+			(at 0 25.7175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -177,7 +177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "3156 1/2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -186,7 +186,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "CON2x4"
+		(property "ki_keywords" "CON10"
 			(at 0 0 0)
 			(effects
 				(font
@@ -195,10 +195,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "WR-PHD 61030821821, 2x4pin, 2.54mm, Female_1_0"
+		(property "ki_fp_filters" "HDRV10W64P254H386?_*MALE* HDRV10W64P254H386?_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TS-110-T-A, 1x10 pin, 2.54mm, Female, Precise, 3.86mm_1_0"
 			(polyline
 				(pts
-					(xy -3.175 4.445) (xy -1.905 5.715)
+					(xy -1.905 12.065) (xy -0.635 13.335)
 				)
 				(stroke
 					(width 0.254)
@@ -210,7 +219,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -1.905 -3.81)
+					(xy -1.27 -11.43) (xy -0.635 -11.43)
 				)
 				(stroke
 					(width 0)
@@ -222,7 +231,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -1.27) (xy -1.905 -1.27)
+					(xy -1.27 -8.89) (xy -0.635 -8.89)
 				)
 				(stroke
 					(width 0)
@@ -234,7 +243,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -1.905 1.27)
+					(xy -1.27 -6.35) (xy -0.635 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -246,7 +255,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 3.81) (xy -1.905 3.81)
+					(xy -1.27 -3.81) (xy -0.635 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -258,7 +267,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -3.81) (xy 1.905 -3.81)
+					(xy -1.27 -1.27) (xy -0.635 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -270,7 +279,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 1.905 -1.27)
+					(xy -1.27 1.27) (xy -0.635 1.27)
 				)
 				(stroke
 					(width 0)
@@ -282,7 +291,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 1.905 1.27)
+					(xy -1.27 3.81) (xy -0.635 3.81)
 				)
 				(stroke
 					(width 0)
@@ -294,7 +303,31 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 1.905 3.81)
+					(xy -1.27 6.35) (xy -0.635 6.35)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 8.89) (xy -0.635 8.89)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 11.43) (xy -0.635 11.43)
 				)
 				(stroke
 					(width 0)
@@ -305,10 +338,10 @@
 				)
 			)
 		)
-		(symbol "WR-PHD 61030821821, 2x4pin, 2.54mm, Female_1_1"
+		(symbol "TS-110-T-A, 1x10 pin, 2.54mm, Female, Precise, 3.86mm_1_1"
 			(rectangle
-				(start -3.175 5.715)
-				(end 3.175 -5.715)
+				(start -1.905 13.335)
+				(end 1.905 -13.335)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -317,96 +350,118 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -1.905 -4.445)
-				(end -0.635 -3.175)
+			(circle
+				(center 0 -11.43)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start -1.905 -0.635)
-				(end -0.635 -1.905)
+			(circle
+				(center 0 -8.89)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start -1.905 1.905)
-				(end -0.635 0.635)
+			(circle
+				(center 0 -6.35)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start -1.905 4.445)
-				(end -0.635 3.175)
+			(circle
+				(center 0 -3.81)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start 0.635 -3.175)
-				(end 1.905 -4.445)
+			(circle
+				(center 0 -1.27)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start 0.635 -0.635)
-				(end 1.905 -1.905)
+			(circle
+				(center 0 1.27)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start 0.635 1.905)
-				(end 1.905 0.635)
+			(circle
+				(center 0 3.81)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
-			(rectangle
-				(start 0.635 4.445)
-				(end 1.905 3.175)
+			(circle
+				(center 0 6.35)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 8.89)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 11.43)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -6.35 11.43 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -424,7 +479,25 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 3.81 180)
+				(at -6.35 -11.43 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 8.89 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -442,7 +515,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -6.35 6.35 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -460,7 +533,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at -6.35 3.81 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -478,9 +551,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -6.35 1.27 0)
 				(length 5.08)
-				(name "5"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -496,9 +569,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at -6.35 -1.27 0)
 				(length 5.08)
-				(name "6"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -514,9 +587,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -6.35 -3.81 0)
 				(length 5.08)
-				(name "7"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -532,9 +605,9 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -3.81 180)
+				(at -6.35 -6.35 0)
 				(length 5.08)
-				(name "8"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -542,6 +615,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -8.89 0)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
