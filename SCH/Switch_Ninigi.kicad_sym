@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "Switch DIP, 4x 0,05A/12VDC"
-			(at 0 0 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -504,7 +504,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -522,7 +522,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -540,7 +540,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "5"
 					(effects
@@ -576,7 +576,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "7"
 					(effects
@@ -594,7 +594,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "8"
 					(effects
@@ -632,7 +632,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -650,7 +650,25 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -668,7 +686,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "4"
 					(effects
@@ -686,7 +704,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "5"
 					(effects
@@ -722,7 +740,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "7"
 					(effects
@@ -732,24 +750,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -5.08 180)
-				(length 2.54)
-				(name "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
