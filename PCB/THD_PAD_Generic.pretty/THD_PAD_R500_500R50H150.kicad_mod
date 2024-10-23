@@ -1,0 +1,227 @@
+(footprint "THD_PAD_R500_500R50H150"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Solder Pad THD, Hole, 1.5mm, Pad rectangle 5.00x5.00mm, Rounded r:0.5mm")
+	(tags "Pin,Pad")
+	(property "Reference" "REF**"
+		(at 5.085 0 0)
+		(layer "F.SilkS")
+		(uuid "b648ac41-e99b-4b44-bb62-2d7e27666e78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "THD_PAD_R500_500R50H150"
+		(at 0 -3.81 0)
+		(layer "F.Fab")
+		(uuid "23741efe-d2b5-4e3c-9194-162a2dda2fac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9605b126-ad53-45a9-81c2-9cdc7e71a5a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f94531f5-e3d7-4d01-898e-03608c6463dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb495a1d-447b-464c-b585-8e8971617a03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.667 -2.667)
+		(end 2.667 -2.667)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53dbf330-cc5a-4d52-b26f-27814b21a846")
+	)
+	(fp_line
+		(start -2.667 2.667)
+		(end -2.667 -2.667)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a076903b-90d3-4092-892f-4e1a575f8150")
+	)
+	(fp_line
+		(start 2.667 -2.667)
+		(end 2.667 2.667)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f209ac8f-1173-49a8-8605-787369c96a23")
+	)
+	(fp_line
+		(start 2.667 2.667)
+		(end -2.667 2.667)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3efe6e1d-b199-4d63-9b4a-74d51c93850c")
+	)
+	(fp_rect
+		(start -2.794 -2.794)
+		(end 2.794 2.794)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "03c78314-4a33-45a5-8f98-f010ba358522")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38477ff4-687a-4648-9dba-9a70b8345921")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ece9bf6-de0b-4c44-bcf1-d22be41d7ea4")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5b1eb24-cc13-490b-923c-479288387498")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ac5b25e-4c76-4ec7-8191-ba4e9614843c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 6.355 0 0)
+		(layer "F.Fab")
+		(uuid "cefb884b-e709-4ab3-b075-e18012c1067a")
+		(effects
+			(font
+				(face "Tahoma")
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy 5.126082 -0.480096) (xy 5.166829 -0.477558) (xy 5.202174 -0.473219) (xy 5.242859 -0.462699)
+					(xy 5.279098 -0.446032) (xy 5.292641 -0.437853) (xy 5.324475 -0.413174) (xy 5.350439 -0.38327)
+					(xy 5.360443 -0.367706) (xy 5.376636 -0.32952) (xy 5.384257 -0.288203) (xy 5.385453 -0.261412)
+					(xy 5.382596 -0.218694) (xy 5.374023 -0.179639) (xy 5.357547 -0.140082) (xy 5.339731 -0.112521)
+					(xy 5.31151 -0.081347) (xy 5.278065 -0.055087) (xy 5.243951 -0.035871) (xy 5.215656 -0.024008)
+					(xy 5.506989 0.332) (xy 5.365719 0.332) (xy 5.106235 0.006863) (xy 4.98216 0.006863) (xy 4.98216 0.332)
+					(xy 4.873325 0.332) (xy 4.873325 -0.086925) (xy 4.98216 -0.086925) (xy 5.077707 -0.086925) (xy 5.116774 -0.088458)
+					(xy 5.157025 -0.093966) (xy 5.161727 -0.094936) (xy 5.200408 -0.109327) (xy 5.225621 -0.127958)
+					(xy 5.250198 -0.159328) (xy 5.260401 -0.1813) (xy 5.269565 -0.21959) (xy 5.271734 -0.253987) (xy 5.266773 -0.294409)
+					(xy 5.259033 -0.315732) (xy 5.235105 -0.34819) (xy 5.219955 -0.359891) (xy 5.182773 -0.376695)
+					(xy 5.166026 -0.380798) (xy 5.126816 -0.385854) (xy 5.089822 -0.38705) (xy 4.98216 -0.38705) (xy 4.98216 -0.086925)
+					(xy 4.873325 -0.086925) (xy 4.873325 -0.48084) (xy 5.084351 -0.48084)
+				)
+			)
+			(polygon
+				(pts
+					(xy 5.568147 0.332) (xy 5.568147 -0.48084) (xy 6.079689 -0.48084) (xy 6.079689 -0.383924) (xy 5.676982 -0.383924)
+					(xy 5.676982 -0.168209) (xy 6.052334 -0.168209) (xy 6.052334 -0.071293) (xy 5.676982 -0.071293)
+					(xy 5.676982 0.235084) (xy 6.079689 0.235084) (xy 6.079689 0.332)
+				)
+			)
+			(polygon
+				(pts
+					(xy 6.686193 -0.383924) (xy 6.30537 -0.383924) (xy 6.30537 -0.155704) (xy 6.670171 -0.155704) (xy 6.670171 -0.058788)
+					(xy 6.30537 -0.058788) (xy 6.30537 0.332) (xy 6.196535 0.332) (xy 6.196535 -0.48084) (xy 6.686193 -0.48084)
+				)
+			)
+			(polygon
+				(pts
+					(xy 7.250687 -0.14398) (xy 7.21493 -0.081063) (xy 7.035363 -0.207092) (xy 7.039075 -0.005641) (xy 6.970492 -0.005641)
+					(xy 6.973814 -0.207092) (xy 6.795223 -0.080672) (xy 6.75888 -0.143589) (xy 6.953493 -0.261998)
+					(xy 6.75888 -0.380407) (xy 6.795223 -0.443324) (xy 6.9744 -0.316318) (xy 6.970492 -0.518355) (xy 7.039075 -0.518355)
+					(xy 7.034777 -0.316318) (xy 7.21493 -0.442738) (xy 7.250687 -0.379821) (xy 7.05627 -0.262584)
+				)
+			)
+			(polygon
+				(pts
+					(xy 7.861881 -0.14398) (xy 7.826123 -0.081063) (xy 7.646556 -0.207092) (xy 7.650269 -0.005641)
+					(xy 7.581685 -0.005641) (xy 7.585007 -0.207092) (xy 7.406416 -0.080672) (xy 7.370073 -0.143589)
+					(xy 7.564686 -0.261998) (xy 7.370073 -0.380407) (xy 7.406416 -0.443324) (xy 7.585593 -0.316318)
+					(xy 7.581685 -0.518355) (xy 7.650269 -0.518355) (xy 7.64597 -0.316318) (xy 7.826123 -0.442738)
+					(xy 7.861881 -0.379821) (xy 7.667463 -0.262584)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 5 5)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
+		(uuid "62d93a1b-e6e5-4597-81a0-e9e82c933ec6")
+	)
+)
