@@ -1,9 +1,9 @@
-(footprint "SMD_PAD_R254_508R50"
+(footprint "SMD_PAD_R200_381R50"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Solder Pad SMD, rectangle 2.54x5.08mm, Rounded r:0.5mm")
+	(descr "Solder Pad SMD, rectangle 2.00x3.81mm, Rounded r:0.5mm")
 	(tags "Pin,Pad")
 	(property "Reference" "REF**"
 		(at 0 3.81 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SMD_PAD_R254_508R50"
+	(property "Value" "SMD_PAD_R200_381R50"
 		(at 0 -3.81 0)
 		(layer "F.Fab")
 		(uuid "23741efe-d2b5-4e3c-9194-162a2dda2fac")
@@ -65,8 +65,8 @@
 	)
 	(attr smd exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_line
-		(start -1.395 -2.417)
-		(end -1.395 -2.667)
+		(start -1.143 -1.782)
+		(end -1.143 -2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "cf69d4a2-89b0-40ca-8aad-6be62b7d321d")
 	)
 	(fp_line
-		(start -1.395 2.417)
-		(end -1.395 2.667)
+		(start -1.143 1.782)
+		(end -1.143 2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "4827fa48-761e-4ee7-aa6f-9f153c3aa7b2")
 	)
 	(fp_line
-		(start -1.145 -2.667)
-		(end -1.395 -2.667)
+		(start -0.893 -2.032)
+		(end -1.143 -2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "62ca3307-7822-4443-bb1c-21563360b763")
 	)
 	(fp_line
-		(start -1.145 2.667)
-		(end -1.395 2.667)
+		(start -0.893 2.032)
+		(end -1.143 2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "3ef237df-af8e-422c-9f13-c8d8ac4e1b1d")
 	)
 	(fp_line
-		(start 1.145 -2.667)
-		(end 1.395 -2.667)
+		(start 0.893 -2.032)
+		(end 1.143 -2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "22743ae7-de12-4846-b2e9-4e359f75362d")
 	)
 	(fp_line
-		(start 1.145 2.667)
-		(end 1.395 2.667)
+		(start 0.893 2.032)
+		(end 1.143 2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "bd354642-f99c-4800-a336-29c311732567")
 	)
 	(fp_line
-		(start 1.395 -2.417)
-		(end 1.395 -2.667)
+		(start 1.143 -1.782)
+		(end 1.143 -2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "df09257e-26b5-402d-b8d7-d1bf8251d719")
 	)
 	(fp_line
-		(start 1.395 2.417)
-		(end 1.395 2.667)
+		(start 1.143 1.782)
+		(end 1.143 2.032)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "818ee3f2-12ae-4b54-83b6-396cafef2293")
 	)
 	(fp_line
-		(start -1.397 -2.667)
-		(end -1.397 0)
+		(start -1.143 -2.032)
+		(end -1.143 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "38477ff4-687a-4648-9dba-9a70b8345921")
 	)
 	(fp_line
-		(start -1.397 -2.667)
-		(end 0 -2.667)
+		(start -1.143 -2.032)
+		(end 0 -2.032)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "4ece9bf6-de0b-4c44-bcf1-d22be41d7ea4")
 	)
 	(fp_line
-		(start -1.397 2.667)
-		(end -1.397 0)
+		(start -1.143 2.032)
+		(end -1.143 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -175,8 +175,8 @@
 		(uuid "87ee79b2-2e4c-4f48-ad3d-76e9e6cc3a3e")
 	)
 	(fp_line
-		(start -1.397 2.667)
-		(end 0 2.667)
+		(start -1.143 2.032)
+		(end 0 2.032)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -185,8 +185,8 @@
 		(uuid "7787d600-452b-4484-8385-6ed6d2c681c7")
 	)
 	(fp_line
-		(start 1.397 -2.667)
-		(end 0 -2.667)
+		(start 1.143 -2.032)
+		(end 0 -2.032)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -195,8 +195,8 @@
 		(uuid "7be4b0c3-54c3-41c7-943a-1d69bc6293eb")
 	)
 	(fp_line
-		(start 1.397 -2.667)
-		(end 1.397 0)
+		(start 1.143 -2.032)
+		(end 1.143 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -205,8 +205,8 @@
 		(uuid "bf6d0612-368f-43c6-ab99-d184819616ff")
 	)
 	(fp_line
-		(start 1.397 2.667)
-		(end 0 2.667)
+		(start 1.143 2.032)
+		(end 0 2.032)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -215,8 +215,8 @@
 		(uuid "47510628-9e37-4e9b-811f-fb5bf1d8503d")
 	)
 	(fp_line
-		(start 1.397 2.667)
-		(end 1.397 0)
+		(start 1.143 2.032)
+		(end 1.145 0)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -288,7 +288,7 @@
 	)
 	(pad "1" smd roundrect
 		(at 0 0)
-		(size 2.54 5.08)
+		(size 2.032 3.81)
 		(property pad_prop_testpoint)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
