@@ -1,9 +1,9 @@
-(footprint "B3W-90xx-x2xN_Omron"
+(footprint "B3W-900x-x2xN_Omron"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Switch Tactile+2 LED, Rect. Body 12x12mm, Height max: 11.0mm, Nominal Density")
+	(descr "Switch Tactile+2 LED, Rect. Body 10x10mm, Height max: 11.0mm, Nominal Density")
 	(tags "Switch,Button")
 	(property "Reference" "REF**"
 		(at 0 6.985 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "B3W-90xx-x2xN_Omron"
+	(property "Value" "B3W-90xx-x2xN_Omron_1"
 		(at 0 -6.985 0)
 		(layer "F.Fab")
 		(uuid "f12ecf8d-009c-406d-826c-22d2a1b2dfda")
@@ -225,46 +225,6 @@
 		(uuid "559c7c3d-cbc3-469d-aacc-241912885277")
 	)
 	(fp_line
-		(start -6 -6)
-		(end -6 0)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "5a773fd4-85cf-4dca-97b8-88e4ef038370")
-	)
-	(fp_line
-		(start -6 -6)
-		(end 0 -6)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "f3faf038-f461-4df6-81bb-7dfc08ffc06d")
-	)
-	(fp_line
-		(start -6 6)
-		(end -6 0)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "2b4bc308-a78e-4264-8c70-1b6fcffa105f")
-	)
-	(fp_line
-		(start -6 6)
-		(end 0 6)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "a729bb44-85ec-490d-8144-92ee920292e6")
-	)
-	(fp_line
 		(start -5 -5)
 		(end -5 0)
 		(stroke
@@ -343,46 +303,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "b16eea69-80ca-4858-8783-e59981171ac1")
-	)
-	(fp_line
-		(start 6 -6)
-		(end 0 -6)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "7ccae179-85e9-498e-8c5b-ec21b02f4237")
-	)
-	(fp_line
-		(start 6 -6)
-		(end 6 0)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "22ef19cb-d051-4ceb-8d8f-b22c66eb0d84")
-	)
-	(fp_line
-		(start 6 6)
-		(end 0 6)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "505a9335-8da2-4146-81bb-d7c7b86a0ade")
-	)
-	(fp_line
-		(start 6 6)
-		(end 6 0)
-		(stroke
-			(width 0.1524)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "cc1a868e-2a17-49ed-bab2-2dc5fe4a3208")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
@@ -528,7 +448,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "d441cdcf-5dbd-4261-90ca-0d1444cfcca7")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-901x-xx2x.stp"
+	(model "${KICAD8_3DMODEL_DIR}/THD_Switch_Omron/b3w-900x-xx2x.stp"
 		(offset
 			(xyz 0 0 -5.5)
 		)
