@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "LTST-C190KFKT, SMD 0603, Orange, 20mA"
+	(symbol "VLMB1300-GS08, SMD 0603, Blue, 20mA"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "LTST-C190KFKT"
+		(property "Value" "VLMB1300-GS08"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -25,8 +25,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_Orange"
-			(at 0 13.97 0)
+		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_Blue"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,8 +34,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.sk/datasheet/2/239/LTST_C190KFKT-1141312.pdf"
-			(at 0 21.59 0)
+		(property "Datasheet" "https://www.farnell.com/datasheets/2049966.pdf"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,8 +43,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED SMD0603, Orange, Rectangle, 1.6x0.8mm, 90mcd, 130°, Water Clear Front, 20mA, Vf: 2.0V"
-			(at 0 24.13 0)
+		(property "Description" "LED SMD0603, Blue, Rectangle,  1.6x0.8mm, 100mcd, 130°, Water Clear Front, 20mA, Vf: 3.3V"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 8.89 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,8 +61,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "LiteOn"
-			(at 0 16.51 0)
+		(property "MFG" "Vishay"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,7 +70,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C190KFKT"
+		(property "MPN" "VLMB1300-GS08"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -88,8 +88,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C157740"
-			(at 0 11.43 0)
+		(property "OC_LCSC" "C435849"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -97,25 +97,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "859-LTST-C190KFKT"
-			(at 0 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" "692-0979"
-			(at 0 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" ""
+		(property "OC_MOUSER" "78-VLMB1300-GS08"
 			(at 0 0 0)
 			(effects
 				(font
@@ -124,16 +106,25 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "LTST-C190KFKT"
-			(at 0 0 0)
+		(property "OC_RS" "773-0430"
+			(at 0 6.35 0)
 			(effects
 				(font
-					(size 0.001 0.001)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_DISTRELEC" "301-19-254"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "VLMB1300-GS08"
 			(at 0 0 0)
 			(effects
 				(font
@@ -142,8 +133,17 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "160-1434-1-ND"
-			(at 0 -5.08 0)
+		(property "OC_FARNELL" "2251459"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "VLMB1300-GS08CT-ND"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,7 +152,7 @@
 			)
 		)
 		(property "OC_SOS" ""
-			(at 0 19.05 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "2885"
+		(property "Z-SYSCODE" "11500"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LEDC1608X110-2?_0603_Orange*"
+		(property "ki_fp_filters" "LEDC1608X110-2?_0603_Blue*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -205,7 +205,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTST-C190KFKT, SMD 0603, Orange, 20mA_0_0"
+		(symbol "VLMB1300-GS08, SMD 0603, Blue, 20mA_0_0"
 			(polyline
 				(pts
 					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
@@ -267,7 +267,7 @@
 				)
 			)
 		)
-		(symbol "LTST-C190KFKT, SMD 0603, Orange, 20mA_0_1"
+		(symbol "VLMB1300-GS08, SMD 0603, Blue, 20mA_0_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.27 -1.27)
@@ -281,7 +281,7 @@
 				)
 			)
 		)
-		(symbol "LTST-C190KFKT, SMD 0603, Orange, 20mA_1_1"
+		(symbol "VLMB1300-GS08, SMD 0603, Blue, 20mA_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -292,7 +292,7 @@
 				)
 				(fill
 					(type color)
-					(color 255 153 0 1)
+					(color 0 0 194 1)
 				)
 			)
 			(pin passive line
@@ -333,7 +333,7 @@
 			)
 		)
 	)
-	(symbol "LTST-C193KRKT-5A, SMD 0603, Red, 5mA"
+	(symbol "VLMG1300-GS08, SMD 0603, Yellow+Green, 20mA"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -348,7 +348,7 @@
 				)
 			)
 		)
-		(property "Value" "LTST-C193KRKT-5A"
+		(property "Value" "VLMG1300-GS08"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -356,8 +356,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_Red"
-			(at 0 13.97 0)
+		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_YellowGreen"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,8 +365,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2005-077/LTST-C193KRKT-5A.PDF"
-			(at 0 21.59 0)
+		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -374,16 +374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED SMD0603, Red, Rectangle, 1.6x0.8mm, 45mcd, 130°, Water Clear Front, 5mA, Vf: 2.3V"
-			(at 0 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMD"
+		(property "Description" "LED SMD0603, Yellow+Green, Rectangle,  1.6x0.8mm, 35mcd, 130°, Water Clear Front, 20mA, Vf: 2.0V"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -392,8 +383,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "LiteOn"
-			(at 0 16.51 0)
+		(property "Technology" "SMD"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +392,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTST-C193KRKT-5A"
+		(property "MFG" "Vishay"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VLMG1300-GS08"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -419,7 +419,16 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C157741"
+		(property "OC_LCSC" "C4749244"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "78-VLMG1300-GS08"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -428,8 +437,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "859-LTSTC193KRKT5A"
-			(at 0 26.67 0)
+		(property "OC_RS" "773-0442"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -437,8 +446,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" "692-1041"
-			(at 0 29.21 0)
+		(property "OC_DISTRELEC" "301-05-900"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,16 +455,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DISTRELEC" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "LTST-C193KRKT-5A"
+		(property "OC_TME" "VLMG1300-GS08"
 			(at 0 0 0)
 			(effects
 				(font
@@ -464,7 +464,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "2251461"
 			(at 0 0 0)
 			(effects
 				(font
@@ -473,8 +473,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "160-1830-1-ND"
-			(at 0 -5.08 0)
+		(property "OC_DIGIKEY" "VLMG1300-GS08CT-ND"
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,8 +482,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" ""
-			(at 0 19.05 0)
+		(property "OC_SOS" "T1095132"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +491,338 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "10699"
+		(property "Z-SYSCODE" "11503"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "3D model isn't appropriate!"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LEDC1608X110-2?_0603_YellowGreen*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VLMG1300-GS08, SMD 0603, Yellow+Green, 20mA_0_0"
+			(polyline
+				(pts
+					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 1.8288) (xy 2.3368 3.0988)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.1176 3.1496) (xy 0.6604 2.3368) (xy 0.3048 2.6924) (xy 1.1176 3.1496)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.3876 3.1496) (xy 1.9304 2.3368) (xy 1.5748 2.6924) (xy 2.3876 3.1496)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "VLMG1300-GS08, SMD 0603, Yellow+Green, 20mA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VLMG1300-GS08, SMD 0603, Yellow+Green, 20mA_1_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 157 255 0 1)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VLMS1300-GS08, SMD 0603, Red Super, 20mA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LD"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLMS1300-GS08"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_Red"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED SMD0603, Red, Rectangle,  1.6x0.8mm, 54mcd, 130°, Water Clear Front, 20mA, Vf: 2.0V"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Vishay"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VLMS1300-GS08"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C83242"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "78-VLMS1300-GS08"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "773-0458"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" "301-05-922"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "VLMS1300-GS08"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "2251484"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "VLMS1300-GS08CT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "T1242871"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "11502"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -536,7 +867,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTST-C193KRKT-5A, SMD 0603, Red, 5mA_0_0"
+		(symbol "VLMS1300-GS08, SMD 0603, Red Super, 20mA_0_0"
 			(polyline
 				(pts
 					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
@@ -598,7 +929,7 @@
 				)
 			)
 		)
-		(symbol "LTST-C193KRKT-5A, SMD 0603, Red, 5mA_0_1"
+		(symbol "VLMS1300-GS08, SMD 0603, Red Super, 20mA_0_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.27 -1.27)
@@ -612,7 +943,7 @@
 				)
 			)
 		)
-		(symbol "LTST-C193KRKT-5A, SMD 0603, Red, 5mA_1_1"
+		(symbol "VLMS1300-GS08, SMD 0603, Red Super, 20mA_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -664,554 +995,7 @@
 			)
 		)
 	)
-	(symbol "LTV-814S-TA1"
-		(pin_names hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "OC"
-			(at 0 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTV-814S-TA1"
-			(at 0 -5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMD_IC_Generic:DIP254P1016X450-4N-GULLWING"
-			(at 0 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-70-96-0013/LTV-8X4%20series%20201509.pdf"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transistor AC optocoupler, SMD, 5kV, FIP-4 GullWing, Sharp, CTR 20-300%"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMD"
-			(at 0 13.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Liteon"
-			(at 0 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LTV-814S-TA1"
-			(at 0 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Device_Marking" ""
-			(at -0.3175 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" ""
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" ""
-			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" ""
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "LTV-814S-TA1"
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 1.27 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" ""
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
-			(at 0 -7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Z-SYSCODE" "11107"
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly_Note" ""
-			(at -0.3175 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at -0.3175 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "LTV-814S-TA1_0_1"
-			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -3.81)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.1275 -0.635) (xy -1.5875 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.1275 0.635) (xy -1.5875 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.4925 0.635) (xy -4.1275 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.4925 0.635) (xy -2.8575 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.4925 2.54) (xy -3.4925 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.2225 -0.635) (xy -2.8575 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.2225 -0.635) (xy -1.5875 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.8575 -0.3175) (xy 4.1275 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.8575 0.3175) (xy 4.1275 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.8575 1.27) (xy 2.8575 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.1275 -1.27) (xy 3.4925 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.1275 -1.27) (xy 3.81 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.1275 -1.27) (xy 4.1275 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.1275 2.54) (xy 4.1275 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy 4.1275 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy 4.1275 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.4605 -1.016) (xy 1.7145 -0.635) (xy 1.2065 -0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.4605 0.254) (xy 1.7145 0.635) (xy 1.2065 0.635)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 2.54) (xy -2.2225 2.54) (xy -2.2225 -2.54) (xy -5.08 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.3175 -0.635)
-				(mid 0.9525 -0.8963)
-				(end 1.5875 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.3175 -0.6291)
-				(mid -0.3175 -0.3678)
-				(end -0.9525 -0.6291)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.3175 0.635)
-				(mid 0.9525 0.3737)
-				(end 1.5875 0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0.3175 0.6409)
-				(mid -0.3175 0.9022)
-				(end -0.9525 0.6409)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "LTV-814S-TA1_1_1"
-			(pin passive line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "AC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "AC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "Emmiter"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 2.54)
-				(name "Collector"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "LTW-C193TS5, SMD 0603, Blue, 5mA"
+	(symbol "VLMW1300-GS08, SMD 0603, White Cold, 20mA"
 		(pin_numbers hide)
 		(pin_names
 			(offset 1.016) hide)
@@ -1226,7 +1010,7 @@
 				)
 			)
 		)
-		(property "Value" "LTW-C193TS5"
+		(property "Value" "VLMW1300-GS08"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1234,8 +1018,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_Blue"
-			(at 0 13.97 0)
+		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_White"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,8 +1027,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.sk/datasheet/2/239/Lite-On-LTW-C193TS5-1175447.pdf"
-			(at 0 21.59 0)
+		(property "Datasheet" "http://www.farnell.com/datasheets/2050226.pdf"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,16 +1036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED SMD0603, Blue, Rectangle, 1.6x0.8mm, 100mcd, 130°, Yellow Front, 5mA, Vf: 3.15V"
-			(at 0 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMD"
+		(property "Description" "LED SMD0603, White, Rectangle,  1.6x0.8mm, 180mcd, 130°, Water Clear Front, 20mA, Vf: 3.3V"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -1270,8 +1045,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "LiteOn"
-			(at 0 16.51 0)
+		(property "Technology" "SMD"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1054,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTW-C193TS5"
+		(property "MFG" "Vishay"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VLMW1300-GS08"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -1297,7 +1081,16 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" ""
+		(property "OC_LCSC" "C413463"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "78-VLMW1300-GS08"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -1306,8 +1099,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
-			(at 0 26.67 0)
+		(property "OC_RS" "773-0461"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,8 +1108,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" ""
-			(at 0 29.21 0)
+		(property "OC_DISTRELEC" "301-05-934"
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,16 +1117,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DISTRELEC" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" ""
+		(property "OC_TME" "VLMW1300-GS08"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1342,7 +1126,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "2251493"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1351,8 +1135,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "160-1721-1-ND"
-			(at 0 0 0)
+		(property "OC_DIGIKEY" "VLMW1300-GS08CT-ND"
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1145,7 @@
 			)
 		)
 		(property "OC_SOS" ""
-			(at 0 19.05 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "10697"
+		(property "Z-SYSCODE" "11501"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -1405,7 +1189,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LEDC1608X110-2?_0603_Blue*"
+		(property "ki_fp_filters" "LEDC1608X110-2?_0603_White*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1414,7 +1198,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTW-C193TS5, SMD 0603, Blue, 5mA_0_0"
+		(symbol "VLMW1300-GS08, SMD 0603, White Cold, 20mA_0_0"
 			(polyline
 				(pts
 					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
@@ -1476,7 +1260,7 @@
 				)
 			)
 		)
-		(symbol "LTW-C193TS5, SMD 0603, Blue, 5mA_0_1"
+		(symbol "VLMW1300-GS08, SMD 0603, White Cold, 20mA_0_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.27 -1.27)
@@ -1490,7 +1274,7 @@
 				)
 			)
 		)
-		(symbol "LTW-C193TS5, SMD 0603, Blue, 5mA_1_1"
+		(symbol "VLMW1300-GS08, SMD 0603, White Cold, 20mA_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -1501,7 +1285,338 @@
 				)
 				(fill
 					(type color)
-					(color 0 0 255 1)
+					(color 255 255 255 1)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "VLMY1300-GS08, SMD 0603, Yellow, 20mA"
+		(pin_numbers hide)
+		(pin_names
+			(offset 1.016) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "LD"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VLMY1300-GS08"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_LED_Generic:LEDC1608X110-2N_0603_Yellow"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/82437/vlmo1300.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED SMD0603, Yellow, Rectangle,  1.6x0.8mm, 100mcd, 130°, Water Clear Front, 20mA, Vf: 2.0V"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Vishay"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VLMY1300-GS08"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C962599"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "78-VLMY1300-GS08"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "773-0468"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "VLMY1300-GS08"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "2251505"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 0.001 0.001)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "VLMY1300-GS08CT-ND"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "11504"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" "3D model isn't appropriate!"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LED"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LEDC1608X110-2?_0603_Yellow*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VLMY1300-GS08, SMD 0603, Yellow, 20mA_0_0"
+			(polyline
+				(pts
+					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.0668 1.8288) (xy 2.3368 3.0988)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.1176 3.1496) (xy 0.6604 2.3368) (xy 0.3048 2.6924) (xy 1.1176 3.1496)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.3876 3.1496) (xy 1.9304 2.3368) (xy 1.5748 2.6924) (xy 2.3876 3.1496)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "VLMY1300-GS08, SMD 0603, Yellow, 20mA_0_1"
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VLMY1300-GS08, SMD 0603, Yellow, 20mA_1_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 255 0 1)
 				)
 			)
 			(pin passive line
