@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "LED THD, Yellow, Rectangle, 2x5x7mm, 600mcd, 160°, Flat clear front, 20mA"
-			(at 0 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,7 +53,7 @@
 			)
 		)
 		(property "Technology" "THD"
-			(at 0 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -280,6 +280,8 @@
 					(type none)
 				)
 			)
+		)
+		(symbol "AM4140-Yellow_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -290,11 +292,9 @@
 				)
 				(fill
 					(type color)
-					(color 194 194 0 1)
+					(color 255 255 0 1)
 				)
 			)
-		)
-		(symbol "AM4140-Yellow_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
