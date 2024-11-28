@@ -219,10 +219,10 @@
 			)
 		)
 		(symbol "AM3D-0512SZ, 4.5-5.5 -{gt} 12V, 3W_1_1"
-			(pin input line
-				(at -10.16 -2.54 0)
+			(pin power_in line
+				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "VI-"
+				(name "VI+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -238,9 +238,9 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 2.54 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "VI+"
+				(name "VI-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -265,7 +265,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -283,7 +283,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
