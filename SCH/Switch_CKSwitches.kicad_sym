@@ -759,7 +759,7 @@
 			)
 		)
 	)
-	(symbol "PCM12SMTR"
+	(symbol "PCM12SMTR, Switch Slide, SMD, 2pos, 1 section"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -767,7 +767,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 6.35 0 0)
+			(at 0 4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -775,14 +775,14 @@
 			)
 		)
 		(property "Value" "PCM12SMTR"
-			(at 11.43 -1.905 0)
+			(at 0.635 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "THD_Switch_Ninigi:SR10-003 - SR102320KAG"
+		(property "Footprint" "SMD_Switch_CKSwitches:SW_SLIDE_193P670X260H140-3N_CKSwitches"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -791,7 +791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010333_C-K-PCM12SMTR_C221841.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1424/pcm.pdf"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -801,7 +801,7 @@
 			)
 		)
 		(property "Description" "Slide Switch 2 pos, ON-ON, 1 section, 300mA/6V"
-			(at 0 0 0)
+			(at 0 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +837,7 @@
 			)
 		)
 		(property "Device_Marking" ""
-			(at -1.27 1.27 0)
+			(at -1.27 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +845,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" ""
+		(property "OC_LCSC" "C221841"
 			(at 0 36.83 0)
 			(effects
 				(font
@@ -854,7 +854,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "611-PCM12SMTR"
 			(at 0 24.13 0)
 			(effects
 				(font
@@ -863,7 +863,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" ""
+		(property "OC_RS" "793-1721"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -872,7 +872,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DISTRELEC" ""
+		(property "OC_DISTRELEC" "301-19-483"
 			(at 0 26.67 0)
 			(effects
 				(font
@@ -881,7 +881,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" ""
+		(property "OC_TME" "PCM12SMTR"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
+		(property "OC_FARNELL" "9575146"
 			(at 0 31.75 0)
 			(effects
 				(font
@@ -899,7 +899,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" ""
+		(property "OC_DIGIKEY" "401-2016-1-ND"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -908,7 +908,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" ""
+		(property "OC_SOS" "105810"
 			(at 0 29.21 0)
 			(effects
 				(font
@@ -918,7 +918,7 @@
 			)
 		)
 		(property "Assembly_Note" ""
-			(at -1.27 1.27 0)
+			(at -1.27 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -927,7 +927,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at -1.27 1.27 0)
+			(at -1.27 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +944,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Switch,Button"
+		(property "ki_keywords" "Switch"
 			(at 0 0 0)
 			(effects
 				(font
@@ -953,35 +953,12 @@
 				(hide yes)
 			)
 		)
-		(symbol "PCM12SMTR_0_1"
+		(symbol "PCM12SMTR, Switch Slide, SMD, 2pos, 1 section_0_1"
 			(circle
-				(center -2.54 -3.81)
+				(center -2.54 0)
 				(radius 0.508)
 				(stroke
 					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 0 -5.08)
-				(radius 0.508)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -0.508) (xy -2.286 -3.429) (xy -2.032 -2.921) (xy -1.905 -3.048) (xy -2.286 -3.429)
-				)
-				(stroke
-					(width 0)
 					(type default)
 				)
 				(fill
@@ -999,8 +976,19 @@
 					(type none)
 				)
 			)
+			(rectangle
+				(start 0 1.27)
+				(end 2.54 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(circle
-				(center 2.54 -3.81)
+				(center 2.54 0)
 				(radius 0.508)
 				(stroke
 					(width 0.254)
@@ -1011,60 +999,18 @@
 				)
 			)
 		)
-		(symbol "PCM12SMTR_1_1"
-			(arc
-				(start -1.27 -2.54)
-				(mid 0 -2.8397)
-				(end 1.27 -2.54)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -1.905) (xy 4.445 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
+		(symbol "PCM12SMTR, Switch Slide, SMD, 2pos, 1 section_1_1"
 			(pin passive line
-				(at -2.54 -5.08 90)
+				(at -2.54 -1.27 90)
 				(length 0.635)
-				(name "1"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -6.35 90)
-				(length 0.635)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1073,25 +1019,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 0.635)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 1.27 270)
+				(at 0 -1.27 90)
 				(length 0.635)
 				(name "COM"
 					(effects
@@ -1100,51 +1028,7 @@
 						)
 					)
 				)
-				(number "ACOM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM12SMTR_2_1"
-			(arc
-				(start -1.27 -2.54)
-				(mid 0 -2.8397)
-				(end 1.27 -2.54)
-				(stroke
-					(width 0)
-					(type dot)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.905) (xy -6.35 -1.905)
-				)
-				(stroke
-					(width 0)
-					(type dash)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -2.54 -5.08 90)
-				(length 0.635)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1153,52 +1037,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -6.35 90)
+				(at 2.54 -1.27 90)
 				(length 0.635)
-				(name "2"
+				(name "NO"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "B2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -5.08 90)
-				(length 0.635)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 1.27 270)
-				(length 0.635)
-				(name "COM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "BCOM"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
