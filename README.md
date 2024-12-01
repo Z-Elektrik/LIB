@@ -11,14 +11,24 @@ These libraries contains components, which are mostly used in the Z Elektrik, wi
 - Unique Z Elektrik's internal stock ID. Use of this library for place assembly order to our company, make setup process in easy way.
 
 
-## Usage
-You can use git client to clone repository, or [download](https://codeload.github.com/Z-Elektrik/LIB/zip/refs/heads/main) zip file and unpack content to your KiCad library folder.
+## Install
+You can use git client to clone repository, or [download](https://github.com/Z-Elektrik/LIB/archive/refs/heads/main.zip) zip file and unpack content with folder structure to your KiCad library folder (e.g. "Documents/Zele-KiCad-Libs").
 
-SCH folder contains component and schematic symbols
+Open the KiCad->Menu->Preferences->"Configure Paths dialog" and add variables:
+- Z_LIB_3D_DIR and set path to 3D folder of downloaded files
+- Z_LIB_FOOTPRINT_DIR and set path to PCB folder of downloaded files
+- Z_LIB_SYMBOL_DIR and set path to 3D folder of downloaded files
 
-PCB folder contains footprints
+Next open "Manage symbol libraries" from same menu and click to small folder icon "Add existing library to table", point to inside downloaded SCH folder and select all files (CTRL+A).
+Do same action for footprint libraries.
+Enjoy!
+ 
 
-3D folder contains 3D models
+## Refresh latest version from github
+Due to the continually add a new elements to libs, is good refresh libs before use it.
+
+Process is same as install, but itsn't need to add global variable to paths dialog, and before add library in the "Manage symbol/footprint library" dialog, is need to remove all libs with Z_LIB prefix in the path. 
+
 
 
 
@@ -46,6 +56,7 @@ We use own RefDes system. Here is it:
 | F | Fuse |
 | FH | Fuse holder |
 | FLT | Filters EMC/EMI |
+| GDT | Gas Discharge Tube|
 | IC | Integrated Circuit |
 | JP | Jumper, jumer on PCB |
 | K | Relay |
@@ -59,7 +70,7 @@ We use own RefDes system. Here is it:
 | R | Resistor, Shunt |
 | RN | Resistor - net |
 | RV | Resistor - variable, potentiometer, trimmer |
-| RT | Resistor - termistor |
+| RT | Resistor - termistor, Polymer RTC Fuse |
 | SW | Switch, push button, DIP switch |
 | TP | Test Point |
 | TVS | Transient voltage supressor, Transient suppresion diode |
