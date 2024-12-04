@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_IC_Generic:QFP50P1200X1200X160-64N_LQFP-64"
+		(property "Footprint" "SMD_IC_NXP:QFP50P1200X1200X120-65N_HTQFP64_SOT855-5"
 			(at 0 86.36 0)
 			(effects
 				(font
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "QFP50P1200X1200X160-64?_*"
+		(property "ki_fp_filters" "QFP50P1200X1200X120-65?_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -356,6 +356,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 50.8 180)
+				(length 5.08)
+				(name "VBAT_PMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -724,7 +742,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 21.59 180)
+				(at 35.56 20.32 180)
 				(length 5.08)
 				(name "EPAD"
 					(effects
@@ -780,7 +798,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 45.72 180)
+				(at 35.56 43.18 180)
 				(length 5.08)
 				(name "VREFP"
 					(effects
@@ -834,7 +852,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -64.77 180)
+				(at 35.56 -66.04 180)
 				(length 5.08)
 				(name "XTAL32M_N"
 					(effects
@@ -1014,7 +1032,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 57.15 180)
+				(at 35.56 55.88 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -1050,7 +1068,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 59.69 180)
+				(at 35.56 58.42 180)
 				(length 5.08)
 				(name "LX"
 					(effects
@@ -1068,7 +1086,7 @@
 				)
 			)
 			(pin power_out line
-				(at 35.56 54.61 180)
+				(at 35.56 53.34 180)
 				(length 5.08)
 				(name "VBAT_DCDC"
 					(effects
@@ -1104,7 +1122,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -46.99 180)
+				(at 35.56 -48.26 180)
 				(length 5.08)
 				(name "XTAL32K_N"
 					(effects
@@ -1160,7 +1178,7 @@
 			(pin bidirectional line
 				(at -35.56 38.1 0)
 				(length 5.08)
-				(name "PIOO_2/TRST/FC3_TXD_SCL_MISO_WS"
+				(name "PIO0_2/TRST/FC3_TXD_SCL_MISO_WS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1356,7 +1374,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 48.26 180)
+				(at 35.56 45.72 180)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -1398,7 +1416,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_IC_Generic:QFP50P1200X1200X160-64N_LQFP-64"
+		(property "Footprint" "SMD_IC_NXP:QFP50P1200X1200X120-65N_HTQFP64_SOT855-5"
 			(at 0 86.36 0)
 			(effects
 				(font
@@ -1569,7 +1587,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "QFP50P1200X1200X160-64?_*"
+		(property "ki_fp_filters" "QFP50P1200X1200X120-65?_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1667,7 +1685,7 @@
 			(pin bidirectional line
 				(at -35.56 22.86 0)
 				(length 5.08)
-				(name "PIO0_8"
+				(name "PIO0_8/SWO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1729,6 +1747,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 50.8 180)
+				(length 5.08)
+				(name "VBAT_PMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1973,7 +2009,7 @@
 			(pin bidirectional line
 				(at -35.56 12.7 0)
 				(length 5.08)
-				(name "PIO0_12/ADC0_10"
+				(name "PIO0_12/ADC0_10/SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2063,7 +2099,7 @@
 			(pin bidirectional line
 				(at -35.56 15.24 0)
 				(length 5.08)
-				(name "PIO0_11/ADC0_9"
+				(name "PIO0_11/ADC0_9/SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2097,7 +2133,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 21.59 180)
+				(at 35.56 20.32 180)
 				(length 5.08)
 				(name "EPAD"
 					(effects
@@ -2153,7 +2189,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 45.72 180)
+				(at 35.56 43.18 180)
 				(length 5.08)
 				(name "VREFP"
 					(effects
@@ -2207,7 +2243,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -64.77 180)
+				(at 35.56 -66.04 180)
 				(length 5.08)
 				(name "XTAL32M_N"
 					(effects
@@ -2387,7 +2423,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 57.15 180)
+				(at 35.56 55.88 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -2423,7 +2459,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 59.69 180)
+				(at 35.56 58.42 180)
 				(length 5.08)
 				(name "LX"
 					(effects
@@ -2441,7 +2477,7 @@
 				)
 			)
 			(pin power_out line
-				(at 35.56 54.61 180)
+				(at 35.56 53.34 180)
 				(length 5.08)
 				(name "VBAT_DCDC"
 					(effects
@@ -2477,7 +2513,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -46.99 180)
+				(at 35.56 -48.26 180)
 				(length 5.08)
 				(name "XTAL32K_N"
 					(effects
@@ -2533,7 +2569,7 @@
 			(pin bidirectional line
 				(at -35.56 38.1 0)
 				(length 5.08)
-				(name "PIOO_2/TRST/FC3_TXD_SCL_MISO_WS"
+				(name "PIO0_2/TRST/FC3_TXD_SCL_MISO_WS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2729,7 +2765,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 48.26 180)
+				(at 35.56 45.72 180)
 				(length 5.08)
 				(name "VDDA"
 					(effects
@@ -2771,7 +2807,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_IC_Generic:QFP50P1200X1200X160-64N_LQFP-64"
+		(property "Footprint" "SMD_IC_NXP:QFP50P1200X1200X120-65N_HTQFP64_SOT855-5"
 			(at 0 86.36 0)
 			(effects
 				(font
@@ -2942,7 +2978,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "QFP50P1200X1200X160-64?_*"
+		(property "ki_fp_filters" "QFP50P1200X1200X120-65?_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3040,7 +3076,7 @@
 			(pin bidirectional line
 				(at -35.56 22.86 0)
 				(length 5.08)
-				(name "PIO0_8"
+				(name "PIO0_8/SWO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3102,6 +3138,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 50.8 180)
+				(length 5.08)
+				(name "VBAT_PMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3346,7 +3400,7 @@
 			(pin bidirectional line
 				(at -35.56 12.7 0)
 				(length 5.08)
-				(name "PIO0_12/ADC0_10"
+				(name "PIO0_12/ADC0_10/SWDIO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3436,7 +3490,7 @@
 			(pin bidirectional line
 				(at -35.56 15.24 0)
 				(length 5.08)
-				(name "PIO0_11/ADC0_9"
+				(name "PIO0_11/ADC0_9/SWCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3470,7 +3524,7 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 21.59 180)
+				(at 35.56 20.32 180)
 				(length 5.08)
 				(name "EPAD"
 					(effects
@@ -3526,7 +3580,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 45.72 180)
+				(at 35.56 43.18 180)
 				(length 5.08)
 				(name "VREFP"
 					(effects
@@ -3580,7 +3634,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -64.77 180)
+				(at 35.56 -66.04 180)
 				(length 5.08)
 				(name "XTAL32M_N"
 					(effects
@@ -3760,7 +3814,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 57.15 180)
+				(at 35.56 55.88 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -3796,7 +3850,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 35.56 59.69 180)
+				(at 35.56 58.42 180)
 				(length 5.08)
 				(name "LX"
 					(effects
@@ -3814,7 +3868,7 @@
 				)
 			)
 			(pin power_out line
-				(at 35.56 54.61 180)
+				(at 35.56 53.34 180)
 				(length 5.08)
 				(name "VBAT_DCDC"
 					(effects
@@ -3850,7 +3904,7 @@
 				)
 			)
 			(pin passive line
-				(at 34.29 -46.99 180)
+				(at 35.56 -48.26 180)
 				(length 5.08)
 				(name "XTAL32K_N"
 					(effects
@@ -3906,7 +3960,7 @@
 			(pin bidirectional line
 				(at -35.56 38.1 0)
 				(length 5.08)
-				(name "PIOO_2/TRST/FC3_TXD_SCL_MISO_WS"
+				(name "PIO0_2/TRST/FC3_TXD_SCL_MISO_WS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4102,7 +4156,1398 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 48.26 180)
+				(at 35.56 45.72 180)
+				(length 5.08)
+				(name "VDDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "LPC5528JBD64, HTQFP-64"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "MCU"
+			(at -28.575 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LPC5528JBD64"
+			(at -24.13 -78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_IC_NXP:QFP50P1200X1200X120-65N_HTQFP64_SOT855-5"
+			(at 0 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/part/MCXC242VLH"
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32-bit ARM Cortex-M33 microcontroller, 150MHz, 5126kB Flash, 256kB SRAM, USB FS+HS, SDIO, 36 GPIO"
+			(at 0 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "NXP"
+			(at 0 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LPC5528JBD64"
+			(at 0 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" "LPC5528 JBD64"
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "771-LPC5528JBD64E,771-LPC5528JBD64Y,771-LPC5528JBD64K"
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "LPC5528JBD64E,LPC5528JBD64K,LPC5528JBD64Y"
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "3265622"
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "568-LPC5528JBD64E-ND"
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "MCU"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "QFP50P1200X1200X120-65?_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LPC5528JBD64, HTQFP-64_0_1"
+			(rectangle
+				(start -30.48 76.2)
+				(end 30.48 -76.2)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "LPC5528JBD64, HTQFP-64_1_0"
+			(pin bidirectional line
+				(at -35.56 -15.24 0)
+				(length 5.08)
+				(name "PIO0_23/ADC0_0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 17.78 0)
+				(length 5.08)
+				(name "PIO0_10/ADC0_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 5.08 0)
+				(length 5.08)
+				(name "PIO0_15/ADC0_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -35.56 0)
+				(length 5.08)
+				(name "PIO0_31/ADC0_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 22.86 0)
+				(length 5.08)
+				(name "PIO0_8/SWO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -25.4 0)
+				(length 5.08)
+				(name "PIO0_27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35.56 60.96 0)
+				(length 5.08)
+				(name "USB1_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 0 0)
+				(length 5.08)
+				(name "PIO0_17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 50.8 180)
+				(length 5.08)
+				(name "VBAT_PMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 20.32 0)
+				(length 5.08)
+				(name "PIO0_9/ACMP0_B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -2.54 0)
+				(length 5.08)
+				(name "PIO0_18/ACMP0_C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -43.18 0)
+				(length 5.08)
+				(name "PIO1_1/WAKEUP/HS_SPI_SSEL1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -40.64 0)
+				(length 5.08)
+				(name "PIO1_0/ADC0_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -22.86 0)
+				(length 5.08)
+				(name "PIO0_26/HS_SPI_MOSI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -45.72 0)
+				(length 5.08)
+				(name "PIO1_2/HS_SPI_SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -48.26 0)
+				(length 5.08)
+				(name "PIO1_3/HS_SPI_MISO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -27.94 0)
+				(length 5.08)
+				(name "PIO0_28/WAKEUP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -17.78 0)
+				(length 5.08)
+				(name "PIO0_24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 10.16 0)
+				(length 5.08)
+				(name "PIO0_13/FC1_SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "46"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 7.62 0)
+				(length 5.08)
+				(name "PIO0_14/FC1_SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "47"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -7.62 0)
+				(length 5.08)
+				(name "PIO0_20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -10.16 0)
+				(length 5.08)
+				(name "PIO0_21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 12.7 0)
+				(length 5.08)
+				(name "PIO0_12/ADC0_10/SWDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -12.7 0)
+				(length 5.08)
+				(name "PIO0_22/USB0_VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -20.32 0)
+				(length 5.08)
+				(name "PIO0_25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -5.08 0)
+				(length 5.08)
+				(name "PIO0_19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "58"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -30.48 0)
+				(length 5.08)
+				(name "PIO0_29/FC0_RXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 15.24 0)
+				(length 5.08)
+				(name "PIO0_11/ADC0_9/SWCLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 -33.02 0)
+				(length 5.08)
+				(name "PIO0_30/FC0_TXD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 20.32 180)
+				(length 5.08)
+				(name "EPAD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 2.54 0)
+				(length 5.08)
+				(name "PIO0_16/ADC0_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LPC5528JBD64, HTQFP-64_1_1"
+			(pin bidirectional line
+				(at -35.56 25.4 0)
+				(length 5.08)
+				(name "PIO0_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 43.18 180)
+				(length 5.08)
+				(name "VREFP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 33.02 180)
+				(length 5.08)
+				(name "VSSA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 71.12 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -66.04 180)
+				(length 5.08)
+				(name "XTAL32M_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 40.64 0)
+				(length 5.08)
+				(name "PIO0_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -73.66 180)
+				(length 5.08)
+				(name "XTAL32M_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 -35.56 180)
+				(length 5.08)
+				(name "~{RST}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35.56 50.8 0)
+				(length 5.08)
+				(name "USB1_VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 55.88 0)
+				(length 5.08)
+				(name "USB1_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 53.34 0)
+				(length 5.08)
+				(name "USB1_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -35.56 58.42 0)
+				(length 5.08)
+				(name "USB1_VBUS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35.56 48.26 0)
+				(length 5.08)
+				(name "USB1_VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 63.5 180)
+				(length 5.08)
+				(name "VDD_PMU"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 27.94 180)
+				(length 5.08)
+				(name "VSS_DCDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 25.4 180)
+				(length 5.08)
+				(name "VSS_DCDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 35.56 58.42 180)
+				(length 5.08)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 35.56 53.34 180)
+				(length 5.08)
+				(name "VBAT_DCDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -55.88 180)
+				(length 5.08)
+				(name "XTAL32K_P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 -48.26 180)
+				(length 5.08)
+				(name "XTAL32K_N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 43.18 0)
+				(length 5.08)
+				(name "PIO0_0/ACMP0_A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 68.58 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 38.1 0)
+				(length 5.08)
+				(name "PIO0_2/TRST/FC3_TXD_SCL_MISO_WS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "52"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 35.56 0)
+				(length 5.08)
+				(name "PIO0_3/TCK/FC3_RXD_SDA_MOSI_DATA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 66.04 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "54"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 33.02 0)
+				(length 5.08)
+				(name "PIO0_4/TMS/FC3_CTS_SDA_SSELN0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "55"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 30.48 0)
+				(length 5.08)
+				(name "PIO0_5/TDI/~{BOOT}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "56"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -35.56 27.94 0)
+				(length 5.08)
+				(name "PIO0_6/TDO/FC3_SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "57"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -35.56 73.66 0)
+				(length 5.08)
+				(name "USB0_3V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 71.12 0)
+				(length 5.08)
+				(name "USB0_DP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -35.56 68.58 0)
+				(length 5.08)
+				(name "USB0_DM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "63"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -35.56 66.04 0)
+				(length 5.08)
+				(name "USB0_VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "64"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 73.66 180)
+				(length 5.08)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 35.56 45.72 180)
 				(length 5.08)
 				(name "VDDA"
 					(effects
