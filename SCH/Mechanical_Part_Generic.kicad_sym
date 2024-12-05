@@ -9,8 +9,8 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "HOLE"
-			(at 0 -2.54 0)
+		(property "Reference" "MH"
+			(at 0 2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "Value"
-			(at -1.27 2.54 0)
+			(at -1.27 -2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -29,7 +29,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "THD_Mechanical_Generic:MountingHole, NPTH, 3.2mm, M3, Clean"
+		(property "Footprint" "MECH_Mechanical_Generic:MountingHole_3.2mm_M3"
 			(at 6.35 6.35 0)
 			(effects
 				(font
@@ -67,7 +67,6 @@
 		)
 		(property "MFG" ""
 			(at 26.67 1.27 0)
-			(show_name)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -79,13 +78,13 @@
 		)
 		(property "MPN" ""
 			(at 52.07 1.27 0)
-			(show_name)
 			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Device_Marking" ""
@@ -200,7 +199,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "HOLE?"
+		(property "ki_fp_filters" "MountingHole_?"
 			(at 0 0 0)
 			(effects
 				(font
