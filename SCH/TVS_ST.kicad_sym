@@ -965,7 +965,7 @@
 			)
 		)
 	)
-	(symbol "SM6T33A"
+	(symbol "SM6T33A, Unidir, 33V"
 		(pin_numbers hide)
 		(pin_names
 			(offset 0) hide)
@@ -1006,7 +1006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transient suppresion diode, P6SMB series, unidirectional, 600W, SMD, ST"
+		(property "Description" "TVS diode, Unidirectional, 33V, SM6T series, unidirectional, 600W, SMD, ST"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1159,7 +1159,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "SM6T33A_0_0"
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SM6T33A, Unidir, 33V_0_0"
 			(polyline
 				(pts
 					(xy 1.27 0) (xy -1.27 0)
@@ -1173,7 +1182,7 @@
 				)
 			)
 		)
-		(symbol "SM6T33A_0_1"
+		(symbol "SM6T33A, Unidir, 33V_0_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.016 1.524)
@@ -1223,7 +1232,7 @@
 				)
 			)
 		)
-		(symbol "SM6T33A_1_1"
+		(symbol "SM6T33A, Unidir, 33V_1_1"
 			(pin passive line
 				(at 3.81 0 180)
 				(length 2.54)
