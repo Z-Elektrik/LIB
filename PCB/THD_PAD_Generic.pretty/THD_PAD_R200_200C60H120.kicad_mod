@@ -1,9 +1,9 @@
-(footprint "THD_PAD_O200_200H120"
+(footprint "THD_PAD_R200_200C60H120"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Solder Pad THD, Hole, 1.2mm, Pad octagon 2.00x2.00mm")
+	(descr "2.00x2.00mm rectangular land with 0.6mm chamfered corners in all 4 corners, 1.20mm hole")
 	(tags "Pin,Pad")
 	(property "Reference" "REF**"
 		(at 3.18 0 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "THD_PAD_O200_200H120"
+	(property "Value" "THD_PAD_R200_200C60H120"
 		(at 0 -1.8 0)
 		(layer "F.Fab")
 		(uuid "23741efe-d2b5-4e3c-9194-162a2dda2fac")
@@ -39,7 +39,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.pcblibraries.com/forum/ipc7351-padstack-naming-convention_topic36.html"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
