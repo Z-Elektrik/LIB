@@ -1,9 +1,9 @@
-(footprint "SOT95P250X110-3N_SOT23-3__123"
+(footprint "SOT95P280X125-3N_SOT23-3"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "EIA: SOT-23-3, JEDEC: TO-236-AB, JEITA: - , IPC: SOT95P250X110-3N")
+	(descr "EIA: SOT-23-3, JEDEC: TO-236-AA, JEITA: - , IPC: SOT95P280X125-3N")
 	(tags "SOT-23")
 	(property "Reference" "REF**"
 		(at 0 -2.5 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SOT95P250X110-3N_SOT23-3"
+	(property "Value" "SOT95P280X125-3N_SOT23-3"
 		(at 0 2.5 0)
 		(layer "F.Fab")
 		(uuid "f84d6e02-2f8f-4b91-b99c-21962cc5aa5c")
@@ -39,8 +39,8 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/package/SOT23.pdf"
+		(at 0 -5.715 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "709d651c-983d-4ea5-85d4-b5fdfa70b0f5")
@@ -76,8 +76,8 @@
 		(uuid "2bdbe07a-6ce0-4092-ba18-a28f2814ffc1")
 	)
 	(fp_line
-		(start -0.79248 -0.15748)
-		(end -0.79248 0.15748)
+		(start -0.9525 -0.15748)
+		(end -0.9525 0.15748)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -106,7 +106,7 @@
 		(uuid "95a67b4b-0ea4-4d4d-b63a-4b613be56eae")
 	)
 	(fp_line
-		(start 0.79248 -1.5875)
+		(start 0.9525 -1.5875)
 		(end -0.24892 -1.5875)
 		(stroke
 			(width 0.2032)
@@ -116,8 +116,8 @@
 		(uuid "782c5477-0d0e-469e-8773-4a9298cc4fc5")
 	)
 	(fp_line
-		(start 0.79248 -1.5875)
-		(end 0.79248 -0.9525)
+		(start 0.9525 -1.5875)
+		(end 0.9525 -0.9525)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -126,8 +126,8 @@
 		(uuid "3796903d-1317-47fc-bfaa-a73f023d07d5")
 	)
 	(fp_line
-		(start 0.79248 0.9525)
-		(end 0.79248 1.5875)
+		(start 0.9525 0.9525)
+		(end 0.9525 1.5875)
 		(stroke
 			(width 0.2032)
 			(type solid)
@@ -136,7 +136,7 @@
 		(uuid "ff47ac2d-bbde-453e-b944-ac2838cab3ba")
 	)
 	(fp_line
-		(start 0.79248 1.5875)
+		(start 0.9525 1.5875)
 		(end 0 1.5875)
 		(stroke
 			(width 0.2032)
@@ -186,8 +186,8 @@
 		(uuid "006160da-53ff-4a14-9f3f-02cb1ac5f597")
 	)
 	(fp_line
-		(start -0.66 -1.422)
-		(end -0.66 1.422)
+		(start -0.85 -1.422)
+		(end -0.85 1.422)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -196,8 +196,8 @@
 		(uuid "c97eed22-62ff-4987-9693-87fec57e0edb")
 	)
 	(fp_line
-		(start -0.66 1.422)
-		(end 0.66 1.422)
+		(start -0.85 1.422)
+		(end 0.85 1.422)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -206,8 +206,8 @@
 		(uuid "3046c7c4-2fa2-4f01-ab04-f95cc88925da")
 	)
 	(fp_line
-		(start 0.66 -1.422)
-		(end -0.66 -1.422)
+		(start 0.85 -1.422)
+		(end -0.85 -1.422)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -216,8 +216,8 @@
 		(uuid "88db3ae4-9c2f-4ada-bbd7-15184b61da60")
 	)
 	(fp_line
-		(start 0.66 1.422)
-		(end 0.66 -1.422)
+		(start 0.85 1.422)
+		(end 0.85 -1.422)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -226,8 +226,8 @@
 		(uuid "5b8526c3-97de-4053-a642-581cadbf7481")
 	)
 	(fp_rect
-		(start -1.26 -1.15)
-		(end -0.66 -0.75)
+		(start -1.4 -1.15)
+		(end -0.85 -0.75)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -237,8 +237,8 @@
 		(uuid "605d0d00-e5e5-43b7-9f5c-245adb0ed85d")
 	)
 	(fp_rect
-		(start -1.26 0.75)
-		(end -0.66 1.15)
+		(start -1.4 0.75)
+		(end -0.85 1.15)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -248,8 +248,8 @@
 		(uuid "8dd6c31c-3b27-4d1f-8b59-cda2dd484923")
 	)
 	(fp_rect
-		(start 1.26 0.2)
-		(end 0.66 -0.2)
+		(start 1.4 0.2)
+		(end 0.85 -0.2)
 		(stroke
 			(width 0.01)
 			(type solid)
@@ -321,35 +321,35 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.1 -0.95)
+		(at -1.2 -0.95)
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "2f8fc19a-63f3-443a-a056-571d954677e5")
 	)
 	(pad "2" smd roundrect
-		(at -1.1 0.95)
+		(at -1.2 0.95)
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "2f1709a0-56af-40fb-a3cd-2df80caadbd5")
 	)
 	(pad "3" smd roundrect
-		(at 1.1 0)
+		(at 1.2 0)
 		(size 0.9 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "9e2a6d3b-ad57-4c4f-9faf-6f98ee72efb6")
 	)
-	(model "${Z_LIB_3D_DIR}/SMD_Semiconductor_Generic.3dshapes/SOT95P250X110-3N_SOT23-3.stp"
+	(model "${Z_LIB_3D_DIR}/SMD_Semiconductor_Generic.3dshapes/SOT95P280X125-3_SOT23-3.step"
 		(offset
-			(xyz 0 1.45 0)
+			(xyz 0 -0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 90)
+			(xyz 0 0 0)
 		)
 	)
 )
