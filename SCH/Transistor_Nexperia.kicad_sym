@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Semiconductor_Generic:SOT95P250X110-3N_SOT23-3__123"
+		(property "Footprint" "SMD_Semiconductor_Generic:SOT95P250X110-3N_SOT23-3"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -44,7 +44,7 @@
 			)
 		)
 		(property "Description" "Transistor NPN, SMD, 45V, 500mA, SOT-23, Nexperia"
-			(at 0 0 0)
+			(at 0 -10.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -196,7 +196,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT95P250X110-3?_SOT23-3__123*"
+		(property "ki_fp_filters" "SOT95P250X110-3?_SOT23-3*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -301,25 +301,7 @@
 						)
 					)
 				)
-				(number "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 1.27 2.54 180)
-				(length 0)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -337,7 +319,25 @@
 						)
 					)
 				)
-				(number "E"
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 180)
+				(length 0)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -861,7 +861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Semiconductor_Generic:SOT95P250X110-3N_SOT23-3__123"
+		(property "Footprint" "SMD_Semiconductor_Generic:SOT95P250X110-3N_SOT23-3"
 			(at 0 7.62 0)
 			(effects
 				(font
