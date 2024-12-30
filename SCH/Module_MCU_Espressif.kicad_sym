@@ -206,7 +206,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-H4, Flash{colon} 4 MB, PSRAM{colon} -_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -818,7 +818,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -836,7 +836,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -1163,7 +1163,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N16, Flash{colon} 16 MB, PSRAM{colon} -_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -1775,7 +1775,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -1793,7 +1793,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -2120,24 +2120,6 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N16R16, Flash{colon} 16 MB, PSRAM{colon} 16 MB, VDD_SPI{colon} 1.8V_0_0"
-			(pin power_in line
-				(at 48.26 -35.56 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -48.26 -2.54 0)
 				(length 5.08)
@@ -2732,7 +2714,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -2750,7 +2732,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -2869,6 +2851,26 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+		)
+		(symbol "ESP32-S3-WROOM-1U-N16R16, Flash{colon} 16 MB, PSRAM{colon} 16 MB, VDD_SPI{colon} 1.8V_1_0"
+			(pin passive line
+				(at 48.26 -35.56 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
@@ -3077,7 +3079,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N16R2, Flash{colon} 16 MB, PSRAM{colon} 2 MB_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -3689,7 +3691,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -3707,7 +3709,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -4034,7 +4036,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N16R8, Flash{colon} 16 MB, PSRAM{colon} 8 MB_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -4646,7 +4648,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -4664,7 +4666,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -4991,7 +4993,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N4, Flash{colon} 4 MB, PSRAM{colon} -_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -5603,7 +5605,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -5621,7 +5623,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -5948,7 +5950,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N4R2, Flash{colon} 4 MB, PSRAM{colon} 2MB_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -6560,7 +6562,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -6578,7 +6580,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -6905,7 +6907,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N4R8, Flash{colon} 4 MB, PSRAM{colon} 8 MB_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -7517,7 +7519,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -7535,7 +7537,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -7862,7 +7864,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N8, Flash{colon} 8 MB, PSRAM{colon} -_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -8474,7 +8476,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -8492,7 +8494,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -8819,7 +8821,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N8R2, Flash{colon} 8 MB, PSRAM{colon} 2 MB_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -9431,7 +9433,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -9449,7 +9451,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -9776,7 +9778,7 @@
 			)
 		)
 		(symbol "ESP32-S3-WROOM-1U-N8R8, Flash{colon} 8 MB, PSRAM{colon} 8 MB_0_0"
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08)
 				(name "GND"
@@ -10388,7 +10390,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
@@ -10406,7 +10408,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 48.26 -35.56 180)
 				(length 5.08) hide
 				(name "GND"
