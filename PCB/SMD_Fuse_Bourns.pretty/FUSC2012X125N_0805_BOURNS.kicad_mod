@@ -1,9 +1,9 @@
-(footprint "FUSC2012X85N_0805_BOURNS"
+(footprint "FUSC2012X125N_0805_BOURNS"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "EIA: 0805, METRIC: 2012, JEDEC: - , IPC: RESC2012X85N, Bourns")
+	(descr "EIA: 0805, METRIC: 2012, JEDEC: - , IPC: RESC2012X125N, Bourns")
 	(tags "FUSE")
 	(property "Reference" "REF**"
 		(at 0 -1.68 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "FUSC2012X85N"
+	(property "Value" "FUSC2012X125N"
 		(at 0 1.68 0)
 		(layer "F.Fab")
 		(uuid "e1cef26a-9b05-47d0-95ed-57ad6f7a78aa")
@@ -273,9 +273,9 @@
 		(roundrect_rratio 0.25)
 		(uuid "1e36b295-7e96-456f-a51a-a71b62e7b4c1")
 	)
-	(model "${Z_LIB_3D_DIR}/SMD_Fuse_Generic.3dshapes/FUSC2012X85_0805.step"
+	(model "${Z_LIB_3D_DIR}/SMD_Fuse_Generic.3dshapes/FUSC2012x125_0805.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0.6 0.67)
 		)
 		(scale
 			(xyz 1 1 1)
