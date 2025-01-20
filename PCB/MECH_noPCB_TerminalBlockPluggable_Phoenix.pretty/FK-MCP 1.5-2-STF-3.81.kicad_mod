@@ -1,55 +1,299 @@
-(footprint "FK-MCP 1.5-2-STF-3.81" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Terminal Block Pluggable, 1x2")
-  (tags "CON2")
-  (attr through_hole exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "REF**" (at 0 0) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 24dd6da4-ad43-4f7e-abfb-90b3cd020386)
-  )
-  (fp_text value "FK-MCP 1,5/2-STF-3,81" (at 0 0) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp f84d6e02-2f8f-4b91-b99c-21962cc5aa5c)
-  )
-  (fp_text user "${REFERENCE}" (at 0 -5) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c3fbbdcf-e800-4c05-8e97-fb7a2c5208f2)
-  )
-  (fp_line (start -9.005 -4.25) (end -9.005 2.6)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp e60be55d-f30e-4c8f-8706-a5633b0dfbbe))
-  (fp_line (start -9.005 -4.25) (end -3.81 -4.25)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 68580157-2a24-45cb-8fd6-4b87e179088b))
-  (fp_line (start -3.81 3) (end -8.624 3)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 22cefbc1-7349-4a1a-952d-1aec0d8d9ebf))
-  (fp_line (start 0 -4.25) (end -3.81 -4.25)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp bff4f5d8-3b37-4be5-a890-5fc609bf572f))
-  (fp_line (start 0 -4.25) (end 3.81 -4.25)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 534749ed-36cb-4869-a654-2cc8db090ad5))
-  (fp_line (start 0 3) (end -3.81 3)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 8753cce4-d36b-4c55-99d5-0753718b63f8))
-  (fp_line (start 0 3) (end 3.81 3)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp b3ba36f2-99aa-403d-a6b0-16863a7627ea))
-  (fp_line (start 3.81 3) (end 8.624 3)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 1eb0c25a-5dfd-41dc-b7d8-7d141d2e06e6))
-  (fp_line (start 9.005 -4.25) (end 3.81 -4.25)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp a5882644-9f59-4973-8b53-7847b6444855))
-  (fp_line (start 9.005 -4.25) (end 9.005 2.6)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 133e7be4-5606-4b61-8a2f-d09cbcb89ad2))
-  (fp_arc (start -8.624 3) (mid -8.897342 2.878908) (end -9.005 2.6)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 0c321766-7bc4-4e3f-a6d6-82bfb61f86a6))
-  (fp_arc (start 9.005 2.6) (mid 8.897343 2.878909) (end 8.624 3)
-    (stroke (width 0.1524) (type solid)) (layer "F.Fab") (tstamp 107faa35-0b6f-4c63-af01-0922e222c4b1))
-  (fp_circle (center -6.405 0) (end -4.445 0)
-    (stroke (width 0.12) (type default)) (fill none) (layer "F.Fab") (tstamp 77733c6e-9105-43bf-a68a-42925485c6ad))
-  (fp_circle (center 6.405 0) (end 4.445 0)
-    (stroke (width 0.12) (type default)) (fill none) (layer "F.Fab") (tstamp 4c29acfa-65fd-4d73-a98e-d1e3f65b424f))
-  (dimension (type center) (layer "F.Fab") (tstamp a5ec1d16-007d-4f1f-929a-08441db48dcb)
-    (pts (xy 0 0) (xy 0.254 0))
-    (style (thickness 0.1524) (arrow_length 1.27) (text_position_mode 0) (extension_offset 0.5) keep_text_aligned)
-  )
-  (model "${Z_LIB_3D_DIR}/noPCB_TerminalBlockPluggable_Phoenix.3dshapes/pxc_1851232_10_FK-MCP-1-5-2-STF-3-81_3D.stp"
-    (offset (xyz -4.2 -6.6 17))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 0))
-  )
+(footprint "FK-MCP 1.5-2-STF-3.81"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Terminal Block Pluggable, 1x2")
+	(tags "CON2")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "24dd6da4-ad43-4f7e-abfb-90b3cd020386")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FK-MCP 1,5/2-STF-3,81"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f84d6e02-2f8f-4b91-b99c-21962cc5aa5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf44badd-7c6b-4bfd-96e4-a963a7f14af4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c749c7fa-e911-4c41-9e5a-cd1ba48b9112")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "726f3a0f-fb8f-434b-8935-9bc89b548336")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -9.005 -4.25)
+		(end -9.005 2.6)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e60be55d-f30e-4c8f-8706-a5633b0dfbbe")
+	)
+	(fp_line
+		(start -9.005 -4.25)
+		(end -3.81 -4.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "68580157-2a24-45cb-8fd6-4b87e179088b")
+	)
+	(fp_line
+		(start -3.81 3)
+		(end -8.624 3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22cefbc1-7349-4a1a-952d-1aec0d8d9ebf")
+	)
+	(fp_line
+		(start 0 -4.25)
+		(end -3.81 -4.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bff4f5d8-3b37-4be5-a890-5fc609bf572f")
+	)
+	(fp_line
+		(start 0 -4.25)
+		(end 3.81 -4.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "534749ed-36cb-4869-a654-2cc8db090ad5")
+	)
+	(fp_line
+		(start 0 3)
+		(end -3.81 3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8753cce4-d36b-4c55-99d5-0753718b63f8")
+	)
+	(fp_line
+		(start 0 3)
+		(end 3.81 3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3ba36f2-99aa-403d-a6b0-16863a7627ea")
+	)
+	(fp_line
+		(start 3.81 3)
+		(end 8.624 3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1eb0c25a-5dfd-41dc-b7d8-7d141d2e06e6")
+	)
+	(fp_line
+		(start 9.005 -4.25)
+		(end 3.81 -4.25)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a5882644-9f59-4973-8b53-7847b6444855")
+	)
+	(fp_line
+		(start 9.005 -4.25)
+		(end 9.005 2.6)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "133e7be4-5606-4b61-8a2f-d09cbcb89ad2")
+	)
+	(fp_arc
+		(start -8.624 3)
+		(mid -8.897342 2.878908)
+		(end -9.005 2.6)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c321766-7bc4-4e3f-a6d6-82bfb61f86a6")
+	)
+	(fp_arc
+		(start 9.005 2.6)
+		(mid 8.897343 2.878909)
+		(end 8.624 3)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "107faa35-0b6f-4c63-af01-0922e222c4b1")
+	)
+	(fp_circle
+		(center -6.405 0)
+		(end -4.445 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "77733c6e-9105-43bf-a68a-42925485c6ad")
+	)
+	(fp_circle
+		(center 6.405 0)
+		(end 4.445 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "4c29acfa-65fd-4d73-a98e-d1e3f65b424f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(uuid "7d93b35c-cfc5-4c79-a3de-9123399f1a6c")
+		(effects
+			(font
+				(face "Tahoma")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.536146 -5.68012) (xy -1.485212 -5.676947) (xy -1.441032 -5.671524) (xy -1.390175 -5.658374)
+					(xy -1.344876 -5.63754) (xy -1.327947 -5.627316) (xy -1.288155 -5.596467) (xy -1.2557 -5.559088)
+					(xy -1.243195 -5.539633) (xy -1.222953 -5.4919) (xy -1.213428 -5.440254) (xy -1.211932 -5.406765)
+					(xy -1.215504 -5.353367) (xy -1.22622 -5.304549) (xy -1.246815 -5.255103) (xy -1.269085 -5.220652)
+					(xy -1.304361 -5.181684) (xy -1.346167 -5.148859) (xy -1.38881 -5.124839) (xy -1.424179 -5.11001)
+					(xy -1.060013 -4.665) (xy -1.2366 -4.665) (xy -1.560955 -5.07142) (xy -1.716049 -5.07142) (xy -1.716049 -4.665)
+					(xy -1.852092 -4.665) (xy -1.852092 -5.188656) (xy -1.716049 -5.188656) (xy -1.596614 -5.188656)
+					(xy -1.547781 -5.190573) (xy -1.497467 -5.197457) (xy -1.49159 -5.19867) (xy -1.443238 -5.216659)
+					(xy -1.411722 -5.239947) (xy -1.381001 -5.27916) (xy -1.368247 -5.306625) (xy -1.356793 -5.354488)
+					(xy -1.354081 -5.397484) (xy -1.360283 -5.448012) (xy -1.369957 -5.474665) (xy -1.399867 -5.515237)
+					(xy -1.418805 -5.529863) (xy -1.465282 -5.550869) (xy -1.486217 -5.555997) (xy -1.535229 -5.562317)
+					(xy -1.581471 -5.563813) (xy -1.716049 -5.563813) (xy -1.716049 -5.188656) (xy -1.852092 -5.188656)
+					(xy -1.852092 -5.68105) (xy -1.58831 -5.68105)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.983565 -4.665) (xy -0.983565 -5.68105) (xy -0.344137 -5.68105) (xy -0.344137 -5.559905)
+					(xy -0.847521 -5.559905) (xy -0.847521 -5.290261) (xy -0.378331 -5.290261) (xy -0.378331 -5.169117)
+					(xy -0.847521 -5.169117) (xy -0.847521 -4.786144) (xy -0.344137 -4.786144) (xy -0.344137 -4.665)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.413992 -5.559905) (xy -0.062036 -5.559905) (xy -0.062036 -5.27463) (xy 0.393964 -5.27463)
+					(xy 0.393964 -5.153485) (xy -0.062036 -5.153485) (xy -0.062036 -4.665) (xy -0.19808 -4.665) (xy -0.19808 -5.68105)
+					(xy 0.413992 -5.68105)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.119609 -5.259975) (xy 1.074913 -5.181329) (xy 0.850454 -5.338866) (xy 0.855094 -5.087051)
+					(xy 0.769365 -5.087051) (xy 0.773517 -5.338866) (xy 0.550279 -5.18084) (xy 0.50485 -5.259487) (xy 0.748116 -5.407498)
+					(xy 0.50485 -5.555509) (xy 0.550279 -5.634155) (xy 0.77425 -5.475397) (xy 0.769365 -5.727944) (xy 0.855094 -5.727944)
+					(xy 0.849721 -5.475397) (xy 1.074913 -5.633422) (xy 1.119609 -5.554776) (xy 0.876588 -5.40823)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.883601 -5.259975) (xy 1.838905 -5.181329) (xy 1.614445 -5.338866) (xy 1.619086 -5.087051)
+					(xy 1.533357 -5.087051) (xy 1.537509 -5.338866) (xy 1.314271 -5.18084) (xy 1.268842 -5.259487)
+					(xy 1.512108 -5.407498) (xy 1.268842 -5.555509) (xy 1.314271 -5.634155) (xy 1.538242 -5.475397)
+					(xy 1.533357 -5.727944) (xy 1.619086 -5.727944) (xy 1.613713 -5.475397) (xy 1.838905 -5.633422)
+					(xy 1.883601 -5.554776) (xy 1.640579 -5.40823)
+				)
+			)
+		)
+	)
+	(dimension
+		(type center)
+		(layer "F.Fab")
+		(uuid "a5ec1d16-007d-4f1f-929a-08441db48dcb")
+		(pts
+			(xy 0 0) (xy 0.254 0)
+		)
+		(style
+			(thickness 0.1524)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(model "${Z_LIB_3D_DIR}/noPCB_TerminalBlockPluggable_Phoenix.3dshapes/pxc_1851232_10_FK-MCP-1-5-2-STF-3-81_3D.stp"
+		(offset
+			(xyz -4.2 -6.6 17)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 90 0)
+		)
+	)
 )
