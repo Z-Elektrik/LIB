@@ -1,11 +1,310 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "4.7uH, 700mA, 0.3Ω, LQM31PN4R7M00L, SMD 1206"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "330uH, 65mA, 13Ω, +/- 5%, LQH32MN331J23L, 3.2x2.5mm, SMD 1210"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330uH"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Inductor_Murata:INDP3225X200N_1210_DL1210_Series_Murata"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/864460d2a20eb43b9fe59db16dd054e0/JELF243A-0041.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor Ceramic, SMD 1812, +/-5%, 13Ω, 65mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Murata"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQH32MN331J23L"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "2843"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "IND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "INDC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "330uH, 65mA, 13Ω, +/- 5%, LQH32MN331J23L, 3.2x2.5mm, SMD 1210_1_1"
+			(arc
+				(start -2.54 0.0226)
+				(mid -1.905 0.6464)
+				(end -1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 0.0226)
+				(mid -0.635 0.6464)
+				(end 0 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0226)
+				(mid 0.635 0.6464)
+				(end 1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0.0113)
+				(mid 1.905 0.6351)
+				(end 2.54 0.0113)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "4.7uH, 700mA, 0.3Ω, LQM31PN4R7M00L, SMD 1206"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -207,20 +506,8 @@
 		)
 		(symbol "4.7uH, 700mA, 0.3Ω, LQM31PN4R7M00L, SMD 1206_1_1"
 			(arc
-				(start -1.27 0.0226)
+				(start -2.54 0.0226)
 				(mid -1.905 0.6464)
-				(end -2.54 0.0226)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0.0226)
-				(mid -0.635 0.6464)
 				(end -1.27 0.0226)
 				(stroke
 					(width 0.254)
@@ -231,8 +518,8 @@
 				)
 			)
 			(arc
-				(start 1.27 0.0226)
-				(mid 0.635 0.6464)
+				(start -1.27 0.0226)
+				(mid -0.635 0.6464)
 				(end 0 0.0226)
 				(stroke
 					(width 0.254)
@@ -243,9 +530,21 @@
 				)
 			)
 			(arc
-				(start 2.54 0.0113)
+				(start 0 0.0226)
+				(mid 0.635 0.6464)
+				(end 1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0.0113)
 				(mid 1.905 0.6351)
-				(end 1.27 0.0113)
+				(end 2.54 0.0113)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -291,11 +590,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "47uH, 280mA, 1.1Ω, LQH43CN470K03, SMD 1812"
-		(pin_numbers hide)
+	(symbol "47uH, 280mA, 1.1Ω, +/- 10%, LQH43CN470K03, 4.5x3.2mm, SMD 1812"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -315,7 +619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Inductor_Ferrocore:INDP4532X200N_1812_DL1812_Series_FerroCore"
+		(property "Footprint" "SMD_Inductor_Murata:INDP4532X260N_1812_DL1812_Series_Murata"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -333,7 +637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor Ceramic, SMD 1812, 5Ω, 140mA"
+		(property "Description" "Inductor Ceramic, SMD 1812, +/- 10%, 1.1Ω, 280mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -495,22 +799,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "47uH, 280mA, 1.1Ω, LQH43CN470K03, SMD 1812_1_1"
+		(symbol "47uH, 280mA, 1.1Ω, +/- 10%, LQH43CN470K03, 4.5x3.2mm, SMD 1812_1_1"
 			(arc
-				(start -1.27 0.0226)
+				(start -2.54 0.0226)
 				(mid -1.905 0.6464)
-				(end -2.54 0.0226)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0.0226)
-				(mid -0.635 0.6464)
 				(end -1.27 0.0226)
 				(stroke
 					(width 0.254)
@@ -521,8 +813,8 @@
 				)
 			)
 			(arc
-				(start 1.27 0.0226)
-				(mid 0.635 0.6464)
+				(start -1.27 0.0226)
+				(mid -0.635 0.6464)
 				(end 0 0.0226)
 				(stroke
 					(width 0.254)
@@ -533,9 +825,21 @@
 				)
 			)
 			(arc
-				(start 2.54 0.0113)
+				(start 0 0.0226)
+				(mid 0.635 0.6464)
+				(end 1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0.0113)
 				(mid 1.905 0.6351)
-				(end 1.27 0.0113)
+				(end 2.54 0.0113)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -581,5 +885,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
