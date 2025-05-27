@@ -1,11 +1,310 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "47uH, 140mA, 5Ω, DL1812-47, SMD 1812"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "4.7uH, 220mA, 1.5Ω, DL1812-4.7, SMD 1812"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uH"
+			(at 0 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Inductor_Ferrocore:INDP4532X200N_1812_DL1812_Series_FerroCore"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/26eee57fd18248e317bc1a731d20898f/dl1210.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor Ceramic, SMD 1812, 1.5Ω, 220mA"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "FerroCore"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DL1812-4.7"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "DL1812-4.7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "9742"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "IND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "INDC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "4.7uH, 220mA, 1.5Ω, DL1812-4.7, SMD 1812_1_1"
+			(arc
+				(start -2.54 0.0226)
+				(mid -1.905 0.6464)
+				(end -1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -1.27 0.0226)
+				(mid -0.635 0.6464)
+				(end 0 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0226)
+				(mid 0.635 0.6464)
+				(end 1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0.0113)
+				(mid 1.905 0.6351)
+				(end 2.54 0.0113)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "47uH, 140mA, 5Ω, DL1812-47, SMD 1812"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -207,20 +506,8 @@
 		)
 		(symbol "47uH, 140mA, 5Ω, DL1812-47, SMD 1812_1_1"
 			(arc
-				(start -1.27 0.0226)
+				(start -2.54 0.0226)
 				(mid -1.905 0.6464)
-				(end -2.54 0.0226)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0.0226)
-				(mid -0.635 0.6464)
 				(end -1.27 0.0226)
 				(stroke
 					(width 0.254)
@@ -231,8 +518,8 @@
 				)
 			)
 			(arc
-				(start 1.27 0.0226)
-				(mid 0.635 0.6464)
+				(start -1.27 0.0226)
+				(mid -0.635 0.6464)
 				(end 0 0.0226)
 				(stroke
 					(width 0.254)
@@ -243,9 +530,21 @@
 				)
 			)
 			(arc
-				(start 2.54 0.0113)
+				(start 0 0.0226)
+				(mid 0.635 0.6464)
+				(end 1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0.0113)
 				(mid 1.905 0.6351)
-				(end 1.27 0.0113)
+				(end 2.54 0.0113)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -291,11 +590,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "47uH, 440mA, 650mΩ, DJNR4018-470-S, SMD 4040"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -497,20 +801,8 @@
 		)
 		(symbol "47uH, 440mA, 650mΩ, DJNR4018-470-S, SMD 4040_1_1"
 			(arc
-				(start -1.27 0.0226)
+				(start -2.54 0.0226)
 				(mid -1.905 0.6464)
-				(end -2.54 0.0226)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 0 0.0226)
-				(mid -0.635 0.6464)
 				(end -1.27 0.0226)
 				(stroke
 					(width 0.254)
@@ -521,8 +813,8 @@
 				)
 			)
 			(arc
-				(start 1.27 0.0226)
-				(mid 0.635 0.6464)
+				(start -1.27 0.0226)
+				(mid -0.635 0.6464)
 				(end 0 0.0226)
 				(stroke
 					(width 0.254)
@@ -533,9 +825,21 @@
 				)
 			)
 			(arc
-				(start 2.54 0.0113)
+				(start 0 0.0226)
+				(mid 0.635 0.6464)
+				(end 1.27 0.0226)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 1.27 0.0113)
 				(mid 1.905 0.6351)
-				(end 1.27 0.0113)
+				(end 2.54 0.0113)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -581,5 +885,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
