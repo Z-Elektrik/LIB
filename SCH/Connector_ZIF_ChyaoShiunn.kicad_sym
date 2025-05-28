@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "IDC_2x5 Pin, RM2.54mm, With LongLatch"
+	(symbol "ZIF_1x8_Pin,_1.00mm,_JS-1157U-08"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -11,32 +11,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 8.89 0)
+			(at 7.62 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "IDC_2x5 Pin"
-			(at 0 -8.89 0)
+		(property "Value" "ZIF 1x8 Pin, 1mm"
+			(at 15.24 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "THD_Connector_IDC_Generic:HDRV10W64P254H2800_2X5_LongLatches-DIN41651"
-			(at -1.27 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/a911e76bcf9b13f23ffda9abd299f5e3/DS1011.pdf"
-			(at 0 13.97 0)
+		(property "Footprint" "SMD_Connector_ChyaoShiunn:JS-1157U-08_CS"
+			(at -1.27 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,8 +35,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Header"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.amphenol-cs.com/product/f52q1a7h111008.html"
+			(at 0 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53,8 +44,8 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "THD"
-			(at 0 24.13 0)
+		(property "Description" "ZIF Flex Connector, Slider type, 8 pin, Pitch:1.0mm, H:2.0mm, horizontal, SMD"
+			(at 1.27 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62,8 +53,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Connfly"
-			(at 0 19.05 0)
+		(property "Technology" "SMD"
+			(at 0 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,8 +62,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DS1011-10SBSIB7-B"
-			(at 0 16.51 0)
+		(property "MFG" "Chyao Shiunn"
+			(at 0 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JS-1157U-08"
+			(at 0 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -90,7 +90,7 @@
 			)
 		)
 		(property "OC_LCSC" ""
-			(at -1.27 -1.27 0)
+			(at 0 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -99,7 +99,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at -1.27 -1.27 0)
+			(at 0 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -125,8 +125,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "AWP-10P"
-			(at 0 21.59 0)
+		(property "OC_TME" ""
+			(at 0 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +135,7 @@
 			)
 		)
 		(property "OC_FARNELL" ""
-			(at -1.27 -1.27 0)
+			(at 0 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,7 +144,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" ""
-			(at -1.27 -1.27 0)
+			(at 0 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,8 +152,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" ""
-			(at -1.27 -1.27 0)
+		(property "OC_SOS" "64824"
+			(at 0 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,7 +179,16 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "5774"
+			(at 0 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "CON8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -188,28 +197,10 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "CON10"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "HDRV*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "IDC_2x5 Pin, RM2.54mm, With LongLatch_1_0"
+		(symbol "ZIF_1x8_Pin,_1.00mm,_JS-1157U-08_1_0"
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -1.27 5.08)
+					(xy -2.54 7.62) (xy 0 7.62)
 				)
 				(stroke
 					(width 0)
@@ -221,7 +212,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -1.27 2.54)
+					(xy -2.54 5.08) (xy 0 5.08)
 				)
 				(stroke
 					(width 0)
@@ -233,7 +224,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 0) (xy -1.27 0)
+					(xy -2.54 2.54) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -245,7 +236,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy -1.27 -2.54)
+					(xy -2.54 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -257,7 +248,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -5.08) (xy -1.27 -5.08)
+					(xy -2.54 -2.54) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -269,7 +260,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 5.08) (xy 1.27 5.08)
+					(xy -2.54 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -281,7 +272,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 1.27 2.54)
+					(xy -2.54 -7.62) (xy 0 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -293,31 +284,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -2.54) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy -2.54 -10.16) (xy 0 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -328,22 +295,10 @@
 				)
 			)
 		)
-		(symbol "IDC_2x5 Pin, RM2.54mm, With LongLatch_1_1"
+		(symbol "ZIF_1x8_Pin,_1.00mm,_JS-1157U-08_1_1"
 			(rectangle
-				(start -3.175 6.985)
-				(end 3.175 -6.985)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -3.175 1.27) (xy -2.54 1.27) (xy -2.54 -1.27) (xy -3.175 -1.27)
-				)
+				(start -1.905 10.16)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -353,8 +308,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 4.445)
-				(end -0.635 5.715)
+				(start -0.635 8.255)
+				(end 5.08 6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -364,8 +319,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 1.905)
-				(end -0.635 3.175)
+				(start -0.635 5.715)
+				(end 5.08 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -375,8 +330,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 -0.635)
-				(end -0.635 0.635)
+				(start -0.635 3.175)
+				(end 5.08 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -386,8 +341,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 -3.175)
-				(end -0.635 -1.905)
+				(start -0.635 0.635)
+				(end 5.08 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -397,8 +352,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 -5.715)
-				(end -0.635 -4.445)
+				(start -0.635 -1.905)
+				(end 5.08 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -408,8 +363,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 5.715)
-				(end 1.905 4.445)
+				(start -0.635 -4.445)
+				(end 5.08 -5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -419,8 +374,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 3.175)
-				(end 1.905 1.905)
+				(start -0.635 -6.985)
+				(end 5.08 -8.255)
 				(stroke
 					(width 0)
 					(type default)
@@ -430,30 +385,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 0.635)
-				(end 1.905 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 0.635 -1.905)
-				(end 1.905 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start 0.635 -4.445)
-				(end 1.905 -5.715)
+				(start -0.635 -9.525)
+				(end 5.08 -10.795)
 				(stroke
 					(width 0)
 					(type default)
@@ -463,7 +396,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 5.08 0)
+				(at -7.62 7.62 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -473,6 +406,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 5.08 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -501,78 +452,6 @@
 			(pin passive line
 				(at -7.62 0 0)
 				(length 5.08)
-				(name "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 5.08)
-				(name "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -5.08 0)
-				(length 5.08)
-				(name "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 5.08 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 5.08)
 				(name "4"
 					(effects
 						(font
@@ -589,7 +468,25 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -607,7 +504,25 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -2.54 180)
+				(at -7.62 -7.62 0)
+				(length 5.08)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -10.16 0)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -625,16 +540,34 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
-				(length 5.08)
-				(name "10"
+				(at 0 12.7 270)
+				(length 2.54)
+				(name "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -15.24 90)
+				(length 2.54)
+				(name "SH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "SH"
 					(effects
 						(font
 							(size 1.27 1.27)
