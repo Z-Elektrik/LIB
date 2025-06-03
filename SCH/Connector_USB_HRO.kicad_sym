@@ -462,42 +462,6 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 25.4 180)
-				(length 7.62)
-				(name "CC1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 17.78 22.86 180)
-				(length 7.62)
-				(name "CC2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
 				(at 17.78 17.78 180)
 				(length 7.62)
 				(name "D-"
@@ -570,7 +534,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -17.78 180)
+				(at 17.78 -15.24 180)
 				(length 7.62)
 				(name "SBU1"
 					(effects
@@ -588,7 +552,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -20.32 180)
+				(at 17.78 -17.78 180)
 				(length 7.62)
 				(name "SBU2"
 					(effects
@@ -605,8 +569,44 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
+				(at 17.78 -22.86 180)
+				(length 7.62)
+				(name "CC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 17.78 -25.4 180)
+				(length 7.62)
+				(name "CC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -27.94 180)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -624,7 +624,7 @@
 				)
 			)
 			(pin passive line
-				(at 17.78 -27.94 180)
+				(at 17.78 -30.48 180)
 				(length 7.62)
 				(name "GND"
 					(effects
