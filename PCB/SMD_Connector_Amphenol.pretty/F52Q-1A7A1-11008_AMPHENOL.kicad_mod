@@ -506,26 +506,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "61ec792c-e3b5-45dc-93a3-aa7e9c1233c8")
 	)
-	(pad "SH" smd custom
-		(at -6.25 -1.875)
-		(size 0.5 0.5)
-		(layers "F.Cu")
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy -1.05 -0.975) (xy -1.05 0.625) (xy -0.25 0.625) (xy -0.25 0.975) (xy 1.05 0.975) (xy 1.05 -0.975)
-				)
-				(width 0.01)
-				(fill yes)
-			)
-		)
-		(uuid "37039d68-5f8e-4612-b76b-2f8d633c5d29")
-	)
-	(pad "SH" smd custom
+	(pad "9" smd custom
 		(at 6.25 -1.875)
 		(size 0.5 0.5)
 		(layers "F.Cu")
@@ -543,6 +524,25 @@
 			)
 		)
 		(uuid "aff41cbd-0030-4af1-a6b5-17f04650432e")
+	)
+	(pad "10" smd custom
+		(at -6.25 -1.875)
+		(size 0.5 0.5)
+		(layers "F.Cu")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.05 -0.975) (xy -1.05 0.625) (xy -0.25 0.625) (xy -0.25 0.975) (xy 1.05 0.975) (xy 1.05 -0.975)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "37039d68-5f8e-4612-b76b-2f8d633c5d29")
 	)
 	(embedded_fonts no)
 	(embedded_files
