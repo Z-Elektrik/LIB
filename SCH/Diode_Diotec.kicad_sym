@@ -1,16 +1,20 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "1N4148"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +22,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Small Signal, THD DO-35, Vrrm: 100V, If: 200mA, Ir<25nA, Vf<1.0V @10mA "
+		(property "Description" "Diode Small Signal, THD DO-35, Vrrm: 100V, If: 200mA, Ir<25nA, Vf<1.0V @10mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -98,7 +102,7 @@
 			)
 		)
 		(property "OC_MOUSER" "1N4148"
-			(at 0 -5.08 0)
+			(at 1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -208,7 +212,7 @@
 		(symbol "1N4148_0_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -222,7 +226,7 @@
 		(symbol "1N4148_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -234,7 +238,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -247,7 +251,7 @@
 		)
 		(symbol "1N4148_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -265,7 +269,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -283,16 +287,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAS70-06"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +309,7 @@
 			)
 		)
 		(property "Value" "BAS70-06"
-			(at 0 -7.62 0)
+			(at 1.27 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -325,7 +334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Schottky Dual Common Anode, SOT-23, Vrrm: 70V, If: 70mA, Ir=100nA, Vf=1.0V @15mA "
+		(property "Description" "Diode Schottky Dual Common Anode, SOT-23, Vrrm: 70V, If: 70mA, Ir=100nA, Vf=1.0V @15mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -335,7 +344,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,7 +353,7 @@
 			)
 		)
 		(property "MFG" "Diotec Semiconductor"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -353,7 +362,7 @@
 			)
 		)
 		(property "MPN" "BAS70-06"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -362,7 +371,7 @@
 			)
 		)
 		(property "Device_Marking" "76"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +416,7 @@
 			)
 		)
 		(property "OC_TME" "BAS70-06-DIO"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +452,7 @@
 			)
 		)
 		(property "Z-SYSCODE" "11604"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -490,7 +499,7 @@
 		(symbol "BAS70-06_0_0"
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy 1.27 -5.08)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -502,7 +511,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy 0 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -514,7 +523,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy 3.81 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -526,7 +535,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 3.81 0) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -538,7 +547,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -5.08)
+					(xy 3.81 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -552,7 +561,7 @@
 		(symbol "BAS70-06_0_1"
 			(polyline
 				(pts
-					(xy -1.524 -3.81) (xy -1.27 -3.81)
+					(xy -0.254 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -564,7 +573,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 1.27) (xy -1.27 1.27)
+					(xy -0.254 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -576,7 +585,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -1.016 -6.35)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -588,7 +597,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -6.35)
+					(xy 0 -1.27) (xy 0.254 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -600,7 +609,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy 0 -3.81) (xy 0 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -612,7 +621,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 -6.35) (xy 0.254 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -624,7 +633,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -636,7 +645,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 2.54 -3.81) (xy 2.54 -6.35) (xy 0 -5.08) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -649,7 +658,7 @@
 		)
 		(symbol "BAS70-06_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "C1"
 					(effects
@@ -667,7 +676,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 0)
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "C2"
 					(effects
@@ -685,7 +694,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 1.27)
 				(name "CA"
 					(effects
@@ -703,16 +712,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT54A"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +734,7 @@
 			)
 		)
 		(property "Value" "BAT54A"
-			(at 0 -7.62 0)
+			(at 1.27 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -745,7 +759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Schottky Dual Common Anode, SOT-23, Vrrm: 30V, If: 200mA, Ir=200nA, Vf=0.4V @10mA "
+		(property "Description" "Diode Schottky Dual Common Anode, SOT-23, Vrrm: 30V, If: 200mA, Ir=200nA, Vf=0.4V @10mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -755,7 +769,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -764,7 +778,7 @@
 			)
 		)
 		(property "MFG" "Diotec Semiconductor"
-			(at 0 4.953 0)
+			(at 1.27 4.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -773,7 +787,7 @@
 			)
 		)
 		(property "MPN" "BAT54A"
-			(at 0 4.953 0)
+			(at 1.27 4.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +796,7 @@
 			)
 		)
 		(property "Device_Marking" "L42"
-			(at 0 0 0)
+			(at 1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +841,7 @@
 			)
 		)
 		(property "OC_TME" "BAT54A-DIO"
-			(at 0 4.953 0)
+			(at 1.27 4.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -910,7 +924,7 @@
 		(symbol "BAT54A_0_0"
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy 1.27 -5.08)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -922,7 +936,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy 0 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -934,7 +948,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy 3.81 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -946,7 +960,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 3.81 0) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -958,7 +972,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -5.08)
+					(xy 3.81 -5.08) (xy 2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -972,7 +986,7 @@
 		(symbol "BAT54A_0_1"
 			(polyline
 				(pts
-					(xy -1.524 -3.81) (xy -1.27 -3.81)
+					(xy -0.254 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -984,7 +998,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 1.27) (xy -1.27 1.27)
+					(xy -0.254 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -996,7 +1010,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -1.016 -6.35)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1008,7 +1022,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -6.35)
+					(xy 0 -1.27) (xy 0.254 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1020,7 +1034,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy 0 -3.81) (xy 0 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -1032,7 +1046,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 -6.35) (xy 0.254 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -1044,7 +1058,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1056,7 +1070,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 2.54 -3.81) (xy 2.54 -6.35) (xy 0 -5.08) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1069,7 +1083,7 @@
 		)
 		(symbol "BAT54A_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "C1"
 					(effects
@@ -1087,7 +1101,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 0)
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "C2"
 					(effects
@@ -1105,7 +1119,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 180)
+				(at 5.08 -2.54 180)
 				(length 1.27)
 				(name "A"
 					(effects
@@ -1123,16 +1137,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "BAT54C"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1159,7 @@
 			)
 		)
 		(property "Value" "BAT54C"
-			(at 0 -7.62 0)
+			(at -1.27 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Schottky Dual Common Cathode, SOT-23, Vrrm: 30V, If: 200mA, Ir=200nA, Vf=0.4V @10mA "
+		(property "Description" "Diode Schottky Dual Common Cathode, SOT-23, Vrrm: 30V, If: 200mA, Ir=200nA, Vf=0.4V @10mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1175,7 +1194,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1184,7 +1203,7 @@
 			)
 		)
 		(property "MFG" "Diotec Semiconductor"
-			(at 0 4.953 0)
+			(at 1.27 4.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1212,7 @@
 			)
 		)
 		(property "MPN" "BAT54C"
-			(at 0 4.953 0)
+			(at 1.27 4.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1221,7 @@
 			)
 		)
 		(property "Device_Marking" "L43"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1266,7 @@
 			)
 		)
 		(property "OC_TME" "BAT54C-DIO"
-			(at 0 4.953 0)
+			(at 1.27 4.953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +1302,7 @@
 			)
 		)
 		(property "Z-SYSCODE" "5487"
-			(at 0 0 0)
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1330,7 +1349,7 @@
 		(symbol "BAT54C_0_0"
 			(polyline
 				(pts
-					(xy 1.27 -5.08) (xy -1.27 -5.08)
+					(xy 0 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1342,7 +1361,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 0 -5.08) (xy -2.54 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1354,7 +1373,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy 1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1366,7 +1385,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 1.27 0) (xy 1.27 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1378,7 +1397,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -5.08)
+					(xy 1.27 -5.08) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0.1524)
@@ -1392,7 +1411,7 @@
 		(symbol "BAT54C_0_1"
 			(polyline
 				(pts
-					(xy 1.27 -6.35) (xy 1.016 -6.35)
+					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1404,7 +1423,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -3.81) (xy 1.27 -6.35)
+					(xy -2.54 -3.81) (xy -2.54 -6.35) (xy 0 -5.08) (xy -2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1416,7 +1435,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.016 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1428,7 +1447,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
+					(xy 0 -1.27) (xy -0.254 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1440,7 +1459,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 -3.81) (xy 1.27 -3.81)
+					(xy 0 -3.81) (xy 0 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -1452,7 +1471,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 1.27) (xy 1.27 1.27)
+					(xy 0 -6.35) (xy -0.254 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -1464,7 +1483,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -6.35) (xy 1.27 -5.08) (xy -1.27 -3.81)
+					(xy 0.254 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1476,7 +1495,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					(xy 0.254 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1489,7 +1508,7 @@
 		)
 		(symbol "BAT54C_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "A1"
 					(effects
@@ -1507,7 +1526,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 0)
+				(at -5.08 -5.08 0)
 				(length 2.54)
 				(name "A2"
 					(effects
@@ -1525,7 +1544,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 180)
+				(at 2.54 -2.54 180)
 				(length 1.27)
 				(name "C"
 					(effects
@@ -1543,16 +1562,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SK25, Schottky barrier rectifier diode, 50V, 2A, SMD, Diotec"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1560,7 +1584,7 @@
 			)
 		)
 		(property "Value" "SK25"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1640,7 +1664,7 @@
 			)
 		)
 		(property "OC_MOUSER" "637-SK25"
-			(at 0 -5.08 0)
+			(at -1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1709,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" "4878-SK25-ND"
-			(at 0 -5.08 0)
+			(at -1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1718,7 @@
 			)
 		)
 		(property "OC_SOS" "50909"
-			(at 0 -5.08 0)
+			(at -1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1774,7 @@
 		(symbol "SK25, Schottky barrier rectifier diode, 50V, 2A, SMD, Diotec_0_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1764,7 +1788,7 @@
 		(symbol "SK25, Schottky barrier rectifier diode, 50V, 2A, SMD, Diotec_0_1"
 			(polyline
 				(pts
-					(xy -1.524 1.27) (xy -1.27 1.27)
+					(xy -0.254 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1776,7 +1800,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1788,7 +1812,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 -1.27) (xy 0.254 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1800,7 +1824,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1813,7 +1837,7 @@
 		)
 		(symbol "SK25, Schottky barrier rectifier diode, 50V, 2A, SMD, Diotec_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -1831,7 +1855,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -1849,16 +1873,21 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "SK35, Schottky barrier rectifier diode, 50V, 3A, SMD, Diotec"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1895,7 @@
 			)
 		)
 		(property "Value" "SK35"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,7 +1975,7 @@
 			)
 		)
 		(property "OC_MOUSER" "637-SK35"
-			(at 0 -5.08 0)
+			(at -1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2000,7 +2029,7 @@
 			)
 		)
 		(property "OC_SOS" "296742"
-			(at 0 -5.08 0)
+			(at -1.27 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2085,7 @@
 		(symbol "SK35, Schottky barrier rectifier diode, 50V, 3A, SMD, Diotec_0_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -2070,7 +2099,7 @@
 		(symbol "SK35, Schottky barrier rectifier diode, 50V, 3A, SMD, Diotec_0_1"
 			(polyline
 				(pts
-					(xy -1.524 1.27) (xy -1.27 1.27)
+					(xy -0.254 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2082,7 +2111,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2094,7 +2123,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 -1.27) (xy 0.254 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2106,7 +2135,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2119,7 +2148,7 @@
 		)
 		(symbol "SK35, Schottky barrier rectifier diode, 50V, 3A, SMD, Diotec_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -2137,7 +2166,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -2155,16 +2184,954 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "SMS290"
-		(pin_numbers hide)
+	(symbol "SM5817, Schottky barrier rectifier diode, 20V, 1A, SMD, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM5817"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Semiconductor_Generic:DIOMELF5025N_DO213AB_MELF"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3679d5d170502be32d192cd5d52751ab/sk22.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Schottky, DO-213AB/MELF, Vrrm: 20V, If: 1A, Ir<1mA, Vf<0.75V @3A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Diotec Semiconductor"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM5817"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3757555"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "637-SM5817"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "SM5817-DIO"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "4878-SM5817-ND"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "296797"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" ""
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIOM5539X261*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SM5817, Schottky barrier rectifier diode, 20V, 1A, SMD, Diotec_0_0"
+			(polyline
+				(pts
+					(xy 0 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SM5817, Schottky barrier rectifier diode, 20V, 1A, SMD, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -0.254 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.254 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SM5817, Schottky barrier rectifier diode, 20V, 1A, SMD, Diotec_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SM5818, Schottky barrier rectifier diode, 30V, 1A, SMD, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM5818"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Semiconductor_Generic:DIOMELF5025N_DO213AB_MELF"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3679d5d170502be32d192cd5d52751ab/sk22.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Schottky, DO-213AB/MELF, Vrrm: 30V, If: 1A, Ir<1mA, Vf<0.875V @3A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Diotec Semiconductor"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM5818"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3758086"
+			(at -1.27 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "637-SM5818"
+			(at -1.27 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "SM5818-DIO"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "4878-SM5818CT-ND"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "296798"
+			(at -1.27 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" ""
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIOM5539X261*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SM5818, Schottky barrier rectifier diode, 30V, 1A, SMD, Diotec_0_0"
+			(polyline
+				(pts
+					(xy 0 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SM5818, Schottky barrier rectifier diode, 30V, 1A, SMD, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -0.254 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.254 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SM5818, Schottky barrier rectifier diode, 30V, 1A, SMD, Diotec_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SM5819, Schottky barrier rectifier diode, 40V, 1A, SMD, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM5819"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Semiconductor_Generic:DIOMELF5025N_DO213AB_MELF"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/3679d5d170502be32d192cd5d52751ab/sk22.pdf"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode Schottky, DO-213AB/MELF, Vrrm: 40V, If: 1A, Ir<1mA, Vf<0.9V @3A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Diotec Semiconductor"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SM5819"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C3758931"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "637-SM5819"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "SM5819-DIO"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "4878-SM5819CT-ND"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "50338"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "10106"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "D"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIOM5539X261*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SM5819, Schottky barrier rectifier diode, 40V, 1A, SMD, Diotec_0_0"
+			(polyline
+				(pts
+					(xy 0 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SM5819, Schottky barrier rectifier diode, 40V, 1A, SMD, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -0.254 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.27) (xy 0.254 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SM5819, Schottky barrier rectifier diode, 40V, 1A, SMD, Diotec_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SMS290"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +3139,7 @@
 			)
 		)
 		(property "Value" "SMS290"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2197,7 +3164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode Schottky, DO-213AB/MELF, Vrrm: 90V, If: 2A, Ir<500uA, Vf<0.79V @2A "
+		(property "Description" "Diode Schottky, DO-213AB/MELF, Vrrm: 90V, If: 2A, Ir<500uA, Vf<0.79V @2A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2353,7 +3320,7 @@
 		(symbol "SMS290_0_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy 0 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -2367,7 +3334,7 @@
 		(symbol "SMS290_0_1"
 			(polyline
 				(pts
-					(xy -1.524 1.27) (xy -1.27 1.27)
+					(xy -0.254 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2379,7 +3346,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2391,7 +3358,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 -1.27) (xy 0.254 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2403,7 +3370,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2416,7 +3383,7 @@
 		)
 		(symbol "SMS290_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -2434,7 +3401,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -2452,5 +3419,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
