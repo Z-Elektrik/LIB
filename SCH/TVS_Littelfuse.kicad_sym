@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "10V"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48,7 +48,7 @@
 			)
 		)
 		(property "Description" "TVS diode, Bidirectional, 15V, P6SMB series, 600W"
-			(at 0 0 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -212,7 +212,7 @@
 		(symbol "P6SMB10CA, Bidir, 10V_0_0"
 			(polyline
 				(pts
-					(xy 0 0) (xy -2.54 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -224,7 +224,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 3.81 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -238,7 +238,7 @@
 		(symbol "P6SMB10CA, Bidir, 10V_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -0.254 1.524)
+					(xy 1.27 1.27) (xy 1.016 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -250,7 +250,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -262,7 +262,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -1.524) (xy 0 -1.27)
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -276,7 +276,7 @@
 		(symbol "P6SMB10CA, Bidir, 10V_1_1"
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -288,7 +288,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -299,7 +299,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "AC2"
 					(effects
@@ -317,7 +317,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "AC1"
 					(effects
@@ -349,7 +349,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -357,7 +357,7 @@
 			)
 		)
 		(property "Value" "15V"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -383,7 +383,7 @@
 			)
 		)
 		(property "Description" "TVS diode, Bidirectional, 15V, P6SMB series, 600W"
-			(at 0 0 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +535,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -547,7 +547,7 @@
 		(symbol "P6SMB15CA, Bidir, 15V_0_0"
 			(polyline
 				(pts
-					(xy 0 0) (xy -2.54 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -559,7 +559,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 3.81 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -573,7 +573,7 @@
 		(symbol "P6SMB15CA, Bidir, 15V_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -0.254 1.524)
+					(xy 1.27 1.27) (xy 1.016 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -585,7 +585,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -597,7 +597,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -1.524) (xy 0 -1.27)
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -611,7 +611,7 @@
 		(symbol "P6SMB15CA, Bidir, 15V_1_1"
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -623,7 +623,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -634,7 +634,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "AC2"
 					(effects
@@ -652,7 +652,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "AC1"
 					(effects
@@ -684,7 +684,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +692,7 @@
 			)
 		)
 		(property "Value" "18V"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -718,7 +718,7 @@
 			)
 		)
 		(property "Description" "TVS diode, Bidirectional, 18V, P6SMB series, 600W"
-			(at 0 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -870,7 +870,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -882,7 +882,7 @@
 		(symbol "P6SMB18CA, Bidir, 18V_0_0"
 			(polyline
 				(pts
-					(xy 0 0) (xy -2.54 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -894,7 +894,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 3.81 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -908,7 +908,7 @@
 		(symbol "P6SMB18CA, Bidir, 18V_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -0.254 1.524)
+					(xy 1.27 1.27) (xy 1.016 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -920,7 +920,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -932,7 +932,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -1.524) (xy 0 -1.27)
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -946,7 +946,7 @@
 		(symbol "P6SMB18CA, Bidir, 18V_1_1"
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -958,7 +958,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -969,7 +969,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "AC2"
 					(effects
@@ -987,7 +987,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "AC1"
 					(effects
@@ -1019,7 +1019,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1027,7 @@
 			)
 		)
 		(property "Value" "27V"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1098,7 @@
 			)
 		)
 		(property "OC_LCSC" "C130399"
-			(at -1.27 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,7 +1152,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" "P6SMB27ALFCT-ND"
-			(at -1.27 0 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1205,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1217,7 +1217,7 @@
 		(symbol "P6SMB27A, Unidir, 27V_0_0"
 			(polyline
 				(pts
-					(xy 0 0) (xy -2.54 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1229,7 +1229,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 3.81 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1243,7 +1243,7 @@
 		(symbol "P6SMB27A, Unidir, 27V_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.524 1.524)
+					(xy 0 1.27) (xy -0.254 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -1255,7 +1255,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1267,7 +1267,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.016 -1.524) (xy -1.27 -1.27)
+					(xy 0.254 -1.524) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1281,7 +1281,7 @@
 		(symbol "P6SMB27A, Unidir, 27V_1_1"
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1292,7 +1292,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "C"
 					(effects
@@ -1310,7 +1310,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "A"
 					(effects
@@ -1320,6 +1320,341 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "P6SMB33CA, Bidir, 33V"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TVS"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33V"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Semiconductor_Generic:DIOM5539X261N_DO214AA_SMB-J"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/4061842c44355fc11a7130718c2b3fa5/P6SMB_ser.pdf"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS diode, Bidirectional, 33V, P6SMB series, 600W"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Littelfuse"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" "33C"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C409414"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "576-P6SMB33CA"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "P6SMB33CA-LF"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "1886335"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "P6SMB33CALFCT-ND"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at -1.27 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "3479"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "TVS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "P6SMB33CA, Bidir, 33V_0_0"
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "P6SMB33CA, Bidir, 33V_0_1"
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.016 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "P6SMB33CA, Bidir, 33V_1_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.27)
+				(name "AC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "AC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1342,7 +1677,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1685,7 @@
 			)
 		)
 		(property "Value" "6V8"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1711,7 @@
 			)
 		)
 		(property "Description" "TVS diode, Bidirectional, 6.8V, P6SMB series, 600W"
-			(at 0 0 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1863,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM5539X261?_DO214AA_SMB-J*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1540,7 +1875,7 @@
 		(symbol "P6SMB6.8CA, Bidir, 6.8V_0_0"
 			(polyline
 				(pts
-					(xy 0 0) (xy -2.54 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1552,7 +1887,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 3.81 0) (xy 1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1566,7 +1901,7 @@
 		(symbol "P6SMB6.8CA, Bidir, 6.8V_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy -0.254 1.524)
+					(xy 1.27 1.27) (xy 1.016 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -1578,7 +1913,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1590,7 +1925,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 -1.524) (xy 0 -1.27)
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1604,7 +1939,7 @@
 		(symbol "P6SMB6.8CA, Bidir, 6.8V_1_1"
 			(polyline
 				(pts
-					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1616,7 +1951,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1627,7 +1962,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "AC2"
 					(effects
@@ -1645,7 +1980,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "AC1"
 					(effects
