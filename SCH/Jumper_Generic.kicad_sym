@@ -1,15 +1,19 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "JUMPER_2P_1X2_1ROW_2.54X8.89_V_GENERIC"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "Jumper Shunt, Black, 2.00mm, Open, Generic"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "JP"
+		(on_board no)
+		(property "Reference" "MP"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -17,270 +21,8 @@
 				)
 			)
 		)
-		(property "Value" "Jump 1x2p"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "THD_Jumper_Generic:HDRV2W64P254H0_1X2_PADC+R_140_140H90"
-			(at 3.302 11.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper 2P, 1x2 pin (Row X pins in Row), Generic"
+		(property "Value" "J-Shunt"
 			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "THD"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Generic"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Device_Marking" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Z-SYSCODE" ""
-			(at 0 -10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "JUMPER_2P_1X2_1ROW_2.54X8.89_V_GENERIC_1_1"
-			(circle
-				(center -1.27 0)
-				(radius 0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 0)
-				(radius 0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "1"
-				(at -1.27 1.905 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(text "2"
-				(at 1.27 1.905 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.905)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol "JUMPER_3P_1X3_1ROW_2.54X8.89_V_GENERIC"
-		(pin_numbers hide)
-		(pin_names
-			(offset 1.016) hide)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "JP"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jump 1x3p"
-			(at 6.35 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -297,7 +39,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -305,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper 3P, 1x3 pin (Row X pins in Row), Generic"
+		(property "Description" "Jumper Shunt, Black, 2.00mm, Open, Generic"
 			(at 0 0 0)
 			(effects
 				(font
@@ -314,7 +56,7 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "THD"
+		(property "Technology" "Mechanical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -324,7 +66,7 @@
 			)
 		)
 		(property "MFG" "Generic"
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,7 +75,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -342,7 +84,7 @@
 			)
 		)
 		(property "Device_Marking" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -351,7 +93,7 @@
 			)
 		)
 		(property "OC_LCSC" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -360,7 +102,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -369,7 +111,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +120,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +129,7 @@
 			)
 		)
 		(property "OC_TME" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -396,7 +138,7 @@
 			)
 		)
 		(property "OC_FARNELL" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -405,7 +147,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +156,7 @@
 			)
 		)
 		(property "OC_SOS" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -422,7 +164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+		(property "Assembly_Note" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -432,7 +174,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "3660"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -449,7 +191,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "*SAMTEC-FTSH-105-01-L-DV*"
+		(property "ki_keywords" "JUMP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -458,48 +200,1339 @@
 				(hide yes)
 			)
 		)
-		(symbol "JUMPER_3P_1X3_1ROW_2.54X8.89_V_GENERIC_1_1"
-			(circle
-				(center -2.54 0)
-				(radius 0.635)
+		(symbol "Jumper Shunt, Black, 2.00mm, Open, Generic_0_1"
+			(arc
+				(start -0.9525 1.27)
+				(mid 0 2.2225)
+				(end 0.9525 1.27)
 				(stroke
 					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper Shunt, Black, 2.54mm, Closed, Ninigi"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "MP"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J-Shunt"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d9e6fb6fc4dc34d59ba745016c42e7c7/jumper.pdf"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Shunt, Black, 2.54mm, Closed, H:6.47mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Mechanical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Ninigi"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "JUMPER-B-Z"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1857"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "JUMP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper Shunt, Black, 2.54mm, Closed, Ninigi_0_1"
+			(arc
+				(start -0.9525 1.27)
+				(mid 0 2.2225)
+				(end 0.9525 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper Shunt, Black, 2.54mm, Open, Generic"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "MP"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J-Shunt"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Shunt, Black, 2.54mm, Open, H:6mm, Generic"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Mechanical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "11264"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "6952"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "JUMP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper Shunt, Black, 2.54mm, Open, Generic_0_1"
+			(arc
+				(start -0.9525 1.27)
+				(mid 0 2.2225)
+				(end 0.9525 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper Shunt, Black, 2.54mm, Open, Ninigi"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "MP"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J-Shunt"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d9e6fb6fc4dc34d59ba745016c42e7c7/jumper.pdf"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Shunt, Black, 2.54mm, Open, H:5.97mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Mechanical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Ninigi"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "JUMPER-B"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "7636"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "JUMP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper Shunt, Black, 2.54mm, Open, Ninigi_0_1"
+			(arc
+				(start -0.9525 1.27)
+				(mid 0 2.2225)
+				(end 0.9525 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper Shunt, Black, 2.54mm, Open, With Handle, Ninigi"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "MP"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J-Shunt"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d9e6fb6fc4dc34d59ba745016c42e7c7/jumper.pdf"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Shunt, Black, Open, With Handle, H:13.7mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Mechanical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Ninigi"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "JUMPER-H/B"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "5753"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "JUMP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper Shunt, Black, 2.54mm, Open, With Handle, Ninigi_0_1"
+			(arc
+				(start -0.9525 1.27)
+				(mid 0 2.2225)
+				(end 0.9525 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper Shunt, Red, 2.54mm, Open, Ninigi"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "MP"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "J-Shunt"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/d9e6fb6fc4dc34d59ba745016c42e7c7/jumper.pdf"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper Shunt, Red, 2.54mm, Open, H:5.9mm"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Mechanical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Ninigi"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "JUMPER-H/B"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "10341"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "JUMP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper Shunt, Red, 2.54mm, Open, Ninigi_0_1"
+			(arc
+				(start -0.9525 1.27)
+				(mid 0 2.2225)
+				(end 0.9525 1.27)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 194 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper Solder 1x3, 2.54"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 1x3"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SMD_Jumper_Generic:JUMP_SMD_1x3_R700_1300R0"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 1x3, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "Graphical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Prepojka sa realizuje prespajkovanim"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "JUMP_SMD_1x3_R*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper Solder 1x3, 2.54_0_1"
+			(rectangle
+				(start -3.175 0.635)
+				(end -1.905 -0.635)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 0 0)
-				(radius 0.635)
+			(rectangle
+				(start -0.635 0.635)
+				(end 0.635 -0.635)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 2.54 0)
-				(radius 0.635)
+			(rectangle
+				(start 3.175 0.635)
+				(end 1.905 -0.635)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(text "1"
-				(at -3.81 1.27 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
+		)
+		(symbol "Jumper Solder 1x3, 2.54_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 1.905)
@@ -555,31 +1588,34 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "JUMPER_6P_2X3_2ROW_2.54X8.89_V_GENERIC"
-		(pin_numbers hide)
+	(symbol "Jumper pinheader 1x1, 2.54, H{colon}9.50, vertical"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 6.35 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jump 2x3p"
+		(property "Value" "Jump 1x1"
 			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "THD_Jumper_Generic:HDRV6W64P254H0_2X3_PADC+R_140_140H90"
+		(property "Footprint" "THD_Header_TEConn:HDRV1W64P254H950N_1X1_PADC+R_140_140H90_MALE"
 			(at 3.302 11.938 0)
 			(effects
 				(font
@@ -597,7 +1633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper 6P, 2x3 pin (Row X pins in Row), Generic"
+		(property "Description" "Jumper 1x1, 2.54, H:9.50, vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -607,7 +1643,7 @@
 			)
 		)
 		(property "Technology" "THD"
-			(at 0 -7.62 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +1652,7 @@
 			)
 		)
 		(property "MFG" "Generic"
-			(at 0 -12.7 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +1751,1882 @@
 			)
 		)
 		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
-			(at 0 11.43 0)
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump1"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV1W64P254H950?_1X1_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 1x1, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -0.635 0.635)
+				(end 0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 1x1, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 1x2, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 1x2"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV2W64P254H950N_1X2_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 1x2, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV2W64P254H950?_1X2_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 1x2, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -1.905 0.635)
+				(end -0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 1x2, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 1x3, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at -3.81 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 1x3"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV3W64P254H950N_1X3_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 1x3, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV3W64P254H950?_1X3_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 1x3, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -3.175 0.635)
+				(end -1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.635 0.635)
+				(end 0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.175 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 1x3, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 1.905)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 1x4, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at -5.08 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 1x4"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV4W64P254H950N_1X4_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 1x4, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV4W64P254H950?_1X4_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 1x4, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -4.445 0.635)
+				(end -3.175 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end -0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.905 0.635)
+				(end 0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.445 -0.635)
+				(end 3.175 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 1x4, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -6.35 0 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 -2.54 90)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -2.54 90)
+				(length 1.905)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 0 180)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 1x5, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at -6.35 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 1x5"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV5W64P254H950N_1X5_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 1x5, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump5"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV5W64P254H950?_1X5_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 1x5, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -5.715 0.635)
+				(end -4.445 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -3.175 0.635)
+				(end -1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 0.635)
+				(end -0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.175 -0.635)
+				(end 1.905 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.715 -0.635)
+				(end 4.445 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 1x5, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -7.62 0 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 90)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 1.905)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 90)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 1.905)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 1x6, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at -7.62 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 1x6"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV6W64P254H950N_1X6_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 1x6, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1539"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV6W64P254H950?_1X6_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 1x6, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -6.985 0.635)
+				(end -5.715 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -4.445 0.635)
+				(end -3.175 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.635 0.635)
+				(end -1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 1.905 -0.635)
+				(end 0.635 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 4.445 -0.635)
+				(end 3.175 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 6.985 -0.635)
+				(end 5.715 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 1x6, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -8.89 0 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 90)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 -2.54 90)
+				(length 1.905)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -2.54 90)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -2.54 90)
+				(length 1.905)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 0 180)
+				(length 1.905)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 2x2, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 2x2"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV4W64P254H950N_2X2_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 2x2, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,89 +3652,420 @@
 				(hide yes)
 			)
 		)
-		(symbol "JUMPER_6P_2X3_2ROW_2.54X8.89_V_GENERIC_1_1"
-			(circle
-				(center -1.27 -2.54)
-				(radius 0.635)
+		(property "ki_keywords" "jump4"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV4W64P254H950?_2X2_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 2x2, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -1.905 1.905)
+				(end -0.635 0.635)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center -1.27 0)
-				(radius 0.635)
+			(rectangle
+				(start -1.905 -0.635)
+				(end -0.635 -1.905)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center -1.27 2.54)
-				(radius 0.635)
+			(rectangle
+				(start 0.635 1.905)
+				(end 1.905 0.635)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 1.27 -2.54)
-				(radius 0.635)
+			(rectangle
+				(start 0.635 -0.635)
+				(end 1.905 -1.905)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 1.27 0)
-				(radius 0.635)
-				(stroke
-					(width 0.254)
-					(type default)
+		)
+		(symbol "Jumper pinheader 2x2, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -3.81 1.27 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center 1.27 2.54)
-				(radius 0.635)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(text "1"
-				(at -1.27 4.445 0)
-				(effects
-					(font
-						(size 1 1)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
-			(text "2"
-				(at 1.27 4.445 0)
-				(effects
-					(font
-						(size 1 1)
+			(pin passive line
+				(at -3.81 -1.27 0)
+				(length 1.905)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 1.27 180)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -1.27 180)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 2x3, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 2x3"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV6W64P254H950N_2X3_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 2x3, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1591"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump6"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV6W64P254H950?_2X3_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 2x3, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -1.905 3.175)
+				(end -0.635 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end -0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 -1.905)
+				(end -0.635 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 3.175)
+				(end 1.905 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 -1.905)
+				(end 1.905 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 2x3, 2.54, H{colon}9.50, vertical_1_1"
 			(pin passive line
 				(at -3.81 2.54 0)
 				(length 1.905)
@@ -843,24 +4085,6 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 2.54 180)
-				(length 1.905)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 1.905)
 				(name "3"
@@ -871,24 +4095,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 0 180)
-				(length 1.905)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -915,6 +4121,42 @@
 				)
 			)
 			(pin passive line
+				(at 3.81 2.54 180)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 3.81 -2.54 180)
 				(length 1.905)
 				(name "6"
@@ -933,31 +4175,34 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "JUMPER_SMD_3P_1X3_1ROW_2.54X8.89_V_GENERIC"
-		(pin_numbers hide)
+	(symbol "Jumper pinheader 2x4, 2.54, H{colon}9.50, vertical"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 2.54 0)
+			(at 0 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jump 1x3p"
-			(at 6.35 -2.54 0)
+		(property "Value" "Jump 2x4"
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "SMD_Jumper_Generic:JUMP_SMD_1x3_R700_1300R0"
+		(property "Footprint" "THD_Header_TEConn:HDRV8W64P254H950N_2X4_PADC+R_140_140H90_MALE"
 			(at 3.302 11.938 0)
 			(effects
 				(font
@@ -967,7 +4212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +4220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Jumper SMD 3P, 1x3 pin (Row X pins in Row), Generic"
+		(property "Description" "Jumper 2x4, 2.54, H:9.50, vertical"
 			(at 0 0 0)
 			(effects
 				(font
@@ -984,8 +4229,8 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "Graphical"
-			(at 0 7.62 0)
+		(property "Technology" "THD"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -994,7 +4239,7 @@
 			)
 		)
 		(property "MFG" "Generic"
-			(at 0 10.16 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +4248,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1012,7 +4257,7 @@
 			)
 		)
 		(property "Device_Marking" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +4266,7 @@
 			)
 		)
 		(property "OC_LCSC" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +4275,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1039,7 +4284,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +4293,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +4302,7 @@
 			)
 		)
 		(property "OC_TME" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1066,7 +4311,7 @@
 			)
 		)
 		(property "OC_FARNELL" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1075,7 +4320,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1084,7 +4329,7 @@
 			)
 		)
 		(property "OC_SOS" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,8 +4337,8 @@
 				(hide yes)
 			)
 		)
-		(property "Assembly_Note" "Neosadza sa. Su to plosky na DPS"
-			(at 0 5.08 0)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +4347,7 @@
 			)
 		)
 		(property "Comment" ""
-			(at -1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +4355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "1591"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -1119,50 +4364,117 @@
 				(hide yes)
 			)
 		)
-		(symbol "JUMPER_SMD_3P_1X3_1ROW_2.54X8.89_V_GENERIC_1_1"
-			(circle
-				(center -2.54 0)
-				(radius 0.635)
+		(property "ki_keywords" "jump8"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV8W64P254H950?_2X4_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 2x4, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -1.905 4.445)
+				(end -0.635 3.175)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 0 0)
-				(radius 0.635)
+			(rectangle
+				(start -1.905 1.905)
+				(end -0.635 0.635)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(circle
-				(center 2.54 0)
-				(radius 0.635)
+			(rectangle
+				(start -1.905 -0.635)
+				(end -0.635 -1.905)
 				(stroke
-					(width 0.254)
+					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(text "1"
-				(at -3.81 1.27 0)
-				(effects
-					(font
-						(size 1 1)
-					)
+			(rectangle
+				(start -1.905 -3.175)
+				(end -0.635 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
+			(rectangle
+				(start 0.635 4.445)
+				(end 1.905 3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 1.905)
+				(end 1.905 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 -0.635)
+				(end 1.905 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 -3.175)
+				(end 1.905 -4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 2x4, 2.54, H{colon}9.50, vertical_1_1"
 			(pin passive line
-				(at -5.08 0 0)
+				(at -3.81 3.81 0)
 				(length 1.905)
 				(name "1"
 					(effects
@@ -1180,7 +4492,61 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
+				(at -3.81 1.27 0)
+				(length 1.905)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -1.27 0)
+				(length 1.905)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -3.81 0)
+				(length 1.905)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 3.81 180)
 				(length 1.905)
 				(name "2"
 					(effects
@@ -1198,7 +4564,400 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
+				(at 3.81 1.27 180)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -1.27 180)
+				(length 1.905)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -3.81 180)
+				(length 1.905)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Jumper pinheader 2x5, 2.54, H{colon}9.50, vertical"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jump 2x5"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "THD_Header_TEConn:HDRV10W64P254H950N_2X5_PADC+R_140_140H90_MALE"
+			(at 3.302 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper 2x5, 2.54, H:9.50, vertical"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Generic"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" "Potrebné oddelit príslusný pocet kontaktov z listy."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1591"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "jump10"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "HDRV10W64P254H950?_2X5_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Jumper pinheader 2x5, 2.54, H{colon}9.50, vertical_0_1"
+			(rectangle
+				(start -1.905 5.715)
+				(end -0.635 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 3.175)
+				(end -0.635 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 0.635)
+				(end -0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 -1.905)
+				(end -0.635 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.905 -4.445)
+				(end -0.635 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 5.715)
+				(end 1.905 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 3.175)
+				(end 1.905 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 0.635)
+				(end 1.905 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 -1.905)
+				(end 1.905 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 -4.445)
+				(end 1.905 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Jumper pinheader 2x5, 2.54, H{colon}9.50, vertical_1_1"
+			(pin passive line
+				(at -3.81 5.08 0)
+				(length 1.905)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 2.54 0)
 				(length 1.905)
 				(name "3"
 					(effects
@@ -1215,6 +4974,151 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 1.905)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 1.905)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -5.08 0)
+				(length 1.905)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 5.08 180)
+				(length 1.905)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 2.54 180)
+				(length 1.905)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 1.905)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -2.54 180)
+				(length 1.905)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 -5.08 180)
+				(length 1.905)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )
