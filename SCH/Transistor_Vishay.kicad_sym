@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "SI3421DV-T1-GE3"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "IRFP460, TO247, Vishay"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17,7 +21,492 @@
 				)
 			)
 		)
-		(property "Value" "SI3421DV-T1-GE3"
+		(property "Value" "IRFP460"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "THD_Transistor_Generic:TO-247-3_V_GDS"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/91234/sihfp460.pdf"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Transistor MOSFET N-Channel, 500V, 2mA, 0.27Ω, Vgs(th) 4.0V, TO247"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Vishay"
+			(at 0 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "IRFP460APBF"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C2582"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "844-IRFP460APBF"
+			(at 0 -20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" " 171-16-908"
+			(at 0 14.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "IRFP460APBF"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "8649421"
+			(at 0 -25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "IRFP460APBF-ND"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "8925"
+			(at 0 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1821"
+			(at 0 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 1.27 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "Q"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-247*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IRFP460, TO247, Vishay_0_0"
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy -0.635 1.651)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy -0.635 0.889)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -0.635 0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -0.635 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -0.127 0) (xy 0.635 0) (xy 1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 -0.889)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 -1.651)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 0.381) (xy 3.048 0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 -0.381) (xy 3.048 -0.381) (xy 2.54 0.381) (xy 2.032 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 1.27) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy -0.635 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "IRFP460, TO247, Vishay_0_1"
+			(polyline
+				(pts
+					(xy -2.54 -1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 1.27)
+				(end -1.2065 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0.889 -0.381) (xy 0.889 0.381) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "IRFP460, TO247, Vishay_1_0"
+			(circle
+				(center 0.635 0)
+				(radius 3.175)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "IRFP460, TO247, Vishay_1_1"
+			(pin passive line
+				(at -2.54 -1.27 0)
+				(length 0)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 2.54 180)
+				(length 0)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 180)
+				(length 0)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SI3421DV-T1-GE3, TSOP6, Vishay"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SI3421DV"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -43,7 +532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transistor MOSFET P-Channel, SMD, 30V, 8A, 27mΩ, VGS:3.0V, 1.3W, TSOP-6, Vishay"
+		(property "Description" "Transistor TrenchFET P-Channel, SMD, 30V, 8A, 27mΩ, VGS:3.0V, 1.3W, TSOP-6, Vishay"
 			(at 0 0 0)
 			(effects
 				(font
@@ -70,7 +559,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "IRLML9301TRPBF"
+		(property "MPN" "SI3421DV-T1-GE3"
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -205,46 +694,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SI3421DV-T1-GE3_0_0"
+		(symbol "SI3421DV-T1-GE3, TSOP6, Vishay_0_0"
 			(polyline
 				(pts
-					(xy -0.635 -1.27) (xy -0.635 -1.651)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -1.27) (xy -0.635 -0.889)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy -0.635 -0.381)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy -0.635 0.381)
+					(xy -0.635 1.27) (xy -0.635 1.651)
 				)
 				(stroke
 					(width 0)
@@ -268,7 +721,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 1.27) (xy -0.635 1.651)
+					(xy -0.635 0) (xy -0.635 0.381)
 				)
 				(stroke
 					(width 0)
@@ -280,7 +733,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 -1.27)
+					(xy -0.635 0) (xy -0.635 -0.381)
 				)
 				(stroke
 					(width 0)
@@ -292,7 +745,31 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy -0.635 -1.27)
+					(xy -0.635 0) (xy -0.127 0) (xy 0.635 0) (xy 1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 -0.889)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 -1.651)
 				)
 				(stroke
 					(width 0)
@@ -316,18 +793,6 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 2.54 1.27) (xy 2.54 2.54)
 				)
 				(stroke
@@ -340,7 +805,31 @@
 			)
 			(polyline
 				(pts
-					(xy 3.048 -0.381) (xy 2.032 -0.381)
+					(xy 2.54 1.27) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy -0.635 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -364,7 +853,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 0) (xy -0.127 0) (xy 0.635 0) (xy 1.27 0) (xy 1.27 -1.27)
+					(xy 3.048 -0.381) (xy 2.032 -0.381)
 				)
 				(stroke
 					(width 0)
@@ -375,18 +864,7 @@
 				)
 			)
 		)
-		(symbol "SI3421DV-T1-GE3_0_1"
-			(rectangle
-				(start -1.524 1.27)
-				(end -1.2065 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
+		(symbol "SI3421DV-T1-GE3, TSOP6, Vishay_0_1"
 			(polyline
 				(pts
 					(xy -2.54 -1.27) (xy -1.27 -1.27)
@@ -397,6 +875,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 1.27)
+				(end -1.2065 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -412,7 +901,7 @@
 				)
 			)
 		)
-		(symbol "SI3421DV-T1-GE3_1_0"
+		(symbol "SI3421DV-T1-GE3, TSOP6, Vishay_1_0"
 			(circle
 				(center 0.635 0)
 				(radius 3.175)
@@ -425,7 +914,7 @@
 				)
 			)
 		)
-		(symbol "SI3421DV-T1-GE3_1_1"
+		(symbol "SI3421DV-T1-GE3, TSOP6, Vishay_1_1"
 			(pin passive line
 				(at -2.54 -1.27 0)
 				(length 0)
@@ -437,24 +926,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -2.54 180)
-				(length 0)
-				(name "S"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -480,12 +951,35 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 -2.54 180)
+				(length 0)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "T2N7002BK"
-		(pin_numbers hide)
+	(symbol "SQ4940AEY-T1-GE3, SO8, Vishay"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -497,7 +991,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "SQ4940AEY"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -505,7 +999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Semiconductor_Generic:SOT95P250X110-3N_SOT23-3"
+		(property "Footprint" "SMD_IC_Generic:SOP127P600X175-8N_SO-8_MS-012"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -514,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/b8cc1aa6895e6a60ab2a73784061b767/T2N7002BK.pdf"
+		(property "Datasheet" "https://www.vishay.com/docs/62916/sq4940aey.pdf"
 			(at 0 -10.16 0)
 			(effects
 				(font
@@ -523,7 +1017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Transistor MOSFET N-Channel, SMD, 60V, 400mA, 1.75Ω, Vgs(th) 2.1V"
+		(property "Description" "Transistor TrenchFET N-Channel Dual, 40V, 8A, 29mΩ, Vgs(th) 2.5V, 4W, SO-8, Vishay"
 			(at 0 0 0)
 			(effects
 				(font
@@ -541,7 +1035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Toshiba"
+		(property "MFG" "Vishay"
 			(at 0 -15.24 0)
 			(effects
 				(font
@@ -550,7 +1044,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SQ4940AEY-T1-GE3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -568,7 +1062,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C146372"
+		(property "OC_LCSC" "C727734"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -577,7 +1071,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "757-T2N7002BKLM"
+		(property "OC_MOUSER" "78-SQ4940AEY-T1_GE3"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -586,7 +1080,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" "171-2528"
+		(property "OC_RS" ""
 			(at 0 -27.94 0)
 			(effects
 				(font
@@ -604,7 +1098,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "T2N7002BK"
+		(property "OC_TME" "SQ4940AEY-T1-GE3"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -613,7 +1107,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" "3872309"
+		(property "OC_FARNELL" ""
 			(at 0 -25.4 0)
 			(effects
 				(font
@@ -622,7 +1116,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "T2N7002BKLMCT-ND"
+		(property "OC_DIGIKEY" "SQ4940AEY-T1_GE3CT-ND"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -631,7 +1125,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" "T1110095"
+		(property "OC_SOS" ""
 			(at 0 -22.86 0)
 			(effects
 				(font
@@ -640,7 +1134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "12350"
+		(property "Z-SYSCODE" "6865"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -676,7 +1170,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOT95P250X110-3?_SOT23-3__123*"
+		(property "ki_fp_filters" "SOP127P600X175-8?_*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -685,46 +1179,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "T2N7002BK_0_0"
+		(symbol "SQ4940AEY-T1-GE3, SO8, Vishay_0_0"
 			(polyline
 				(pts
-					(xy -0.635 -1.27) (xy -0.635 -1.651)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -1.27) (xy -0.635 -0.889)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy -0.635 -0.381)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 0) (xy -0.635 0.381)
+					(xy -0.635 1.27) (xy -0.635 1.651)
 				)
 				(stroke
 					(width 0)
@@ -748,7 +1206,55 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 1.27) (xy -0.635 1.651)
+					(xy -0.635 0) (xy -0.635 0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -0.635 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy -0.127 0) (xy 0.635 0) (xy 1.27 0) (xy 1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 -0.889)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy -0.635 -1.651)
 				)
 				(stroke
 					(width 0)
@@ -772,19 +1278,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 -1.27) (xy -0.635 -1.27)
+					(xy 2.032 -0.381) (xy 3.048 -0.381) (xy 2.54 0.381) (xy 2.032 -0.381)
 				)
 				(stroke
 					(width 0)
@@ -808,18 +1302,6 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.54 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 2.54 1.27) (xy 2.54 2.54)
 				)
 				(stroke
@@ -832,7 +1314,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 -0.381) (xy 3.048 -0.381) (xy 2.54 0.381) (xy 2.032 -0.381)
+					(xy 2.54 1.27) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -844,7 +1326,19 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 0) (xy -0.127 0) (xy 0.635 0) (xy 1.27 0) (xy 1.27 -1.27)
+					(xy 2.54 -1.27) (xy -0.635 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -855,18 +1349,7 @@
 				)
 			)
 		)
-		(symbol "T2N7002BK_0_1"
-			(rectangle
-				(start -1.524 1.27)
-				(end -1.2065 -1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
+		(symbol "SQ4940AEY-T1-GE3, SO8, Vishay_0_1"
 			(polyline
 				(pts
 					(xy -2.54 -1.27) (xy -1.27 -1.27)
@@ -877,6 +1360,17 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -1.524 1.27)
+				(end -1.2065 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -892,7 +1386,7 @@
 				)
 			)
 		)
-		(symbol "T2N7002BK_1_0"
+		(symbol "SQ4940AEY-T1-GE3, SO8, Vishay_1_0"
 			(circle
 				(center 0.635 0)
 				(radius 3.175)
@@ -905,29 +1399,11 @@
 				)
 			)
 		)
-		(symbol "T2N7002BK_1_1"
+		(symbol "SQ4940AEY-T1-GE3, SO8, Vishay_1_1"
 			(pin passive line
 				(at -2.54 -1.27 0)
 				(length 0)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -2.54 180)
-				(length 0)
-				(name "S"
+				(name "G1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -945,7 +1421,132 @@
 			(pin passive line
 				(at 2.54 2.54 180)
 				(length 0)
-				(name "D"
+				(hide yes)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 2.54 180)
+				(length 0)
+				(name "D1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 180)
+				(length 0)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SQ4940AEY-T1-GE3, SO8, Vishay_2_0"
+			(circle
+				(center 0.635 0)
+				(radius 3.175)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SQ4940AEY-T1-GE3, SO8, Vishay_2_1"
+			(pin passive line
+				(at -2.54 -1.27 0)
+				(length 0)
+				(name "G2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 2.54 180)
+				(length 0)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 2.54 180)
+				(length 0)
+				(hide yes)
+				(name "D2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 180)
+				(length 0)
+				(name "S2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -961,5 +1562,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

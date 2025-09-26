@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "BC337-16"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "BC337-16, TO92, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -205,7 +209,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "BC337-16_0_1"
+		(symbol "BC337-16, TO92, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -0.9525 1.27)
 				(end -0.635 -1.27)
@@ -230,31 +246,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -0.635 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -0.635 -0.635) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -276,8 +268,20 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "BC337-16_1_0"
+		(symbol "BC337-16, TO92, Diotec_1_0"
 			(circle
 				(center 0 0)
 				(radius 2.8398)
@@ -290,25 +294,7 @@
 				)
 			)
 		)
-		(symbol "BC337-16_1_1"
-			(pin passive line
-				(at 1.27 2.54 180)
-				(length 0)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "BC337-16, TO92, Diotec_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 0)
@@ -320,6 +306,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 180)
+				(length 0)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -346,11 +350,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "BC337-25"
-		(pin_numbers hide)
+	(symbol "BC337-25, TO92, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -550,7 +559,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "BC337-25_0_1"
+		(symbol "BC337-25, TO92, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -0.9525 1.27)
 				(end -0.635 -1.27)
@@ -575,31 +596,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -0.635 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -0.635 -0.635) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -621,8 +618,20 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "BC337-25_1_0"
+		(symbol "BC337-25, TO92, Diotec_1_0"
 			(circle
 				(center 0 0)
 				(radius 2.8398)
@@ -635,25 +644,7 @@
 				)
 			)
 		)
-		(symbol "BC337-25_1_1"
-			(pin passive line
-				(at 1.27 2.54 180)
-				(length 0)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "BC337-25, TO92, Diotec_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 0)
@@ -665,6 +656,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 180)
+				(length 0)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -691,11 +700,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "BC337-40"
-		(pin_numbers hide)
+	(symbol "BC337-40, TO92, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -895,7 +909,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "BC337-40_0_1"
+		(symbol "BC337-40, TO92, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -0.9525 1.27)
 				(end -0.635 -1.27)
@@ -920,31 +946,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -0.635 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -0.635 -0.635) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -966,8 +968,20 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "BC337-40_1_0"
+		(symbol "BC337-40, TO92, Diotec_1_0"
 			(circle
 				(center 0 0)
 				(radius 2.8398)
@@ -980,25 +994,7 @@
 				)
 			)
 		)
-		(symbol "BC337-40_1_1"
-			(pin passive line
-				(at 1.27 2.54 180)
-				(length 0)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "BC337-40, TO92, Diotec_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 0)
@@ -1010,6 +1006,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 180)
+				(length 0)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1036,11 +1050,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "BC546B"
-		(pin_numbers hide)
+	(symbol "BC546B, TO92, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1240,7 +1259,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "BC546B_0_1"
+		(symbol "BC546B, TO92, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -0.9525 1.27)
 				(end -0.635 -1.27)
@@ -1265,31 +1296,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -0.635 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -0.635 -0.635) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -1311,8 +1318,20 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "BC546B_1_0"
+		(symbol "BC546B, TO92, Diotec_1_0"
 			(circle
 				(center 0 0)
 				(radius 2.8398)
@@ -1325,25 +1344,7 @@
 				)
 			)
 		)
-		(symbol "BC546B_1_1"
-			(pin passive line
-				(at 1.27 2.54 180)
-				(length 0)
-				(name "C"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "BC546B, TO92, Diotec_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 0)
@@ -1355,6 +1356,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 2.54 180)
+				(length 0)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1381,11 +1400,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "MPSA92"
-		(pin_numbers hide)
+	(symbol "MPSA92, TO92, Diotec"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1585,7 +1609,19 @@
 				(hide yes)
 			)
 		)
-		(symbol "MPSA92_0_1"
+		(symbol "MPSA92, TO92, Diotec_0_1"
+			(polyline
+				(pts
+					(xy -3.81 0) (xy -0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(rectangle
 				(start -0.9525 1.27)
 				(end -0.635 -1.27)
@@ -1610,31 +1646,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -0.635 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -0.635 -0.635) (xy 1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 2.54) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -1656,8 +1668,20 @@
 					(type outline)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 2.54) (xy -0.635 0.635)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
-		(symbol "MPSA92_1_0"
+		(symbol "MPSA92, TO92, Diotec_1_0"
 			(circle
 				(center 0 0)
 				(radius 2.8398)
@@ -1670,25 +1694,7 @@
 				)
 			)
 		)
-		(symbol "MPSA92_1_1"
-			(pin passive line
-				(at 1.27 -2.54 180)
-				(length 0)
-				(name "E"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
+		(symbol "MPSA92, TO92, Diotec_1_1"
 			(pin passive line
 				(at -3.81 0 0)
 				(length 0)
@@ -1725,6 +1731,25 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 1.27 -2.54 180)
+				(length 0)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )
