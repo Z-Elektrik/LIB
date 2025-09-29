@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "2n2, THD 10.00mm, 400VAC, +/-20% , Y5V"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "2n2, THD 10.00mm, 400VAC, +/-20%, Y5V"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -205,7 +209,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "2n2, THD 10.00mm, 400VAC, +/-20% , Y5V_0_1"
+		(symbol "2n2, THD 10.00mm, 400VAC, +/-20%, Y5V_0_1"
 			(polyline
 				(pts
 					(xy -0.3302 1.27) (xy -0.3302 -1.27)
@@ -231,9 +235,9 @@
 				)
 			)
 		)
-		(symbol "2n2, THD 10.00mm, 400VAC, +/-20% , Y5V_1_1"
+		(symbol "2n2, THD 10.00mm, 400VAC, +/-20%, Y5V_1_1"
 			(pin passive line
-				(at -2.54 0 0)
+				(at -2.54 0 90)
 				(length 2.2098)
 				(name "1"
 					(effects
@@ -269,5 +273,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

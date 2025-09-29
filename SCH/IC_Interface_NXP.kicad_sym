@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "PCA9552BS"
 		(pin_names
 			(offset 1.016)
@@ -229,6 +229,132 @@
 				)
 			)
 			(pin output line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "LED4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "LED5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "LED6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "LED7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "LED8"
@@ -372,53 +498,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 2.54 180)
+			(pin power_in line
+				(at 12.7 20.32 180)
 				(length 2.54)
-				(name "~{RESET}"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "18"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 17.78 0)
-				(length 2.54)
-				(name "LED1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
+				(number "21"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -444,17 +534,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 20.32 180)
+			(pin input line
+				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "VCC"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "21"
+				(number "19"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -516,107 +606,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 15.24 0)
+			(pin input line
+				(at 12.7 2.54 180)
 				(length 2.54)
-				(name "LED2"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 12.7 0)
-				(length 2.54)
-				(name "LED3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "LED4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "LED5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 5.08 0)
-				(length 2.54)
-				(name "LED6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 2.54 0)
-				(length 2.54)
-				(name "LED7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
+				(number "18"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -643,6 +643,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9552D"
 		(pin_names
@@ -852,17 +853,107 @@
 			)
 		)
 		(symbol "PCA9552D_1_1"
-			(pin input line
-				(at 12.7 10.16 180)
+			(pin output line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "A0"
+				(name "LED0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "LED4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "LED5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -899,24 +990,6 @@
 					)
 				)
 				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1050,24 +1123,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 -20.32 0)
 				(length 2.54)
@@ -1079,60 +1134,6 @@
 					)
 				)
 				(number "20"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "~{RESET}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 15.24 180)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1158,6 +1159,78 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 12.7 5.08 180)
 				(length 2.54)
@@ -1176,17 +1249,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 20.32 0)
+			(pin input line
+				(at 12.7 2.54 180)
 				(length 2.54)
-				(name "LED0"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "4"
+				(number "21"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1194,89 +1267,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 17.78 0)
+			(pin power_in line
+				(at 12.7 -20.32 180)
 				(length 2.54)
-				(name "LED1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 15.24 0)
-				(length 2.54)
-				(name "LED2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 12.7 0)
-				(length 2.54)
-				(name "LED3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "LED4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "LED5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1285,6 +1286,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9552PW"
 		(pin_names
@@ -1494,17 +1496,107 @@
 			)
 		)
 		(symbol "PCA9552PW_1_1"
-			(pin input line
-				(at 12.7 10.16 180)
+			(pin output line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "A0"
+				(name "LED0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "LED4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "LED5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1541,24 +1633,6 @@
 					)
 				)
 				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1692,24 +1766,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 -20.32 0)
 				(length 2.54)
@@ -1721,60 +1777,6 @@
 					)
 				)
 				(number "20"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 2.54 180)
-				(length 2.54)
-				(name "~{RESET}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "21"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "22"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 15.24 180)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1800,6 +1802,78 @@
 					)
 				)
 			)
+			(pin bidirectional line
+				(at 12.7 15.24 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 12.7 5.08 180)
 				(length 2.54)
@@ -1818,17 +1892,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 20.32 0)
+			(pin input line
+				(at 12.7 2.54 180)
 				(length 2.54)
-				(name "LED0"
+				(name "~{RESET}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "4"
+				(number "21"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1836,89 +1910,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 17.78 0)
+			(pin power_in line
+				(at 12.7 -20.32 180)
 				(length 2.54)
-				(name "LED1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 15.24 0)
-				(length 2.54)
-				(name "LED2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 12.7 0)
-				(length 2.54)
-				(name "LED3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "LED4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "LED5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -1927,6 +1929,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9555D"
 		(pin_names
@@ -2136,17 +2139,107 @@
 			)
 		)
 		(symbol "PCA9555D_1_1"
-			(pin output line
-				(at 12.7 12.7 180)
+			(pin bidirectional line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "~{INT}"
+				(name "IO0_0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "IO0_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "IO0_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "IO0_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "IO0_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "IO0_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2183,24 +2276,6 @@
 					)
 				)
 				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2334,24 +2409,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -12.7 -20.32 0)
 				(length 2.54)
@@ -2363,6 +2420,78 @@
 					)
 				)
 				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2389,52 +2518,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 5.08 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
-				(name "SCL"
+				(name "A1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "22"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 20.32 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "24"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2460,107 +2553,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -12.7 20.32 0)
+			(pin power_in line
+				(at 12.7 -20.32 180)
 				(length 2.54)
-				(name "IO0_0"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 17.78 0)
-				(length 2.54)
-				(name "IO0_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 15.24 0)
-				(length 2.54)
-				(name "IO0_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 12.7 0)
-				(length 2.54)
-				(name "IO0_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "IO0_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "IO0_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2569,6 +2572,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9555PW"
 		(pin_names
@@ -2778,17 +2782,107 @@
 			)
 		)
 		(symbol "PCA9555PW_1_1"
-			(pin output line
-				(at 12.7 12.7 180)
+			(pin bidirectional line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "~{INT}"
+				(name "IO0_0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "IO0_1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "IO0_2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "IO0_3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "IO0_4"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "IO0_5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2825,24 +2919,6 @@
 					)
 				)
 				(number "11"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -2976,24 +3052,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -12.7 -20.32 0)
 				(length 2.54)
@@ -3005,6 +3063,78 @@
 					)
 				)
 				(number "20"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 12.7 180)
+				(length 2.54)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "22"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3031,52 +3161,16 @@
 				)
 			)
 			(pin input line
-				(at 12.7 5.08 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
-				(name "SCL"
+				(name "A1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "22"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "23"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 20.32 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "24"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3102,107 +3196,17 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -12.7 20.32 0)
+			(pin power_in line
+				(at 12.7 -20.32 180)
 				(length 2.54)
-				(name "IO0_0"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 17.78 0)
-				(length 2.54)
-				(name "IO0_1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 15.24 0)
-				(length 2.54)
-				(name "IO0_2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 12.7 0)
-				(length 2.54)
-				(name "IO0_3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "IO0_4"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 7.62 0)
-				(length 2.54)
-				(name "IO0_5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "9"
+				(number "12"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3211,6 +3215,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9622DR"
 		(pin_names
@@ -3420,17 +3425,35 @@
 			)
 		)
 		(symbol "PCA9622DR_1_1"
-			(pin power_in line
-				(at 12.7 -20.32 180)
+			(pin output line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "GND"
+				(name "LED0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "LED1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3510,24 +3533,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -15.24 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -3593,42 +3598,6 @@
 					)
 				)
 				(number "18"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 12.7 -12.7 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 10.16 180)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3708,24 +3677,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 -17.78 0)
 				(length 2.54)
@@ -3762,6 +3713,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 12.7 20.32 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at 12.7 17.78 180)
 				(length 2.54)
@@ -3773,78 +3742,6 @@
 					)
 				)
 				(number "27"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "A5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "28"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "A6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "29"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "30"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3870,17 +3767,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 20.32 180)
+			(pin input line
+				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "VCC"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "32"
+				(number "30"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 7.62 180)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3942,17 +3875,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 20.32 0)
+			(pin input line
+				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "LED0"
+				(name "A5"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "7"
+				(number "28"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3960,17 +3893,71 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 17.78 0)
+			(pin input line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "LED1"
+				(name "A6"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "29"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -12.7 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -15.24 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -3996,7 +3983,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9633DP1"
 		(pin_names
@@ -4279,34 +4285,16 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -5.08 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4332,17 +4320,35 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 5.08 180)
+			(pin input line
+				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "VCC"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4351,6 +4357,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9633DP2"
 		(pin_names
@@ -4578,24 +4585,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 7.62 180)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -4650,71 +4639,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 12.7 -2.54 180)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 12.7 -7.62 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "A1"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4740,7 +4675,80 @@
 					)
 				)
 			)
+			(pin input line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -2.54 180)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9952TW"
 		(pin_names
@@ -4959,17 +4967,17 @@
 			)
 		)
 		(symbol "PCA9952TW_1_1"
-			(pin passive line
-				(at 12.7 -5.08 180)
+			(pin output line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "REXT"
+				(name "LED0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -4977,17 +4985,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
+			(pin output line
+				(at -12.7 17.78 0)
 				(length 2.54)
-				(name "GND"
+				(name "LED1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "10"
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5139,42 +5183,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -17.78 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 10.16 180)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 -12.7 0)
 				(length 2.54)
@@ -5248,52 +5256,16 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -15.24 180)
+				(at 12.7 20.32 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "~{RST}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "26"
+				(number "28"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5319,17 +5291,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 20.32 180)
+			(pin input line
+				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "VCC"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "28"
+				(number "26"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5337,17 +5309,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -12.7 180)
-				(length 2.54) hide
-				(name "GND"
+			(pin input line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "A0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5409,17 +5381,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 20.32 0)
+			(pin input line
+				(at 12.7 0 180)
 				(length 2.54)
-				(name "LED0"
+				(name "~{RST}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "25"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5427,17 +5399,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 17.78 0)
+			(pin passive line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "LED1"
+				(name "REXT"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "7"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5445,17 +5417,18 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 15.24 0)
+			(pin power_in line
+				(at 12.7 -12.7 180)
 				(length 2.54)
-				(name "LED2"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "29"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5463,17 +5436,53 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 12.7 0)
+			(pin power_in line
+				(at 12.7 -15.24 180)
 				(length 2.54)
-				(name "LED3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "9"
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -17.78 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5482,6 +5491,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9955BTW"
 		(pin_names
@@ -5700,17 +5710,17 @@
 			)
 		)
 		(symbol "PCA9955BTW_1_1"
-			(pin passive line
-				(at 12.7 -5.08 180)
+			(pin output line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "REXT"
+				(name "LED0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5718,17 +5728,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
+			(pin output line
+				(at -12.7 17.78 0)
 				(length 2.54)
-				(name "GND"
+				(name "LED1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "10"
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -5880,42 +5926,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -17.78 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 10.16 180)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 -12.7 0)
 				(length 2.54)
@@ -5989,52 +5999,16 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -15.24 180)
+				(at 12.7 20.32 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "~{RST}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "26"
+				(number "28"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6060,17 +6034,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 20.32 180)
+			(pin input line
+				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "VCC"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "28"
+				(number "26"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6078,17 +6052,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -12.7 180)
-				(length 2.54) hide
-				(name "GND"
+			(pin input line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "A0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6150,17 +6124,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 20.32 0)
+			(pin input line
+				(at 12.7 0 180)
 				(length 2.54)
-				(name "LED0"
+				(name "~{RST}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "25"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6168,17 +6142,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 17.78 0)
+			(pin passive line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "LED1"
+				(name "REXT"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "7"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6186,17 +6160,18 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 15.24 0)
+			(pin power_in line
+				(at 12.7 -12.7 180)
 				(length 2.54)
-				(name "LED2"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "29"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6204,17 +6179,53 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 12.7 0)
+			(pin power_in line
+				(at 12.7 -15.24 180)
 				(length 2.54)
-				(name "LED3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "9"
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -17.78 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6223,6 +6234,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "PCA9955TW"
 		(pin_names
@@ -6441,17 +6453,17 @@
 			)
 		)
 		(symbol "PCA9955TW_1_1"
-			(pin passive line
-				(at 12.7 -5.08 180)
+			(pin output line
+				(at -12.7 20.32 0)
 				(length 2.54)
-				(name "REXT"
+				(name "LED0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "1"
+				(number "6"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6459,17 +6471,53 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -20.32 180)
+			(pin output line
+				(at -12.7 17.78 0)
 				(length 2.54)
-				(name "GND"
+				(name "LED1"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "10"
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 15.24 0)
+				(length 2.54)
+				(name "LED2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 12.7 0)
+				(length 2.54)
+				(name "LED3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6621,42 +6669,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -17.78 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 10.16 180)
-				(length 2.54)
-				(name "A0"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at -12.7 -12.7 0)
 				(length 2.54)
@@ -6730,52 +6742,16 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -15.24 180)
+				(at 12.7 20.32 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "24"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "~{RST}"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 12.7 12.7 180)
-				(length 2.54)
-				(name "SCL"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "26"
+				(number "28"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6801,17 +6777,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 20.32 180)
+			(pin input line
+				(at 12.7 12.7 180)
 				(length 2.54)
-				(name "VCC"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "28"
+				(number "26"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6819,17 +6795,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 -12.7 180)
-				(length 2.54) hide
-				(name "GND"
+			(pin input line
+				(at 12.7 10.16 180)
+				(length 2.54)
+				(name "A0"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "29"
+				(number "2"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6891,17 +6867,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 20.32 0)
+			(pin input line
+				(at 12.7 0 180)
 				(length 2.54)
-				(name "LED0"
+				(name "~{RST}"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "6"
+				(number "25"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6909,17 +6885,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 17.78 0)
+			(pin passive line
+				(at 12.7 -5.08 180)
 				(length 2.54)
-				(name "LED1"
+				(name "REXT"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "7"
+				(number "1"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6927,17 +6903,18 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 15.24 0)
+			(pin power_in line
+				(at 12.7 -12.7 180)
 				(length 2.54)
-				(name "LED2"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "8"
+				(number "29"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6945,17 +6922,53 @@
 					)
 				)
 			)
-			(pin output line
-				(at -12.7 12.7 0)
+			(pin power_in line
+				(at 12.7 -15.24 180)
 				(length 2.54)
-				(name "LED3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.016 1.016)
 						)
 					)
 				)
-				(number "9"
+				(number "24"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -17.78 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -20.32 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.016 1.016)
@@ -6964,5 +6977,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

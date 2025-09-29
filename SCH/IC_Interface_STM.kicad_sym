@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "ST3232CDR, SMD SO-16, 3-5V, 0 to 70°C"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -216,18 +216,6 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 -7.62) (xy -0.635 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.905 -5.08) (xy -0.635 -5.08)
 				)
 				(stroke
@@ -240,79 +228,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -12.7) (xy -1.905 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -10.16) (xy -1.905 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.143 -7.62) (xy 2.413 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.143 -5.08) (xy 2.413 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.413 -12.7) (xy 1.143 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.413 -10.16) (xy 1.143 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy -0.635 -7.112) (xy 1.143 -7.62) (xy -0.635 -8.128) (xy -0.635 -7.62)
+					(xy -1.905 -7.62) (xy -0.635 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -336,7 +252,55 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 -12.7) (xy 1.143 -12.192) (xy -0.635 -12.7) (xy 1.143 -13.208) (xy 1.143 -12.7)
+					(xy -0.635 -7.62) (xy -0.635 -7.112) (xy 1.143 -7.62) (xy -0.635 -8.128) (xy -0.635 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -10.16) (xy -1.905 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -12.7) (xy -1.905 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -5.08) (xy 2.413 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -7.62) (xy 2.413 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -349,6 +313,42 @@
 			(polyline
 				(pts
 					(xy 1.143 -10.16) (xy 1.143 -9.652) (xy -0.635 -10.16) (xy 1.143 -10.668) (xy 1.143 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -12.7) (xy 1.143 -12.192) (xy -0.635 -12.7) (xy 1.143 -13.208) (xy 1.143 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.413 -10.16) (xy 1.143 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.413 -12.7) (xy 1.143 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -384,15 +384,6 @@
 					(type none)
 				)
 			)
-			(text "RS232"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(justify right)
-				)
-			)
 			(text "TTL"
 				(at -8.89 -2.54 0)
 				(effects
@@ -400,6 +391,15 @@
 						(size 1 1)
 					)
 					(justify left)
+				)
+			)
+			(text "RS232"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
 				)
 			)
 			(pin passive line
@@ -413,150 +413,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -7.62 0)
-				(length 5.08)
-				(name "T2IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -5.08 0)
-				(length 5.08)
-				(name "T1IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -15.24 -10.16 0)
-				(length 5.08)
-				(name "R1OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(name "R1IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -5.08 180)
-				(length 5.08)
-				(name "T1OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 0 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 12.7 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -618,6 +474,114 @@
 					)
 				)
 			)
+			(pin input line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "T1IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "T2IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "R1OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -15.24 -12.7 0)
+				(length 5.08)
+				(name "R2OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 12.7 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 15.24 7.62 180)
 				(length 5.08)
@@ -629,6 +593,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "T1OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -655,6 +655,24 @@
 				)
 			)
 			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "R1IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "R2IN"
@@ -672,25 +690,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -12.7 0)
-				(length 5.08)
-				(name "R2OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ST3232EBDR, SMD SO-16, 3-5V, -40 to 85°C"
 		(exclude_from_sim no)
@@ -906,18 +907,6 @@
 			)
 			(polyline
 				(pts
-					(xy -1.905 -7.62) (xy -0.635 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.905 -5.08) (xy -0.635 -5.08)
 				)
 				(stroke
@@ -930,79 +919,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.635 -12.7) (xy -1.905 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -10.16) (xy -1.905 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.143 -7.62) (xy 2.413 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.143 -5.08) (xy 2.413 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.413 -12.7) (xy 1.143 -12.7)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.413 -10.16) (xy 1.143 -10.16)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 -7.62) (xy -0.635 -7.112) (xy 1.143 -7.62) (xy -0.635 -8.128) (xy -0.635 -7.62)
+					(xy -1.905 -7.62) (xy -0.635 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1026,7 +943,55 @@
 			)
 			(polyline
 				(pts
-					(xy 1.143 -12.7) (xy 1.143 -12.192) (xy -0.635 -12.7) (xy 1.143 -13.208) (xy 1.143 -12.7)
+					(xy -0.635 -7.62) (xy -0.635 -7.112) (xy 1.143 -7.62) (xy -0.635 -8.128) (xy -0.635 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -10.16) (xy -1.905 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 -12.7) (xy -1.905 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -5.08) (xy 2.413 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -7.62) (xy 2.413 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1039,6 +1004,42 @@
 			(polyline
 				(pts
 					(xy 1.143 -10.16) (xy 1.143 -9.652) (xy -0.635 -10.16) (xy 1.143 -10.668) (xy 1.143 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.143 -12.7) (xy 1.143 -12.192) (xy -0.635 -12.7) (xy 1.143 -13.208) (xy 1.143 -12.7)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.413 -10.16) (xy 1.143 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.413 -12.7) (xy 1.143 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -1074,15 +1075,6 @@
 					(type none)
 				)
 			)
-			(text "RS232"
-				(at 8.89 -2.54 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(justify right)
-				)
-			)
 			(text "TTL"
 				(at -8.89 -2.54 0)
 				(effects
@@ -1090,6 +1082,15 @@
 						(size 1 1)
 					)
 					(justify left)
+				)
+			)
+			(text "RS232"
+				(at 8.89 -2.54 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify right)
 				)
 			)
 			(pin passive line
@@ -1103,150 +1104,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -7.62 0)
-				(length 5.08)
-				(name "T2IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 -5.08 0)
-				(length 5.08)
-				(name "T1IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -15.24 -10.16 0)
-				(length 5.08)
-				(name "R1OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -10.16 180)
-				(length 5.08)
-				(name "R1IN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 -5.08 180)
-				(length 5.08)
-				(name "T1OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 0 180)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 15.24 12.7 180)
-				(length 5.08)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 15.24 10.16 180)
-				(length 5.08)
-				(name "V+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1308,6 +1165,114 @@
 					)
 				)
 			)
+			(pin input line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "T1IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -7.62 0)
+				(length 5.08)
+				(name "T2IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -15.24 -10.16 0)
+				(length 5.08)
+				(name "R1OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -15.24 -12.7 0)
+				(length 5.08)
+				(name "R2OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 12.7 180)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 15.24 7.62 180)
 				(length 5.08)
@@ -1319,6 +1284,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 0 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 15.24 -5.08 180)
+				(length 5.08)
+				(name "T1OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1345,6 +1346,24 @@
 				)
 			)
 			(pin passive line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "R1IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 15.24 -12.7 180)
 				(length 5.08)
 				(name "R2IN"
@@ -1362,25 +1381,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -15.24 -12.7 0)
-				(length 5.08)
-				(name "R2OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ST3485EBDR, SMD SO-8, 3.3V, -40 to 85 °C"
 		(exclude_from_sim no)
@@ -1669,16 +1671,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1723,16 +1725,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1741,6 +1743,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ST3485ECDR, SMD SO-8, 3.3V, 0 to 70 °C"
 		(exclude_from_sim no)
@@ -2029,16 +2032,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2083,16 +2086,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2101,6 +2104,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ST485EBDR, SMD SO-8, 5V, - 40 to 85 °C"
 		(exclude_from_sim no)
@@ -2389,16 +2393,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2443,16 +2447,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2461,6 +2465,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "ST485ECDR, SMD SO-8, 5V, 0 to 70 °C"
 		(exclude_from_sim no)
@@ -2749,16 +2754,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 3.81 180)
 				(length 2.54)
-				(name "GND"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2803,16 +2808,16 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2821,5 +2826,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

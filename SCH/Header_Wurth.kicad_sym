@@ -1,10 +1,12 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "WR-PHD 61030821821, 2x4pin, 2.54mm, Female"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -210,19 +212,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -3.81) (xy -1.905 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -1.27) (xy -1.905 -1.27)
+					(xy -2.54 3.81) (xy -1.905 3.81)
 				)
 				(stroke
 					(width 0)
@@ -246,7 +236,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 3.81) (xy -1.905 3.81)
+					(xy -2.54 -1.27) (xy -1.905 -1.27)
 				)
 				(stroke
 					(width 0)
@@ -258,7 +248,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -3.81) (xy 1.905 -3.81)
+					(xy -2.54 -3.81) (xy -1.905 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -270,7 +260,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 1.905 -1.27)
+					(xy 2.54 3.81) (xy 1.905 3.81)
 				)
 				(stroke
 					(width 0)
@@ -294,7 +284,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 1.905 3.81)
+					(xy 2.54 -1.27) (xy 1.905 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -3.81) (xy 1.905 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -318,19 +320,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 -4.445)
-				(end -0.635 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.905 -0.635)
-				(end -0.635 -1.905)
+				(start -1.905 4.445)
+				(end -0.635 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -351,8 +342,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 4.445)
-				(end -0.635 3.175)
+				(start -1.905 -0.635)
+				(end -0.635 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -362,8 +353,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 -3.175)
-				(end 1.905 -4.445)
+				(start -1.905 -4.445)
+				(end -0.635 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -373,8 +364,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 -0.635)
-				(end 1.905 -1.905)
+				(start 0.635 4.445)
+				(end 1.905 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -395,8 +386,19 @@
 				)
 			)
 			(rectangle
-				(start 0.635 4.445)
-				(end 1.905 3.175)
+				(start 0.635 -0.635)
+				(end 1.905 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 0.635 -3.175)
+				(end 1.905 -4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -424,24 +426,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 3.81 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -7.62 1.27 0)
 				(length 5.08)
 				(name "3"
@@ -452,24 +436,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 1.27 180)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -496,24 +462,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
-				(length 5.08)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -7.62 -3.81 0)
 				(length 5.08)
 				(name "7"
@@ -524,6 +472,60 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 3.81 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 1.27 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -1.27 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -550,5 +552,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

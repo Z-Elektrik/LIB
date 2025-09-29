@@ -1,7 +1,7 @@
 (footprint "QFN50P500X500X58-33N_HUQFN32"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Nominal, EIA: HUQFN-32, JEDEC: -, JEITA: - , IPC: QFN50P500X500X58-33N, NXP CODE: SOT1426-2")
 	(tags "HUQFN32")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "e7eafbd1-ba1d-4f8f-adda-18477c7b8a26")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -76,28 +64,6 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -2.413 2.413)
-		(end -2.0955 2.413)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Adhes")
-		(uuid "27d318b6-767e-4117-8891-aabe21cfe8cf")
-	)
-	(fp_circle
-		(center 2.413 -2.413)
-		(end 2.7305 -2.413)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Adhes")
-		(uuid "95a01b35-d69b-473d-b323-3675d488b435")
-	)
 	(fp_line
 		(start -2.61 -2.61)
 		(end -2.8185 -2.79)
@@ -188,6 +154,28 @@
 		(layer "F.SilkS")
 		(uuid "19483da5-336f-48c5-b89b-72c118b6dba4")
 	)
+	(fp_circle
+		(center -2.413 2.413)
+		(end -2.0955 2.413)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "27d318b6-767e-4117-8891-aabe21cfe8cf")
+	)
+	(fp_circle
+		(center 2.413 -2.413)
+		(end 2.7305 -2.413)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "95a01b35-d69b-473d-b323-3675d488b435")
+	)
 	(fp_line
 		(start -3.12 -3.12)
 		(end -3.12 3.12)
@@ -232,7 +220,7 @@
 		(start -2.5 -2.5)
 		(end 2.5 -2.5)
 		(stroke
-			(width 0.10)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -242,7 +230,7 @@
 		(start -2.5 2.5)
 		(end -2.5 -2.5)
 		(stroke
-			(width 0.10)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -252,7 +240,7 @@
 		(start 2.5 -2.5)
 		(end 2.5 2.5)
 		(stroke
-			(width 0.10)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -262,7 +250,7 @@
 		(start 2.5 2.5)
 		(end -2.5 2.5)
 		(stroke
-			(width 0.10)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -272,10 +260,10 @@
 		(center -1.905 -1.905)
 		(end -1.5875 -1.905)
 		(stroke
-			(width 0.10)
+			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.Fab")
 		(uuid "3e76e151-8511-46a5-99af-54fbf9b620b2")
 	)
@@ -293,51 +281,50 @@
 		(render_cache "REF**" 0
 			(polygon
 				(pts
-					(xy -1.524644 -0.628875) (xy -1.47371 -0.625702) (xy -1.42953 -0.620279) (xy -1.378673 -0.607129)
-					(xy -1.333374 -0.586295) (xy -1.316445 -0.576071) (xy -1.276653 -0.545222) (xy -1.244198 -0.507843)
-					(xy -1.231693 -0.488388) (xy -1.211451 -0.440655) (xy -1.201926 -0.389009) (xy -1.20043 -0.35552)
-					(xy -1.204002 -0.302122) (xy -1.214718 -0.253304) (xy -1.235313 -0.203858) (xy -1.257583 -0.169407)
-					(xy -1.292859 -0.130439) (xy -1.334665 -0.097614) (xy -1.377308 -0.073594) (xy -1.412677 -0.058765)
-					(xy -1.048511 0.386245) (xy -1.225098 0.386245) (xy -1.549453 -0.020175) (xy -1.704547 -0.020175)
-					(xy -1.704547 0.386245) (xy -1.84059 0.386245) (xy -1.84059 -0.137411) (xy -1.704547 -0.137411)
-					(xy -1.585112 -0.137411) (xy -1.536279 -0.139328) (xy -1.485965 -0.146212) (xy -1.480088 -0.147425)
-					(xy -1.431736 -0.165414) (xy -1.40022 -0.188702) (xy -1.369499 -0.227915) (xy -1.356745 -0.25538)
-					(xy -1.345291 -0.303243) (xy -1.342579 -0.346239) (xy -1.348781 -0.396767) (xy -1.358455 -0.42342)
-					(xy -1.388365 -0.463992) (xy -1.407303 -0.478618) (xy -1.45378 -0.499624) (xy -1.474715 -0.504752)
-					(xy -1.523727 -0.511072) (xy -1.569969 -0.512568) (xy -1.704547 -0.512568) (xy -1.704547 -0.137411)
-					(xy -1.84059 -0.137411) (xy -1.84059 -0.629805) (xy -1.576808 -0.629805)
+					(xy -1.494525 -0.627167) (xy -1.431911 -0.620218) (xy -1.374688 -0.604477) (xy -1.31956 -0.575766)
+					(xy -1.271729 -0.536526) (xy -1.235174 -0.487533) (xy -1.218462 -0.45028) (xy -1.207865 -0.406081)
+					(xy -1.204094 -0.353505) (xy -1.210825 -0.280611) (xy -1.229955 -0.218874) (xy -1.260819 -0.16611)
+					(xy -1.302507 -0.120862) (xy -1.353503 -0.083773) (xy -1.415181 -0.054613) (xy -1.053091 0.386245)
+					(xy -1.228701 0.386245) (xy -1.551102 -0.016267) (xy -1.705524 -0.016267) (xy -1.705524 0.386245)
+					(xy -1.840774 0.386245) (xy -1.840774 -0.133503) (xy -1.705524 -0.133503) (xy -1.586639 -0.133503)
+					(xy -1.53011 -0.136155) (xy -1.482103 -0.143578) (xy -1.438854 -0.159225) (xy -1.402847 -0.185466)
+					(xy -1.377368 -0.216415) (xy -1.359493 -0.252877) (xy -1.34922 -0.293995) (xy -1.345511 -0.34459)
+					(xy -1.349588 -0.386745) (xy -1.361203 -0.422504) (xy -1.381032 -0.453303) (xy -1.409685 -0.478191)
+					(xy -1.440248 -0.494068) (xy -1.476669 -0.504813) (xy -1.517192 -0.510434) (xy -1.571618 -0.512568)
+					(xy -1.705524 -0.512568) (xy -1.705524 -0.133503) (xy -1.840774 -0.133503) (xy -1.840774 -0.629805)
+					(xy -1.578457 -0.629805)
 				)
 			)
 			(polygon
 				(pts
-					(xy -0.972063 0.386245) (xy -0.972063 -0.629805) (xy -0.332635 -0.629805) (xy -0.332635 -0.50866)
-					(xy -0.836019 -0.50866) (xy -0.836019 -0.239016) (xy -0.366829 -0.239016) (xy -0.366829 -0.117872)
-					(xy -0.836019 -0.117872) (xy -0.836019 0.2651) (xy -0.332635 0.2651) (xy -0.332635 0.386245)
+					(xy -0.972246 0.386245) (xy -0.972246 -0.629805) (xy -0.336238 -0.629805) (xy -0.336238 -0.509637)
+					(xy -0.836997 -0.509637) (xy -0.836997 -0.2312) (xy -0.370371 -0.2312) (xy -0.370371 -0.111033)
+					(xy -0.836997 -0.111033) (xy -0.836997 0.266077) (xy -0.336238 0.266077) (xy -0.336238 0.386245)
 				)
 			)
 			(polygon
 				(pts
-					(xy 0.425494 -0.50866) (xy -0.050534 -0.50866) (xy -0.050534 -0.223385) (xy 0.405466 -0.223385)
-					(xy 0.405466 -0.10224) (xy -0.050534 -0.10224) (xy -0.050534 0.386245) (xy -0.186578 0.386245)
-					(xy -0.186578 -0.629805) (xy 0.425494 -0.629805)
+					(xy 0.420914 -0.509637) (xy -0.052489 -0.509637) (xy -0.052489 -0.223385) (xy 0.40113 -0.223385)
+					(xy 0.40113 -0.103217) (xy -0.052489 -0.103217) (xy -0.052489 0.386245) (xy -0.187738 0.386245)
+					(xy -0.187738 -0.629805) (xy 0.420914 -0.629805)
 				)
 			)
 			(polygon
 				(pts
-					(xy 1.131111 -0.20873) (xy 1.086415 -0.130084) (xy 0.861956 -0.287621) (xy 0.866596 -0.035806)
-					(xy 0.780867 -0.035806) (xy 0.785019 -0.287621) (xy 0.561781 -0.129595) (xy 0.516352 -0.208242)
-					(xy 0.759618 -0.356253) (xy 0.516352 -0.504264) (xy 0.561781 -0.58291) (xy 0.785752 -0.424152)
-					(xy 0.780867 -0.676699) (xy 0.866596 -0.676699) (xy 0.861223 -0.424152) (xy 1.086415 -0.582177)
-					(xy 1.131111 -0.503531) (xy 0.88809 -0.356985)
+					(xy 1.126837 -0.220454) (xy 1.082446 -0.145899) (xy 0.859024 -0.292505) (xy 0.863848 -0.043622)
+					(xy 0.778424 -0.043622) (xy 0.782515 -0.292505) (xy 0.560499 -0.145227) (xy 0.515436 -0.219782)
+					(xy 0.757236 -0.360161) (xy 0.515436 -0.500539) (xy 0.560499 -0.575094) (xy 0.783248 -0.427144)
+					(xy 0.778424 -0.676699) (xy 0.863848 -0.676699) (xy 0.858353 -0.427144) (xy 1.082446 -0.574423)
+					(xy 1.126837 -0.499806) (xy 0.884975 -0.360832)
 				)
 			)
 			(polygon
 				(pts
-					(xy 1.895103 -0.20873) (xy 1.850407 -0.130084) (xy 1.625947 -0.287621) (xy 1.630588 -0.035806)
-					(xy 1.544859 -0.035806) (xy 1.549011 -0.287621) (xy 1.325773 -0.129595) (xy 1.280344 -0.208242)
-					(xy 1.52361 -0.356253) (xy 1.280344 -0.504264) (xy 1.325773 -0.58291) (xy 1.549744 -0.424152) (xy 1.544859 -0.676699)
-					(xy 1.630588 -0.676699) (xy 1.625215 -0.424152) (xy 1.850407 -0.582177) (xy 1.895103 -0.503531)
-					(xy 1.652081 -0.356985)
+					(xy 1.890828 -0.220454) (xy 1.846437 -0.145899) (xy 1.623016 -0.292505) (xy 1.62784 -0.043622)
+					(xy 1.542416 -0.043622) (xy 1.546507 -0.292505) (xy 1.32449 -0.145227) (xy 1.279427 -0.219782)
+					(xy 1.521228 -0.360161) (xy 1.279427 -0.500539) (xy 1.32449 -0.575094) (xy 1.54724 -0.427144) (xy 1.542416 -0.676699)
+					(xy 1.62784 -0.676699) (xy 1.622344 -0.427144) (xy 1.846437 -0.574423) (xy 1.890828 -0.499806)
+					(xy 1.648967 -0.360832)
 				)
 			)
 		)
@@ -369,7 +356,7 @@
 	(pad "1" smd roundrect
 		(at -2.55 -1.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "51113da1-b5a1-413a-ab6c-6e7370503cc6")
@@ -377,7 +364,7 @@
 	(pad "2" smd roundrect
 		(at -2.55 -1.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "ad85e6d7-1f99-4511-a485-2944a64c3620")
@@ -385,7 +372,7 @@
 	(pad "3" smd roundrect
 		(at -2.55 -0.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "369bf11c-d2c3-4c12-87cb-31703d2cdf92")
@@ -393,7 +380,7 @@
 	(pad "4" smd roundrect
 		(at -2.55 -0.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "10885909-36a4-478b-8ab9-c566dfd109ba")
@@ -401,7 +388,7 @@
 	(pad "5" smd roundrect
 		(at -2.55 0.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "b827ef56-93b4-4143-8b84-a029277d4e7a")
@@ -409,7 +396,7 @@
 	(pad "6" smd roundrect
 		(at -2.55 0.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "cbaf2ea3-a2df-4bf6-a27f-ed63c01d795c")
@@ -417,7 +404,7 @@
 	(pad "7" smd roundrect
 		(at -2.55 1.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "ebb8eddc-d5db-4aba-b459-b86ddf84d52a")
@@ -425,7 +412,7 @@
 	(pad "8" smd roundrect
 		(at -2.55 1.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "a97539fb-36a6-4c02-b560-1cd1cf08663c")
@@ -433,7 +420,7 @@
 	(pad "9" smd roundrect
 		(at -1.75 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "85f8aa3d-8110-458e-b9fd-ce60222a46bc")
@@ -441,7 +428,7 @@
 	(pad "10" smd roundrect
 		(at -1.25 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "1580975f-86cc-4d8c-8fed-55fbf7dbd604")
@@ -449,7 +436,7 @@
 	(pad "11" smd roundrect
 		(at -0.75 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "87f2b6a2-cad2-4484-9d2f-17dbeef0a2d3")
@@ -457,7 +444,7 @@
 	(pad "12" smd roundrect
 		(at -0.25 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "94a00885-cdd7-488b-8e57-ed2f857c7ba1")
@@ -465,7 +452,7 @@
 	(pad "13" smd roundrect
 		(at 0.25 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "ec397d39-a979-4dae-9ce2-225e5f68597e")
@@ -473,7 +460,7 @@
 	(pad "14" smd roundrect
 		(at 0.75 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "705f24b0-b20b-41e1-a09c-ba48db7d7d35")
@@ -481,7 +468,7 @@
 	(pad "15" smd roundrect
 		(at 1.25 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "90b60463-0b96-4fdb-b0a7-92dc4165abfc")
@@ -489,7 +476,7 @@
 	(pad "16" smd roundrect
 		(at 1.75 2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "3bdcfa7e-01e4-43c0-a982-86d6de90f756")
@@ -497,7 +484,7 @@
 	(pad "17" smd roundrect
 		(at 2.55 1.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "32364f1e-fe8b-4306-aac6-661b5b32d260")
@@ -505,7 +492,7 @@
 	(pad "18" smd roundrect
 		(at 2.55 1.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "a5bd84a2-40b0-457e-8102-572d97589bf7")
@@ -513,7 +500,7 @@
 	(pad "19" smd roundrect
 		(at 2.55 0.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "b9b1cb3e-79b2-4d92-bb01-17575ba9496b")
@@ -521,7 +508,7 @@
 	(pad "20" smd roundrect
 		(at 2.55 0.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "af46afaa-072f-4aa6-99f9-4b7815415a0e")
@@ -529,7 +516,7 @@
 	(pad "21" smd roundrect
 		(at 2.55 -0.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "63e7913e-b650-4970-bd3f-b3ef89a57570")
@@ -537,7 +524,7 @@
 	(pad "22" smd roundrect
 		(at 2.55 -0.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "c16e383d-9436-4881-ad2b-da06d6b209fd")
@@ -545,7 +532,7 @@
 	(pad "23" smd roundrect
 		(at 2.55 -1.25)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "e22f347f-c743-450a-93ca-fa129a118b41")
@@ -553,7 +540,7 @@
 	(pad "24" smd roundrect
 		(at 2.55 -1.75)
 		(size 0.9 0.29)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "16b626b0-b5c6-41f9-a99a-497613b2202d")
@@ -561,7 +548,7 @@
 	(pad "25" smd roundrect
 		(at 1.75 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "475c77f9-2fc9-4bd4-a873-c1e446ca15db")
@@ -569,7 +556,7 @@
 	(pad "26" smd roundrect
 		(at 1.25 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "a06fa6e3-0d86-4a94-a86f-470f2354b2bc")
@@ -577,7 +564,7 @@
 	(pad "27" smd roundrect
 		(at 0.75 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "3a5d89a9-9740-44ca-9d81-e8137934a67d")
@@ -585,7 +572,7 @@
 	(pad "28" smd roundrect
 		(at 0.25 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "21aa853e-a2c0-40d1-b05f-a92e01221115")
@@ -593,7 +580,7 @@
 	(pad "29" smd roundrect
 		(at -0.25 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "f61a91e9-2085-45c5-a9cf-1e2dfbf9b7fb")
@@ -601,7 +588,7 @@
 	(pad "30" smd roundrect
 		(at -0.75 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "4432f99a-b70c-48b2-852d-2063745ebcfd")
@@ -609,7 +596,7 @@
 	(pad "31" smd roundrect
 		(at -1.25 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "29ce9074-84db-4e23-870c-7777cb2ccd3a")
@@ -617,7 +604,7 @@
 	(pad "32" smd roundrect
 		(at -1.75 -2.55)
 		(size 0.29 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(solder_paste_margin -0.025)
 		(uuid "bb43173b-7af1-4b11-b040-cb9132825cdb")
@@ -629,6 +616,7 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "fdb6a717-671b-4e06-8426-6218c1bd2ce7")
 	)
+	(embedded_fonts no)
 	(model "${Z_LIB_3D_DIR}/SMD_IC_Generic.3dshapes/QFN50P500X500X80-33-QFN-32-5X5.step"
 		(offset
 			(xyz 0 0 0.85)

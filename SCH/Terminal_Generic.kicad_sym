@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "Terminal Pad 1 pin, 1.0x1.0mm Rounded Rectangle with 0.6mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -209,18 +213,6 @@
 		(symbol "Terminal Pad 1 pin, 1.0x1.0mm Rounded Rectangle with 0.6mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -232,9 +224,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -244,9 +248,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -276,11 +280,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 1.5x1.5mm Rounded Rectangle with 0.9mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -484,18 +493,6 @@
 		(symbol "Terminal Pad 1 pin, 1.5x1.5mm Rounded Rectangle with 0.9mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -507,9 +504,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -519,9 +528,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -551,11 +560,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 1.5x1.5mm Rounded Rectangle, SMD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -759,18 +773,6 @@
 		(symbol "Terminal Pad 1 pin, 1.5x1.5mm Rounded Rectangle, SMD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -782,9 +784,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -794,9 +808,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -826,11 +840,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 2.0x2.0mm Rectangular with 0.6mm chamfered corners in all 4 corners, 1.2mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -1034,18 +1053,6 @@
 		(symbol "Terminal Pad 1 pin, 2.0x2.0mm Rectangular with 0.6mm chamfered corners in all 4 corners, 1.2mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -1057,9 +1064,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1069,9 +1088,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -1101,11 +1120,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 2.0x2.0mm Rounded Rectangle with 1.2mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -1309,18 +1333,6 @@
 		(symbol "Terminal Pad 1 pin, 2.0x2.0mm Rounded Rectangle with 1.2mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -1332,9 +1344,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1344,9 +1368,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -1376,11 +1400,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 2.0x2.0mm Rounded Rectangle, SMD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -1584,18 +1613,6 @@
 		(symbol "Terminal Pad 1 pin, 2.0x2.0mm Rounded Rectangle, SMD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -1607,9 +1624,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1619,9 +1648,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -1651,11 +1680,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 3.17x1.5mm Rounded Rectangle with 0.9mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -1859,18 +1893,6 @@
 		(symbol "Terminal Pad 1 pin, 3.17x1.5mm Rounded Rectangle with 0.9mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -1882,9 +1904,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -1894,9 +1928,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -1926,11 +1960,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, 5.0x5.0mm Rounded Rectangle with 1.5mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -2134,18 +2173,6 @@
 		(symbol "Terminal Pad 1 pin, 5.0x5.0mm Rounded Rectangle with 1.5mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -2157,9 +2184,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2169,9 +2208,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -2201,11 +2240,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, dia{colon} 2.5mm Circular with 0.8mm hole, THD"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -2409,18 +2453,6 @@
 		(symbol "Terminal Pad 1 pin, dia{colon} 2.5mm Circular with 0.8mm hole, THD_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -2432,9 +2464,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2444,9 +2488,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -2476,11 +2520,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminal Pad 1 pin, dia{colon}1.7mm Circular with 0.8mm hole, THD without SilkPrint"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -2684,18 +2733,6 @@
 		(symbol "Terminal Pad 1 pin, dia{colon}1.7mm Circular with 0.8mm hole, THD without SilkPrint_0_1"
 			(polyline
 				(pts
-					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 1.7468 0.4764) (xy 2.382 0.4764)
 				)
 				(stroke
@@ -2707,9 +2744,21 @@
 				)
 			)
 			(arc
-				(start 1.7462 0.4762)
-				(mid 1.2705 -0.0001)
-				(end 1.7462 -0.4763)
+				(start 1.7462 -0.4763)
+				(mid 1.2706 -0.0001)
+				(end 1.7462 0.4762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.7468 -0.4764) (xy 2.382 -0.4764)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -2719,9 +2768,9 @@
 				)
 			)
 			(arc
-				(start 2.3813 -0.4763)
-				(mid 2.8582 -0.0001)
-				(end 2.3813 0.4762)
+				(start 2.3813 0.4762)
+				(mid 2.8582 0)
+				(end 2.3813 -0.4763)
 				(stroke
 					(width 0)
 					(type default)
@@ -2751,10 +2800,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminals 4 pin, RM2.54mm, THD"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -2969,19 +3021,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 0 -1.27)
+					(xy -1.27 3.81) (xy 0 3.81)
 				)
 				(stroke
 					(width 0)
@@ -3005,7 +3045,19 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy 0 3.81)
+					(xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.81) (xy 0 -3.81)
 				)
 				(stroke
 					(width 0)
@@ -3029,19 +3081,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 -4.445)
-				(end 0.635 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.635 -1.905)
-				(end 0.635 -0.635)
+				(start -0.635 3.175)
+				(end 0.635 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3062,8 +3103,19 @@
 				)
 			)
 			(rectangle
-				(start -0.635 3.175)
-				(end 0.635 4.445)
+				(start -0.635 -1.905)
+				(end 0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -0.635 -4.445)
+				(end 0.635 -3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -3145,10 +3197,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminals 6 pin, RM1.27mm"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -3363,43 +3418,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -0.635 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -3.81) (xy -0.635 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy 0 1.27)
+					(xy -1.27 6.35) (xy -0.635 6.35)
 				)
 				(stroke
 					(width 0)
@@ -3423,7 +3442,43 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 6.35) (xy -0.635 6.35)
+					(xy -1.27 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.81) (xy -0.635 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -6.35) (xy -0.635 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -3447,19 +3502,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 -5.715)
-				(end 0.635 -6.985)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.635 -3.175)
-				(end 0.635 -4.445)
+				(start -0.635 6.985)
+				(end 0.635 5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -3469,8 +3513,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 -1.905)
-				(end 0.635 -0.635)
+				(start -0.635 3.175)
+				(end 0.635 4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -3491,8 +3535,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 3.175)
-				(end 0.635 4.445)
+				(start -0.635 -1.905)
+				(end 0.635 -0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -3502,14 +3546,25 @@
 				)
 			)
 			(rectangle
-				(start -0.635 6.985)
-				(end 0.635 5.715)
+				(start -0.635 -3.175)
+				(end 0.635 -4.445)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
+				)
+			)
+			(rectangle
+				(start -0.635 -5.715)
+				(end 0.635 -6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(pin passive line
@@ -3621,10 +3676,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminals 6 pin, RM2.54mm"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
@@ -3839,43 +3897,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy 0 -6.35)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -3.81) (xy 0 -3.81)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 -1.27) (xy 0 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy 0 1.27)
+					(xy -1.27 6.35) (xy 0 6.35)
 				)
 				(stroke
 					(width 0)
@@ -3899,7 +3921,43 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 6.35) (xy 0 6.35)
+					(xy -1.27 1.27) (xy 0 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 0 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -6.35) (xy 0 -6.35)
 				)
 				(stroke
 					(width 0)
@@ -3923,41 +3981,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 -6.985)
-				(end 0.635 -5.715)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.635 -4.445)
-				(end 0.635 -3.175)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.635 -1.905)
-				(end 0.635 -0.635)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.635 0.635)
-				(end 0.635 1.905)
+				(start -0.635 5.715)
+				(end 0.635 6.985)
 				(stroke
 					(width 0)
 					(type default)
@@ -3978,8 +4003,41 @@
 				)
 			)
 			(rectangle
-				(start -0.635 5.715)
-				(end 0.635 6.985)
+				(start -0.635 0.635)
+				(end 0.635 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -0.635 -1.905)
+				(end 0.635 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -0.635 -4.445)
+				(end 0.635 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -0.635 -6.985)
+				(end 0.635 -5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -4097,10 +4155,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminals Header 2x3, RM2.54mm, SMD"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4315,7 +4376,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -2.54) (xy -1.27 -2.54)
+					(xy -2.54 2.54) (xy -1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -4339,7 +4400,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -1.27 2.54)
+					(xy -2.54 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -4351,7 +4412,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 1.27 -2.54)
+					(xy 2.54 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0)
@@ -4375,7 +4436,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 1.27 2.54)
+					(xy 2.54 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -4399,8 +4460,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 -3.175)
-				(end -0.635 -1.905)
+				(start -1.905 1.905)
+				(end -0.635 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -4421,8 +4482,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 1.905)
-				(end -0.635 3.175)
+				(start -1.905 -3.175)
+				(end -0.635 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -4432,8 +4493,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 -3.175)
-				(end 1.905 -1.905)
+				(start 0.635 1.905)
+				(end 1.905 3.175)
 				(stroke
 					(width 0)
 					(type default)
@@ -4454,8 +4515,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 1.905)
-				(end 1.905 3.175)
+				(start 0.635 -3.175)
+				(end 1.905 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -4483,24 +4544,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -7.62 0 0)
 				(length 5.08)
 				(name "3"
@@ -4511,24 +4554,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 0 180)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4555,6 +4580,42 @@
 				)
 			)
 			(pin passive line
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 5.08)
 				(name "6"
@@ -4573,10 +4634,13 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "Terminals Header 2x5, RM1.27mm, SMD"
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4791,31 +4855,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 -5.08) (xy -1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 -2.54) (xy -1.27 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -2.54 0) (xy -1.27 0)
+					(xy -2.54 5.08) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -4839,7 +4879,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -1.27 5.08)
+					(xy -2.54 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -4851,7 +4891,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy -2.54 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -4863,7 +4903,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -2.54) (xy 1.27 -2.54)
+					(xy -2.54 -5.08) (xy -1.27 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -4875,7 +4915,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 2.54 5.08) (xy 1.27 5.08)
 				)
 				(stroke
 					(width 0)
@@ -4899,7 +4939,31 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 5.08) (xy 1.27 5.08)
+					(xy 2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 1.27 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -5.08) (xy 1.27 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -4923,30 +4987,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 -5.715)
-				(end -0.635 -4.445)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -1.905 -3.175)
-				(end -0.635 -1.905)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -1.905 -0.635)
-				(end -0.635 0.635)
+				(start -1.905 4.445)
+				(end -0.635 5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -4967,8 +5009,8 @@
 				)
 			)
 			(rectangle
-				(start -1.905 4.445)
-				(end -0.635 5.715)
+				(start -1.905 -0.635)
+				(end -0.635 0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -4978,8 +5020,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 -5.715)
-				(end 1.905 -4.445)
+				(start -1.905 -3.175)
+				(end -0.635 -1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -4989,8 +5031,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 -3.175)
-				(end 1.905 -1.905)
+				(start -1.905 -5.715)
+				(end -0.635 -4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -5000,8 +5042,8 @@
 				)
 			)
 			(rectangle
-				(start 0.635 -0.635)
-				(end 1.905 0.635)
+				(start 0.635 4.445)
+				(end 1.905 5.715)
 				(stroke
 					(width 0)
 					(type default)
@@ -5022,8 +5064,30 @@
 				)
 			)
 			(rectangle
-				(start 0.635 4.445)
-				(end 1.905 5.715)
+				(start 0.635 -0.635)
+				(end 1.905 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.635 -3.175)
+				(end 1.905 -1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start 0.635 -5.715)
+				(end 1.905 -4.445)
 				(stroke
 					(width 0)
 					(type default)
@@ -5051,42 +5115,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
-				(length 5.08)
-				(name "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 5.08 180)
-				(length 5.08)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -7.62 2.54 0)
 				(length 5.08)
 				(name "3"
@@ -5097,24 +5125,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 2.54 180)
-				(length 5.08)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5141,24 +5151,6 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 0 180)
-				(length 5.08)
-				(name "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -7.62 -2.54 0)
 				(length 5.08)
 				(name "7"
@@ -5169,6 +5161,78 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 5.08)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5195,16 +5259,16 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -5.08 0)
+				(at 7.62 -5.08 180)
 				(length 5.08)
-				(name "9"
+				(name "10"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5213,5 +5277,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

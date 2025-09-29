@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "BZX84C10VLYFHT116"
-		(pin_numbers hide)
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 1.016) hide)
+			(offset 1.016)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -234,7 +238,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -246,7 +250,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy -1.27 -1.27) (xy -1.016 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -271,24 +275,6 @@
 		)
 		(symbol "BZX84C10VLYFHT116_1_1"
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 2.54)
 				(name "C"
@@ -306,6 +292,25 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )
