@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "BTN8926TA"
 		(pin_names
 			(offset 1.016)
@@ -210,19 +210,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.381 -5.334) (xy -0.381 -2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.381 -3.175) (xy -2.54 -3.175)
+					(xy -0.381 5.334) (xy -0.381 2.286)
 				)
 				(stroke
 					(width 0)
@@ -246,7 +234,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.381 5.334) (xy -0.381 2.286)
+					(xy -0.381 -3.175) (xy -2.54 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -258,55 +246,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.826) (xy 0 -5.334)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -3.556) (xy 0 -4.064)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -2.286) (xy 0 -2.794)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 2.794) (xy 0 2.286)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 4.064) (xy 0 3.556)
+					(xy -0.381 -5.334) (xy -0.381 -2.286)
 				)
 				(stroke
 					(width 0)
@@ -330,7 +270,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.381 -4.064) (xy 0 -3.81)
+					(xy 0 4.064) (xy 0 3.556)
 				)
 				(stroke
 					(width 0)
@@ -342,7 +282,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 3.81 0)
+					(xy 0 3.81) (xy 2.54 3.81) (xy 2.54 5.08)
 				)
 				(stroke
 					(width 0)
@@ -354,7 +294,43 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 2.159 4.064)
+					(xy 0 2.794) (xy 0 2.286)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.286) (xy 0 -2.794)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.556) (xy 0 -4.064)
 				)
 				(stroke
 					(width 0)
@@ -390,19 +366,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 3.81) (xy 2.54 3.81) (xy 2.54 5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.54 3.81) (xy 2.159 3.556) (xy 2.159 4.064)
+					(xy 0 -4.826) (xy 0 -5.334)
 				)
 				(stroke
 					(width 0)
@@ -426,7 +390,43 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy 0 -2.54)
+					(xy 0.381 -4.064) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.81) (xy 2.159 4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 3.81) (xy 2.159 3.556) (xy 2.159 4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -450,17 +450,17 @@
 			)
 		)
 		(symbol "BTN8926TA_1_1"
-			(pin power_in line
-				(at 11.43 -7.62 180)
+			(pin input line
+				(at -11.43 3.81 0)
 				(length 2.54)
-				(name "GND"
+				(name "INH"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -486,35 +486,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 3.81 0)
+			(pin passive line
+				(at -11.43 -1.27 0)
 				(length 2.54)
-				(name "INH"
+				(name "IS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -540,24 +522,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -1.27 0)
-				(length 2.54)
-				(name "IS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 11.43 7.62 180)
 				(length 2.54)
@@ -576,6 +540,43 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 11.43 -7.62 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )

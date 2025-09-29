@@ -1,11 +1,15 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
-	(symbol "22p, THD 5.00mm, 50V, +/-5% , C0G"
-		(pin_numbers hide)
+	(generator_version "9.0")
+	(symbol "22p, THD 5.00mm, 50V, +/-5%, C0G"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -205,7 +209,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "22p, THD 5.00mm, 50V, +/-5% , C0G_0_1"
+		(symbol "22p, THD 5.00mm, 50V, +/-5%, C0G_0_1"
 			(polyline
 				(pts
 					(xy -0.3302 1.27) (xy -0.3302 -1.27)
@@ -231,7 +235,7 @@
 				)
 			)
 		)
-		(symbol "22p, THD 5.00mm, 50V, +/-5% , C0G_1_1"
+		(symbol "22p, THD 5.00mm, 50V, +/-5%, C0G_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.2098)
@@ -269,11 +273,16 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
-	(symbol "27p, THD 5.00mm, 50V, +/-5% , C0G"
-		(pin_numbers hide)
+	(symbol "27p, THD 5.00mm, 50V, +/-5%, C0G"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -473,7 +482,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "27p, THD 5.00mm, 50V, +/-5% , C0G_0_1"
+		(symbol "27p, THD 5.00mm, 50V, +/-5%, C0G_0_1"
 			(polyline
 				(pts
 					(xy -0.3302 1.27) (xy -0.3302 -1.27)
@@ -499,7 +508,7 @@
 				)
 			)
 		)
-		(symbol "27p, THD 5.00mm, 50V, +/-5% , C0G_1_1"
+		(symbol "27p, THD 5.00mm, 50V, +/-5%, C0G_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 2.2098)
@@ -537,5 +546,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )

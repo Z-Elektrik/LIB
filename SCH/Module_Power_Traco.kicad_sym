@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "TME0303S"
 		(pin_names
 			(offset 1.016)
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC/DC Converter , 3V to 3V, 1W, 260mA"
+		(property "Description" "DC/DC Converter, 3V to 3V, 1W, 260mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -210,24 +210,6 @@
 			)
 		)
 		(symbol "TME0303S_1_1"
-			(pin input line
-				(at -10.16 -2.54 0)
-				(length 2.54)
-				(name "VI-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -10.16 2.54 0)
 				(length 2.54)
@@ -246,17 +228,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 10.16 -2.54 180)
+			(pin input line
+				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "VO-"
+				(name "VI-"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -282,6 +264,25 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "VO-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
+		(embedded_fonts no)
 	)
 )

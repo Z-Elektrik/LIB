@@ -1,10 +1,12 @@
 (kicad_symbol_lib
-	(version 20231120)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(symbol "RSM850-6112-8M-1003, Relpol"
 		(pin_names
-			(offset 0) hide)
+			(offset 0)
+			(hide yes)
+		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -222,18 +224,7 @@
 		)
 		(symbol "RSM850-6112-8M-1003, Relpol_1_1"
 			(circle
-				(center -2.316 6.35)
-				(radius 0.254)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -2.316 8.89)
+				(center -2.316 13.97)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -255,7 +246,7 @@
 				)
 			)
 			(circle
-				(center -2.316 13.97)
+				(center -2.316 8.89)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -265,13 +256,12 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 3.81) (xy 0 8.128)
-				)
+			(circle
+				(center -2.316 6.35)
+				(radius 0.254)
 				(stroke
 					(width 0)
-					(type dash)
+					(type default)
 				)
 				(fill
 					(type none)
@@ -291,11 +281,11 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 7.62) (xy -2.697 8.509)
+					(xy 0 3.81) (xy 0 8.128)
 				)
 				(stroke
 					(width 0)
-					(type default)
+					(type dash)
 				)
 				(fill
 					(type none)
@@ -313,9 +303,10 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 2.286 7.62)
-				(radius 0.254)
+			(polyline
+				(pts
+					(xy 1.905 7.62) (xy -2.697 8.509)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -326,6 +317,17 @@
 			)
 			(circle
 				(center 2.286 12.7)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.286 7.62)
 				(radius 0.254)
 				(stroke
 					(width 0)
@@ -362,70 +364,16 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "COIL-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 8.89 0)
+				(at -3.81 13.97 0)
 				(length 1.27)
-				(name "NC1"
+				(name "NC2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 7.62 180)
-				(length 1.27)
-				(name "COM1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 6.35 0)
-				(length 1.27)
-				(name "NO1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -452,6 +400,42 @@
 				)
 			)
 			(pin passive line
+				(at -3.81 8.89 0)
+				(length 1.27)
+				(name "NC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 6.35 0)
+				(length 1.27)
+				(name "NO1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 3.81 12.7 180)
 				(length 1.27)
 				(name "COM2"
@@ -470,16 +454,34 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 13.97 0)
+				(at 3.81 7.62 180)
 				(length 1.27)
-				(name "NC2"
+				(name "COM1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "9"
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "COIL-"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -488,5 +490,6 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
