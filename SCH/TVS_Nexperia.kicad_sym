@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 1.27 2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "PESD5V0S1BA"
-			(at 1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +212,7 @@
 		(symbol "PESD5V0S1BA, Bidir, 5V_0_0"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 0 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -224,7 +224,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -238,7 +238,7 @@
 		(symbol "PESD5V0S1BA, Bidir, 5V_0_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.016 1.524)
+					(xy 0 1.27) (xy -0.254 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -250,7 +250,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -262,7 +262,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 -1.524) (xy 1.27 -1.27)
+					(xy 0.254 -1.524) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -276,7 +276,7 @@
 		(symbol "PESD5V0S1BA, Bidir, 5V_1_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -288,7 +288,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -299,8 +299,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "AC2"
 					(effects
 						(font
@@ -318,7 +318,7 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
-				(length 1.27)
+				(length 2.54)
 				(name "AC1"
 					(effects
 						(font
