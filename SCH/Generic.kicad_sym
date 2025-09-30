@@ -1340,8 +1340,8 @@
 		)
 		(symbol "D_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -1358,8 +1358,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -1642,8 +1642,8 @@
 		)
 		(symbol "D-SCHOTTKY_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -1660,8 +1660,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -1680,7 +1680,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D-SCHOTTKY_DUAL_CA_1"
+	(symbol "D-SCHOTTKY_DUAL_CA"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1692,15 +1692,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D-SCHOTTKY_DUAL_CA_1"
-			(at 0 -7.62 0)
+		(property "Value" "D-SCHOTTKY_DUAL_CA"
+			(at 0 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,10 +1878,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "D-SCHOTTKY_DUAL_CA_1_0_0"
+		(symbol "D-SCHOTTKY_DUAL_CA_0_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy 1.27 0)
+					(xy -1.27 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1893,7 +1893,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -5.08) (xy 1.27 -5.08)
+					(xy -1.27 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1905,7 +1905,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 2.54 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1917,7 +1917,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -5.08)
+					(xy 2.54 2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1929,7 +1929,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy 2.54 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -1940,10 +1940,10 @@
 				)
 			)
 		)
-		(symbol "D-SCHOTTKY_DUAL_CA_1_0_1"
+		(symbol "D-SCHOTTKY_DUAL_CA_0_1"
 			(polyline
 				(pts
-					(xy -1.524 1.27) (xy -1.27 1.27)
+					(xy -1.524 3.81) (xy -1.27 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -1955,7 +1955,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.524 -3.81) (xy -1.27 -3.81)
+					(xy -1.524 -1.27) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1967,7 +1967,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27)
+					(xy -1.27 3.81) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1979,7 +1979,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -1.016 -1.27)
+					(xy -1.27 1.27) (xy -1.016 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1991,7 +1991,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -6.35)
+					(xy -1.27 -1.27) (xy -1.27 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2003,7 +2003,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -1.016 -6.35)
+					(xy -1.27 -3.81) (xy -1.016 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2015,7 +2015,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					(xy 1.27 3.81) (xy 1.27 1.27) (xy -1.27 2.54) (xy 1.27 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2027,10 +2027,21 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					(xy 1.27 -1.27) (xy 1.27 -3.81) (xy -1.27 -2.54) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 0)
+				(radius 0.1588)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -2038,10 +2049,10 @@
 				)
 			)
 		)
-		(symbol "D-SCHOTTKY_DUAL_CA_1_1_1"
+		(symbol "D-SCHOTTKY_DUAL_CA_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 2.54 0)
+				(length 1.27)
 				(name "C1"
 					(effects
 						(font
@@ -2058,8 +2069,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 0)
-				(length 2.54)
+				(at -2.54 -2.54 0)
+				(length 1.27)
 				(name "C2"
 					(effects
 						(font
@@ -2076,8 +2087,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 180)
-				(length 1.27)
+				(at 2.54 0 180)
+				(length 0)
 				(name "CA"
 					(effects
 						(font
@@ -2096,7 +2107,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "D-SCHOTTKY_DUAL_CC_1"
+	(symbol "D-SCHOTTKY_DUAL_CC"
 		(pin_numbers
 			(hide yes)
 		)
@@ -2108,14 +2119,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 2.54 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D-SCHOTTKY_DUAL_CC_1"
+		(property "Value" "D-SCHOTTKY_DUAL_CC"
 			(at 0 -7.62 0)
 			(effects
 				(font
@@ -2294,10 +2305,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "D-SCHOTTKY_DUAL_CC_1_0_0"
+		(symbol "D-SCHOTTKY_DUAL_CC_0_0"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 1.27 2.54) (xy -1.27 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2309,7 +2320,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -5.08) (xy -1.27 -5.08)
+					(xy 1.27 -2.54) (xy -1.27 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2321,7 +2332,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 1.27 0)
+					(xy 2.54 2.54) (xy 1.27 2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2333,7 +2344,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 2.54 -5.08)
+					(xy 2.54 2.54) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2345,7 +2356,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -5.08) (xy 1.27 -5.08)
+					(xy 2.54 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -2356,10 +2367,10 @@
 				)
 			)
 		)
-		(symbol "D-SCHOTTKY_DUAL_CC_1_0_1"
+		(symbol "D-SCHOTTKY_DUAL_CC_0_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2371,7 +2382,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -1.27 -6.35) (xy 1.27 -5.08) (xy -1.27 -3.81)
+					(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2383,7 +2394,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
+					(xy 1.27 3.81) (xy 1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2395,7 +2406,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy 1.016 -1.27)
+					(xy 1.27 1.27) (xy 1.016 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -2407,7 +2418,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -3.81) (xy 1.27 -6.35)
+					(xy 1.27 -1.27) (xy 1.27 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2419,7 +2430,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -6.35) (xy 1.016 -6.35)
+					(xy 1.27 -3.81) (xy 1.016 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2431,7 +2442,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 1.27) (xy 1.27 1.27)
+					(xy 1.524 3.81) (xy 1.27 3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -2443,10 +2454,21 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 -3.81) (xy 1.27 -3.81)
+					(xy 1.524 -1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 0)
+				(radius 0.1588)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -2454,10 +2476,10 @@
 				)
 			)
 		)
-		(symbol "D-SCHOTTKY_DUAL_CC_1_1_1"
+		(symbol "D-SCHOTTKY_DUAL_CC_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 2.54 0)
+				(length 1.27)
 				(name "A1"
 					(effects
 						(font
@@ -2474,8 +2496,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 0)
-				(length 2.54)
+				(at -2.54 -2.54 0)
+				(length 1.27)
 				(name "A2"
 					(effects
 						(font
@@ -2492,8 +2514,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -2.54 180)
-				(length 1.27)
+				(at 2.54 0 180)
+				(length 0)
 				(name "CC"
 					(effects
 						(font
@@ -2764,8 +2786,8 @@
 		)
 		(symbol "D-Zener_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -2782,8 +2804,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -5055,8 +5077,8 @@
 		)
 		(symbol "LED_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -5073,8 +5095,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -5391,8 +5413,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -5409,8 +5431,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -5727,8 +5749,8 @@
 		)
 		(symbol "LED-Green_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -5745,8 +5767,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -6063,8 +6085,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -6081,8 +6103,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -6399,8 +6421,8 @@
 		)
 		(symbol "LED-Red_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -6417,8 +6439,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -6735,8 +6757,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -6753,8 +6775,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font

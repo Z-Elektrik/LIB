@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 1.27 2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "10V"
-			(at 1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -203,7 +203,7 @@
 		(symbol "P6SMB10CA_0_0"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 0 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -215,7 +215,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -229,7 +229,7 @@
 		(symbol "P6SMB10CA_0_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.016 1.524)
+					(xy 0 1.27) (xy -0.254 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -241,7 +241,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -253,7 +253,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 -1.524) (xy 1.27 -1.27)
+					(xy 0.254 -1.524) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -267,7 +267,7 @@
 		(symbol "P6SMB10CA_1_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -279,7 +279,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -290,8 +290,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "AC2"
 					(effects
 						(font
@@ -309,7 +309,7 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
-				(length 1.27)
+				(length 2.54)
 				(name "AC1"
 					(effects
 						(font
@@ -340,7 +340,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 1.27 2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +348,7 @@
 			)
 		)
 		(property "Value" "15V"
-			(at 1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -529,7 +529,7 @@
 		(symbol "P6SMB15CA_0_0"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 0 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -541,7 +541,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -555,7 +555,7 @@
 		(symbol "P6SMB15CA_0_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.016 1.524)
+					(xy 0 1.27) (xy -0.254 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -567,7 +567,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -579,7 +579,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 -1.524) (xy 1.27 -1.27)
+					(xy 0.254 -1.524) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -593,7 +593,7 @@
 		(symbol "P6SMB15CA_1_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -605,7 +605,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -616,8 +616,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "AC2"
 					(effects
 						(font
@@ -635,7 +635,7 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
-				(length 1.27)
+				(length 2.54)
 				(name "AC1"
 					(effects
 						(font
@@ -666,7 +666,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 1.27 2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +674,7 @@
 			)
 		)
 		(property "Value" "6V8"
-			(at 1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +855,7 @@
 		(symbol "P6SMB6.8CA_0_0"
 			(polyline
 				(pts
-					(xy 1.27 0) (xy -1.27 0)
+					(xy 0 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -867,7 +867,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 1.27 0)
+					(xy 2.54 0) (xy 0 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -881,7 +881,7 @@
 		(symbol "P6SMB6.8CA_0_1"
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.016 1.524)
+					(xy 0 1.27) (xy -0.254 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -893,7 +893,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 1.27) (xy 1.27 -1.27)
+					(xy 0 1.27) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -905,7 +905,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.524 -1.524) (xy 1.27 -1.27)
+					(xy 0.254 -1.524) (xy 0 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -919,7 +919,7 @@
 		(symbol "P6SMB6.8CA_1_1"
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					(xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -931,7 +931,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -1.27) (xy 3.81 1.27) (xy 1.27 0) (xy 3.81 -1.27)
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -942,8 +942,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "AC2"
 					(effects
 						(font
@@ -961,7 +961,7 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
-				(length 1.27)
+				(length 2.54)
 				(name "AC1"
 					(effects
 						(font
@@ -992,7 +992,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 1.27 2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(property "Value" "33V"
-			(at 1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,7 +1190,7 @@
 		(symbol "SM6T33A, Unidir, 33V_0_0"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -1204,7 +1204,7 @@
 		(symbol "SM6T33A, Unidir, 33V_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27) (xy 2.54 0) (xy 0 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1216,7 +1216,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.286 1.524)
+					(xy 1.27 1.27) (xy 1.016 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -1228,7 +1228,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.54 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1240,7 +1240,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 -1.524) (xy 2.54 -1.27)
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -1254,7 +1254,7 @@
 		(symbol "SM6T33A, Unidir, 33V_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 2.54)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -1271,8 +1271,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
@@ -1895,8 +1895,8 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 2.54 0)
-				(length 2.54)
+				(at -7.62 2.54 0)
+				(length 1.27)
 				(name "IO1"
 					(effects
 						(font
@@ -1913,8 +1913,8 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -2.54 0)
-				(length 2.54)
+				(at -7.62 -2.54 0)
+				(length 1.27)
 				(name "IO2"
 					(effects
 						(font
@@ -1931,8 +1931,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 11.43 270)
-				(length 2.54)
+				(at 0 10.16 270)
+				(length 1.27)
 				(name "VBUS"
 					(effects
 						(font
@@ -1949,8 +1949,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -11.43 90)
-				(length 2.54)
+				(at 0 -10.16 90)
+				(length 1.27)
 				(name "GND"
 					(effects
 						(font
@@ -1967,8 +1967,8 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 2.54 180)
-				(length 2.54)
+				(at 7.62 2.54 180)
+				(length 1.27)
 				(name "IO1"
 					(effects
 						(font
@@ -1985,7 +1985,7 @@
 				)
 			)
 			(pin passive line
-				(at 8.89 -2.54 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "IO2"
 					(effects

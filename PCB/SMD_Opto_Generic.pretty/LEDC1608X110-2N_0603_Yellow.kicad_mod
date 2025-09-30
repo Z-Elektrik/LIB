@@ -1,0 +1,297 @@
+(footprint "LEDC1608X110-2N_0603_Yellow"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EIA: 0603, METRIC: 1608, JEDEC: - , IPC: LEDC1608X110-2N")
+	(tags "LEDC")
+	(property "Reference" "REF**"
+		(at 0 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LEDC1608X110-2N_0603_Yellow"
+		(at 0 1.524 0)
+		(layer "F.Fab")
+		(uuid "136faa66-2c23-42b0-a119-0aec3575d644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.kingbright.com/attachments/file/psearch/000/00/20160808bak/KP-1608SGC(Ver.20B).pdf"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c52fae6a-d31e-4571-abfb-cc196b2bbfb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96d44da8-2ab8-4b4e-9b8c-8a8787fe34a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.1 -0.4)
+		(end -0.1 0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "add887ac-b584-4dff-819d-5125fe7baa6f")
+	)
+	(fp_line
+		(start -0.1 -0.4)
+		(end 0.1 -0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f287c53-dc03-441d-ab6c-b716bcc9a16c")
+	)
+	(fp_line
+		(start -0.1 0.4)
+		(end 0.1 0.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6335a0ff-b83c-486e-9d9b-cb40f71ee577")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "35d9484a-3bba-4f83-aa65-2de5ed20de37")
+	)
+	(fp_line
+		(start -1.27 -0.635)
+		(end 1.27 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d70046f-0448-4387-bfe0-0f5888605081")
+	)
+	(fp_line
+		(start -1.27 0.635)
+		(end -1.27 -0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4acecd72-ca2b-427c-8b88-691cd5b51ca4")
+	)
+	(fp_line
+		(start 1.27 -0.635)
+		(end 1.27 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02f268ec-de69-4d3b-9ac6-6a47de4f949e")
+	)
+	(fp_line
+		(start 1.27 0.635)
+		(end -1.27 0.635)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3554d570-aebb-4204-83e4-2656e92e206e")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c262eb0d-6ba9-4767-ad89-8fd0d71bff48")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e47833f-1fcb-4bdd-8b02-86964f718fdb")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4343ef6-fc15-4c95-a06c-8f542356c9ec")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79b83648-9ca6-4996-81c1-e34d6c36e5e3")
+	)
+	(fp_rect
+		(start -0.8 -0.4)
+		(end -0.635 0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "57a7159c-eb5e-4c1f-82c8-7946aa1e0da5")
+	)
+	(fp_rect
+		(start 0.635 -0.4)
+		(end 0.8 0.381)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "15a92110-bd18-4d93-9e9f-0290cd2932a4")
+	)
+	(fp_poly
+		(pts
+			(xy 0.1778 -0.254) (xy 0.1778 0.254) (xy -0.3302 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "1af44456-5ec1-4062-ae9d-8395f86b965d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.27 0)
+		(layer "F.Fab")
+		(uuid "e2a63da7-72ee-4a07-a5b9-2789e6943dd5")
+		(effects
+			(font
+				(face "Tahoma")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.506027 -1.868412) (xy -1.443413 -1.861463) (xy -1.38619 -1.845722) (xy -1.331062 -1.817011)
+					(xy -1.283231 -1.777771) (xy -1.246676 -1.728778) (xy -1.229964 -1.691525) (xy -1.219367 -1.647326)
+					(xy -1.215596 -1.59475) (xy -1.222327 -1.521856) (xy -1.241457 -1.460119) (xy -1.272321 -1.407355)
+					(xy -1.314009 -1.362107) (xy -1.365005 -1.325018) (xy -1.426683 -1.295858) (xy -1.064593 -0.855)
+					(xy -1.240203 -0.855) (xy -1.562604 -1.257512) (xy -1.717026 -1.257512) (xy -1.717026 -0.855) (xy -1.852276 -0.855)
+					(xy -1.852276 -1.374748) (xy -1.717026 -1.374748) (xy -1.598141 -1.374748) (xy -1.541612 -1.3774)
+					(xy -1.493605 -1.384823) (xy -1.450356 -1.40047) (xy -1.414349 -1.426711) (xy -1.38887 -1.45766)
+					(xy -1.370995 -1.494122) (xy -1.360722 -1.53524) (xy -1.357013 -1.585835) (xy -1.36109 -1.62799)
+					(xy -1.372705 -1.663749) (xy -1.392534 -1.694548) (xy -1.421187 -1.719436) (xy -1.45175 -1.735313)
+					(xy -1.488171 -1.746058) (xy -1.528694 -1.751679) (xy -1.58312 -1.753813) (xy -1.717026 -1.753813)
+					(xy -1.717026 -1.374748) (xy -1.852276 -1.374748) (xy -1.852276 -1.87105) (xy -1.589959 -1.87105)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.983748 -0.855) (xy -0.983748 -1.87105) (xy -0.34774 -1.87105) (xy -0.34774 -1.750882) (xy -0.848499 -1.750882)
+					(xy -0.848499 -1.472445) (xy -0.381873 -1.472445) (xy -0.381873 -1.352278) (xy -0.848499 -1.352278)
+					(xy -0.848499 -0.975167) (xy -0.34774 -0.975167) (xy -0.34774 -0.855)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.409412 -1.750882) (xy -0.063991 -1.750882) (xy -0.063991 -1.46463) (xy 0.389628 -1.46463)
+					(xy 0.389628 -1.344462) (xy -0.063991 -1.344462) (xy -0.063991 -0.855) (xy -0.19924 -0.855) (xy -0.19924 -1.87105)
+					(xy 0.409412 -1.87105)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.115335 -1.461699) (xy 1.070944 -1.387144) (xy 0.847522 -1.53375) (xy 0.852346 -1.284867)
+					(xy 0.766922 -1.284867) (xy 0.771013 -1.53375) (xy 0.548997 -1.386472) (xy 0.503934 -1.461027)
+					(xy 0.745734 -1.601406) (xy 0.503934 -1.741784) (xy 0.548997 -1.816339) (xy 0.771746 -1.668389)
+					(xy 0.766922 -1.917944) (xy 0.852346 -1.917944) (xy 0.846851 -1.668389) (xy 1.070944 -1.815668)
+					(xy 1.115335 -1.741051) (xy 0.873473 -1.602077)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.879326 -1.461699) (xy 1.834935 -1.387144) (xy 1.611514 -1.53375) (xy 1.616338 -1.284867)
+					(xy 1.530914 -1.284867) (xy 1.535005 -1.53375) (xy 1.312988 -1.386472) (xy 1.267925 -1.461027)
+					(xy 1.509726 -1.601406) (xy 1.267925 -1.741784) (xy 1.312988 -1.816339) (xy 1.535738 -1.668389)
+					(xy 1.530914 -1.917944) (xy 1.616338 -1.917944) (xy 1.610842 -1.668389) (xy 1.834935 -1.815668)
+					(xy 1.879326 -1.741051) (xy 1.637465 -1.602077)
+				)
+			)
+		)
+	)
+	(pad "A" smd roundrect
+		(at 0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "dcd2d7b5-e00e-42bc-9176-3f9d2b6c7666")
+	)
+	(pad "C" smd roundrect
+		(at -0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5fdb5de7-8a44-42ec-aa2b-d3901e66919c")
+	)
+	(embedded_fonts no)
+	(model "${Z_LIB_3D_DIR}/SMD_Opto_Generic.3dshapes/LEDC1608X110_0603-Yellow.step"
+		(offset
+			(xyz 0 0 0.26)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

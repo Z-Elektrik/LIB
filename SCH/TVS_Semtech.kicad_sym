@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "TVS"
-			(at 1.27 2.54 0)
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "UCLAMP3301D.TCT"
-			(at 1.27 -2.54 0)
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -212,7 +212,7 @@
 		(symbol "UCLAMP3301D.TCT, 3.3V, ESD, CDE_0_0"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 0 0)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -226,7 +226,7 @@
 		(symbol "UCLAMP3301D.TCT, 3.3V, ESD, CDE_0_1"
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 -1.27) (xy 2.54 0) (xy 0 1.27)
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -238,7 +238,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.286 1.524)
+					(xy 1.27 1.27) (xy 1.016 1.524)
 				)
 				(stroke
 					(width 0.254)
@@ -250,7 +250,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy 2.54 -1.27)
+					(xy 1.27 1.27) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -262,7 +262,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.794 -1.524) (xy 2.54 -1.27)
+					(xy 1.524 -1.524) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -276,7 +276,7 @@
 		(symbol "UCLAMP3301D.TCT, 3.3V, ESD, CDE_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 2.54)
+				(length 1.27)
 				(name "A"
 					(effects
 						(font
@@ -293,8 +293,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "C"
 					(effects
 						(font
