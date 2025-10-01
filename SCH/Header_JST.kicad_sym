@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "B2B-PH-K-S, 1x2 Pin, Vertical, THD, RM2.0mm"
+	(symbol "B2B-PH-K-S, THD, 1x2 Pin, RM2.0mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -11,7 +11,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 7.62 0)
+			(at 1.27 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "B2B-PH-K-S"
-			(at 0 5.715 0)
+			(at 1.27 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header, 1x2 pin, 2.0mm, Vertical, White"
+		(property "Description" "Connector Header, 1x2 pin, 2.0mm, Vertical, Male, White"
 			(at 0 21.59 0)
 			(effects
 				(font
@@ -90,7 +90,7 @@
 			)
 		)
 		(property "OC_LCSC" "C131337"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -108,7 +108,7 @@
 			)
 		)
 		(property "OC_RS" "820-1422"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -117,7 +117,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" "143-01-944"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -135,7 +135,7 @@
 			)
 		)
 		(property "OC_FARNELL" "9491856"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,7 +144,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" "455-1704-ND"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "OC_SOS" "80873"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,10 +205,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "B2B-PH-K-S, 1x2 Pin, Vertical, THD, RM2.0mm_0_1"
+		(symbol "B2B-PH-K-S, THD, 1x2 Pin, RM2.0mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -3.175 2.54)
+					(xy -1.27 2.54) (xy -1.905 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -220,19 +220,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.905) (xy -3.175 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.635 3.81) (xy -0.635 3.175)
+					(xy -1.27 1.905) (xy -1.905 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -256,7 +244,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 3.175 2.54)
+					(xy 1.905 3.81) (xy 1.905 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -268,7 +256,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.905) (xy 3.175 1.905)
+					(xy 3.81 2.54) (xy 4.445 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.905) (xy 4.445 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -279,10 +279,10 @@
 				)
 			)
 		)
-		(symbol "B2B-PH-K-S, 1x2 Pin, Vertical, THD, RM2.0mm_1_0"
+		(symbol "B2B-PH-K-S, THD, 1x2 Pin, RM2.0mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.27 1.27)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -294,7 +294,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 1.27 1.27)
+					(xy 2.54 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -305,10 +305,10 @@
 				)
 			)
 		)
-		(symbol "B2B-PH-K-S, 1x2 Pin, Vertical, THD, RM2.0mm_1_1"
+		(symbol "B2B-PH-K-S, THD, 1x2 Pin, RM2.0mm, Vertical, Male, JST_1_1"
 			(rectangle
-				(start -3.175 3.81)
-				(end 3.175 -1.27)
+				(start -1.905 3.81)
+				(end 4.445 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -318,8 +318,8 @@
 				)
 			)
 			(rectangle
-				(start -2.54 3.175)
-				(end 2.54 -0.635)
+				(start -1.27 3.175)
+				(end 3.81 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -329,8 +329,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 0.635)
-				(end -1.905 1.905)
+				(start 0.635 0.635)
+				(end -0.635 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -340,8 +340,8 @@
 				)
 			)
 			(rectangle
-				(start 1.905 0.635)
-				(end 0.635 1.905)
+				(start 3.175 0.635)
+				(end 1.905 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -351,7 +351,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -5.08 90)
+				(at 0 -5.08 90)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -369,7 +369,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -5.08 90)
+				(at 2.54 -5.08 90)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -389,7 +389,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B2B-XH-A, 1x2 Pin, Vertical, THD, RM2.5mm"
+	(symbol "B2B-XH-A, THD, 1x2 Pin, RM2.5mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -398,7 +398,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 7.62 0)
+			(at 1.27 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -406,7 +406,7 @@
 			)
 		)
 		(property "Value" "B2B-XH-A"
-			(at 0 5.715 0)
+			(at 1.27 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +477,7 @@
 			)
 		)
 		(property "OC_LCSC" "C158012"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +486,7 @@
 			)
 		)
 		(property "OC_MOUSER" "306-B2BXHALFSNP"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,7 +495,7 @@
 			)
 		)
 		(property "OC_RS" "820-1554"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -522,7 +522,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1516276"
-			(at 5.08 0 90)
+			(at 6.35 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,10 +592,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "B2B-XH-A, 1x2 Pin, Vertical, THD, RM2.5mm_0_1"
+		(symbol "B2B-XH-A, THD, 1x2 Pin, RM2.5mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
-					(xy -2.54 2.54) (xy -3.175 2.54)
+					(xy -1.27 2.54) (xy -1.905 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -607,19 +607,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 1.905) (xy -3.175 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.905 3.81) (xy -1.905 3.175)
+					(xy -1.27 1.905) (xy -1.905 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -667,7 +655,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 2.54) (xy 3.175 2.54)
+					(xy 3.175 3.81) (xy 3.175 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -679,7 +667,19 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 1.905) (xy 3.175 1.905)
+					(xy 3.81 2.54) (xy 4.445 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 1.905) (xy 4.445 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -690,10 +690,10 @@
 				)
 			)
 		)
-		(symbol "B2B-XH-A, 1x2 Pin, Vertical, THD, RM2.5mm_1_0"
+		(symbol "B2B-XH-A, THD, 1x2 Pin, RM2.5mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.27 1.27)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -705,7 +705,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 1.27 1.27)
+					(xy 2.54 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -716,10 +716,10 @@
 				)
 			)
 		)
-		(symbol "B2B-XH-A, 1x2 Pin, Vertical, THD, RM2.5mm_1_1"
+		(symbol "B2B-XH-A, THD, 1x2 Pin, RM2.5mm, Vertical, Male, JST_1_1"
 			(rectangle
-				(start -3.175 3.81)
-				(end 3.175 -1.27)
+				(start -1.905 3.81)
+				(end 4.445 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -729,8 +729,8 @@
 				)
 			)
 			(rectangle
-				(start -2.54 3.175)
-				(end 2.54 -0.635)
+				(start -1.27 3.175)
+				(end 3.81 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -740,8 +740,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 0.635)
-				(end -1.905 1.905)
+				(start 0.635 0.635)
+				(end -0.635 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -751,8 +751,8 @@
 				)
 			)
 			(rectangle
-				(start 1.905 0.635)
-				(end 0.635 1.905)
+				(start 3.175 0.635)
+				(end 1.905 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -762,7 +762,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -5.08 90)
+				(at 0 -5.08 90)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -780,7 +780,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -5.08 90)
+				(at 2.54 -5.08 90)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -800,7 +800,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B3B-PH-K-S, 1x3 Pin, Vertical, THD, RM2.0mm"
+	(symbol "B3B-PH-K-S, THD, 1x3 Pin, RM2.0mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1003,7 +1003,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "B3B-PH-K-S, 1x3 Pin, Vertical, THD, RM2.0mm_0_1"
+		(symbol "B3B-PH-K-S, THD, 1x3 Pin, RM2.0mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
 					(xy -3.81 2.54) (xy -4.445 2.54)
@@ -1077,7 +1077,7 @@
 				)
 			)
 		)
-		(symbol "B3B-PH-K-S, 1x3 Pin, Vertical, THD, RM2.0mm_1_0"
+		(symbol "B3B-PH-K-S, THD, 1x3 Pin, RM2.0mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -2.54 1.27)
@@ -1115,7 +1115,7 @@
 				)
 			)
 		)
-		(symbol "B3B-PH-K-S, 1x3 Pin, Vertical, THD, RM2.0mm_1_1"
+		(symbol "B3B-PH-K-S, THD, 1x3 Pin, RM2.0mm, Vertical, Male, JST_1_1"
 			(rectangle
 				(start -4.445 3.81)
 				(end 4.445 -1.27)
@@ -1228,7 +1228,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B3B-XH-A, 1x3 Pin, Vertical, THD, RM2.5mm"
+	(symbol "B3B-XH-A, THD, 1x3 Pin, RM2.5mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1431,7 +1431,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "B3B-XH-A, 1x3 Pin, Vertical, THD, RM2.5mm_0_1"
+		(symbol "B3B-XH-A, THD, 1x3 Pin, RM2.5mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
 					(xy -3.81 2.54) (xy -4.445 2.54)
@@ -1529,7 +1529,7 @@
 				)
 			)
 		)
-		(symbol "B3B-XH-A, 1x3 Pin, Vertical, THD, RM2.5mm_1_0"
+		(symbol "B3B-XH-A, THD, 1x3 Pin, RM2.5mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
 					(xy -2.54 0) (xy -2.54 1.27)
@@ -1567,7 +1567,7 @@
 				)
 			)
 		)
-		(symbol "B3B-XH-A, 1x3 Pin, Vertical, THD, RM2.5mm_1_1"
+		(symbol "B3B-XH-A, THD, 1x3 Pin, RM2.5mm, Vertical, Male, JST_1_1"
 			(rectangle
 				(start -4.445 3.81)
 				(end 4.445 -1.27)
@@ -1680,7 +1680,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B4B-PH-K-S, 1x4 Pin, Vertical, THD, RM2.0mm"
+	(symbol "B4B-PH-K-S, THD, 1x4 Pin, RM2.0mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1689,7 +1689,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 7.62 0)
+			(at 1.27 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1697,7 @@
 			)
 		)
 		(property "Value" "B4B-PH-K-S"
-			(at 0 5.715 0)
+			(at 1.27 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +1768,7 @@
 			)
 		)
 		(property "OC_LCSC" "C131334"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 			)
 		)
 		(property "OC_RS" "820-1434"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1795,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" "143-01-946"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1813,7 +1813,7 @@
 			)
 		)
 		(property "OC_FARNELL" "9492437"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1822,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" "455-1706-ND"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,10 +1883,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "B4B-PH-K-S, 1x4 Pin, Vertical, THD, RM2.0mm_0_1"
+		(symbol "B4B-PH-K-S, THD, 1x4 Pin, RM2.0mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
-					(xy -5.08 2.54) (xy -5.715 2.54)
+					(xy -3.81 2.54) (xy -4.445 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -1898,7 +1898,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 1.905) (xy -5.715 1.905)
+					(xy -3.81 1.905) (xy -4.445 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -1910,7 +1910,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.175 3.81) (xy -3.175 3.175)
+					(xy -1.905 3.81) (xy -1.905 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -1922,7 +1922,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 3.81) (xy 3.175 3.175)
+					(xy 4.445 3.81) (xy 4.445 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -1934,7 +1934,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.715 2.54)
+					(xy 6.35 2.54) (xy 6.985 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -1946,7 +1946,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1.905) (xy 5.715 1.905)
+					(xy 6.35 1.905) (xy 6.985 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -1957,10 +1957,10 @@
 				)
 			)
 		)
-		(symbol "B4B-PH-K-S, 1x4 Pin, Vertical, THD, RM2.0mm_1_0"
+		(symbol "B4B-PH-K-S, THD, 1x4 Pin, RM2.0mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -3.81 1.27)
+					(xy -2.54 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1972,7 +1972,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.27 1.27)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1984,7 +1984,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 1.27 1.27)
+					(xy 2.54 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -1996,7 +1996,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 3.81 1.27)
+					(xy 5.08 0) (xy 5.08 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2007,10 +2007,10 @@
 				)
 			)
 		)
-		(symbol "B4B-PH-K-S, 1x4 Pin, Vertical, THD, RM2.0mm_1_1"
+		(symbol "B4B-PH-K-S, THD, 1x4 Pin, RM2.0mm, Vertical, Male, JST_1_1"
 			(rectangle
-				(start -5.715 3.81)
-				(end 5.715 -1.27)
+				(start -4.445 3.81)
+				(end 6.985 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2020,8 +2020,8 @@
 				)
 			)
 			(rectangle
-				(start -5.08 3.175)
-				(end 5.08 -0.635)
+				(start -3.81 3.175)
+				(end 6.35 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2031,8 +2031,8 @@
 				)
 			)
 			(rectangle
-				(start -3.175 0.635)
-				(end -4.445 1.905)
+				(start -1.905 0.635)
+				(end -3.175 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2042,8 +2042,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 0.635)
-				(end -1.905 1.905)
+				(start 0.635 0.635)
+				(end -0.635 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2053,8 +2053,8 @@
 				)
 			)
 			(rectangle
-				(start 1.905 0.635)
-				(end 0.635 1.905)
+				(start 3.175 0.635)
+				(end 1.905 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2064,8 +2064,8 @@
 				)
 			)
 			(rectangle
-				(start 4.445 0.635)
-				(end 3.175 1.905)
+				(start 5.715 0.635)
+				(end 4.445 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2075,7 +2075,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 90)
+				(at -2.54 -5.08 90)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -2093,7 +2093,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -5.08 90)
+				(at 0 -5.08 90)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -2111,7 +2111,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -5.08 90)
+				(at 2.54 -5.08 90)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -2129,7 +2129,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -5.08 90)
+				(at 5.08 -5.08 90)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -2149,7 +2149,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B4B-XH-A, 1x4 Pin, Vertical, THD, RM2.5mm"
+	(symbol "B4B-XH-A, THD, 1x4 Pin, RM2.5mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -2158,7 +2158,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 7.62 0)
+			(at 1.27 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2166,7 @@
 			)
 		)
 		(property "Value" "B4B-XH-A"
-			(at 0 5.715 0)
+			(at 1.27 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2237,7 @@
 			)
 		)
 		(property "OC_LCSC" "C144395"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2246,7 @@
 			)
 		)
 		(property "OC_MOUSER" "306-B4BXHALFSN"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2255,7 @@
 			)
 		)
 		(property "OC_RS" "820-1551"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1516278"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 			)
 		)
 		(property "OC_SOS" "2660"
-			(at 1.905 0 90)
+			(at 3.175 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2352,10 +2352,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "B4B-XH-A, 1x4 Pin, Vertical, THD, RM2.5mm_0_1"
+		(symbol "B4B-XH-A, THD, 1x4 Pin, RM2.5mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
-					(xy -5.08 2.54) (xy -5.715 2.54)
+					(xy -3.81 2.54) (xy -4.445 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -2367,19 +2367,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 1.905) (xy -5.715 1.905)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -4.445 3.81) (xy -4.445 3.175)
+					(xy -3.81 1.905) (xy -4.445 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -2403,7 +2391,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.175 3.81) (xy 3.175 3.175)
+					(xy -1.905 3.81) (xy -1.905 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -2427,7 +2415,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 2.54) (xy 5.715 2.54)
+					(xy 5.715 3.81) (xy 5.715 3.175)
 				)
 				(stroke
 					(width 0.254)
@@ -2439,7 +2427,19 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 1.905) (xy 5.715 1.905)
+					(xy 6.35 2.54) (xy 6.985 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 1.905) (xy 6.985 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -2450,10 +2450,10 @@
 				)
 			)
 		)
-		(symbol "B4B-XH-A, 1x4 Pin, Vertical, THD, RM2.5mm_1_0"
+		(symbol "B4B-XH-A, THD, 1x4 Pin, RM2.5mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
-					(xy -3.81 0) (xy -3.81 1.27)
+					(xy -2.54 0) (xy -2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2465,7 +2465,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -1.27 1.27)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2477,7 +2477,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 0) (xy 1.27 1.27)
+					(xy 2.54 0) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2489,7 +2489,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 0) (xy 3.81 1.27)
+					(xy 5.08 0) (xy 5.08 1.27)
 				)
 				(stroke
 					(width 0)
@@ -2500,10 +2500,10 @@
 				)
 			)
 		)
-		(symbol "B4B-XH-A, 1x4 Pin, Vertical, THD, RM2.5mm_1_1"
+		(symbol "B4B-XH-A, THD, 1x4 Pin, RM2.5mm, Vertical, Male, JST_1_1"
 			(rectangle
-				(start -5.715 3.81)
-				(end 5.715 -1.27)
+				(start -4.445 3.81)
+				(end 6.985 -1.27)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2513,8 +2513,8 @@
 				)
 			)
 			(rectangle
-				(start -5.08 3.175)
-				(end 5.08 -0.635)
+				(start -3.81 3.175)
+				(end 6.35 -0.635)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2524,8 +2524,8 @@
 				)
 			)
 			(rectangle
-				(start -3.175 0.635)
-				(end -4.445 1.905)
+				(start -1.905 0.635)
+				(end -3.175 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2535,8 +2535,8 @@
 				)
 			)
 			(rectangle
-				(start -0.635 0.635)
-				(end -1.905 1.905)
+				(start 0.635 0.635)
+				(end -0.635 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2546,8 +2546,8 @@
 				)
 			)
 			(rectangle
-				(start 1.905 0.635)
-				(end 0.635 1.905)
+				(start 3.175 0.635)
+				(end 1.905 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2557,8 +2557,8 @@
 				)
 			)
 			(rectangle
-				(start 4.445 0.635)
-				(end 3.175 1.905)
+				(start 5.715 0.635)
+				(end 4.445 1.905)
 				(stroke
 					(width 0)
 					(type default)
@@ -2568,7 +2568,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -5.08 90)
+				(at -2.54 -5.08 90)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -2586,7 +2586,7 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -5.08 90)
+				(at 0 -5.08 90)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -2604,7 +2604,7 @@
 				)
 			)
 			(pin passive line
-				(at 1.27 -5.08 90)
+				(at 2.54 -5.08 90)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -2622,7 +2622,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -5.08 90)
+				(at 5.08 -5.08 90)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -2642,7 +2642,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B5B-PH-K-S, 1x5 Pin, Vertical, THD, RM2.0mm"
+	(symbol "B5B-PH-K-S, THD, 1x5 Pin, RM2.0mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -2845,7 +2845,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "B5B-PH-K-S, 1x5 Pin, Vertical, THD, RM2.0mm_0_1"
+		(symbol "B5B-PH-K-S, THD, 1x5 Pin, RM2.0mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
 					(xy -6.35 2.54) (xy -6.985 2.54)
@@ -2919,7 +2919,7 @@
 				)
 			)
 		)
-		(symbol "B5B-PH-K-S, 1x5 Pin, Vertical, THD, RM2.0mm_1_0"
+		(symbol "B5B-PH-K-S, THD, 1x5 Pin, RM2.0mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -5.08 1.27)
@@ -2981,7 +2981,7 @@
 				)
 			)
 		)
-		(symbol "B5B-PH-K-S, 1x5 Pin, Vertical, THD, RM2.0mm_1_1"
+		(symbol "B5B-PH-K-S, THD, 1x5 Pin, RM2.0mm, Vertical, Male, JST_1_1"
 			(rectangle
 				(start -6.985 3.81)
 				(end 6.985 -1.27)
@@ -3152,7 +3152,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "B5B-XH-A, 1x5 Pin, Vertical, THD, RM2.5mm"
+	(symbol "B5B-XH-A, THD, 1x5 Pin, RM2.5mm, Vertical, Male, JST"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -3355,7 +3355,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "B5B-XH-A, 1x5 Pin, Vertical, THD, RM2.5mm_0_1"
+		(symbol "B5B-XH-A, THD, 1x5 Pin, RM2.5mm, Vertical, Male, JST_0_1"
 			(polyline
 				(pts
 					(xy -6.35 2.54) (xy -6.985 2.54)
@@ -3453,7 +3453,7 @@
 				)
 			)
 		)
-		(symbol "B5B-XH-A, 1x5 Pin, Vertical, THD, RM2.5mm_1_0"
+		(symbol "B5B-XH-A, THD, 1x5 Pin, RM2.5mm, Vertical, Male, JST_1_0"
 			(polyline
 				(pts
 					(xy -5.08 0) (xy -5.08 1.27)
@@ -3515,7 +3515,7 @@
 				)
 			)
 		)
-		(symbol "B5B-XH-A, 1x5 Pin, Vertical, THD, RM2.5mm_1_1"
+		(symbol "B5B-XH-A, THD, 1x5 Pin, RM2.5mm, Vertical, Male, JST_1_1"
 			(rectangle
 				(start -6.985 3.81)
 				(end 6.985 -1.27)

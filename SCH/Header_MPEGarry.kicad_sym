@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "115-1-002-0-MTF-XS0, 1x2 pin, 2.54mm, Female, Precise, 7mm"
+	(symbol "115-1-002-0-MTF-XS0, THD, 1x2 pin, 2.54mm, Female, Precise, 7mm, MPEGarry"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -11,7 +11,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 4.445 0)
+			(at 1.27 3.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,9 +206,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "115-1-002-0-MTF-XS0, 1x2 pin, 2.54mm, Female, Precise, 7mm_0_1"
+		(symbol "115-1-002-0-MTF-XS0, THD, 1x2 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_0_1"
 			(circle
-				(center 0 1.27)
+				(center 1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -219,7 +219,7 @@
 				)
 			)
 			(circle
-				(center 0 -1.27)
+				(center 1.27 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -230,10 +230,10 @@
 				)
 			)
 		)
-		(symbol "115-1-002-0-MTF-XS0, 1x2 pin, 2.54mm, Female, Precise, 7mm_1_0"
+		(symbol "115-1-002-0-MTF-XS0, THD, 1x2 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_0"
 			(polyline
 				(pts
-					(xy -1.905 1.905) (xy -0.635 3.175)
+					(xy -0.635 0.635) (xy 0.635 1.905)
 				)
 				(stroke
 					(width 0.254)
@@ -245,7 +245,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -0.635 1.27)
+					(xy 0 0) (xy 0.635 0)
 				)
 				(stroke
 					(width 0)
@@ -257,7 +257,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -0.635 -1.27)
+					(xy 0 -2.54) (xy 0.635 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -268,10 +268,10 @@
 				)
 			)
 		)
-		(symbol "115-1-002-0-MTF-XS0, 1x2 pin, 2.54mm, Female, Precise, 7mm_1_1"
+		(symbol "115-1-002-0-MTF-XS0, THD, 1x2 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_1"
 			(rectangle
-				(start -1.905 3.175)
-				(end 1.905 -3.175)
+				(start -0.635 1.905)
+				(end 3.175 -4.445)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -281,7 +281,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at -5.08 0 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -299,7 +299,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -319,7 +319,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "115-1-003-0-MTF-XS0, 1x3 pin, 2.54mm, Female, Precise, 7mm"
+	(symbol "115-1-003-0-MTF-XS0, THD, 1x3 pin, 2.54mm, Female, Precise, 7mm, MPEGarry"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -328,7 +328,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 5.715 0)
+			(at 1.27 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "Value" "115-1-003-0-MTF-XS0"
-			(at 0 -6.35 0)
+			(at 1.27 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,9 +523,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "115-1-003-0-MTF-XS0, 1x3 pin, 2.54mm, Female, Precise, 7mm_0_1"
+		(symbol "115-1-003-0-MTF-XS0, THD, 1x3 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_0_1"
 			(circle
-				(center 0 2.54)
+				(center 1.27 2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -536,7 +536,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -547,7 +547,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 1.27 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -558,10 +558,10 @@
 				)
 			)
 		)
-		(symbol "115-1-003-0-MTF-XS0, 1x3 pin, 2.54mm, Female, Precise, 7mm_1_0"
+		(symbol "115-1-003-0-MTF-XS0, THD, 1x3 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_0"
 			(polyline
 				(pts
-					(xy -1.905 3.175) (xy -0.635 4.445)
+					(xy -0.635 3.175) (xy 0.635 4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -573,7 +573,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy -0.635 2.54)
+					(xy 0 2.54) (xy 0.635 2.54)
 				)
 				(stroke
 					(width 0)
@@ -585,7 +585,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.635 0)
+					(xy 0 0) (xy 0.635 0)
 				)
 				(stroke
 					(width 0)
@@ -597,7 +597,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -0.635 -2.54)
+					(xy 0 -2.54) (xy 0.635 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -608,10 +608,10 @@
 				)
 			)
 		)
-		(symbol "115-1-003-0-MTF-XS0, 1x3 pin, 2.54mm, Female, Precise, 7mm_1_1"
+		(symbol "115-1-003-0-MTF-XS0, THD, 1x3 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_1"
 			(rectangle
-				(start -1.905 4.445)
-				(end 1.905 -4.445)
+				(start -0.635 4.445)
+				(end 3.175 -4.445)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -621,7 +621,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 2.54 0)
+				(at -5.08 2.54 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -639,7 +639,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 0 0)
+				(at -5.08 0 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -657,7 +657,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -2.54 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -677,7 +677,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "115-1-012-0-MTF-XS0, 1x12 pin, 2.54mm, Female, Precise, 7mm"
+	(symbol "115-1-012-0-MTF-XS0, THD, 1x12 pin, 2.54mm, Female, Precise, 7mm, MPEGarry"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -686,7 +686,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 17.145 0)
+			(at 1.27 15.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +694,7 @@
 			)
 		)
 		(property "Value" "115-1-012-0-MTF-XS0"
-			(at 0 -17.78 0)
+			(at 1.27 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,9 +881,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "115-1-012-0-MTF-XS0, 1x12 pin, 2.54mm, Female, Precise, 7mm_0_1"
+		(symbol "115-1-012-0-MTF-XS0, THD, 1x12 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_0_1"
 			(circle
-				(center 0 13.97)
+				(center 1.27 12.7)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -894,7 +894,7 @@
 				)
 			)
 			(circle
-				(center 0 11.43)
+				(center 1.27 10.16)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -905,7 +905,7 @@
 				)
 			)
 			(circle
-				(center 0 8.89)
+				(center 1.27 7.62)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -916,7 +916,7 @@
 				)
 			)
 			(circle
-				(center 0 6.35)
+				(center 1.27 5.08)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -927,7 +927,7 @@
 				)
 			)
 			(circle
-				(center 0 3.81)
+				(center 1.27 2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -938,7 +938,7 @@
 				)
 			)
 			(circle
-				(center 0 1.27)
+				(center 1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -949,7 +949,7 @@
 				)
 			)
 			(circle
-				(center 0 -1.27)
+				(center 1.27 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -960,7 +960,7 @@
 				)
 			)
 			(circle
-				(center 0 -3.81)
+				(center 1.27 -5.08)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -971,7 +971,7 @@
 				)
 			)
 			(circle
-				(center 0 -6.35)
+				(center 1.27 -7.62)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -982,7 +982,7 @@
 				)
 			)
 			(circle
-				(center 0 -8.89)
+				(center 1.27 -10.16)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -993,7 +993,7 @@
 				)
 			)
 			(circle
-				(center 0 -11.43)
+				(center 1.27 -12.7)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1004,7 +1004,7 @@
 				)
 			)
 			(circle
-				(center 0 -13.97)
+				(center 1.27 -15.24)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1015,10 +1015,10 @@
 				)
 			)
 		)
-		(symbol "115-1-012-0-MTF-XS0, 1x12 pin, 2.54mm, Female, Precise, 7mm_1_0"
+		(symbol "115-1-012-0-MTF-XS0, THD, 1x12 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_0"
 			(polyline
 				(pts
-					(xy -1.905 14.605) (xy -0.635 15.875)
+					(xy -0.635 13.335) (xy 0.635 14.605)
 				)
 				(stroke
 					(width 0.254)
@@ -1030,7 +1030,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 13.97) (xy -0.635 13.97)
+					(xy 0 12.7) (xy 0.635 12.7)
 				)
 				(stroke
 					(width 0)
@@ -1042,7 +1042,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 11.43) (xy -0.635 11.43)
+					(xy 0 10.16) (xy 0.635 10.16)
 				)
 				(stroke
 					(width 0)
@@ -1054,7 +1054,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 8.89) (xy -0.635 8.89)
+					(xy 0 7.62) (xy 0.635 7.62)
 				)
 				(stroke
 					(width 0)
@@ -1066,7 +1066,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 6.35) (xy -0.635 6.35)
+					(xy 0 5.08) (xy 0.635 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1078,7 +1078,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy -0.635 3.81)
+					(xy 0 2.54) (xy 0.635 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1090,7 +1090,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -0.635 1.27)
+					(xy 0 0) (xy 0.635 0)
 				)
 				(stroke
 					(width 0)
@@ -1102,7 +1102,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -0.635 -1.27)
+					(xy 0 -2.54) (xy 0.635 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -1114,7 +1114,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -0.635 -3.81)
+					(xy 0 -5.08) (xy 0.635 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -1126,7 +1126,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -0.635 -6.35)
+					(xy 0 -7.62) (xy 0.635 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -1138,7 +1138,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -8.89) (xy -0.635 -8.89)
+					(xy 0 -10.16) (xy 0.635 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -1150,7 +1150,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -11.43) (xy -0.635 -11.43)
+					(xy 0 -12.7) (xy 0.635 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -1162,7 +1162,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -13.97) (xy -0.635 -13.97)
+					(xy 0 -15.24) (xy 0.635 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -1173,7 +1173,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 6.35 0)
+				(at -5.08 5.08 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -1191,7 +1191,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 3.81 0)
+				(at -5.08 2.54 0)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -1209,7 +1209,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at -5.08 0 0)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -1227,7 +1227,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "7"
 					(effects
@@ -1245,7 +1245,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -1263,7 +1263,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -6.35 0)
+				(at -5.08 -7.62 0)
 				(length 5.08)
 				(name "9"
 					(effects
@@ -1281,7 +1281,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -8.89 0)
+				(at -5.08 -10.16 0)
 				(length 5.08)
 				(name "10"
 					(effects
@@ -1299,7 +1299,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -11.43 0)
+				(at -5.08 -12.7 0)
 				(length 5.08)
 				(name "11"
 					(effects
@@ -1317,7 +1317,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -13.97 0)
+				(at -5.08 -15.24 0)
 				(length 5.08)
 				(name "12"
 					(effects
@@ -1335,10 +1335,10 @@
 				)
 			)
 		)
-		(symbol "115-1-012-0-MTF-XS0, 1x12 pin, 2.54mm, Female, Precise, 7mm_1_1"
+		(symbol "115-1-012-0-MTF-XS0, THD, 1x12 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_1"
 			(rectangle
-				(start -1.905 15.875)
-				(end 1.905 -15.875)
+				(start -0.635 14.605)
+				(end 3.175 -17.145)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1348,7 +1348,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 13.97 0)
+				(at -5.08 12.7 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -1366,7 +1366,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 11.43 0)
+				(at -5.08 10.16 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -1384,7 +1384,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 8.89 0)
+				(at -5.08 7.62 0)
 				(length 5.08)
 				(name "3"
 					(effects
@@ -1404,7 +1404,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "115-1-036-0-MTF-XS0, 1x36 pin, 2.54mm, Female, Precise, 7mm"
+	(symbol "115-1-036-0-MTF-XS0, THD, 1x36 pin, 2.54mm, Female, Precise, 7mm, MPEGarry"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -1413,7 +1413,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 47.625 0)
+			(at 1.27 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1421,7 @@
 			)
 		)
 		(property "Value" "115-1-036-0-MTF-XS0"
-			(at 0 -48.26 0)
+			(at 1.27 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,9 +1608,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "115-1-036-0-MTF-XS0, 1x36 pin, 2.54mm, Female, Precise, 7mm_0_1"
+		(symbol "115-1-036-0-MTF-XS0, THD, 1x36 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_0_1"
 			(circle
-				(center 0 44.45)
+				(center 1.27 43.18)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1621,7 +1621,7 @@
 				)
 			)
 			(circle
-				(center 0 41.91)
+				(center 1.27 40.64)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1632,7 +1632,7 @@
 				)
 			)
 			(circle
-				(center 0 39.37)
+				(center 1.27 38.1)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1643,7 +1643,7 @@
 				)
 			)
 			(circle
-				(center 0 36.83)
+				(center 1.27 35.56)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1654,7 +1654,7 @@
 				)
 			)
 			(circle
-				(center 0 34.29)
+				(center 1.27 33.02)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1665,7 +1665,7 @@
 				)
 			)
 			(circle
-				(center 0 31.75)
+				(center 1.27 30.48)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1676,7 +1676,7 @@
 				)
 			)
 			(circle
-				(center 0 29.21)
+				(center 1.27 27.94)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1687,7 +1687,7 @@
 				)
 			)
 			(circle
-				(center 0 26.67)
+				(center 1.27 25.4)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1698,7 +1698,7 @@
 				)
 			)
 			(circle
-				(center 0 24.13)
+				(center 1.27 22.86)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1709,7 +1709,7 @@
 				)
 			)
 			(circle
-				(center 0 21.59)
+				(center 1.27 20.32)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1720,7 +1720,7 @@
 				)
 			)
 			(circle
-				(center 0 19.05)
+				(center 1.27 17.78)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1731,7 +1731,7 @@
 				)
 			)
 			(circle
-				(center 0 16.51)
+				(center 1.27 15.24)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1742,7 +1742,7 @@
 				)
 			)
 			(circle
-				(center 0 13.97)
+				(center 1.27 12.7)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1753,7 +1753,7 @@
 				)
 			)
 			(circle
-				(center 0 11.43)
+				(center 1.27 10.16)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1764,7 +1764,7 @@
 				)
 			)
 			(circle
-				(center 0 8.89)
+				(center 1.27 7.62)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1775,7 +1775,7 @@
 				)
 			)
 			(circle
-				(center 0 6.35)
+				(center 1.27 5.08)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1786,7 +1786,7 @@
 				)
 			)
 			(circle
-				(center 0 3.81)
+				(center 1.27 2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1797,7 +1797,7 @@
 				)
 			)
 			(circle
-				(center 0 1.27)
+				(center 1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1808,7 +1808,7 @@
 				)
 			)
 			(circle
-				(center 0 -1.27)
+				(center 1.27 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1819,7 +1819,7 @@
 				)
 			)
 			(circle
-				(center 0 -3.81)
+				(center 1.27 -5.08)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1830,7 +1830,7 @@
 				)
 			)
 			(circle
-				(center 0 -6.35)
+				(center 1.27 -7.62)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1841,7 +1841,7 @@
 				)
 			)
 			(circle
-				(center 0 -8.89)
+				(center 1.27 -10.16)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1852,7 +1852,7 @@
 				)
 			)
 			(circle
-				(center 0 -11.43)
+				(center 1.27 -12.7)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1863,7 +1863,7 @@
 				)
 			)
 			(circle
-				(center 0 -13.97)
+				(center 1.27 -15.24)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1874,7 +1874,7 @@
 				)
 			)
 			(circle
-				(center 0 -16.51)
+				(center 1.27 -17.78)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1885,7 +1885,7 @@
 				)
 			)
 			(circle
-				(center 0 -19.05)
+				(center 1.27 -20.32)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1896,7 +1896,7 @@
 				)
 			)
 			(circle
-				(center 0 -21.59)
+				(center 1.27 -22.86)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1907,7 +1907,7 @@
 				)
 			)
 			(circle
-				(center 0 -24.13)
+				(center 1.27 -25.4)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1918,7 +1918,7 @@
 				)
 			)
 			(circle
-				(center 0 -26.67)
+				(center 1.27 -27.94)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1929,7 +1929,7 @@
 				)
 			)
 			(circle
-				(center 0 -29.21)
+				(center 1.27 -30.48)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1940,7 +1940,7 @@
 				)
 			)
 			(circle
-				(center 0 -31.75)
+				(center 1.27 -33.02)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1951,7 +1951,7 @@
 				)
 			)
 			(circle
-				(center 0 -34.29)
+				(center 1.27 -35.56)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1962,7 +1962,7 @@
 				)
 			)
 			(circle
-				(center 0 -36.83)
+				(center 1.27 -38.1)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1973,7 +1973,7 @@
 				)
 			)
 			(circle
-				(center 0 -39.37)
+				(center 1.27 -40.64)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1984,7 +1984,7 @@
 				)
 			)
 			(circle
-				(center 0 -41.91)
+				(center 1.27 -43.18)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -1995,7 +1995,7 @@
 				)
 			)
 			(circle
-				(center 0 -44.45)
+				(center 1.27 -45.72)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -2006,10 +2006,10 @@
 				)
 			)
 		)
-		(symbol "115-1-036-0-MTF-XS0, 1x36 pin, 2.54mm, Female, Precise, 7mm_1_0"
+		(symbol "115-1-036-0-MTF-XS0, THD, 1x36 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_0"
 			(polyline
 				(pts
-					(xy -1.905 45.085) (xy -0.635 46.355)
+					(xy -0.635 43.815) (xy 0.635 45.085)
 				)
 				(stroke
 					(width 0.254)
@@ -2021,7 +2021,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 44.45) (xy -0.635 44.45)
+					(xy 0 43.18) (xy 0.635 43.18)
 				)
 				(stroke
 					(width 0)
@@ -2033,7 +2033,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 41.91) (xy -0.635 41.91)
+					(xy 0 40.64) (xy 0.635 40.64)
 				)
 				(stroke
 					(width 0)
@@ -2045,7 +2045,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 39.37) (xy -0.635 39.37)
+					(xy 0 38.1) (xy 0.635 38.1)
 				)
 				(stroke
 					(width 0)
@@ -2057,7 +2057,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 36.83) (xy -0.635 36.83)
+					(xy 0 35.56) (xy 0.635 35.56)
 				)
 				(stroke
 					(width 0)
@@ -2069,7 +2069,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 34.29) (xy -0.635 34.29)
+					(xy 0 33.02) (xy 0.635 33.02)
 				)
 				(stroke
 					(width 0)
@@ -2081,7 +2081,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 31.75) (xy -0.635 31.75)
+					(xy 0 30.48) (xy 0.635 30.48)
 				)
 				(stroke
 					(width 0)
@@ -2093,7 +2093,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 29.21) (xy -0.635 29.21)
+					(xy 0 27.94) (xy 0.635 27.94)
 				)
 				(stroke
 					(width 0)
@@ -2105,7 +2105,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 26.67) (xy -0.635 26.67)
+					(xy 0 25.4) (xy 0.635 25.4)
 				)
 				(stroke
 					(width 0)
@@ -2117,7 +2117,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 24.13) (xy -0.635 24.13)
+					(xy 0 22.86) (xy 0.635 22.86)
 				)
 				(stroke
 					(width 0)
@@ -2129,7 +2129,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 21.59) (xy -0.635 21.59)
+					(xy 0 20.32) (xy 0.635 20.32)
 				)
 				(stroke
 					(width 0)
@@ -2141,7 +2141,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 19.05) (xy -0.635 19.05)
+					(xy 0 17.78) (xy 0.635 17.78)
 				)
 				(stroke
 					(width 0)
@@ -2153,7 +2153,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 16.51) (xy -0.635 16.51)
+					(xy 0 15.24) (xy 0.635 15.24)
 				)
 				(stroke
 					(width 0)
@@ -2165,7 +2165,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 13.97) (xy -0.635 13.97)
+					(xy 0 12.7) (xy 0.635 12.7)
 				)
 				(stroke
 					(width 0)
@@ -2177,7 +2177,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 11.43) (xy -0.635 11.43)
+					(xy 0 10.16) (xy 0.635 10.16)
 				)
 				(stroke
 					(width 0)
@@ -2189,7 +2189,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 8.89) (xy -0.635 8.89)
+					(xy 0 7.62) (xy 0.635 7.62)
 				)
 				(stroke
 					(width 0)
@@ -2201,7 +2201,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 6.35) (xy -0.635 6.35)
+					(xy 0 5.08) (xy 0.635 5.08)
 				)
 				(stroke
 					(width 0)
@@ -2213,7 +2213,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 3.81) (xy -0.635 3.81)
+					(xy 0 2.54) (xy 0.635 2.54)
 				)
 				(stroke
 					(width 0)
@@ -2225,7 +2225,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -0.635 1.27)
+					(xy 0 0) (xy 0.635 0)
 				)
 				(stroke
 					(width 0)
@@ -2237,7 +2237,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -1.27) (xy -0.635 -1.27)
+					(xy 0 -2.54) (xy 0.635 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -2249,7 +2249,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -3.81) (xy -0.635 -3.81)
+					(xy 0 -5.08) (xy 0.635 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -2261,7 +2261,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -6.35) (xy -0.635 -6.35)
+					(xy 0 -7.62) (xy 0.635 -7.62)
 				)
 				(stroke
 					(width 0)
@@ -2273,7 +2273,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -8.89) (xy -0.635 -8.89)
+					(xy 0 -10.16) (xy 0.635 -10.16)
 				)
 				(stroke
 					(width 0)
@@ -2285,7 +2285,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -11.43) (xy -0.635 -11.43)
+					(xy 0 -12.7) (xy 0.635 -12.7)
 				)
 				(stroke
 					(width 0)
@@ -2297,7 +2297,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -13.97) (xy -0.635 -13.97)
+					(xy 0 -15.24) (xy 0.635 -15.24)
 				)
 				(stroke
 					(width 0)
@@ -2309,7 +2309,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -16.51) (xy -0.635 -16.51)
+					(xy 0 -17.78) (xy 0.635 -17.78)
 				)
 				(stroke
 					(width 0)
@@ -2321,7 +2321,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -19.05) (xy -0.635 -19.05)
+					(xy 0 -20.32) (xy 0.635 -20.32)
 				)
 				(stroke
 					(width 0)
@@ -2333,7 +2333,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -21.59) (xy -0.635 -21.59)
+					(xy 0 -22.86) (xy 0.635 -22.86)
 				)
 				(stroke
 					(width 0)
@@ -2345,7 +2345,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -24.13) (xy -0.635 -24.13)
+					(xy 0 -25.4) (xy 0.635 -25.4)
 				)
 				(stroke
 					(width 0)
@@ -2357,7 +2357,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -26.67) (xy -0.635 -26.67)
+					(xy 0 -27.94) (xy 0.635 -27.94)
 				)
 				(stroke
 					(width 0)
@@ -2369,7 +2369,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -29.21) (xy -0.635 -29.21)
+					(xy 0 -30.48) (xy 0.635 -30.48)
 				)
 				(stroke
 					(width 0)
@@ -2381,7 +2381,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -31.75) (xy -0.635 -31.75)
+					(xy 0 -33.02) (xy 0.635 -33.02)
 				)
 				(stroke
 					(width 0)
@@ -2393,7 +2393,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -34.29) (xy -0.635 -34.29)
+					(xy 0 -35.56) (xy 0.635 -35.56)
 				)
 				(stroke
 					(width 0)
@@ -2405,7 +2405,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -36.83) (xy -0.635 -36.83)
+					(xy 0 -38.1) (xy 0.635 -38.1)
 				)
 				(stroke
 					(width 0)
@@ -2417,7 +2417,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -39.37) (xy -0.635 -39.37)
+					(xy 0 -40.64) (xy 0.635 -40.64)
 				)
 				(stroke
 					(width 0)
@@ -2429,7 +2429,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -41.91) (xy -0.635 -41.91)
+					(xy 0 -43.18) (xy 0.635 -43.18)
 				)
 				(stroke
 					(width 0)
@@ -2441,7 +2441,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -44.45) (xy -0.635 -44.45)
+					(xy 0 -45.72) (xy 0.635 -45.72)
 				)
 				(stroke
 					(width 0)
@@ -2452,7 +2452,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 36.83 0)
+				(at -5.08 35.56 0)
 				(length 5.08)
 				(name "4"
 					(effects
@@ -2470,7 +2470,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 34.29 0)
+				(at -5.08 33.02 0)
 				(length 5.08)
 				(name "5"
 					(effects
@@ -2488,7 +2488,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 31.75 0)
+				(at -5.08 30.48 0)
 				(length 5.08)
 				(name "6"
 					(effects
@@ -2506,7 +2506,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 29.21 0)
+				(at -5.08 27.94 0)
 				(length 5.08)
 				(name "7"
 					(effects
@@ -2524,7 +2524,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 26.67 0)
+				(at -5.08 25.4 0)
 				(length 5.08)
 				(name "8"
 					(effects
@@ -2542,7 +2542,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 24.13 0)
+				(at -5.08 22.86 0)
 				(length 5.08)
 				(name "9"
 					(effects
@@ -2560,7 +2560,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 21.59 0)
+				(at -5.08 20.32 0)
 				(length 5.08)
 				(name "10"
 					(effects
@@ -2578,7 +2578,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 19.05 0)
+				(at -5.08 17.78 0)
 				(length 5.08)
 				(name "11"
 					(effects
@@ -2596,7 +2596,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 16.51 0)
+				(at -5.08 15.24 0)
 				(length 5.08)
 				(name "12"
 					(effects
@@ -2614,7 +2614,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 13.97 0)
+				(at -5.08 12.7 0)
 				(length 5.08)
 				(name "13"
 					(effects
@@ -2632,7 +2632,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 11.43 0)
+				(at -5.08 10.16 0)
 				(length 5.08)
 				(name "14"
 					(effects
@@ -2650,7 +2650,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 8.89 0)
+				(at -5.08 7.62 0)
 				(length 5.08)
 				(name "15"
 					(effects
@@ -2668,7 +2668,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 6.35 0)
+				(at -5.08 5.08 0)
 				(length 5.08)
 				(name "16"
 					(effects
@@ -2686,7 +2686,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 3.81 0)
+				(at -5.08 2.54 0)
 				(length 5.08)
 				(name "17"
 					(effects
@@ -2704,7 +2704,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 1.27 0)
+				(at -5.08 0 0)
 				(length 5.08)
 				(name "18"
 					(effects
@@ -2722,7 +2722,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -1.27 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "19"
 					(effects
@@ -2740,7 +2740,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -3.81 0)
+				(at -5.08 -5.08 0)
 				(length 5.08)
 				(name "20"
 					(effects
@@ -2758,7 +2758,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -6.35 0)
+				(at -5.08 -7.62 0)
 				(length 5.08)
 				(name "21"
 					(effects
@@ -2776,7 +2776,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -8.89 0)
+				(at -5.08 -10.16 0)
 				(length 5.08)
 				(name "22"
 					(effects
@@ -2794,7 +2794,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -11.43 0)
+				(at -5.08 -12.7 0)
 				(length 5.08)
 				(name "23"
 					(effects
@@ -2812,7 +2812,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -13.97 0)
+				(at -5.08 -15.24 0)
 				(length 5.08)
 				(name "24"
 					(effects
@@ -2830,7 +2830,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -16.51 0)
+				(at -5.08 -17.78 0)
 				(length 5.08)
 				(name "25"
 					(effects
@@ -2848,7 +2848,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -19.05 0)
+				(at -5.08 -20.32 0)
 				(length 5.08)
 				(name "26"
 					(effects
@@ -2866,7 +2866,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -21.59 0)
+				(at -5.08 -22.86 0)
 				(length 5.08)
 				(name "27"
 					(effects
@@ -2884,7 +2884,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -24.13 0)
+				(at -5.08 -25.4 0)
 				(length 5.08)
 				(name "28"
 					(effects
@@ -2902,7 +2902,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -26.67 0)
+				(at -5.08 -27.94 0)
 				(length 5.08)
 				(name "29"
 					(effects
@@ -2920,7 +2920,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -29.21 0)
+				(at -5.08 -30.48 0)
 				(length 5.08)
 				(name "30"
 					(effects
@@ -2938,7 +2938,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -31.75 0)
+				(at -5.08 -33.02 0)
 				(length 5.08)
 				(name "31"
 					(effects
@@ -2956,7 +2956,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -34.29 0)
+				(at -5.08 -35.56 0)
 				(length 5.08)
 				(name "32"
 					(effects
@@ -2974,7 +2974,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -36.83 0)
+				(at -5.08 -38.1 0)
 				(length 5.08)
 				(name "33"
 					(effects
@@ -2992,7 +2992,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -39.37 0)
+				(at -5.08 -40.64 0)
 				(length 5.08)
 				(name "34"
 					(effects
@@ -3010,7 +3010,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -41.91 0)
+				(at -5.08 -43.18 0)
 				(length 5.08)
 				(name "35"
 					(effects
@@ -3028,7 +3028,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -44.45 0)
+				(at -5.08 -45.72 0)
 				(length 5.08)
 				(name "36"
 					(effects
@@ -3046,10 +3046,10 @@
 				)
 			)
 		)
-		(symbol "115-1-036-0-MTF-XS0, 1x36 pin, 2.54mm, Female, Precise, 7mm_1_1"
+		(symbol "115-1-036-0-MTF-XS0, THD, 1x36 pin, 2.54mm, Female, Precise, 7mm, MPEGarry_1_1"
 			(rectangle
-				(start -1.905 46.355)
-				(end 1.905 -46.355)
+				(start -0.635 45.085)
+				(end 3.175 -47.625)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3059,7 +3059,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 44.45 0)
+				(at -5.08 43.18 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -3077,7 +3077,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 41.91 0)
+				(at -5.08 40.64 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -3095,7 +3095,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 39.37 0)
+				(at -5.08 38.1 0)
 				(length 5.08)
 				(name "3"
 					(effects

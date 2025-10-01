@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "BL 5 3, 1x3 pin, 2.54mm, Female, Precise, 7mm"
+	(symbol "BL 5 3, THD, 1x3 pin, 2.54mm, h{colon}7.0mm, Precise, Female, Fischer"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -11,7 +11,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CN"
-			(at 0 5.715 0)
+			(at 1.27 5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,14 +19,14 @@
 			)
 		)
 		(property "Value" "BL 5 3"
-			(at 0 -5.715 0)
+			(at 1.27 -5.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "THD_Header_Fischer:HDRV3W64P254H700_1X3_PADC+R_140_140H90_FEMALE"
+		(property "Footprint" "THD_Header_Fischer:HDRV3W64P254H700N_1X3_PADC+R_140_140H90_FEMALE"
 			(at 2.54 14.2875 0)
 			(effects
 				(font
@@ -197,9 +197,18 @@
 				(hide yes)
 			)
 		)
-		(symbol "BL 5 3, 1x3 pin, 2.54mm, Female, Precise, 7mm_0_1"
+		(property "ki_fp_filters" "HDRV3W64P254H700?_1X3_PADC+R_140_140H90_FEMALE*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BL 5 3, THD, 1x3 pin, 2.54mm, h{colon}7.0mm, Precise, Female, Fischer_0_1"
 			(circle
-				(center 0 2.54)
+				(center 1.27 2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -210,7 +219,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -221,7 +230,7 @@
 				)
 			)
 			(circle
-				(center 0 -2.54)
+				(center 1.27 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -232,10 +241,10 @@
 				)
 			)
 		)
-		(symbol "BL 5 3, 1x3 pin, 2.54mm, Female, Precise, 7mm_1_0"
+		(symbol "BL 5 3, THD, 1x3 pin, 2.54mm, h{colon}7.0mm, Precise, Female, Fischer_1_0"
 			(polyline
 				(pts
-					(xy -1.905 3.175) (xy -0.635 4.445)
+					(xy -0.635 3.175) (xy 0.635 4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -247,7 +256,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 2.54) (xy -0.635 2.54)
+					(xy 0 2.54) (xy 0.635 2.54)
 				)
 				(stroke
 					(width 0)
@@ -259,7 +268,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 0) (xy -0.635 0)
+					(xy 0 0) (xy 0.635 0)
 				)
 				(stroke
 					(width 0)
@@ -271,7 +280,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -0.635 -2.54)
+					(xy 0 -2.54) (xy 0.635 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -282,10 +291,10 @@
 				)
 			)
 		)
-		(symbol "BL 5 3, 1x3 pin, 2.54mm, Female, Precise, 7mm_1_1"
+		(symbol "BL 5 3, THD, 1x3 pin, 2.54mm, h{colon}7.0mm, Precise, Female, Fischer_1_1"
 			(rectangle
-				(start -1.905 4.445)
-				(end 1.905 -4.445)
+				(start -0.635 4.445)
+				(end 3.175 -4.445)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -295,7 +304,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 2.54 0)
+				(at -5.08 2.54 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -313,7 +322,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 0 0)
+				(at -5.08 0 0)
 				(length 5.08)
 				(name "2"
 					(effects
@@ -331,7 +340,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -2.54 0)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "3"
 					(effects

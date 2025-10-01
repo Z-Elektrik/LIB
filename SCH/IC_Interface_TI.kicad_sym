@@ -2,12 +2,12 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "SN65HVD1780D, SMD SO-8, 3.3-5V, -40 to 105 °C"
+	(symbol "SN65HVD1780D, SO8, 485/422 Transceiver, 3.3-5V, 115kbps, TI"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "SN65HVD1780D"
-			(at 0 -6.35 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3-5V, SMD, SO-8, ST, 115 kbps RS-485/RS-422 transceiver Fault Protected, -40 to 105 °C"
+		(property "Description" "3.3-5V, 115 kbps RS-485/RS-422 transceiver Fault Protected, -40 to 105 °C"
 			(at 0 12.065 0)
 			(effects
 				(font
@@ -202,10 +202,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN65HVD1780D, SMD SO-8, 3.3-5V, -40 to 105 °C_0_1"
+		(symbol "SN65HVD1780D, SO8, 485/422 Transceiver, 3.3-5V, 115kbps, TI_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -215,9 +215,9 @@
 				)
 			)
 		)
-		(symbol "SN65HVD1780D, SMD SO-8, 3.3-5V, -40 to 105 °C_1_1"
+		(symbol "SN65HVD1780D, SO8, 485/422 Transceiver, 3.3-5V, 115kbps, TI_1_1"
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -235,7 +235,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "~{RE}"
 					(effects
@@ -253,7 +253,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -271,7 +271,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -289,7 +289,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -307,7 +307,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -325,7 +325,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -343,7 +343,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -363,12 +363,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SN75176BDR, SMD SO-8, 5V, 0 to 70 °C"
+	(symbol "SN75176BDR, SO8, 485/422 Transceiver, 5V, 10Mbps, TI"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +376,7 @@
 			)
 		)
 		(property "Value" "SN75176BDR"
-			(at 0 -6.35 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -563,10 +563,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN75176BDR, SMD SO-8, 5V, 0 to 70 °C_0_1"
+		(symbol "SN75176BDR, SO8, 485/422 Transceiver, 5V, 10Mbps, TI_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -576,9 +576,9 @@
 				)
 			)
 		)
-		(symbol "SN75176BDR, SMD SO-8, 5V, 0 to 70 °C_1_1"
+		(symbol "SN75176BDR, SO8, 485/422 Transceiver, 5V, 10Mbps, TI_1_1"
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -596,7 +596,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "~{RE}"
 					(effects
@@ -614,7 +614,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -632,7 +632,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -650,7 +650,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -668,7 +668,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -686,7 +686,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -704,7 +704,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
