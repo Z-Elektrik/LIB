@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA"
+	(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -11,7 +11,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 5.08 0)
+			(at 2.54 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,7 +206,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA_0_1"
+		(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI_0_1"
 			(rectangle
 				(start -2.54 3.81)
 				(end 2.54 -3.81)
@@ -219,7 +219,7 @@
 				)
 			)
 		)
-		(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA_1_1"
+		(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI_1_1"
 			(text "&"
 				(at 1.27 2.54 0)
 				(effects
@@ -283,7 +283,7 @@
 				)
 			)
 		)
-		(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA_2_1"
+		(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI_2_1"
 			(text "&"
 				(at 1.27 2.54 0)
 				(effects
@@ -347,7 +347,7 @@
 				)
 			)
 		)
-		(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA_3_1"
+		(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI_3_1"
 			(text "&"
 				(at 1.27 2.54 0)
 				(effects
@@ -411,7 +411,7 @@
 				)
 			)
 		)
-		(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA_4_1"
+		(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI_4_1"
 			(text "&"
 				(at 1.27 2.54 0)
 				(effects
@@ -475,10 +475,10 @@
 				)
 			)
 		)
-		(symbol "74AHC08D, 4x 2-Input AND, SMD SO-14, 2.0-5.5V, O{colon}25mA_5_1"
+		(symbol "74AHC08D, SO14, 4x 2-Input AND, 2.0-5.5V, O{colon}25mA, TI_5_1"
 			(pin power_in line
-				(at 0 6.35 270)
-				(length 2.54)
+				(at 0 7.62 270)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -495,8 +495,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -6.35 90)
-				(length 2.54)
+				(at 0 -7.62 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font
@@ -515,7 +515,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SN74AHC1G00DBV"
+	(symbol "SN74AHC1G00DBV, SOT23-5, Single 2-Input NAND, 2.0-5.5V, TI"
 		(pin_numbers
 			(hide yes)
 		)
@@ -560,7 +560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single 2–Input negative-And gate, 2-5.5V"
+		(property "Description" "Single 2–Input NAN Gate, 2.0-5.5V"
 			(at 0 0 0)
 			(effects
 				(font
@@ -704,7 +704,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN74AHC1G00DBV_0_1"
+		(symbol "SN74AHC1G00DBV, SOT23-5, Single 2-Input NAND, 2.0-5.5V, TI_0_1"
 			(rectangle
 				(start -2.54 3.81)
 				(end 2.54 -3.81)
@@ -717,7 +717,7 @@
 				)
 			)
 		)
-		(symbol "SN74AHC1G00DBV_1_1"
+		(symbol "SN74AHC1G00DBV, SOT23-5, Single 2-Input NAND, 2.0-5.5V, TI_1_1"
 			(text "&"
 				(at 1.27 2.54 0)
 				(effects
@@ -763,8 +763,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 6.35 270)
-				(length 2.54)
+				(at 0 7.62 270)
+				(length 3.81)
 				(name "VCC"
 					(effects
 						(font
@@ -781,8 +781,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -6.35 90)
-				(length 2.54)
+				(at 0 -7.62 90)
+				(length 3.81)
 				(name "GND"
 					(effects
 						(font

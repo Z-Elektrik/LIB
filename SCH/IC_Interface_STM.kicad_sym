@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ST3232CDR, SMD SO-16, 3-5V, 0 to 70°C"
+	(symbol "ST3232CDR, SO16, 232 Transceiver, 400kbps, 3-5V, STM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_IC_STM:SOIC127P700X200-16N_SO-16"
+		(property "Footprint" "SMD_IC_STM:SOIC127P700X200-16N_SO-16_STM"
 			(at -3.81 20.32 0)
 			(effects
 				(font
@@ -202,7 +202,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST3232CDR, SMD SO-16, 3-5V, 0 to 70°C_0_1"
+		(symbol "ST3232CDR, SO16, 232 Transceiver, 400kbps, 3-5V, STM_0_1"
 			(rectangle
 				(start -10.16 15.24)
 				(end 10.16 -15.24)
@@ -359,7 +359,7 @@
 				)
 			)
 		)
-		(symbol "ST3232CDR, SMD SO-16, 3-5V, 0 to 70°C_1_1"
+		(symbol "ST3232CDR, SO16, 232 Transceiver, 400kbps, 3-5V, STM_1_1"
 			(polyline
 				(pts
 					(xy -10.16 -3.81) (xy 10.16 -3.81)
@@ -693,7 +693,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ST3232EBDR, SMD SO-16, 3-5V, -40 to 85°C"
+	(symbol "ST3232EBDR, SO16, 232 Transceiver, 400kbps, 3-5V, STM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -713,7 +713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_IC_STM:SOIC127P700X200-16N_SO-16"
+		(property "Footprint" "SMD_IC_STM:SOIC127P700X200-16N_SO-16_STM"
 			(at -3.81 20.32 0)
 			(effects
 				(font
@@ -884,7 +884,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SOIC127P700X200-16?_SO-16*"
+		(property "ki_fp_filters" "SOIC127P700X200-16?_SO-16_STM*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -893,7 +893,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST3232EBDR, SMD SO-16, 3-5V, -40 to 85°C_0_1"
+		(symbol "ST3232EBDR, SO16, 232 Transceiver, 400kbps, 3-5V, STM_0_1"
 			(rectangle
 				(start -10.16 15.24)
 				(end 10.16 -15.24)
@@ -1050,7 +1050,7 @@
 				)
 			)
 		)
-		(symbol "ST3232EBDR, SMD SO-16, 3-5V, -40 to 85°C_1_1"
+		(symbol "ST3232EBDR, SO16, 232 Transceiver, 400kbps, 3-5V, STM_1_1"
 			(polyline
 				(pts
 					(xy -10.16 -3.81) (xy 10.16 -3.81)
@@ -1384,12 +1384,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ST3485EBDR, SMD SO-8, 3.3V, -40 to 85 °C"
+	(symbol "ST3485EBDR, SO8, 485/422 Transceiver, 3.3V, STM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1397,7 +1397,7 @@
 			)
 		)
 		(property "Value" "ST3485EBDR"
-			(at 0 -6.35 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1422,7 +1422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3V, SMD, SO-8, ST, 15 kV ESD protected, up to 12 Mbps RS-485/RS-422 transceiver, -40 to 85 °C"
+		(property "Description" "3.3V, SMD, 15 kV ESD protected, up to 12 Mbps RS-485/RS-422 transceiver, -40 to 85 °C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1459,7 +1459,7 @@
 			)
 		)
 		(property "Device_Marking" "3485EB"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,10 +1584,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST3485EBDR, SMD SO-8, 3.3V, -40 to 85 °C_0_1"
+		(symbol "ST3485EBDR, SO8, 485/422 Transceiver, 3.3V, STM_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1597,9 +1597,9 @@
 				)
 			)
 		)
-		(symbol "ST3485EBDR, SMD SO-8, 3.3V, -40 to 85 °C_1_1"
+		(symbol "ST3485EBDR, SO8, 485/422 Transceiver, 3.3V, STM_1_1"
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -1617,7 +1617,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "~{RE}"
 					(effects
@@ -1635,7 +1635,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -1653,7 +1653,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -1671,7 +1671,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -1689,7 +1689,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -1707,7 +1707,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -1725,7 +1725,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1745,12 +1745,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ST3485ECDR, SMD SO-8, 3.3V, 0 to 70 °C"
+	(symbol "ST3485ECDR, SO8, 485/422 Transceiver, 3.3V, STM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +1758,7 @@
 			)
 		)
 		(property "Value" "ST3485ECDR"
-			(at 0 -6.35 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1793,7 +1793,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1802,7 @@
 			)
 		)
 		(property "MFG" "STM"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1811,7 @@
 			)
 		)
 		(property "MPN" "ST3485ECDR"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1820,7 +1820,7 @@
 			)
 		)
 		(property "Device_Marking" "3485EC"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,7 +1829,7 @@
 			)
 		)
 		(property "OC_LCSC" "C81185"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1838,7 @@
 			)
 		)
 		(property "OC_MOUSER" "511-ST3485ECDR"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1847,7 @@
 			)
 		)
 		(property "OC_RS" "103-2150"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1865,7 +1865,7 @@
 			)
 		)
 		(property "OC_TME" "ST3485ECDR"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1874,7 +1874,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1842628"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1883,7 @@
 			)
 		)
 		(property "OC_DIGIKEY" "497-6540-1-ND"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1892,7 @@
 			)
 		)
 		(property "OC_SOS" "134354"
-			(at 0 0 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1945,10 +1945,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST3485ECDR, SMD SO-8, 3.3V, 0 to 70 °C_0_1"
+		(symbol "ST3485ECDR, SO8, 485/422 Transceiver, 3.3V, STM_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1958,9 +1958,9 @@
 				)
 			)
 		)
-		(symbol "ST3485ECDR, SMD SO-8, 3.3V, 0 to 70 °C_1_1"
+		(symbol "ST3485ECDR, SO8, 485/422 Transceiver, 3.3V, STM_1_1"
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -1978,7 +1978,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "~{RE}"
 					(effects
@@ -1996,7 +1996,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -2014,7 +2014,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -2032,7 +2032,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2050,7 +2050,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -2068,7 +2068,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -2086,7 +2086,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2106,12 +2106,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ST485EBDR, SMD SO-8, 5V, - 40 to 85 °C"
+	(symbol "ST485EBDR, SO8, 485/422 Transceiver, 5V, 5Mbps, STM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2119,7 @@
 			)
 		)
 		(property "Value" "ST485EBDR"
-			(at 0 -6.35 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,10 +2306,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST485EBDR, SMD SO-8, 5V, - 40 to 85 °C_0_1"
+		(symbol "ST485EBDR, SO8, 485/422 Transceiver, 5V, 5Mbps, STM_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2319,9 +2319,9 @@
 				)
 			)
 		)
-		(symbol "ST485EBDR, SMD SO-8, 5V, - 40 to 85 °C_1_1"
+		(symbol "ST485EBDR, SO8, 485/422 Transceiver, 5V, 5Mbps, STM_1_1"
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -2339,7 +2339,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "~{RE}"
 					(effects
@@ -2357,7 +2357,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -2375,7 +2375,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -2393,7 +2393,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2411,7 +2411,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -2429,7 +2429,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -2447,7 +2447,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -2467,12 +2467,12 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ST485ECDR, SMD SO-8, 5V, 0 to 70 °C"
+	(symbol "ST485ECDR, SO8, 485/422 Transceiver, 5V, 5Mbps, STM"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 0 6.35 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2480,7 @@
 			)
 		)
 		(property "Value" "ST485ECDR"
-			(at 0 -6.35 0)
+			(at 0 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,10 +2667,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ST485ECDR, SMD SO-8, 5V, 0 to 70 °C_0_1"
+		(symbol "ST485ECDR, SO8, 485/422 Transceiver, 5V, 5Mbps, STM_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -5.08 3.81)
+				(end 5.08 -6.35)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2680,9 +2680,9 @@
 				)
 			)
 		)
-		(symbol "ST485ECDR, SMD SO-8, 5V, 0 to 70 °C_1_1"
+		(symbol "ST485ECDR, SO8, 485/422 Transceiver, 5V, 5Mbps, STM_1_1"
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -7.62 2.54 0)
 				(length 2.54)
 				(name "RO"
 					(effects
@@ -2700,7 +2700,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -7.62 0 0)
 				(length 2.54)
 				(name "~{RE}"
 					(effects
@@ -2718,7 +2718,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -7.62 -2.54 0)
 				(length 2.54)
 				(name "DE"
 					(effects
@@ -2736,7 +2736,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
 				(name "DI"
 					(effects
@@ -2754,7 +2754,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 3.81 180)
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -2772,7 +2772,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 1.27 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -2790,7 +2790,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "B"
 					(effects
@@ -2808,7 +2808,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 -3.81 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects

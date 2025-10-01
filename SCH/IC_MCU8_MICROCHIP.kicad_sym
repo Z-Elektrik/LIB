@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "AT89S4051-24SU"
+	(symbol "AT89S4051-24SU, SOIC20, 8-bit, AVR MCU, 4kB/256B, 2.7-5.5V, 24MHz, Microchip"
 		(pin_names
 			(offset 1.016)
 		)
@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "MCU"
-			(at 0 15.24 0)
+			(at 0 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "AT89S4051-24SU"
-			(at 0 -15.875 0)
+			(at 0 -17.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -61,7 +61,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "NXP"
+		(property "MFG" "Microchip"
 			(at 0 46.99 0)
 			(effects
 				(font
@@ -205,10 +205,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "AT89S4051-24SU_0_1"
+		(symbol "AT89S4051-24SU, SOIC20, 8-bit, AVR MCU, 4kB/256B, 2.7-5.5V, 24MHz, Microchip_0_1"
 			(rectangle
-				(start -12.7 13.97)
-				(end 12.7 -13.97)
+				(start -12.7 12.7)
+				(end 12.7 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -218,9 +218,9 @@
 				)
 			)
 		)
-		(symbol "AT89S4051-24SU_1_1"
+		(symbol "AT89S4051-24SU, SOIC20, 8-bit, AVR MCU, 4kB/256B, 2.7-5.5V, 24MHz, Microchip_1_1"
 			(pin bidirectional line
-				(at -17.78 11.43 0)
+				(at -17.78 10.16 0)
 				(length 5.08)
 				(name "RST/VPP"
 					(effects
@@ -238,7 +238,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 8.89 0)
+				(at -17.78 7.62 0)
 				(length 5.08)
 				(name "P3.0"
 					(effects
@@ -257,7 +257,7 @@
 				(alternate "RXD" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 6.35 0)
+				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "P3.1"
 					(effects
@@ -276,7 +276,7 @@
 				(alternate "TXD" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at -17.78 2.54 0)
 				(length 5.08)
 				(name "XTAL2"
 					(effects
@@ -294,7 +294,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 1.27 0)
+				(at -17.78 0 0)
 				(length 5.08)
 				(name "XTAL1"
 					(effects
@@ -312,7 +312,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -1.27 0)
+				(at -17.78 -2.54 0)
 				(length 5.08)
 				(name "P3.2"
 					(effects
@@ -331,7 +331,7 @@
 				(alternate "~{INT0}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 -3.81 0)
+				(at -17.78 -5.08 0)
 				(length 5.08)
 				(name "P3.3"
 					(effects
@@ -350,7 +350,7 @@
 				(alternate "~{INT1}" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 -6.35 0)
+				(at -17.78 -7.62 0)
 				(length 5.08)
 				(name "P3.4"
 					(effects
@@ -369,7 +369,7 @@
 				(alternate "T0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at -17.78 -8.89 0)
+				(at -17.78 -10.16 0)
 				(length 5.08)
 				(name "P3.5"
 					(effects
@@ -388,7 +388,7 @@
 				(alternate "T1" bidirectional line)
 			)
 			(pin power_in line
-				(at -17.78 -11.43 0)
+				(at -17.78 -12.7 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -406,7 +406,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 11.43 180)
+				(at 17.78 10.16 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -424,7 +424,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 8.89 180)
+				(at 17.78 7.62 180)
 				(length 5.08)
 				(name "P1.7"
 					(effects
@@ -443,7 +443,7 @@
 				(alternate "SCK" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 17.78 6.35 180)
+				(at 17.78 5.08 180)
 				(length 5.08)
 				(name "P1.6"
 					(effects
@@ -462,7 +462,7 @@
 				(alternate "MISO" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 17.78 3.81 180)
+				(at 17.78 2.54 180)
 				(length 5.08)
 				(name "P1.5"
 					(effects
@@ -481,7 +481,7 @@
 				(alternate "MOSI" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 17.78 1.27 180)
+				(at 17.78 0 180)
 				(length 5.08)
 				(name "P1.4"
 					(effects
@@ -499,7 +499,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -1.27 180)
+				(at 17.78 -2.54 180)
 				(length 5.08)
 				(name "P1.3"
 					(effects
@@ -517,7 +517,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -3.81 180)
+				(at 17.78 -5.08 180)
 				(length 5.08)
 				(name "P1.2"
 					(effects
@@ -535,7 +535,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -6.35 180)
+				(at 17.78 -7.62 180)
 				(length 5.08)
 				(name "P1.1"
 					(effects
@@ -554,7 +554,7 @@
 				(alternate "AIN1" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 17.78 -8.89 180)
+				(at 17.78 -10.16 180)
 				(length 5.08)
 				(name "P1.0"
 					(effects
@@ -573,7 +573,7 @@
 				(alternate "AIN0" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 17.78 -11.43 180)
+				(at 17.78 -12.7 180)
 				(length 5.08)
 				(name "P3.7"
 					(effects

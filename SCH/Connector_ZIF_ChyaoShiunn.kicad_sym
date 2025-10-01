@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ZIF_1x8_Pin,_1.00mm,_JS-1157U-08"
+	(symbol "JS-1157U-08, SMD, ZIF 1x8_Pin, 1.00mm, Horizontal, ChyaoShiunn"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Connector_ChyaoShiunn:JS-1157U-08_CS"
+		(property "Footprint" "SMD_Connector_ChyaoShiunn:JS-1157U-08_CSN_ChyaoShiunn"
 			(at -1.27 20.32 0)
 			(effects
 				(font
@@ -197,7 +197,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "ZIF_1x8_Pin,_1.00mm,_JS-1157U-08_1_0"
+		(property "ki_fp_filters" "JS-1157U-08_CS?_ChyaoShiunn*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "JS-1157U-08, SMD, ZIF 1x8_Pin, 1.00mm, Horizontal, ChyaoShiunn_1_0"
 			(polyline
 				(pts
 					(xy -2.54 7.62) (xy 0 7.62)
@@ -295,7 +304,7 @@
 				)
 			)
 		)
-		(symbol "ZIF_1x8_Pin,_1.00mm,_JS-1157U-08_1_1"
+		(symbol "JS-1157U-08, SMD, ZIF 1x8_Pin, 1.00mm, Horizontal, ChyaoShiunn_1_1"
 			(rectangle
 				(start -1.905 10.16)
 				(end 5.08 -12.7)

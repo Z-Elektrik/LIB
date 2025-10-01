@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "BTN8926TA"
+	(symbol "BTN8926TA, TO263-7, High current half bridge, 40V, 30A, Infineon"
 		(pin_names
 			(offset 1.016)
 		)
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_IC_Generic:TO127P1500X440-7N_PG-TO-263-7-1_INFINEON"
+		(property "Footprint" "SMD_IC_Infineon:TO127P1500X440-7N_PG-TO-263-7-1_INFINEON"
 			(at 0 25.4 0)
 			(effects
 				(font
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Current PN Half Bridge, max 40V, 30A, SMD, with INH"
+		(property "Description" "High Current PN Half Bridge, max 40V, 30A, with INH"
 			(at 0 0 0)
 			(effects
 				(font
@@ -196,7 +196,16 @@
 				(hide yes)
 			)
 		)
-		(symbol "BTN8926TA_0_1"
+		(property "ki_fp_filters" "TO127P1500X440-7?_PG-TO-263-7-1_INFINEON*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "BTN8926TA, TO263-7, High current half bridge, 40V, 30A, Infineon_0_1"
 			(rectangle
 				(start -8.89 10.16)
 				(end 8.89 -10.16)
@@ -449,7 +458,7 @@
 				)
 			)
 		)
-		(symbol "BTN8926TA_1_1"
+		(symbol "BTN8926TA, TO263-7, High current half bridge, 40V, 30A, Infineon_1_1"
 			(pin input line
 				(at -11.43 3.81 0)
 				(length 2.54)
