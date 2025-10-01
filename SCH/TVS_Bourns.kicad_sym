@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "CDSOT23-SM712, 400W, 17A"
+	(symbol "CDSOT23-SM712, SOT23, Dual, 400W, 17A"
 		(pin_numbers
 			(hide yes)
 		)
@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVS, ESD, EFT, Dual, 400W"
+		(property "Description" "TVS, ESD, EFT, Dual, for RS485, 12V, 400W, 30kV"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261*_DO214AA_SMB-J"
+		(property "ki_fp_filters" "SOT95P250X110-3?_SOT23-3*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -209,7 +209,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "CDSOT23-SM712, 400W, 17A_0_0"
+		(symbol "CDSOT23-SM712, SOT23, Dual, 400W, 17A_0_0"
 			(polyline
 				(pts
 					(xy -3.81 2.54) (xy 5.08 2.54)
@@ -247,7 +247,7 @@
 				)
 			)
 		)
-		(symbol "CDSOT23-SM712, 400W, 17A_0_1"
+		(symbol "CDSOT23-SM712, SOT23, Dual, 400W, 17A_0_1"
 			(polyline
 				(pts
 					(xy -4.064 4.064) (xy -3.81 3.81)
@@ -404,7 +404,7 @@
 				)
 			)
 		)
-		(symbol "CDSOT23-SM712, 400W, 17A_1_1"
+		(symbol "CDSOT23-SM712, SOT23, Dual, 400W, 17A_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 3.81) (xy -3.81 2.54) (xy -1.27 1.27)
@@ -510,7 +510,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TBU-CA065-100-WH, 650V 100mA"
+	(symbol "TBU-CA065-100-WH, DFN, 650V, 150mA, Bourns"
 		(pin_numbers
 			(hide yes)
 		)
@@ -546,7 +546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.bourns.com/pdfs/CDSOT23-SM712.pdf"
+		(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/TBU-CA.pdf"
 			(at -0.635 13.97 0)
 			(effects
 				(font
@@ -555,7 +555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surge protector, 650V, 100mA, -40 to 125°C"
+		(property "Description" "Surge protector, 650V, 150mA, 2kV, -40 to 125°C"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -708,7 +708,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261*_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM6540X100-3?_BOURNS*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -717,7 +717,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TBU-CA065-100-WH, 650V 100mA_0_0"
+		(symbol "TBU-CA065-100-WH, DFN, 650V, 150mA, Bourns_0_0"
 			(polyline
 				(pts
 					(xy -3.81 0) (xy -1.905 0)
@@ -779,7 +779,7 @@
 				)
 			)
 		)
-		(symbol "TBU-CA065-100-WH, 650V 100mA_0_1"
+		(symbol "TBU-CA065-100-WH, DFN, 650V, 150mA, Bourns_0_1"
 			(rectangle
 				(start -2.54 1.27)
 				(end 2.54 -1.27)
@@ -792,7 +792,7 @@
 				)
 			)
 		)
-		(symbol "TBU-CA065-100-WH, 650V 100mA_1_1"
+		(symbol "TBU-CA065-100-WH, DFN, 650V, 150mA, Bourns_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 1.27)
@@ -851,7 +851,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TBU-CA065-200-WH, 650V, 200mA"
+	(symbol "TBU-CA065-200-WH, DFN, 650V, 300mA, Bourns"
 		(pin_numbers
 			(hide yes)
 		)
@@ -896,7 +896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surge protector, 650V, 200mA, -40 to 125°C"
+		(property "Description" "Surge protector, 650V, 300mA, 2kV, -40 to 125°C"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -1049,7 +1049,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261*_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM6540X100-3?_BOURNS*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1058,7 +1058,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TBU-CA065-200-WH, 650V, 200mA_0_0"
+		(symbol "TBU-CA065-200-WH, DFN, 650V, 300mA, Bourns_0_0"
 			(polyline
 				(pts
 					(xy -3.81 0) (xy -1.905 0)
@@ -1120,7 +1120,7 @@
 				)
 			)
 		)
-		(symbol "TBU-CA065-200-WH, 650V, 200mA_0_1"
+		(symbol "TBU-CA065-200-WH, DFN, 650V, 300mA, Bourns_0_1"
 			(rectangle
 				(start -2.54 1.27)
 				(end 2.54 -1.27)
@@ -1133,7 +1133,7 @@
 				)
 			)
 		)
-		(symbol "TBU-CA065-200-WH, 650V, 200mA_1_1"
+		(symbol "TBU-CA065-200-WH, DFN, 650V, 300mA, Bourns_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 1.27)
@@ -1192,7 +1192,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TBU-CA065-300-WH, 650V, 300mA"
+	(symbol "TBU-CA065-300-WH, DFN, 650V, 450mA, Bourns"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1237,7 +1237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Surge protector, 650V, 300mA, -40 to 125°C"
+		(property "Description" "Surge protector, 650V, 450mA, 2kV, -40 to 125°C"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -1390,7 +1390,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "DIOM5539X261*_DO214AA_SMB-J"
+		(property "ki_fp_filters" "DIOM6540X100-3?_BOURNS*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1399,7 +1399,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TBU-CA065-300-WH, 650V, 300mA_0_0"
+		(symbol "TBU-CA065-300-WH, DFN, 650V, 450mA, Bourns_0_0"
 			(polyline
 				(pts
 					(xy -3.81 0) (xy -1.905 0)
@@ -1461,7 +1461,7 @@
 				)
 			)
 		)
-		(symbol "TBU-CA065-300-WH, 650V, 300mA_0_1"
+		(symbol "TBU-CA065-300-WH, DFN, 650V, 450mA, Bourns_0_1"
 			(rectangle
 				(start -2.54 1.27)
 				(end 2.54 -1.27)
@@ -1474,7 +1474,7 @@
 				)
 			)
 		)
-		(symbol "TBU-CA065-300-WH, 650V, 300mA_1_1"
+		(symbol "TBU-CA065-300-WH, DFN, 650V, 450mA, Bourns_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 1.27)
