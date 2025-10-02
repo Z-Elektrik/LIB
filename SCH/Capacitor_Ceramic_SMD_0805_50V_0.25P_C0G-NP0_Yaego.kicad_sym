@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "DTS63K, SwitchTactile, 6.2x6.2mm, Black Cap, w/o GND Pin"
+	(symbol "5p6, SMD 0805, 50V, 0.25pF, C0G(NP0), Yaego"
 		(pin_numbers
 			(hide yes)
 		)
@@ -13,33 +13,24 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "SW"
-			(at 0 3.81 0)
+		(property "Reference" "C"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "DTS63K"
-			(at 0 -3.81 0)
+		(property "Value" "5p6/50V"
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "THD_Switch_Diptronics:SW_PUSH_620X620H700-4N_Diptronics"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/59ad2357d9e494ad618a716e15a5da58/DTSG-6.pdf"
-			(at 0 31.75 0)
+		(property "Footprint" "SMD_Capacitor_NonPolarised_Generic:CAPC2012X85N_0805"
+			(at 3.175 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,8 +38,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch Tactile, SPST NO, 6.2x6.2mm, 50mA/12V, 1.0N, THD"
-			(at 0 29.21 0)
+		(property "Datasheet" ""
+			(at 3.175 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,8 +47,8 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "THD"
-			(at 0 11.43 0)
+		(property "Description" "Capacitor ceramic MLCC, SMD 0805, 50V, +/-0.25pF, C0G(NP0)"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +56,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Diptronics"
-			(at 0 34.29 0)
+		(property "Technology" "SMD"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,8 +65,17 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "DTS63K"
-			(at 0 19.05 0)
+		(property "MFG" "Yaego"
+			(at 0.635 4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805CRNPO9BN5R6"
+			(at 3.175 6.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,8 +92,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" ""
-			(at 0 36.83 0)
+		(property "OC_LCSC" "C513555"
+			(at 5.715 9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,8 +101,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
-			(at 0 24.13 0)
+		(property "OC_MOUSER" "603-CC805CRNPO9BN5R6"
+			(at 8.255 12.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +111,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at 0 13.97 0)
+			(at 10.795 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" ""
-			(at 0 26.67 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,8 +128,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "DTS63K"
-			(at 0 21.59 0)
+		(property "OC_TME" "CC0805CRNPO95R6"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,8 +137,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
-			(at 0 31.75 0)
+		(property "OC_FARNELL" "3764580"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,8 +146,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" ""
-			(at 0 16.51 0)
+		(property "OC_DIGIKEY" "311-4148-1-ND"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,8 +155,17 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" ""
-			(at 0 29.21 0)
+		(property "OC_SOS" "117223"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "7031"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,16 +191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "3668"
-			(at 0 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "Switch,Button,Tactile"
+		(property "ki_keywords" "CCAP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SW_PUSH_620X620H700-4?_*"
+		(property "ki_fp_filters" "CAPC2012X85?_0805*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -209,55 +209,11 @@
 				(hide yes)
 			)
 		)
-		(symbol "DTS63K, SwitchTactile, 6.2x6.2mm, Black Cap, w/o GND Pin_0_1"
+		(symbol "5p6, SMD 0805, 50V, 0.25pF, C0G(NP0), Yaego_0_1"
 			(polyline
 				(pts
-					(xy -1.905 -2.54) (xy -1.905 0)
+					(xy -0.3302 1.27) (xy -0.3302 -1.27)
 				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -1.397 0)
-				(radius 0.508)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -1.27 1.27)
-				(end 1.27 1.016)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -0.3175 1.905)
-				(end 0.3175 1.27)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 1.397 0)
-				(radius 0.508)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -268,10 +224,10 @@
 			)
 			(polyline
 				(pts
-					(xy 1.905 -2.54) (xy 1.905 0)
+					(xy 0.3302 1.27) (xy 0.3302 -1.27)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -279,10 +235,10 @@
 				)
 			)
 		)
-		(symbol "DTS63K, SwitchTactile, 6.2x6.2mm, Black Cap, w/o GND Pin_1_1"
+		(symbol "5p6, SMD 0805, 50V, 0.25pF, C0G(NP0), Yaego_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 0.635)
+				(length 2.2098)
 				(name "1"
 					(effects
 						(font
@@ -299,8 +255,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -2.54 0)
-				(length 0.635)
+				(at 2.54 0 180)
+				(length 2.2098)
 				(name "2"
 					(effects
 						(font
@@ -309,42 +265,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 0 180)
-				(length 0.635)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 -2.54 180)
-				(length 0.635)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
