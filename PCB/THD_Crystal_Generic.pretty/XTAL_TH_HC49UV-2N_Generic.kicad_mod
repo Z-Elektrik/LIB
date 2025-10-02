@@ -1,0 +1,269 @@
+(footprint "XTAL_TH_HC49UV-2N_Generic"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Nominal,  HC-49/U, H:3.5mm, Vertical")
+	(property "Reference" "REF**"
+		(at 0 -3.52 0)
+		(layer "F.SilkS")
+		(uuid "2fe53065-356b-41f0-9651-6743bf6d84e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XTAL_TH_HC49UV-2N_Generic"
+		(at 0 3.52 0)
+		(layer "F.Fab")
+		(uuid "2491918a-16a8-4734-8066-40a917f91220")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tme.eu/Document/f66bf60257c9f23ef7a204a968cd6195/YIC-49US_49SMT-quartz_crystal.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a024e096-9397-4b09-83bf-21a2918b3dc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adf6ee96-04c5-45f4-bdd9-04a410931b68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.125 -2.435)
+		(end 3.125 -2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1070ec9-d99a-4636-be67-a7294c5a84c5")
+	)
+	(fp_line
+		(start 3.125 2.435)
+		(end -3.125 2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad97e781-3889-4949-9555-ef4874a87dd6")
+	)
+	(fp_arc
+		(start -3.125 2.435)
+		(mid -5.56 0)
+		(end -3.125 -2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bde38d90-f91c-418b-abf1-b4e13ee90887")
+	)
+	(fp_arc
+		(start 3.125 -2.435)
+		(mid 5.56 0)
+		(end 3.125 2.435)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44f96ca0-07d6-4843-b862-00313c5311ef")
+	)
+	(fp_line
+		(start -3.12 -2.83)
+		(end 3.12 -2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7e0f99cf-7864-4537-bdc7-42c2ab8dc3a0")
+	)
+	(fp_line
+		(start 3.12 2.83)
+		(end -3.12 2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a38babe7-9d3f-4602-b0b2-bd031714062d")
+	)
+	(fp_arc
+		(start -3.12 2.83)
+		(mid -5.95 0)
+		(end -3.12 -2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2da31c49-4fbd-4391-9e9a-172032edd518")
+	)
+	(fp_arc
+		(start 3.12 -2.83)
+		(mid 5.95 0)
+		(end 3.12 2.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f8a7b12f-fafa-483e-9f5f-5d644ffab09f")
+	)
+	(fp_line
+		(start -3.125 -2.325)
+		(end 3.125 -2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c572c065-a022-4095-a85a-19bcf1172816")
+	)
+	(fp_line
+		(start 3.125 2.325)
+		(end -3.125 2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c024c9f-b0c5-4a06-8c6f-46a36625324f")
+	)
+	(fp_arc
+		(start -3.125 2.325)
+		(mid -5.45 0)
+		(end -3.125 -2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "707287ed-8fe3-4777-880f-63ea5b1855a4")
+	)
+	(fp_arc
+		(start 3.125 -2.325)
+		(mid 5.45 0)
+		(end 3.125 2.325)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61884b48-7eda-4be1-84fc-285240a72b41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7ea45ffe-251e-49c0-ae95-8c6105136a4e")
+		(effects
+			(font
+				(face "Tahoma")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.506027 -0.598412) (xy -1.443413 -0.591463) (xy -1.38619 -0.575722) (xy -1.331062 -0.547011)
+					(xy -1.283231 -0.507771) (xy -1.246676 -0.458778) (xy -1.229964 -0.421525) (xy -1.219367 -0.377326)
+					(xy -1.215596 -0.32475) (xy -1.222327 -0.251856) (xy -1.241457 -0.190119) (xy -1.272321 -0.137355)
+					(xy -1.314009 -0.092107) (xy -1.365005 -0.055018) (xy -1.426683 -0.025858) (xy -1.064593 0.415)
+					(xy -1.240203 0.415) (xy -1.562604 0.012487) (xy -1.717026 0.012487) (xy -1.717026 0.415) (xy -1.852276 0.415)
+					(xy -1.852276 -0.104748) (xy -1.717026 -0.104748) (xy -1.598141 -0.104748) (xy -1.541612 -0.1074)
+					(xy -1.493605 -0.114823) (xy -1.450356 -0.13047) (xy -1.414349 -0.156711) (xy -1.38887 -0.18766)
+					(xy -1.370995 -0.224122) (xy -1.360722 -0.26524) (xy -1.357013 -0.315835) (xy -1.36109 -0.35799)
+					(xy -1.372705 -0.393749) (xy -1.392534 -0.424548) (xy -1.421187 -0.449436) (xy -1.45175 -0.465313)
+					(xy -1.488171 -0.476058) (xy -1.528694 -0.481679) (xy -1.58312 -0.483813) (xy -1.717026 -0.483813)
+					(xy -1.717026 -0.104748) (xy -1.852276 -0.104748) (xy -1.852276 -0.60105) (xy -1.589959 -0.60105)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.983748 0.415) (xy -0.983748 -0.60105) (xy -0.34774 -0.60105) (xy -0.34774 -0.480882) (xy -0.848499 -0.480882)
+					(xy -0.848499 -0.202445) (xy -0.381873 -0.202445) (xy -0.381873 -0.082278) (xy -0.848499 -0.082278)
+					(xy -0.848499 0.294832) (xy -0.34774 0.294832) (xy -0.34774 0.415)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.409412 -0.480882) (xy -0.063991 -0.480882) (xy -0.063991 -0.19463) (xy 0.389628 -0.19463)
+					(xy 0.389628 -0.074462) (xy -0.063991 -0.074462) (xy -0.063991 0.415) (xy -0.19924 0.415) (xy -0.19924 -0.60105)
+					(xy 0.409412 -0.60105)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.115335 -0.191699) (xy 1.070944 -0.117144) (xy 0.847522 -0.26375) (xy 0.852346 -0.014867)
+					(xy 0.766922 -0.014867) (xy 0.771013 -0.26375) (xy 0.548997 -0.116472) (xy 0.503934 -0.191027)
+					(xy 0.745734 -0.331406) (xy 0.503934 -0.471784) (xy 0.548997 -0.546339) (xy 0.771746 -0.398389)
+					(xy 0.766922 -0.647944) (xy 0.852346 -0.647944) (xy 0.846851 -0.398389) (xy 1.070944 -0.545668)
+					(xy 1.115335 -0.471051) (xy 0.873473 -0.332077)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.879326 -0.191699) (xy 1.834935 -0.117144) (xy 1.611514 -0.26375) (xy 1.616338 -0.014867)
+					(xy 1.530914 -0.014867) (xy 1.535005 -0.26375) (xy 1.312988 -0.116472) (xy 1.267925 -0.191027)
+					(xy 1.509726 -0.331406) (xy 1.267925 -0.471784) (xy 1.312988 -0.546339) (xy 1.535738 -0.398389)
+					(xy 1.530914 -0.647944) (xy 1.616338 -0.647944) (xy 1.610842 -0.398389) (xy 1.834935 -0.545668)
+					(xy 1.879326 -0.471051) (xy 1.637465 -0.332077)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.44 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b53c1094-fd38-4ad2-a5fd-dc32428bbb91")
+	)
+	(pad "2" thru_hole circle
+		(at 2.44 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c7b60fa6-fdf9-4cb1-8544-ae0766a70cd3")
+	)
+	(embedded_fonts no)
+	(model "${Z_LIB_3D_DIR}/THD_Crystal_Generic.3dshapes/XTAL_TH_HC49S-2_Generic.step"
+		(offset
+			(xyz -2.44 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

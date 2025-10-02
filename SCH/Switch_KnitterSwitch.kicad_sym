@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "SW"
-			(at 5.08 2.54 0)
+			(at 5.08 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,8 +202,8 @@
 		)
 		(symbol "MPBS-22H01-LF-14_0_1"
 			(rectangle
-				(start -2.54 1.651)
-				(end 0 1.016)
+				(start -2.54 2.921)
+				(end 0 2.286)
 				(stroke
 					(width 0)
 					(type default)
@@ -213,7 +213,7 @@
 				)
 			)
 			(circle
-				(center -2.54 0)
+				(center -2.54 1.27)
 				(radius 0.508)
 				(stroke
 					(width 0.254)
@@ -224,7 +224,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 0 1.27)
 				(radius 0.508)
 				(stroke
 					(width 0.254)
@@ -235,7 +235,7 @@
 				)
 			)
 			(circle
-				(center 2.54 0)
+				(center 2.54 1.27)
 				(radius 0.508)
 				(stroke
 					(width 0.254)
@@ -249,7 +249,7 @@
 		(symbol "MPBS-22H01-LF-14_1_1"
 			(polyline
 				(pts
-					(xy -1.27 1.651) (xy -1.27 5.08)
+					(xy -1.27 2.921) (xy -1.27 6.35)
 				)
 				(stroke
 					(width 0)
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -1.27 90)
+				(at -2.54 0 90)
 				(length 0.635)
 				(name "NC2"
 					(effects
@@ -278,7 +278,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -1.27 90)
+				(at 0 0 90)
 				(length 0.635)
 				(name "COM2"
 					(effects
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -1.27 90)
+				(at 2.54 0 90)
 				(length 0.635)
 				(name "NO2"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -1.27 90)
+				(at -2.54 0 90)
 				(length 0.635)
 				(name "NC2"
 					(effects
@@ -346,7 +346,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -1.27 90)
+				(at 0 0 90)
 				(length 0.635)
 				(name "COM2"
 					(effects
@@ -364,7 +364,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -1.27 90)
+				(at 2.54 0 90)
 				(length 0.635)
 				(name "NO2"
 					(effects
