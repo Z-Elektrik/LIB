@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "L5972D"
+	(symbol "L5972D, SO8, Switching Volt Reg, Adj, 500mA, STM"
 		(pin_names
 			(offset 1.016)
 		)
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Adjustable Switching Step Down Regulators, 4V to 36V, Vo:1.235V-35V, 2A, -40 to 150"
+		(property "Description" "Switching Voltage Regulators, Vo: 1.235-35V, Fb:1.23V, Iq: 5mA, Vi: 4-36V, Io: 500mA, Pd: 1.2W, 250kHz, -40 to 150°C"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -205,7 +205,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "L5972D_0_1"
+		(symbol "L5972D, SO8, Switching Volt Reg, Adj, 500mA, STM_0_1"
 			(rectangle
 				(start -10.16 8.89)
 				(end 10.16 -7.62)
@@ -218,7 +218,7 @@
 				)
 			)
 		)
-		(symbol "L5972D_1_1"
+		(symbol "L5972D, SO8, Switching Volt Reg, Adj, 500mA, STM_1_1"
 			(pin power_in line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -366,7 +366,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "L5973D"
+	(symbol "L5973D, HSOP8, Switching Volt Reg, Adj, 3A, STM"
 		(pin_names
 			(offset 1.016)
 		)
@@ -407,7 +407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Adjustable Switching Step Down Regulators, 4V to 36V, Vo:1.235V-35V, 2.5A, -40 to 150"
+		(property "Description" "Switching Voltage Regulators, Vo: 1.235-35V, Fb:1.23V, Iq: 2.5mA, Vi: 4-36V, Io: 3A, Pd: 2.25W, 250kHz, -40 to 150°C, With Inhibit"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -569,7 +569,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "L5973D_0_1"
+		(symbol "L5973D, HSOP8, Switching Volt Reg, Adj, 3A, STM_0_1"
 			(rectangle
 				(start -10.16 8.89)
 				(end 10.16 -7.62)
@@ -582,7 +582,7 @@
 				)
 			)
 		)
-		(symbol "L5973D_1_1"
+		(symbol "L5973D, HSOP8, Switching Volt Reg, Adj, 3A, STM_1_1"
 			(pin power_in line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -730,7 +730,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LD1086D2T33"
+	(symbol "LD1086D2T33, TO263, LowDrop Reg, 3.3V, 1.5A, STM"
 		(pin_names
 			(offset 1.016)
 		)
@@ -771,7 +771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Regulator 3.3V, max 30V, 1.5A, SMD"
+		(property "Description" "LDO Regulator, Vo: 3.3V, Drop: 1.5V, Iq: 10mA, Vi: max30V, Io: 3A, Pd: 2.25W, -40 to 125°C"
 			(at 0 0 0)
 			(effects
 				(font
@@ -789,7 +789,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "ST Microelectronics"
+		(property "MFG" "STMicroelectronics"
 			(at 0 30.48 0)
 			(effects
 				(font
@@ -933,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LD1086D2T33_0_1"
+		(symbol "LD1086D2T33, TO263, LowDrop Reg, 3.3V, 1.5A, STM_0_1"
 			(rectangle
 				(start -7.62 5.08)
 				(end 7.62 -5.08)
@@ -946,7 +946,7 @@
 				)
 			)
 		)
-		(symbol "LD1086D2T33_1_1"
+		(symbol "LD1086D2T33, TO263, LowDrop Reg, 3.3V, 1.5A, STM_1_1"
 			(pin power_in line
 				(at -10.16 2.54 0)
 				(length 2.54)
