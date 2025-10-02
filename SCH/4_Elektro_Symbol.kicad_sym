@@ -49,7 +49,7 @@
 			)
 		)
 		(property "Description" "Button Normally Connec"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,8 +263,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -281,8 +281,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -348,7 +348,7 @@
 			)
 		)
 		(property "Description" "Button Normally Open"
-			(at 0 0 0)
+			(at 0 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,8 +562,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -580,8 +580,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -647,7 +647,7 @@
 			)
 		)
 		(property "Description" "Contactor"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,6 +812,18 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "Contactor 1P_1_1"
 			(polyline
@@ -827,8 +839,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -845,8 +857,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -912,7 +924,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,8 +1152,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -1158,8 +1170,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -1225,7 +1237,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,6 +1462,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NC Key Reset_0_1"
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NC Key Reset_1_0"
 			(polyline
 				(pts
@@ -1526,8 +1552,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -1544,8 +1570,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -1611,7 +1637,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1825,6 +1851,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NC Pull Reset_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NC Pull Reset_1_0"
 			(polyline
 				(pts
@@ -1901,8 +1941,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -1919,8 +1959,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -1986,7 +2026,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,6 +2216,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NC Spring Return_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NC Spring Return_1_0"
 			(polyline
 				(pts
@@ -2228,8 +2282,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -2246,8 +2300,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -2313,7 +2367,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,6 +2581,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NC Turn Reset_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NC Turn Reset_1_0"
 			(polyline
 				(pts
@@ -2603,8 +2671,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -2621,8 +2689,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -2688,7 +2756,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,8 +2972,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -2922,8 +2990,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -2989,7 +3057,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,6 +3270,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NO Key Reset_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NO Key Reset_1_0"
 			(polyline
 				(pts
@@ -3266,8 +3348,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -3284,8 +3366,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -3351,7 +3433,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,6 +3635,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NO Pull Reset_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NO Pull Reset_1_0"
 			(polyline
 				(pts
@@ -3617,8 +3713,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -3635,8 +3731,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -3702,7 +3798,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3880,6 +3976,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NO Spring Return_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NO Spring Return_1_0"
 			(polyline
 				(pts
@@ -3920,8 +4030,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -3938,8 +4048,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -4005,7 +4115,7 @@
 			)
 		)
 		(property "Description" "Emergency Stop switch symbol"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,6 +4317,20 @@
 				)
 			)
 		)
+		(symbol "Emergency Stop NO Turn Reset_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Emergency Stop NO Turn Reset_1_0"
 			(polyline
 				(pts
@@ -4271,8 +4395,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -4289,8 +4413,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -4627,7 +4751,7 @@
 			)
 		)
 		(property "Description" "Relay Normally Close Contact"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,6 +4917,20 @@
 				)
 			)
 		)
+		(symbol "Relay Contact NC_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Relay Contact NC_1_1"
 			(polyline
 				(pts
@@ -4807,8 +4945,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -4825,8 +4963,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -4893,7 +5031,7 @@
 			)
 		)
 		(property "Description" "Relay Normally Open Contact"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,6 +5183,20 @@
 				(hide yes)
 			)
 		)
+		(symbol "Relay Contact NO_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.905 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
 		(symbol "Relay Contact NO_1_1"
 			(polyline
 				(pts
@@ -5059,8 +5211,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -5077,8 +5229,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
@@ -5118,7 +5270,7 @@
 			)
 		)
 		(property "Value" "Relay Contect ChangeOver - Break Before Make"
-			(at 0 3.81 0)
+			(at 0 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5297,7 @@
 			)
 		)
 		(property "Description" "Relay Contect ChangeOver - Break Before Make"
-			(at 0 0 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5300,7 +5452,21 @@
 		(symbol "Relay Contect ChangeOver - Break Before Make_0_0"
 			(polyline
 				(pts
-					(xy -1.905 0) (xy -1.905 1.27)
+					(xy -1.905 -2.54) (xy -1.905 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relay Contect ChangeOver - Break Before Make_0_1"
+			(polyline
+				(pts
+					(xy -1.905 -2.54) (xy -2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -5314,7 +5480,7 @@
 		(symbol "Relay Contect ChangeOver - Break Before Make_1_1"
 			(polyline
 				(pts
-					(xy 2.54 1.27) (xy -2.54 0.254)
+					(xy 2.54 0) (xy -2.54 -1.016)
 				)
 				(stroke
 					(width 0)
@@ -5325,8 +5491,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 2.54 0)
-				(length 1.905)
+				(at -5.08 2.54 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -5343,8 +5509,8 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.905)
+				(at -5.08 -2.54 0)
+				(length 2.54)
 				(name "NC1"
 					(effects
 						(font
@@ -5361,8 +5527,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 1.27 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "COM1"
 					(effects
 						(font
