@@ -11,7 +11,7 @@ These libraries contains components, which are mostly used in the Z Elektrik, wi
 - Unique Z Elektrik's internal stock ID. Use of this library for place assembly order to our company, make setup process in easy way :-) .
 
 **Content**
-All libraries listing with attributes in the open document format file, you can find here: ([Library_Listing.ods](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQrfTI6g8CGJz_kQ2h6NA4STcINRSNWpEIgMftyWNZnPfuyPHBXPfnJIhNQU6JdZVPvYBZkwLYq0Yu/pubhtml?gid=778825821&single=true))
+All libraries listing with attributes in the open document format file, you can find here: [([Library_Listing.ods](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQrfTI6g8CGJz_kQ2h6NA4STcINRSNWpEIgMftyWNZnPfuyPHBXPfnJIhNQU6JdZVPvYBZkwLYq0Yu/pubhtml?gid=778825821&single=true))](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQrfTI6g8CGJz_kQ2h6NA4STcINRSNWpEIgMftyWNZnPfuyPHBXPfnJIhNQU6JdZVPvYBZkwLYq0Yu/pub?output=ods)
 
 ## Install
 You can use git client to clone repository, or [download](https://github.com/Z-Elektrik/LIB/archive/refs/heads/main.zip) zip file and unpack content with folder structure to your KiCad library folder (e.g. "Documents/Zele-KiCad-Libs").
