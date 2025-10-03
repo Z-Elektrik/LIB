@@ -46,6 +46,7 @@ Library name convention like: **FUNCTION_PARAMETERS_MANUFACTURER**
 
 **Used Reference Designators**
 Used RefDes's letters should meet function's class code according to IEC/EN 81346-2. 
-[Here is it](Library_Listing.ods)
+Here is it:
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQrfTI6g8CGJz_kQ2h6NA4STcINRSNWpEIgMftyWNZnPfuyPHBXPfnJIhNQU6JdZVPvYBZkwLYq0Yu/pubhtml?gid=1922460605&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
