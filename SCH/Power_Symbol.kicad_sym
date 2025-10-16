@@ -367,7 +367,7 @@
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -381,6 +381,7 @@
 						)
 					)
 				)
+				(alternate "~" power_in line)
 			)
 		)
 		(embedded_fonts no)
@@ -503,7 +504,7 @@
 						)
 					)
 				)
-				(alternate "~" power_out line)
+				(alternate "~" power_in line)
 			)
 		)
 		(embedded_fonts no)
@@ -531,6 +532,7 @@
 		)
 		(property "Value" "_Symbol_Circle"
 			(at 0 3.81 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,11 +610,11 @@
 					(type none)
 				)
 			)
-			(pin power_in line
-				(at 0 0 180)
-				(length 0)
+			(pin power_out line
+				(at 0 0 90)
+				(length 1.27)
 				(hide yes)
-				(name ""
+				(name "~"
 					(effects
 						(font
 							(size 1.27 1.27)
