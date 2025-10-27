@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "0R, SMD 0603, 0.1W, 0.5%"
+	(symbol "1M, SMD 0603, 0.1W, 0.5%, 25ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1M/0.5%/25ppm"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SMD_Resistor_Generic:RESC1608X38N_0603"
+		(property "Footprint" "SMD_Resistor_Generic:RESC1608X45N_0603"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -38,7 +38,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/d2a72e545e5c8eb7bf2a04fa97535928/rc0603yageo.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2828674.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor Jumper, SMD 0603, 0.1W, 0.5%,, Yageo"
+		(property "Description" "Resistor, SMD 0603, 0.1W, 0.5%, 25ppm, ARG03 Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56,7 +56,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" "Viking"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -65,7 +65,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0603JR-070RL"
+		(property "MPN" "ARG03DTC1004"
 			(at 0 0 0)
 			(effects
 				(font
@@ -83,7 +83,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C95177"
+		(property "OC_LCSC" "C2828674"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -92,7 +92,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "0603-RC0603JR-070RL"
+		(property "OC_MOUSER" ""
 			(at 1.27 7.62 0)
 			(effects
 				(font
@@ -119,7 +119,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "RC0603JR-070R"
+		(property "OC_TME" "ARG0603-1M-0.5%"
 			(at 0 0 0)
 			(effects
 				(font
@@ -128,7 +128,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" "9233130"
+		(property "OC_FARNELL" ""
 			(at 0 17.78 0)
 			(effects
 				(font
@@ -137,7 +137,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "311-0.0GRCT-ND"
+		(property "OC_DIGIKEY" ""
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -146,7 +146,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" "39627"
+		(property "OC_SOS" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -155,7 +155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "12177"
 			(at 0 22.86 0)
 			(effects
 				(font
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC1608X45?_0603*"
+		(property "ki_fp_filters" "RESC*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -209,7 +209,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0R, SMD 0603, 0.1W, 0.5%_0_1"
+		(symbol "1M, SMD 0603, 0.1W, 0.5%, 25ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -222,7 +222,7 @@
 				)
 			)
 		)
-		(symbol "0R, SMD 0603, 0.1W, 0.5%_1_1"
+		(symbol "1M, SMD 0603, 0.1W, 0.5%, 25ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -262,7 +262,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "10k, SMD 0603, 0.1W, 200ppm, 5%"
+	(symbol "1k, SMD 0603, 0.1W, 0.5%, 25ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -281,7 +281,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k/0.5%/25ppm"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -298,7 +298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/622e28308c06d160637f2b14751ba16b/Data%20Sheet%20CRCW_BCe3.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2828674.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -307,7 +307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0603, 0.1W, 200ppm, 5%, Yageo"
+		(property "Description" "Resistor, SMD 0603, 0.1W, 0.5%, 25ppm, ARG03 Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -316,7 +316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Yageo"
+		(property "MFG" "Viking"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -325,7 +325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CRCW060310K0JNTABC"
+		(property "MPN" "ARG03DTC1004"
 			(at 0 0 0)
 			(effects
 				(font
@@ -343,7 +343,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" ""
+		(property "OC_LCSC" "C311887"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -379,7 +379,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "CRCW060310K0JNTABC"
+		(property "OC_TME" "ARG0603-1K-0.5%"
 			(at 0 0 0)
 			(effects
 				(font
@@ -415,7 +415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "11779"
 			(at 0 22.86 0)
 			(effects
 				(font
@@ -460,7 +460,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC1608X45?_0603"
+		(property "ki_fp_filters" "RESC*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -469,7 +469,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "10k, SMD 0603, 0.1W, 200ppm, 5%_0_1"
+		(symbol "1k, SMD 0603, 0.1W, 0.5%, 25ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -482,7 +482,7 @@
 				)
 			)
 		)
-		(symbol "10k, SMD 0603, 0.1W, 200ppm, 5%_1_1"
+		(symbol "1k, SMD 0603, 0.1W, 0.5%, 25ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
