@@ -1,50 +1,61 @@
-# Z Elektrik KiCad parts
-Welcome to Z Elektrik KiCadv9 EDA Public library.
+# Z Elektrik KiCad Parts
+
+Welcome to the Z Elektrik KiCad v9 EDA Public Library.
 
 ## Description
-These libraries contains components, which are mostly used in the Z Elektrik, with additional fields as:
-- MFG (Manufacturer name)
-- MPN (Manufacturer Part Number). Libraries are atomic type (besides Generic library), due this even simple resistor have own MPN
-- Device marking. Very Helpfull for small SMD devices as SOT-23.
-- Technology. Field with filled values: SMD/THD/Mechanical/Graphical, which can create BOM more precise. Ex: Assembly THD only.
-- Order code for LCSC, Mouser, RS, TME, Farnell, DigiKey, and SOS
-- Unique Z Elektrik's internal stock ID. Use of this library for place assembly order to our company, make setup process in easy way :-) .
+
+These libraries contain components that are mostly used in Z Elektrik projects, with additional fields such as:
+
+* **MFG** (Manufacturer name)
+* **MPN** (Manufacturer Part Number). The libraries are of the *atomic* type (except the Generic library), therefore even a simple resistor has its own MPN.
+* **Device marking.** Very helpful for small SMD packages such as SOT-23.
+* **Technology.** A field with values like SMD / THD / Mechanical / Graphical, which helps generate a more precise BOM (e.g., “Assemble THD only”).
+* **Order codes** for LCSC, Mouser, RS, TME, Farnell, Digi-Key, and SOS.
+* **Unique Z Elektrik internal stock ID.** Using this library when placing an assembly order with our company makes the setup process much easier. :-)
 
 **Content**
-All libraries listing with attributes in the open document format file, you can find here: [Library_Listing](https://docs.google.com/spreadsheets/d/176wO_S8_nby6Lyd8MGY-Abj0bwKNF8hLd7M2Ny2Cflg/edit?usp=sharing)
+A complete list of all libraries with attributes (in OpenDocument format) can be found here:
+[Library_Listing](https://docs.google.com/spreadsheets/d/176wO_S8_nby6Lyd8MGY-Abj0bwKNF8hLd7M2Ny2Cflg/edit?usp=sharing)
 
-## Install
-You can use git client to clone repository, or [download](https://github.com/Z-Elektrik/LIB/archive/refs/heads/main.zip) zip file and unpack content with folder structure to your KiCad library folder (e.g. "Documents/Zele-KiCad-Libs").
+## Installation
 
-Open the KiCad->Menu->Preferences->"Configure Paths dialog" and add variables:
-- Z_LIB_3D_DIR and set path to 3D folder of downloaded files
-- Z_LIB_FOOTPRINT_DIR and set path to PCB folder of downloaded files
-- Z_LIB_SYMBOL_DIR and set path to 3D folder of downloaded files
+You can use a Git client to clone the repository, or [download](https://github.com/Z-Elektrik/LIB/archive/refs/heads/main.zip) the ZIP file and extract its contents (keeping the folder structure) to your KiCad library folder (e.g., “Documents/Zele-KiCad-Libs”).
 
-Next open "Manage symbol libraries" from same menu and click to small folder icon "Add existing library to table", point to inside downloaded SCH folder and select all files (CTRL+A).
-Do same action for footprint libraries.
+Then open **KiCad → Menu → Preferences → Configure Paths** and add the following variables:
+
+* `Z_LIB_3D_DIR` — set the path to the 3D folder of the downloaded files
+* `Z_LIB_FOOTPRINT_DIR` — set the path to the PCB folder of the downloaded files
+* `Z_LIB_SYMBOL_DIR` — set the path to the SCH (symbols) folder of the downloaded files
+
+Next, open **Manage Symbol Libraries** from the same menu, click the small folder icon **“Add existing library to table”**, navigate to the downloaded SCH folder, and select all files (Ctrl+A).
+Repeat the same for the footprint libraries.
 Enjoy!
- 
 
-## Refresh latest version from github
-Due to the continually add a new elements to libs, is good refresh libs before use it.
+## Updating to the Latest Version from GitHub
 
-Process is same as install, but itsn't need to add global variable to paths dialog, and before add library in the "Manage symbol/footprint library" dialog, is need to remove all libs with Z_LIB prefix in the path. 
+Since new elements are continuously being added, it’s a good idea to refresh the libraries before use.
 
-
-
+The process is the same as installation, but there is no need to re-add global variables in the Paths dialog.
+Before adding the library in the “Manage Symbol/Footprint Library” dialog, remove all libraries with the `Z_LIB` prefix from the list.
 
 ## Details
-### Symbols libraries
-Library name convention like: **FUNCTION_PARAMETERS_MANUFACTURER**
-- FUNCTION: Audio, Capacitor, EMI, Fuse, Header, IC, Inductor, Jumper, Mechanical, Opto, Power, Relay, Resistor, Sensor, Switch, Terminal,...
-- PARAMETERS:
-   - for capacitors can be technology (SMD/THD), Package size or LeadSpan, Voltage rating, tolerance and used material
-   - for resistors can be technology (SMD/THD), Package size or LeadSpan, Power rating, tolerance, stability
-- MANUFACTURER:
-   - Name of manufacturer ex: Samsung, Panasonic etc. If part is not atomic (haven't MPN), as manufacturer can be entered "Generic"
 
-**Used Reference Designators**
-Used RefDes's letters should meet function's class code according to IEC/EN 81346-2. 
-[Here is it](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQrfTI6g8CGJz_kQ2h6NA4STcINRSNWpEIgMftyWNZnPfuyPHBXPfnJIhNQU6JdZVPvYBZkwLYq0Yu/pubhtml?gid=1922460605&single=true) 
+### Symbol Libraries
 
+The naming convention is:
+**FUNCTION_PARAMETERS_MANUFACTURER**
+
+* **FUNCTION:** Audio, Capacitor, EMI, Fuse, Header, IC, Inductor, Jumper, Mechanical, Opto, Power, Relay, Resistor, Sensor, Switch, Terminal, etc.
+* **PARAMETERS:**
+
+  * For capacitors: technology (SMD/THD), package size or lead span, voltage rating, tolerance, and material.
+  * For resistors: technology (SMD/THD), package size or lead span, power rating, tolerance, stability, etc.
+* **MANUFACTURER:**
+
+  * Manufacturer name, e.g., Samsung, Panasonic, etc.
+  * If the part is not atomic (has no MPN), “Generic” can be used as the manufacturer.
+
+### Reference Designators
+
+Reference designators should follow the functional class codes according to **IEC/EN 81346-2**.
+[You can find them here.](https://docs.google.com/spreadsheets/d/e/2PACX-1vSQrfTI6g8CGJz_kQ2h6NA4STcINRSNWpEIgMftyWNZnPfuyPHBXPfnJIhNQU6JdZVPvYBZkwLYq0Yu/pubhtml?gid=1922460605&single=true)
