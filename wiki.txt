@@ -1,0 +1,78 @@
+
+## *Skratky v nazvoch*
+P = Pitch of components with more than two leads
+
+W = component lead diameter (or maximum lead width)
+
+L = Body length for **_horizontal _**installation
+
+D = diameter of the round component body
+
+T = thickness of rectangular components body
+
+H = the height of the vertically mounted component
+
+Q = Number of pins for components with more than two Leads
+
+R = Number of lines in the connector
+
+
+
+
+## Komponentové rodiny – predpony a významy
+Predpona | Význam / rodina komponentu | Poznámky / príklady
+-- | -- | --
+CAP | Kondenzátory (capacitor) | Ïalej sa rozde¾uje pod¾a usporiadania: CAPAx, CAPRD, CAPAR, CAPRB, CAPPR atï.
+RES | Rezistory (resistor) | Axiálne, radiálne, lineárne atï.
+DIO | Diódy (diode) | Axiálne / radiálne DIOAx, DIORD, DIOAD, DIOADV atï.
+LED | LED diódy (light-emitting diode) | Používa sa v názvoch ako LEDRD (LED, Radiálne, Diameter) atï.
+CON | Konektory (connector) | Pre rôzne typy konektorov a hlavièiek (headers)
+SW / REL | Prepínaèe alebo relé (switch / relay) | Použite¾né, keï komponent má mechanický spínací charakter
+FUS | Poistky (fuse) |  
+IND | Induktory / cievky |  
+OPTO | Optoèleny |  
+XTAL / OSC | Kryštály / oscilátory |  
+IC, DIP, SIP | Integrované obvody (èipy), DIP puzdrá, SIP moduly | Používa sa, keï komponent má viaceré vývody, rozsiahlejší tvar
+TUNER | Ladacie elementy / menièe (tuner) | pod¾a špecifickej aplikácie
+VAR | Varistory |
+VCO | Voltage Controlled Oscillator |
+VREG | Regulátory napätia |
+
+
+Resistor (RESAD)
+Capacitor Non-polarized (CAPAD) 
+Fuse Axial Diameter (FUSAD)
+Inductor Axial Diameter (INDAD)
+
+Capacitor Polarized Axial Diameter (CAPPAD)
+Diode Axial Diameter (DIOAD)
+
+CATEGORY
+Capacitor NonPlarized Axial Rectangular
+Diode
+Resistor
+
+
+Shape
+B - Disk Button, for rounded button body
+D - Diameter, for cylyndrical body
+R - Rectangular, rectangular block shape
+
+
+Header
+Category | Lead Style (right-angle) | Description
+HDR | V | Header, Vertical leads
+HDR | RA | Header, Right angle leads
+
+Capacitor, Resistor, Diode, Inductor
+Category | Lead style (axial/rdial) | Polarization | Shape | Mounting | Description 
+-- | -- | -- | -- | -- | --
+CAP | A |   | R |   | Capacitor, Non polarized, Axial leads, Rectangular body, Horizontal mounting
+CAP | R | P | R | V | Capacitor, Radial leads, Polarized, Rectangular body, Vertical mounting
+RES | A |   | R | V | Resistor, Axial leads, Non polarized, Rectangular body, Vertical mounting
+DIO | A |   | D | V | Diode, Axial leads, Non polarized, Diameter (cylindrical) body, Vertical mounting
+IND | R |   | D |   | Inductor, Radial leads, Non polarized, Diameter (cylindrical) body, Horizontal mounting
+
+Fuse,
+Category | Lead style (axial/rdial) | Shape | Mounting | Description 
+FUS | R | B | Fuse, Radial disk button
