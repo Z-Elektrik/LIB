@@ -1,4 +1,4 @@
-(footprint "TO-247-3_V_GDS"
+(footprint "TO-247-3_V"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -356,17 +356,7 @@
 			)
 		)
 	)
-	(pad "D" thru_hole oval
-		(at 0 0)
-		(size 3.175 4.45)
-		(drill 1.4
-			(offset 0 0.508)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "4a5d0f54-3def-4070-802c-4da7ebadffdb")
-	)
-	(pad "G" thru_hole oval
+	(pad "1" thru_hole oval
 		(at -5.45 0)
 		(size 3.175 4.45)
 		(drill 1.4
@@ -376,7 +366,17 @@
 		(remove_unused_layers no)
 		(uuid "04653dbd-994e-47b1-8ba7-0a9d072b729e")
 	)
-	(pad "S" thru_hole oval
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 3.175 4.45)
+		(drill 1.4
+			(offset 0 0.508)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4a5d0f54-3def-4070-802c-4da7ebadffdb")
+	)
+	(pad "3" thru_hole oval
 		(at 5.45 0)
 		(size 3.175 4.45)
 		(drill 1.4
