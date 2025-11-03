@@ -234,6 +234,18 @@
 			)
 			(polyline
 				(pts
+					(xy -0.3175 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0.3302 1.27) (xy 0.3302 -1.27)
 				)
 				(stroke
@@ -244,11 +256,23 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.3175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "4u7, SMD 1206, 16V, 10%, Vishay_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 2.2098)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -266,7 +290,7 @@
 			)
 			(pin passive line
 				(at 2.54 0 180)
-				(length 2.2098)
+				(length 1.27)
 				(name "2"
 					(effects
 						(font

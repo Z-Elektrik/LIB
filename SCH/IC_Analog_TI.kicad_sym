@@ -220,8 +220,8 @@
 		)
 		(symbol "INA139NA, SOT23-5, HS Current shunt monitor, 2.7-40V, TI_1_1"
 			(pin power_in line
-				(at -12.7 -2.54 0)
-				(length 2.54)
+				(at -15.24 -2.54 0)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -238,8 +238,8 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 7.62 270)
-				(length 2.54)
+				(at -7.62 10.16 270)
+				(length 5.08)
 				(name "In+"
 					(effects
 						(font
@@ -256,8 +256,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 90)
-				(length 2.54)
+				(at 0 -10.16 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -274,8 +274,8 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 7.62 270)
-				(length 2.54)
+				(at 7.62 10.16 270)
+				(length 5.08)
 				(name "In-"
 					(effects
 						(font
@@ -292,8 +292,8 @@
 				)
 			)
 			(pin power_out line
-				(at 12.7 -2.54 180)
-				(length 2.54)
+				(at 15.24 -2.54 180)
+				(length 5.08)
 				(name "OUT"
 					(effects
 						(font
@@ -530,8 +530,8 @@
 		)
 		(symbol "NE555P, THD, Precision timer, 4.5-16V, TI_1_1"
 			(pin input inverted
-				(at -12.7 5.08 0)
-				(length 2.54)
+				(at -15.24 5.08 0)
+				(length 5.08)
 				(name "Reset"
 					(effects
 						(font
@@ -548,8 +548,8 @@
 				)
 			)
 			(pin output line
-				(at -12.7 2.54 0)
-				(length 2.54)
+				(at -15.24 2.54 0)
+				(length 5.08)
 				(name "Disch"
 					(effects
 						(font
@@ -566,8 +566,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
-				(length 2.54)
+				(at -15.24 -2.54 0)
+				(length 5.08)
 				(name "Thres"
 					(effects
 						(font
@@ -584,8 +584,8 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
-				(length 2.54)
+				(at -15.24 -5.08 0)
+				(length 5.08)
 				(name "Trig"
 					(effects
 						(font
@@ -602,8 +602,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 12.7 270)
-				(length 2.54)
+				(at 0 15.24 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -620,8 +620,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -10.16 90)
-				(length 2.54)
+				(at 0 -12.7 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -638,8 +638,8 @@
 				)
 			)
 			(pin output line
-				(at 12.7 0 180)
-				(length 2.54)
+				(at 15.24 0 180)
+				(length 5.08)
 				(name "OUT"
 					(effects
 						(font
@@ -656,8 +656,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -5.08 180)
-				(length 2.54)
+				(at 15.24 -5.08 180)
+				(length 5.08)
 				(name "Cont"
 					(effects
 						(font
@@ -1935,7 +1935,7 @@
 					(xy -10.16 2.54) (xy -3.81 2.54) (xy 1.27 3.81)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1947,7 +1947,7 @@
 					(xy 1.27 2.54) (xy 10.16 2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1961,7 +1961,7 @@
 					(xy -5.715 -3.81) (xy -10.16 -3.81)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type dot)
 				)
 				(fill
@@ -1973,7 +1973,7 @@
 					(xy -2.54 -3.81) (xy -5.715 -2.54) (xy -5.715 -5.08) (xy -2.54 -3.81)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1985,7 +1985,7 @@
 					(xy -1.27 3.175) (xy -1.27 -3.81) (xy -2.54 -3.81)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type dot)
 				)
 				(fill
@@ -2033,8 +2033,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
-				(length 2.54)
+				(at -15.24 2.54 0)
+				(length 5.08)
 				(name "S"
 					(effects
 						(font
@@ -2051,8 +2051,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -3.81 0)
-				(length 2.54)
+				(at -15.24 -3.81 0)
+				(length 5.08)
 				(name "SEL"
 					(effects
 						(font
@@ -2069,8 +2069,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 10.16 270)
-				(length 2.54)
+				(at 0 12.7 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -2087,8 +2087,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
+				(at 0 -12.7 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -2105,8 +2105,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 2.54)
+				(at 15.24 2.54 180)
+				(length 5.08)
 				(name "D"
 					(effects
 						(font
@@ -2346,7 +2346,7 @@
 					(xy -10.16 2.54) (xy -3.81 2.54) (xy 1.905 4.445)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2358,7 +2358,7 @@
 					(xy 1.27 5.08) (xy 1.27 4.445)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2370,7 +2370,7 @@
 					(xy 1.27 5.08) (xy 10.16 5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2382,7 +2382,7 @@
 					(xy 1.27 3.175) (xy 1.27 2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2394,7 +2394,7 @@
 					(xy 1.27 2.54) (xy 10.16 2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2408,7 +2408,7 @@
 					(xy -5.715 -5.08) (xy -10.16 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type dot)
 				)
 				(fill
@@ -2420,7 +2420,7 @@
 					(xy -2.54 -5.08) (xy -5.715 -3.81) (xy -5.715 -6.35) (xy -2.54 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2432,7 +2432,7 @@
 					(xy -1.27 3.175) (xy -1.27 -5.08) (xy -2.54 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type dot)
 				)
 				(fill
@@ -2488,8 +2488,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
-				(length 2.54)
+				(at -15.24 2.54 0)
+				(length 5.08)
 				(name "COM1"
 					(effects
 						(font
@@ -2506,8 +2506,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -5.08 0)
-				(length 2.54)
+				(at -15.24 -5.08 0)
+				(length 5.08)
 				(name "IN1"
 					(effects
 						(font
@@ -2524,8 +2524,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 10.16 270)
-				(length 2.54)
+				(at 0 12.7 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -2542,8 +2542,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
+				(at 0 -12.7 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -2560,8 +2560,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 180)
-				(length 2.54)
+				(at 15.24 5.08 180)
+				(length 5.08)
 				(name "NC1"
 					(effects
 						(font
@@ -2578,8 +2578,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 2.54)
+				(at 15.24 2.54 180)
+				(length 5.08)
 				(name "NO1"
 					(effects
 						(font
@@ -2602,7 +2602,7 @@
 					(xy -5.715 -5.08) (xy -10.16 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type dot)
 				)
 				(fill
@@ -2614,7 +2614,7 @@
 					(xy -2.54 -5.08) (xy -5.715 -3.81) (xy -5.715 -6.35) (xy -2.54 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -2626,7 +2626,7 @@
 					(xy -1.27 3.175) (xy -1.27 -5.08) (xy -2.54 -5.08)
 				)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type dot)
 				)
 				(fill
@@ -2682,8 +2682,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
-				(length 2.54)
+				(at -15.24 2.54 0)
+				(length 5.08)
 				(name "COM2"
 					(effects
 						(font
@@ -2700,8 +2700,8 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 -5.08 0)
-				(length 2.54)
+				(at -15.24 -5.08 0)
+				(length 5.08)
 				(name "IN2"
 					(effects
 						(font
@@ -2718,8 +2718,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 10.16 270)
-				(length 2.54)
+				(at 0 12.7 270)
+				(length 5.08)
 				(name "VCC"
 					(effects
 						(font
@@ -2736,8 +2736,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 90)
-				(length 2.54)
+				(at 0 -12.7 90)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -2754,8 +2754,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 5.08 180)
-				(length 2.54)
+				(at 15.24 5.08 180)
+				(length 5.08)
 				(name "NC2"
 					(effects
 						(font
@@ -2772,8 +2772,8 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 2.54 180)
-				(length 2.54)
+				(at 15.24 2.54 180)
+				(length 5.08)
 				(name "NO2"
 					(effects
 						(font
