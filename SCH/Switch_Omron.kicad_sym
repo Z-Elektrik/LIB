@@ -284,7 +284,7 @@
 			(pin passive line
 				(at -2.54 0 0)
 				(length 0.635)
-				(name "1"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -302,25 +302,7 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 0.635)
-				(name "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 0 180)
-				(length 0.635)
-				(name "2"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -336,9 +318,27 @@
 				)
 			)
 			(pin passive line
+				(at 2.54 0 180)
+				(length 0.635)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 2.54 -2.54 180)
 				(length 0.635)
-				(name "4"
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -570,7 +570,7 @@
 					(xy -3.2258 7.6708) (xy -2.7686 6.858) (xy -2.413 7.2136) (xy -3.2258 7.6708)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -582,7 +582,7 @@
 					(xy -3.2258 -5.1308) (xy -2.7686 -4.318) (xy -2.413 -4.6736) (xy -3.2258 -5.1308)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -618,7 +618,7 @@
 					(xy -1.9558 7.6708) (xy -1.4986 6.858) (xy -1.143 7.2136) (xy -1.9558 7.6708)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -630,7 +630,7 @@
 					(xy -1.9558 -5.1308) (xy -1.4986 -4.318) (xy -1.143 -4.6736) (xy -1.9558 -5.1308)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -642,7 +642,7 @@
 					(xy -1.905 6.35) (xy -3.175 7.62)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -654,7 +654,7 @@
 					(xy -1.905 -3.81) (xy -3.175 -5.08)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -678,7 +678,7 @@
 					(xy -0.635 -3.81) (xy -1.905 -5.08)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -692,7 +692,7 @@
 					(xy -1.905 5.715) (xy -1.905 4.445)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -716,7 +716,7 @@
 					(xy -1.905 -3.175) (xy -1.905 -1.905)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -750,7 +750,7 @@
 					(xy -0.635 5.715) (xy -0.635 4.445) (xy -1.905 5.08) (xy -0.635 5.715)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -762,7 +762,7 @@
 					(xy -0.635 -3.175) (xy -0.635 -1.905) (xy -1.905 -2.54) (xy -0.635 -3.175)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -809,7 +809,7 @@
 				(start -2.54 6.35)
 				(end 2.54 -3.81)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type dot)
 				)
 				(fill
@@ -1177,7 +1177,7 @@
 					(xy -3.2258 7.6708) (xy -2.7686 6.858) (xy -2.413 7.2136) (xy -3.2258 7.6708)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1189,7 +1189,7 @@
 					(xy -3.2258 -5.1308) (xy -2.7686 -4.318) (xy -2.413 -4.6736) (xy -3.2258 -5.1308)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1225,7 +1225,7 @@
 					(xy -1.9558 7.6708) (xy -1.4986 6.858) (xy -1.143 7.2136) (xy -1.9558 7.6708)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1237,7 +1237,7 @@
 					(xy -1.9558 -5.1308) (xy -1.4986 -4.318) (xy -1.143 -4.6736) (xy -1.9558 -5.1308)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1249,7 +1249,7 @@
 					(xy -1.905 6.35) (xy -3.175 7.62)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1261,7 +1261,7 @@
 					(xy -1.905 -3.81) (xy -3.175 -5.08)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1273,7 +1273,7 @@
 					(xy -0.635 6.35) (xy -1.905 7.62)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1285,7 +1285,7 @@
 					(xy -0.635 -3.81) (xy -1.905 -5.08)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1299,7 +1299,7 @@
 					(xy -1.905 5.715) (xy -1.905 4.445)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1323,7 +1323,7 @@
 					(xy -1.905 -3.175) (xy -1.905 -1.905)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1357,7 +1357,7 @@
 					(xy -0.635 5.715) (xy -0.635 4.445) (xy -1.905 5.08) (xy -0.635 5.715)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1369,7 +1369,7 @@
 					(xy -0.635 -3.175) (xy -0.635 -1.905) (xy -1.905 -2.54) (xy -0.635 -3.175)
 				)
 				(stroke
-					(width 0.254)
+					(width 0.1524)
 					(type default)
 				)
 				(fill
@@ -1416,7 +1416,7 @@
 				(start -2.54 6.35)
 				(end 2.54 -3.81)
 				(stroke
-					(width 0)
+					(width 0.1524)
 					(type dot)
 				)
 				(fill
