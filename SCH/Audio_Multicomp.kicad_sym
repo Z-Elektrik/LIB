@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at 0 5.08 0)
+			(at 1.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "ABT-410-RC"
-			(at 0 -5.08 0)
+			(at 1.27 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "SPKADVV_650W60D1200H850-2?_ABT410_MULTICOMP*"
+		(property "ki_fp_filters" "SPKADVV?650W60D1200H850?2*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -211,7 +211,7 @@
 		)
 		(symbol "ABT-410-RC, SMD, 15mA, 3V, 80dB, Multicomp_0_0"
 			(text "+"
-				(at -2.032 2.032 0)
+				(at -0.762 0.762 0)
 				(effects
 					(font
 						(size 0.75 0.75)
@@ -221,9 +221,9 @@
 		)
 		(symbol "ABT-410-RC, SMD, 15mA, 3V, 80dB, Multicomp_0_1"
 			(arc
-				(start 0.0087 -0.381)
-				(mid 0.3811 -0.762)
-				(end 0.0087 -1.143)
+				(start 1.2787 -1.651)
+				(mid 1.6511 -2.032)
+				(end 1.2787 -2.413)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -233,9 +233,9 @@
 				)
 			)
 			(arc
-				(start 0.0174 1.143)
-				(mid 0.3898 0.762)
-				(end 0.0174 0.381)
+				(start 1.2874 -0.127)
+				(mid 1.6598 -0.508)
+				(end 1.2874 -0.889)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -245,9 +245,9 @@
 				)
 			)
 			(arc
-				(start 0.0174 0.381)
-				(mid 0.3898 0)
-				(end 0.0174 -0.381)
+				(start 1.2874 -0.889)
+				(mid 1.6598 -1.27)
+				(end 1.2874 -1.651)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -260,7 +260,7 @@
 		(symbol "ABT-410-RC, SMD, 15mA, 3V, 80dB, Multicomp_1_0"
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy -1.27 2.54)
+					(xy 0 -3.81) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -272,7 +272,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 -2.54) (xy 1.27 -2.54)
+					(xy 0 -3.81) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -284,7 +284,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 2.54) (xy -1.27 2.54)
+					(xy 2.54 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -296,7 +296,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 2.54) (xy 2.54 3.81)
+					(xy 2.54 1.27) (xy 3.81 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -308,7 +308,7 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -2.54) (xy 1.27 2.54)
+					(xy 2.54 -3.81) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -320,7 +320,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 2.54 -3.81)
+					(xy 3.81 2.54) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -332,7 +332,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -3.81) (xy 1.27 -2.54)
+					(xy 3.81 -5.08) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -345,7 +345,7 @@
 		)
 		(symbol "ABT-410-RC, SMD, 15mA, 3V, 80dB, Multicomp_1_1"
 			(pin passive line
-				(at -3.81 1.27 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -363,7 +363,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 -1.27 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "2"
 					(effects

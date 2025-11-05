@@ -14,7 +14,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "Y"
-			(at 1.27 6.35 0)
+			(at 1.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "LD-BZEN-0803"
-			(at 1.27 -3.81 0)
+			(at 1.27 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -202,7 +202,7 @@
 		)
 		(symbol "LD-BZEN-0803, SMD, 90mA, 4.5V, 85dB, Loudity_0_0"
 			(text "+"
-				(at -0.762 3.302 0)
+				(at -0.762 0.762 0)
 				(effects
 					(font
 						(size 0.75 0.75)
@@ -212,9 +212,9 @@
 		)
 		(symbol "LD-BZEN-0803, SMD, 90mA, 4.5V, 85dB, Loudity_0_1"
 			(arc
-				(start 1.2787 0.889)
-				(mid 1.6511 0.508)
-				(end 1.2787 0.127)
+				(start 1.2787 -1.651)
+				(mid 1.6511 -2.032)
+				(end 1.2787 -2.413)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -224,9 +224,9 @@
 				)
 			)
 			(arc
-				(start 1.2874 2.413)
-				(mid 1.6598 2.032)
-				(end 1.2874 1.651)
+				(start 1.2874 -0.127)
+				(mid 1.6598 -0.508)
+				(end 1.2874 -0.889)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -236,9 +236,9 @@
 				)
 			)
 			(arc
-				(start 1.2874 1.651)
-				(mid 1.6598 1.27)
-				(end 1.2874 0.889)
+				(start 1.2874 -0.889)
+				(mid 1.6598 -1.27)
+				(end 1.2874 -1.651)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -251,7 +251,7 @@
 		(symbol "LD-BZEN-0803, SMD, 90mA, 4.5V, 85dB, Loudity_1_0"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 3.81)
+					(xy 0 -3.81) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -263,7 +263,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 2.54 -1.27)
+					(xy 0 -3.81) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -275,7 +275,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 0 3.81)
+					(xy 2.54 1.27) (xy 0 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -287,7 +287,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 3.81) (xy 3.81 5.08)
+					(xy 2.54 1.27) (xy 3.81 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -299,7 +299,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.54 -1.27) (xy 2.54 3.81)
+					(xy 2.54 -3.81) (xy 2.54 1.27)
 				)
 				(stroke
 					(width 0.1524)
@@ -311,7 +311,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 5.08) (xy 3.81 -2.54)
+					(xy 3.81 2.54) (xy 3.81 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -323,7 +323,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 2.54 -1.27)
+					(xy 3.81 -5.08) (xy 2.54 -3.81)
 				)
 				(stroke
 					(width 0.254)
@@ -336,7 +336,7 @@
 		)
 		(symbol "LD-BZEN-0803, SMD, 90mA, 4.5V, 85dB, Loudity_1_1"
 			(pin passive line
-				(at -2.54 2.54 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -354,7 +354,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 0 0)
+				(at -2.54 -2.54 0)
 				(length 2.54)
 				(name "2"
 					(effects
