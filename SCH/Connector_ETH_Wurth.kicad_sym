@@ -3,9 +3,6 @@
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
 	(symbol "7499010121A, THD, RJ45 8P8C Female, transf+2xLED, Horizontal, Wurth"
-		(pin_names
-			(offset 0.254)
-		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -252,28 +249,6 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start -2.54 8.89)
-				(end -2.54 8.89)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start -2.54 7.62)
-				(end -2.54 8.89)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy -2.54 7.62) (xy -7.62 7.62) (xy -7.62 -1.27)
@@ -310,28 +285,6 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 0 8.89)
-				(end -2.54 8.89)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 0 8.89)
-				(end 2.54 8.89)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(polyline
 				(pts
 					(xy 0.3175 -1.27) (xy 0.3175 0) (xy 0.9525 0) (xy 0.9525 -1.27)
@@ -356,11 +309,24 @@
 					(type none)
 				)
 			)
-			(rectangle
-				(start 2.54 8.89)
-				(end 2.54 8.89)
+			(polyline
+				(pts
+					(xy 2.54 8.89) (xy 2.54 7.62)
+				)
 				(stroke
-					(width 0.1524)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 8.89) (xy -2.54 8.89) (xy -2.54 7.62)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -371,17 +337,6 @@
 				(pts
 					(xy 2.54 7.62) (xy 7.62 7.62) (xy 7.62 -1.27)
 				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 2.54 7.62)
-				(end 2.54 8.89)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -522,14 +477,14 @@
 			(pin passive line
 				(at -20.32 2.54 0)
 				(length 6.35)
-				(name "SH"
+				(name "SH1"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "SH"
+				(number "SH1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -540,7 +495,7 @@
 			(pin passive line
 				(at -10.16 -12.7 90)
 				(length 6.35)
-				(name ""
+				(name "Cap"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -555,10 +510,11 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -7.62 -12.7 90)
 				(length 6.35)
-				(name ""
+				(hide yes)
+				(name "n.c."
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -720,14 +676,14 @@
 			(pin passive line
 				(at 20.32 2.54 180)
 				(length 6.35)
-				(name "SH"
+				(name "SH2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "SH"
+				(number "SH2"
 					(effects
 						(font
 							(size 1.27 1.27)
