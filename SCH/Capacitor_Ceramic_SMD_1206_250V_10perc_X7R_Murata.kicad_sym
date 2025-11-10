@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "Faston Pin 1x1, THD, 4.8, Vertical, Generic"
+	(symbol "100n, SMD 1206, 250V, 10%, X7R, Murata"
 		(pin_numbers
 			(hide yes)
 		)
@@ -13,33 +13,24 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "X"
-			(at 5.08 0 0)
+		(property "Reference" "C"
+			(at 0 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Faston 4.8"
-			(at 8.89 -1.905 0)
+		(property "Value" "100n/250V"
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "THD_Connector_Faston_Generic:FASTRV530P787X80H880-1N_FASTON480"
-			(at -1.27 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.soselectronic.com/sk/products/various/fin48-p-6539"
-			(at 0 13.97 0)
+		(property "Footprint" "SMD_Capacitor_NonPolarised_Generic:CAPC3216X160N_1206"
+			(at 3.175 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +38,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Faston Pin 1x1, Male, 4.8x0.8mm, L:12.8mm, Vertical, Generic"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71H225KA88-01.pdf"
+			(at 3.175 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor ceramic MLCC, SMD 1206, 250V, 10%, X7R, -55 to 125℃, Murata"
 			(at 0 0 0)
 			(effects
 				(font
@@ -56,8 +56,8 @@
 				(hide yes)
 			)
 		)
-		(property "Technology" "THD"
-			(at 0 24.13 0)
+		(property "Technology" "SMD"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +65,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Generic"
-			(at 0 19.05 0)
+		(property "MFG" "Murata"
+			(at 0.635 4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,8 +74,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FIN48-P"
-			(at 0 16.51 0)
+		(property "MPN" "GRM31CR72E104KW03L"
+			(at 3.175 6.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -84,7 +84,7 @@
 			)
 		)
 		(property "Device_Marking" ""
-			(at -2.54 -1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,8 +92,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" ""
-			(at -2.54 -1.27 0)
+		(property "OC_LCSC" "C97956"
+			(at 5.715 9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -101,8 +101,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
-			(at -2.54 -1.27 0)
+		(property "OC_MOUSER" "81-GRM31CR72E104KW03"
+			(at 8.255 12.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -110,8 +110,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" ""
-			(at -2.54 -1.27 0)
+		(property "OC_RS" "723-6593"
+			(at 10.795 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -120,7 +120,7 @@
 			)
 		)
 		(property "OC_DISTRELEC" ""
-			(at -2.54 -1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -128,8 +128,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" ""
-			(at 0 21.59 0)
+		(property "OC_TME" "GRM31CR72E104KW03L"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,8 +137,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" ""
-			(at -2.54 -1.27 0)
+		(property "OC_FARNELL" "4360224"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,8 +146,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" ""
-			(at -2.54 -1.27 0)
+		(property "OC_DIGIKEY" "490-3542-1-ND"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -155,8 +155,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" "6539"
-			(at -2.54 -1.27 0)
+		(property "OC_SOS" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,7 +164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "4856"
+		(property "Z-SYSCODE" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -174,7 +174,7 @@
 			)
 		)
 		(property "Assembly_Note" ""
-			(at -2.54 -1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,25 +183,6 @@
 			)
 		)
 		(property "Comment" ""
-			(at -2.54 -1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Label" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
-					(bold yes)
-				)
-			)
-		)
-		(property "ki_keywords" "CON1"
 			(at 0 0 0)
 			(effects
 				(font
@@ -210,7 +191,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "FASTRV530P787X80H880?1*FASTON480"
+		(property "ki_keywords" "CCAP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -219,21 +200,69 @@
 				(hide yes)
 			)
 		)
-		(symbol "Faston Pin 1x1, THD, 4.8, Vertical, Generic_1_1"
-			(rectangle
-				(start 0 0.635)
-				(end 3.175 -0.635)
+		(property "ki_fp_filters" "CAPC3216X85*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "100n, SMD 1206, 250V, 10%, X7R, Murata_0_1"
+			(polyline
+				(pts
+					(xy -0.3302 1.27) (xy -0.3302 -1.27)
+				)
 				(stroke
-					(width 0.1524)
+					(width 0.254)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -0.3175 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3302 1.27) (xy 0.3302 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.3175 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "100n, SMD 1206, 250V, 10%, X7R, Murata_1_1"
 			(pin passive line
 				(at -2.54 0 0)
-				(length 2.54)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -242,6 +271,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
