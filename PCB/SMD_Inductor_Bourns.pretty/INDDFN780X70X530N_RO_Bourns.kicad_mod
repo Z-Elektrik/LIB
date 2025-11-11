@@ -1,0 +1,199 @@
+(footprint "INDDFN780X70X530N_RO_Bourns"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Nominal, EIA: -, METRIC: -, JEDEC: -, IPC: INDDFN780X70X530N_RO_Bourns")
+	(tags "Inductor Precision Wire Wound")
+	(property "Reference" "REF**"
+		(at 0 -5.08 0)
+		(layer "F.SilkS")
+		(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "INDDFN780X70X530N_RO_Bourns"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(uuid "136faa66-2c23-42b0-a119-0aec3575d644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SDR0805.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22b17222-2d7d-4bb6-b5f8-c4b70bf0f0a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8545ece7-65c3-4311-bae2-73ce17226237")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Naming" "Inductors, Dual Flat No-lead: INDDFN+Body Length X Width X Height+L Lead Length X Width"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cce7654e-bb60-4551-8833-96f135e31468")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start -0.652458 -3.914751)
+		(mid 0 -3.96875)
+		(end 0.652458 -3.914751)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f5ff0c1-f639-4e4b-9a82-f7bda81b218d")
+	)
+	(fp_arc
+		(start 0.652458 3.914751)
+		(mid 0 3.96875)
+		(end -0.652458 3.914751)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae455b1b-c32a-41a8-b7da-81b4d8827545")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4941af94-f92e-48db-b555-6d1e72968dc9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.9 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8299fd81-2c37-4b5c-9e94-86ca9f151334")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.000002 -0.000002 0)
+		(layer "F.Fab")
+		(uuid "fc9b6389-ff60-4eb7-a133-e52a7703e7e5")
+		(effects
+			(font
+				(face "Tahoma")
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+		(render_cache "REF**" 0
+			(polygon
+				(pts
+					(xy -1.506029 -0.598414) (xy -1.443415 -0.591465) (xy -1.386192 -0.575724) (xy -1.331064 -0.547013)
+					(xy -1.283233 -0.507773) (xy -1.246678 -0.45878) (xy -1.229966 -0.421527) (xy -1.219369 -0.377328)
+					(xy -1.215598 -0.324752) (xy -1.222329 -0.251858) (xy -1.241459 -0.190121) (xy -1.272323 -0.137357)
+					(xy -1.314011 -0.092109) (xy -1.365007 -0.05502) (xy -1.426685 -0.02586) (xy -1.064595 0.414998)
+					(xy -1.240205 0.414998) (xy -1.562606 0.012485) (xy -1.717028 0.012485) (xy -1.717028 0.414998)
+					(xy -1.852278 0.414998) (xy -1.852278 -0.10475) (xy -1.717028 -0.10475) (xy -1.598143 -0.10475)
+					(xy -1.541614 -0.107402) (xy -1.493607 -0.114825) (xy -1.450358 -0.130472) (xy -1.414351 -0.156713)
+					(xy -1.388872 -0.187662) (xy -1.370997 -0.224124) (xy -1.360724 -0.265242) (xy -1.357015 -0.315837)
+					(xy -1.361092 -0.357992) (xy -1.372707 -0.393751) (xy -1.392536 -0.42455) (xy -1.421189 -0.449438)
+					(xy -1.451752 -0.465315) (xy -1.488173 -0.47606) (xy -1.528696 -0.481681) (xy -1.583122 -0.483815)
+					(xy -1.717028 -0.483815) (xy -1.717028 -0.10475) (xy -1.852278 -0.10475) (xy -1.852278 -0.601052)
+					(xy -1.589961 -0.601052)
+				)
+			)
+			(polygon
+				(pts
+					(xy -0.98375 0.414998) (xy -0.98375 -0.601052) (xy -0.347742 -0.601052) (xy -0.347742 -0.480884)
+					(xy -0.848501 -0.480884) (xy -0.848501 -0.202447) (xy -0.381875 -0.202447) (xy -0.381875 -0.08228)
+					(xy -0.848501 -0.08228) (xy -0.848501 0.29483) (xy -0.347742 0.29483) (xy -0.347742 0.414998)
+				)
+			)
+			(polygon
+				(pts
+					(xy 0.40941 -0.480884) (xy -0.063993 -0.480884) (xy -0.063993 -0.194632) (xy 0.389626 -0.194632)
+					(xy 0.389626 -0.074464) (xy -0.063993 -0.074464) (xy -0.063993 0.414998) (xy -0.199242 0.414998)
+					(xy -0.199242 -0.601052) (xy 0.40941 -0.601052)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.115333 -0.191701) (xy 1.070942 -0.117146) (xy 0.84752 -0.263752) (xy 0.852344 -0.014869)
+					(xy 0.76692 -0.014869) (xy 0.771011 -0.263752) (xy 0.548995 -0.116474) (xy 0.503932 -0.191029)
+					(xy 0.745732 -0.331408) (xy 0.503932 -0.471786) (xy 0.548995 -0.546341) (xy 0.771744 -0.398391)
+					(xy 0.76692 -0.647946) (xy 0.852344 -0.647946) (xy 0.846849 -0.398391) (xy 1.070942 -0.54567) (xy 1.115333 -0.471053)
+					(xy 0.873471 -0.332079)
+				)
+			)
+			(polygon
+				(pts
+					(xy 1.879324 -0.191701) (xy 1.834933 -0.117146) (xy 1.611512 -0.263752) (xy 1.616336 -0.014869)
+					(xy 1.530912 -0.014869) (xy 1.535003 -0.263752) (xy 1.312986 -0.116474) (xy 1.267923 -0.191029)
+					(xy 1.509724 -0.331408) (xy 1.267923 -0.471786) (xy 1.312986 -0.546341) (xy 1.535736 -0.398391)
+					(xy 1.530912 -0.647946) (xy 1.616336 -0.647946) (xy 1.61084 -0.398391) (xy 1.834933 -0.54567) (xy 1.879324 -0.471053)
+					(xy 1.637463 -0.332079)
+				)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.55 0)
+		(size 2.7 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f")
+	)
+	(pad "2" smd roundrect
+		(at 2.55 0)
+		(size 2.7 8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.217391)
+		(uuid "9774dcc9-5357-4a7d-8e93-370dc1237420")
+	)
+	(embedded_fonts no)
+	(model "${Z_LIB_3D_DIR}/SMD_Inductor_Bourns.3dshapes/INDDFN780X70X530.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
