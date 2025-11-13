@@ -1,14 +1,13 @@
-(footprint "SODFL1608X70N_SOD-523_CASE502_ON"
+(footprint "JUMPS1204X0-2N_CR"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Nominal, EIA: SOD-523, JEDEC: -, JEITA: - , IPC: SODFL1608X70N_SOD-523 Case-502 Issue-F")
-	(tags "SOD-523")
+	(tags "JUMP")
 	(property "Reference" "REF**"
-		(at 0 -1.27 0)
+		(at 0 -1.43 0)
 		(layer "F.SilkS")
-		(uuid "e4576f38-c1e3-466f-8b9b-a0b638a3a33f")
+		(uuid "6df974b4-b819-4abf-a570-cfac24b90f22")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +15,10 @@
 			)
 		)
 	)
-	(property "Value" "SODFL1608X70N_SOD-523_CASE502_ON"
-		(at 0 1.27 0)
+	(property "Value" "JUMPS1204X0-2N_CR"
+		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "f6343256-5ace-4703-8fe8-f17e3094221e")
+		(uuid "43a2d3f9-8880-4891-bb65-e1f1adf1c2a5")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +26,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9627d1f2-36a1-4608-ac12-b50a1405e40e")
+		(uuid "443c02b0-210e-483d-b727-4b706acb2424")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,11 +38,11 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Chamfered rectangle pads"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1d268af4-dda9-4279-88de-297ddb583503")
+		(uuid "5f5bfc74-33ec-49c4-b485-689afe304155")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,118 +50,45 @@
 			)
 		)
 	)
-	(property "Naming" "SODFL + Lead Span Nominal + Body Width X Height"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "11dfc1df-a2ae-47a5-9f86-3c40c651e7a8")
+	(property "Label" ""
+		(at 0 1.42875 0)
+		(layer "F.SilkS" knockout)
+		(uuid "45888ebf-5c4c-4258-bd5f-df4b5de8d0e7")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
-	(attr smd)
-	(fp_line
-		(start -0.635 -0.3675)
-		(end -0.84 -0.3675)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "aa94571e-3b33-4a58-9b21-d78a216b7d15")
-	)
-	(fp_line
-		(start -0.635 0.4)
-		(end 0.635 0.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "8c00d4ed-3a20-48fc-958e-60364553df3b")
-	)
-	(fp_line
-		(start 0.635 -0.4)
-		(end -0.635 -0.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e07e0392-355b-4d83-bcef-7f3b9ccd95a4")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0.2 0)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Adhes")
-		(uuid "6927677f-72e1-4569-92dd-b1ce3fe21fcf")
-	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 	(fp_rect
-		(start -0.9 -0.5)
-		(end 0.9 0.5)
+		(start -1.11125 -0.635)
+		(end 1.11125 0.635)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
-		(layer "F.CrtYd")
-		(uuid "3a3e1d81-f8a3-4636-a665-aab57bc8966b")
-	)
-	(fp_line
-		(start -0.3175 0.4)
-		(end -0.3175 -0.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "4b0ddf17-19b1-4ad8-92bb-89f94fab9f99")
+		(layer "F.SilkS")
+		(uuid "1a68f55c-8a5a-40d5-90a1-4f57b57af629")
 	)
 	(fp_rect
-		(start -0.8 -0.15)
-		(end -0.6 0.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "d726b3c8-cbec-4859-aa74-d02665cbd752")
-	)
-	(fp_rect
-		(start -0.6 -0.4)
-		(end 0.6 0.4)
+		(start -0.9525 -0.47625)
+		(end 0.9525 0.47625)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "183b6af4-3fbb-4a87-85ba-33cc682d2e97")
-	)
-	(fp_rect
-		(start 0.6 -0.15)
-		(end 0.8 0.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Fab")
-		(uuid "67f3f2c7-01c7-4e72-be5e-7daadbd1ec1e")
+		(uuid "41a79d86-fade-412e-967e-246f437f056b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "559c30ec-09d7-4c44-b483-4606a7efdc3b")
+		(uuid "9bd1342a-bc36-4354-9368-23df5845e262")
 		(effects
 			(font
 				(face "Tahoma")
@@ -221,29 +147,22 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.66 0)
-		(size 0.48 0.4)
+		(at -0.5 0)
+		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "22d832ec-1eb7-44f8-b1a9-3f319797e18a")
+		(chamfer_ratio 0)
+		(chamfer top_right bottom_right)
+		(uuid "d9615358-9e7d-4794-8654-5d266ef0cc2f")
 	)
 	(pad "2" smd roundrect
-		(at 0.66 0)
-		(size 0.48 0.4)
+		(at 0.5 0)
+		(size 0.8 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "9061e637-7ea5-4b02-9c1b-f25040d4858e")
+		(chamfer_ratio 0)
+		(chamfer top_left bottom_left)
+		(uuid "e852a50d-6f1f-4c0f-bdea-9c99520a67e2")
 	)
 	(embedded_fonts no)
-	(model "${Z_LIB_3D_DIR}/SMD_Semiconductor_ON.3dshapes/SODFL1608X70_SOD-523_CASE502_ON.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
 )
