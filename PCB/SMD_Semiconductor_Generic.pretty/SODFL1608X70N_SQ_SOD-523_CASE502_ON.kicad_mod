@@ -1,9 +1,9 @@
-(footprint "SODFL1608X70N_SOD-523_CASE502_ON"
+(footprint "SODFL1608X70N_SQ_SOD-523_CASE502_ON"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Nominal, EIA: SOD-523, JEDEC: -, JEITA: - , IPC: SODFL1608X70N_SOD-523 Case-502 Issue-F")
+	(descr "Nominal, EIA: SOD-523, JEDEC: -, JEITA: - , IPC: SODFL1608X70N_SQ_SOD-523 Case-502 Issue-F")
 	(tags "SOD-523")
 	(property "Reference" "REF**"
 		(at 0 -1.27 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SODFL1608X70N_SOD-523_CASE502_ON"
+	(property "Value" "SODFL1608X70N_SQ_SOD-523_CASE502_ON"
 		(at 0 1.27 0)
 		(layer "F.Fab")
 		(uuid "f6343256-5ace-4703-8fe8-f17e3094221e")
@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(property "Naming" "SODFL + Lead Span Nominal + Body Width X Height"
+	(property "Naming" "SODFL + Lead Span Nominal + Body Width X Height+Density_PadsShape"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -220,18 +220,16 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd rect
 		(at -0.66 0)
 		(size 0.48 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "22d832ec-1eb7-44f8-b1a9-3f319797e18a")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd rect
 		(at 0.66 0)
 		(size 0.48 0.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
 		(uuid "9061e637-7ea5-4b02-9c1b-f25040d4858e")
 	)
 	(embedded_fonts no)

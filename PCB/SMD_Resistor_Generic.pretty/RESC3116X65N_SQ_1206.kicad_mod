@@ -1,14 +1,14 @@
-(footprint "SODFL1608X70N_SOD-523_CASE502_ON"
+(footprint "RESC3116X65N_SQ_1206"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Nominal, EIA: SOD-523, JEDEC: -, JEITA: - , IPC: SODFL1608X70N_SOD-523 Case-502 Issue-F")
-	(tags "SOD-523")
+	(descr "Nominal, EIA: 1206, METRIC: 3116, JEDEC: - , IPC: RESC3116X65N_SQ")
+	(tags "RES,RESC,Resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.27 0)
+		(at 0 -1.85 0)
 		(layer "F.SilkS")
-		(uuid "e4576f38-c1e3-466f-8b9b-a0b638a3a33f")
+		(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "SODFL1608X70N_SOD-523_CASE502_ON"
-		(at 0 1.27 0)
+	(property "Value" "RESC3116X65N_SQ_1206"
+		(at 0 1.85 0)
 		(layer "F.Fab")
-		(uuid "f6343256-5ace-4703-8fe8-f17e3094221e")
+		(uuid "136faa66-2c23-42b0-a119-0aec3575d644")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9627d1f2-36a1-4608-ac12-b50a1405e40e")
+		(uuid "cb28aec2-ded7-4c8c-8bc2-8a992acb867d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1d268af4-dda9-4279-88de-297ddb583503")
+		(uuid "0eb33169-50e4-4ed5-9446-a6b3d25a3f8c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,118 +51,144 @@
 			)
 		)
 	)
-	(property "Naming" "SODFL + Lead Span Nominal + Body Width X Height"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "11dfc1df-a2ae-47a5-9f86-3c40c651e7a8")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(attr smd)
 	(fp_line
-		(start -0.635 -0.3675)
-		(end -0.84 -0.3675)
+		(start -0.635 -0.79375)
+		(end 0.635 -0.79375)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aa94571e-3b33-4a58-9b21-d78a216b7d15")
+		(uuid "27e337f5-2211-4740-bb6e-3c02c95b9b94")
 	)
 	(fp_line
-		(start -0.635 0.4)
-		(end 0.635 0.4)
+		(start -0.635 0.79375)
+		(end 0.635 0.79375)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8c00d4ed-3a20-48fc-958e-60364553df3b")
-	)
-	(fp_line
-		(start 0.635 -0.4)
-		(end -0.635 -0.4)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "e07e0392-355b-4d83-bcef-7f3b9ccd95a4")
+		(uuid "f000500b-0b09-41d6-88f1-cc2dbff6a9a2")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 0.2 0)
+		(end 0.3175 0)
 		(stroke
 			(width 0)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Adhes")
-		(uuid "6927677f-72e1-4569-92dd-b1ce3fe21fcf")
-	)
-	(fp_rect
-		(start -0.9 -0.5)
-		(end 0.9 0.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(fill no)
-		(layer "F.CrtYd")
-		(uuid "3a3e1d81-f8a3-4636-a665-aab57bc8966b")
+		(uuid "ea22f869-c47a-4aad-b327-0a20f2b82b40")
 	)
 	(fp_line
-		(start -0.3175 0.4)
-		(end -0.3175 -0.4)
+		(start -2.3 -1.15)
+		(end 2.3 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fa8d40b2-36cb-4eb6-b0a2-586749373756")
+	)
+	(fp_line
+		(start -2.3 1.15)
+		(end -2.3 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e560052-91dd-4eb9-810d-5ed2ebc18daa")
+	)
+	(fp_line
+		(start 2.3 -1.15)
+		(end 2.3 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "01d1e36f-7327-46b8-96bb-5ed95763498f")
+	)
+	(fp_line
+		(start 2.3 1.15)
+		(end -2.3 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6a30906-815c-4e1b-b7c1-0e95ad18419b")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4b0ddf17-19b1-4ad8-92bb-89f94fab9f99")
+		(uuid "12564c73-e78a-4a67-b910-07f7917dbd6a")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2d5fbda-8bd2-4451-8142-95b76dea9a58")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60a21757-6acc-4fcf-bd92-a41fc55bcb3b")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e18a45df-6ee8-4cca-b760-a239cabfb336")
 	)
 	(fp_rect
-		(start -0.8 -0.15)
-		(end -0.6 0.15)
+		(start -0.8 0.75)
+		(end -1.55 -0.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "d726b3c8-cbec-4859-aa74-d02665cbd752")
+		(uuid "dc290ae6-8e2f-4cfc-9e36-e57f21767b18")
 	)
 	(fp_rect
-		(start -0.6 -0.4)
-		(end 0.6 0.4)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "183b6af4-3fbb-4a87-85ba-33cc682d2e97")
-	)
-	(fp_rect
-		(start 0.6 -0.15)
-		(end 0.8 0.15)
+		(start 0.8 -0.75)
+		(end 1.55 0.75)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "67f3f2c7-01c7-4e72-be5e-7daadbd1ec1e")
+		(uuid "97e13f60-d401-4a38-8e94-695ecb458d27")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "559c30ec-09d7-4c44-b483-4606a7efdc3b")
+		(uuid "5a492e72-2d3e-456b-88d7-d7276a064ce8")
 		(effects
 			(font
 				(face "Tahoma")
@@ -220,22 +246,20 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at -0.66 0)
-		(size 0.48 0.4)
+	(pad "1" smd rect
+		(at -1.45 0)
+		(size 1.15 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "22d832ec-1eb7-44f8-b1a9-3f319797e18a")
+		(uuid "2283549c-f5fa-445f-8887-4ad2bb854e3f")
 	)
-	(pad "2" smd roundrect
-		(at 0.66 0)
-		(size 0.48 0.4)
+	(pad "2" smd rect
+		(at 1.4 0)
+		(size 1.15 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "9061e637-7ea5-4b02-9c1b-f25040d4858e")
+		(uuid "9774dcc9-5357-4a7d-8e93-370dc1237420")
 	)
 	(embedded_fonts no)
-	(model "${Z_LIB_3D_DIR}/SMD_Semiconductor_ON.3dshapes/SODFL1608X70_SOD-523_CASE502_ON.step"
+	(model "${Z_LIB_3D_DIR}/SMD_Resistor_Generic.3dshapes/RESC3216X65_1206.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -243,7 +267,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 0 0)
 		)
 	)
 )
