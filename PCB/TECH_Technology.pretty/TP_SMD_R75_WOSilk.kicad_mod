@@ -1,9 +1,9 @@
-(footprint "TP125, C125H80"
+(footprint "TP_SMD_R75_WOSilk"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "THD Test Point, Most, hole: 0.8mm, 1.25mm round pad")
+	(descr "SMD Test Point, Rectangle, 0.75x0.75mm, Without Silk Outline")
 	(tags "TestPoint,TP")
 	(property "Reference" "REF**"
 		(at 3.01625 0 0)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "THD_PAD_TP125H80"
+	(property "Value" "TP_SMD_R75_WOSilk"
 		(at 0 -1.8 0)
 		(layer "F.Fab")
 		(uuid "23741efe-d2b5-4e3c-9194-162a2dda2fac")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "https://www.pcblibraries.com/FR-PUBLIC-TEMP/Proportional_Through-hole_Padstacks_8351603.pdf"
+	(property "Datasheet" "https://www.cskl.de/fileadmin/csk/dokumente/produkte/pcbl/ipc_standard_pcb_library_expert_IPC_7351_Pad_Stack_Naming_Convention.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,16 +52,16 @@
 		)
 	)
 	(attr smd exclude_from_bom allow_missing_courtyard)
-	(fp_circle
-		(center 0 0)
-		(end 0.625 0)
+	(fp_rect
+		(start -0.375 -0.375)
+		(end 0.375 0.375)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "2c4a17c5-b5e5-4361-9730-14db40962145")
+		(uuid "a88acc53-d860-401a-8cf1-a3af9d44e77b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 5.55625 0 0)
@@ -123,13 +123,11 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "1" smd rect
 		(at 0 0)
-		(size 1.25 1.25)
-		(drill 0.8)
+		(size 0.75 0.75)
 		(property pad_prop_testpoint)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask")
 		(uuid "62d93a1b-e6e5-4597-81a0-e9e82c933ec6")
 	)
 	(embedded_fonts no)
