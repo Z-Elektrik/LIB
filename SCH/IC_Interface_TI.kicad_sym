@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 5.08 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "SN65HVD1780D"
-			(at 0 -7.62 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,8 +204,8 @@
 		)
 		(symbol "SN65HVD1780D, SO8, 485/422 Transceiver, 3.3-5V, 115kbps, TI_0_1"
 			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -6.35)
+				(start -5.08 5.08)
+				(end 5.08 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -368,7 +368,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 5.08 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -376,7 +376,7 @@
 			)
 		)
 		(property "Value" "SN65HVD1780D"
-			(at 0 -7.62 0)
+			(at 0 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,7 +482,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" ""
+		(property "OC_TME" "SN65HVD72DRBT"
 			(at 0 15.875 0)
 			(effects
 				(font
@@ -565,8 +565,8 @@
 		)
 		(symbol "SN65HVD72D, VSON8, 485 Transceiver ESD, 3.3/5V, 50Mbps, TI_0_1"
 			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -6.35)
+				(start -5.08 5.08)
+				(end 5.08 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -714,6 +714,25 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -7.62 180)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
