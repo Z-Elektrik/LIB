@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "LCDM254W50L9800X6000x1150-16_DSP_1182_Handson"
-		(at 0 31.75 0)
+		(at 0 2.54 0)
 		(layer "F.Fab")
 		(uuid "82e54e54-6f93-4c2d-9f03-7fc742479a02")
 		(effects
@@ -291,6 +291,38 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at -46.5 -27.5)
+		(size 2.54 1.27)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "75224d49-5e02-415c-bcc0-735aa243f2fd")
+	)
+	(pad "" np_thru_hole roundrect
+		(at -46.5 27.5)
+		(size 2.54 1.27)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "3ed505c3-b5b6-4e66-a04f-823107bb478a")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 46.5 -27.5)
+		(size 2.54 1.27)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "946e9cbc-b2b2-4c44-aaba-37331afbea1b")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 46.99 27.5)
+		(size 2.54 1.27)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.15)
+		(uuid "9d40f175-8e14-427f-a147-701ec8ed3363")
 	)
 	(pad "1" thru_hole roundrect
 		(at -51.775 -22.48)
