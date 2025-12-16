@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "0R Jumper, SMD 0805, 2A, 5%, 200ppm"
+	(symbol "100k, SMD 0805, 0.125W, 1%, 100ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -21,7 +21,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "100k/1%"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -38,7 +38,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AC_51_RoHS_L_10.pdf"
+		(property "Datasheet" "https://cdn.soselectronic.com/productdata/43/10/81bbc7ef/r0805-1-1-r-rc0805fr-071rl-2.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0805, 2A, 5%, 100ppm, AC Series, Yageo"
+		(property "Description" "Resistor, SMD 0805, 0.125W, 1%, 100ppm, RC Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57,7 +57,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 0 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +65,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC0805JR-070RL"
-			(at 0 6.35 0)
+		(property "MPN" "RC0805FR-07100KL"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,70 +83,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C144539"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "603-AC0805JR-070RL"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" "197-8210"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" "302-14-027"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "AC0805JR-070RL"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "3495331"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" "YAG3755CT-ND"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
+		(property "OC_LCSC" "C96346"
 			(at 0 0 0)
 			(effects
 				(font
@@ -155,8 +92,71 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "331"
-			(at 0 11.43 0)
+		(property "OC_MOUSER" "603-RC0805FR-071KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "199-5649"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "RC0805FR-07100K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "RC0805FR-07100K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "311-100KCRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "117347"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1227"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -183,7 +183,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 10.16 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,7 +209,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "0R Jumper, SMD 0805, 2A, 5%, 200ppm_0_1"
+		(symbol "100k, SMD 0805, 0.125W, 1%, 100ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -222,7 +222,7 @@
 				)
 			)
 		)
-		(symbol "0R Jumper, SMD 0805, 2A, 5%, 200ppm_1_1"
+		(symbol "100k, SMD 0805, 0.125W, 1%, 100ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -262,7 +262,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "10k, SMD 0805, 0.125W, 5%, 100ppm"
+	(symbol "10k, SMD 0805, 0.125W, 1%, 100ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -281,7 +281,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k/1%"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -298,7 +298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805JR-07680RL_C93658.pdf"
+		(property "Datasheet" "https://cdn.soselectronic.com/productdata/43/10/81bbc7ef/r0805-1-1-r-rc0805fr-071rl-2.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -307,7 +307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0805, 0.125W, 5%, 100ppm, RC Series, Yageo"
+		(property "Description" "Resistor, SMD 0805, 0.125W, 1%, 100ppm, RC Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -325,7 +325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0805JR-0710KL"
+		(property "MPN" "RC0805FR-0710KL"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -343,7 +343,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C100047"
+		(property "OC_LCSC" "C84376"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -352,7 +352,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "603-RC0805JR-0710KL"
+		(property "OC_MOUSER" "603-RC0805FR-0710KL"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -361,527 +361,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" "199-5760"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" "302-14-026"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "RC0805JR-0710K"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "9234136"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" "311-10KARCT-ND"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Z-SYSCODE" ""
-			(at 0 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly_Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMD"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "RES,RES0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "RESC*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "10k, SMD 0805, 0.125W, 5%, 100ppm_0_1"
-			(rectangle
-				(start -2.54 0.889)
-				(end 2.54 -0.889)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "10k, SMD 0805, 0.125W, 5%, 100ppm_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "1k, SMD 0805, 0.125W, 5%, 100ppm"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMD_Resistor_Generic:RESC2012X50N_0805"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805JR-07680RL_C93658.pdf"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, SMD 0805, 0.125W, 5%, 100ppm, RC Series, Yageo"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0805JR-071KL"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Device_Marking" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C100046"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "603-RC0805JR-071KL"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" "199-5762"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" "302-14-028"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "RC0805JR-071K"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "9234004"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" "311-1.0KARCT-ND"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Z-SYSCODE" ""
-			(at 0 11.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Assembly_Note" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comment" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Technology" "SMD"
-			(at 0 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "RES,RES0805"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "RESC*"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "1k, SMD 0805, 0.125W, 5%, 100ppm_0_1"
-			(rectangle
-				(start -2.54 0.889)
-				(end 2.54 -0.889)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "1k, SMD 0805, 0.125W, 5%, 100ppm_1_1"
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "2k2, SMD 0805, 0.125W, 5%, 100ppm"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "R"
-			(at 0 2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k2"
-			(at 0 -2.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SMD_Resistor_Generic:RESC2012X50N_0805"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805JR-07680RL_C93658.pdf"
-			(at 0 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, SMD 0805, 0.125W, 5%, 100ppm, RC Series, Yageo"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "Yageo"
-			(at 0 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0805JR-072K2L"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Device_Marking" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_LCSC" "C114237"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "603-RC0805JR-072K2L"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" "199-5764"
+		(property "OC_RS" "603-RC0805FR-0710KL"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -899,7 +379,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "RC0805JR-072K2"
+		(property "OC_TME" "RC0805FR-0710KL"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -908,7 +388,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_FARNELL" "9234055"
+		(property "OC_FARNELL" "9237755"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -917,7 +397,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" "311-2.2KARCT-ND"
+		(property "OC_DIGIKEY" "311-10.0KCRCT-ND"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -926,7 +406,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" ""
+		(property "OC_SOS" "117335"
 			(at 0 0 0)
 			(effects
 				(font
@@ -935,7 +415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "1217"
 			(at 0 11.43 0)
 			(effects
 				(font
@@ -989,7 +469,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "2k2, SMD 0805, 0.125W, 5%, 100ppm_0_1"
+		(symbol "10k, SMD 0805, 0.125W, 1%, 100ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -1002,7 +482,7 @@
 				)
 			)
 		)
-		(symbol "2k2, SMD 0805, 0.125W, 5%, 100ppm_1_1"
+		(symbol "10k, SMD 0805, 0.125W, 1%, 100ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -1042,7 +522,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "33R, SMD 0805, 0.125W, 5%, 100ppm"
+	(symbol "120k, SMD 0805, 0.125W, 1%, 100ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1061,7 +541,7 @@
 				)
 			)
 		)
-		(property "Value" "33R"
+		(property "Value" "120k/1%"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1078,7 +558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805JR-07680RL_C93658.pdf"
+		(property "Datasheet" "https://cdn.soselectronic.com/productdata/43/10/81bbc7ef/r0805-1-1-r-rc0805fr-071rl-2.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1087,7 +567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0805, 0.125W, 5%, 100ppm, RC Series, Yageo"
+		(property "Description" "Resistor, SMD 0805, 0.125W, 1%, 100ppm, RC Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1097,7 +577,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 0 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,8 +585,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0805JR-0733RL"
-			(at 0 6.35 0)
+		(property "MPN" "RC0805FR-07120KL"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1123,8 +603,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C127988"
-			(at 0 6.35 0)
+		(property "OC_LCSC" "C114524"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,8 +612,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" "603-RC0805JR-0733RL"
-			(at 0 6.35 0)
+		(property "OC_MOUSER" "603-RC0805FR-07120KL"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,8 +621,8 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" "242-7106"
-			(at 0 6.35 0)
+		(property "OC_RS" "199-5651"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,42 +631,6 @@
 			)
 		)
 		(property "OC_DISTRELEC" ""
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "RC0805JR-0733R"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "9233822"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" "311-33ARCT-ND"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -1195,8 +639,44 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
-			(at 0 11.43 0)
+		(property "OC_TME" "RC0805FR-07120KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "9237887"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "311-120KCRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "37992"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1228"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +703,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 10.16 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +729,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "33R, SMD 0805, 0.125W, 5%, 100ppm_0_1"
+		(symbol "120k, SMD 0805, 0.125W, 1%, 100ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -1262,7 +742,7 @@
 				)
 			)
 		)
-		(symbol "33R, SMD 0805, 0.125W, 5%, 100ppm_1_1"
+		(symbol "120k, SMD 0805, 0.125W, 1%, 100ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -1302,7 +782,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "47k, SMD 0805, 0.125W, 5%, 100ppm"
+	(symbol "15K, SMD 0805, 0.125W, 1%, 100ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1321,7 +801,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "15K"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1338,7 +818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805JR-07680RL_C93658.pdf"
+		(property "Datasheet" "https://cdn.soselectronic.com/productdata/43/10/81bbc7ef/r0805-1-1-r-rc0805fr-071rl-2.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1347,7 +827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0805, 0.125W, 5%, 100ppm, RC Series, Yageo"
+		(property "Description" "Resistor, SMD 0805, 0.125W, 1%, 100ppm, RC Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1357,7 +837,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 0 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1365,8 +845,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0805JR-0747KL"
-			(at 0 6.35 0)
+		(property "MPN" "RC0805FR-0715KL"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,70 +863,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C131051"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "603-RC0805JR-0747KL"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" "242-7117"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" "302-37-175"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "RC0805JR-0747K"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "9234217"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" "311-47KARCT-ND"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
+		(property "OC_LCSC" "C114559"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1455,8 +872,71 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
-			(at 0 11.43 0)
+		(property "OC_MOUSER" "603-RC0805FR-0715KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "199-5658"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "RC0805FR-0715K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "9237771"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "311-15.0KCRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "117337"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1219"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +963,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 10.16 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +980,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "RESC*"
+		(property "ki_fp_filters" "RESC2012X50?_0805*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1509,7 +989,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "47k, SMD 0805, 0.125W, 5%, 100ppm_0_1"
+		(symbol "15K, SMD 0805, 0.125W, 1%, 100ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -1522,7 +1002,7 @@
 				)
 			)
 		)
-		(symbol "47k, SMD 0805, 0.125W, 5%, 100ppm_1_1"
+		(symbol "15K, SMD 0805, 0.125W, 1%, 100ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -1562,7 +1042,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "680R, SMD 0805, 0.125W, 5%, 100ppm"
+	(symbol "1k, SMD 0805, 0.125W, 1%, 100ppm"
 		(pin_numbers
 			(hide yes)
 		)
@@ -1581,7 +1061,7 @@
 				)
 			)
 		)
-		(property "Value" "680R"
+		(property "Value" "1k/1%"
 			(at 0 -2.54 0)
 			(effects
 				(font
@@ -1598,7 +1078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805JR-07680RL_C93658.pdf"
+		(property "Datasheet" "https://cdn.soselectronic.com/productdata/43/10/81bbc7ef/r0805-1-1-r-rc0805fr-071rl-2.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1607,7 +1087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, SMD 0805, 0.125W, 5%, 100ppm, RC Series, Yageo"
+		(property "Description" "Resistor, SMD 0805, 0.125W, 1%, 100ppm, RC Series, Yageo"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1617,7 +1097,7 @@
 			)
 		)
 		(property "MFG" "Yageo"
-			(at 0 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1625,8 +1105,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0805JR-071KL"
-			(at 0 6.35 0)
+		(property "MPN" "RC0805FR-071KL"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,70 +1123,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" "C93658"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_MOUSER" "603-RC0805JR-07680RL"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_RS" "242-7134"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DISTRELEC" "302-37-178"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_TME" "RC0805JR-07680R"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_FARNELL" "9233989"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_DIGIKEY" "311-680ARCT-ND"
-			(at 0 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "OC_SOS" ""
+		(property "OC_LCSC" "C95781"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1715,8 +1132,71 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
-			(at 0 11.43 0)
+		(property "OC_MOUSER" "603-RC0805FR-071KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "618-3583"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "RC0805FR-071K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "9237496"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "311-1.00KCRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "117323"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1209"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1223,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 10.16 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1769,7 +1249,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "680R, SMD 0805, 0.125W, 5%, 100ppm_0_1"
+		(symbol "1k, SMD 0805, 0.125W, 1%, 100ppm_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -1782,7 +1262,267 @@
 				)
 			)
 		)
-		(symbol "680R, SMD 0805, 0.125W, 5%, 100ppm_1_1"
+		(symbol "1k, SMD 0805, 0.125W, 1%, 100ppm_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "220k, SMD 0805, 0.125W, 1%, 100ppm"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220k/1%"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Resistor_Generic:RESC2012X50N_0805"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.soselectronic.com/productdata/43/10/81bbc7ef/r0805-1-1-r-rc0805fr-071rl-2.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, SMD 0805, 0.125W, 1%, 100ppm, RC Series, Yageo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Yageo"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-07220KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C137568"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" "603-RC0805FR-07220KL"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" "199-5685"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "RC0805FR-07220K"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" "9237917"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "311-220KCRCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" "117351"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "1231"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RES,RES0805"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RESC*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "220k, SMD 0805, 0.125W, 1%, 100ppm_0_1"
+			(rectangle
+				(start -2.54 0.889)
+				(end 2.54 -0.889)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "220k, SMD 0805, 0.125W, 1%, 100ppm_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
