@@ -1,7 +1,7 @@
 (footprint "Net_Tie"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.016 0)
@@ -22,19 +22,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "59d0e548-609f-4112-a290-dc6c69f464c4")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "968a56e4-8ee7-4cd9-b14f-a1f57af0ec34")
 		(effects
 			(font
 				(size 1 1)
@@ -73,14 +60,15 @@
 	(net_tie_pad_groups "1,2")
 	(pad "1" smd circle
 		(at 0 0)
-		(size 0.254 0.254)
+		(size 0.2 0.2)
 		(layers "F.Cu")
 		(uuid "d13cec41-77fe-43f1-a456-aa59749d9ffb")
 	)
 	(pad "2" smd circle
 		(at 0 0)
-		(size 0.254 0.254)
+		(size 0.2 0.2)
 		(layers "F.Cu")
 		(uuid "22503b17-8dd4-4de2-b709-3f2c675df089")
 	)
+	(embedded_fonts no)
 )
