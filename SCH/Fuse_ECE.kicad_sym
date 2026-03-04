@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ERF-RN09090Z, THD, Polymer fuse, 0.9A/90V, ECE"
+	(symbol "ERFRN09090Z, THD, Polymer fuse, 0.9A, 90V, ECE"
 		(pin_numbers
 			(hide yes)
 		)
@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polymer PTC Fuse, 0.9A/90V"
+		(property "Description" "Polymer PTC Fuse, Ih:0.9A, It:1.8A, Vmax:90VDC,Pd:0.99W, -40 to +85°C, RN Series"
 			(at 0 0 0)
 			(effects
 				(font
@@ -74,7 +74,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERF-RN09090Z"
+		(property "MPN" "ERFRN09090Z"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -209,7 +209,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "ERF-RN09090Z, THD, Polymer fuse, 0.9A/90V, ECE_0_0"
+		(symbol "ERFRN09090Z, THD, Polymer fuse, 0.9A, 90V, ECE_0_0"
 			(text "+t°"
 				(at 0.508 -1.651 0)
 				(effects
@@ -219,7 +219,7 @@
 				)
 			)
 		)
-		(symbol "ERF-RN09090Z, THD, Polymer fuse, 0.9A/90V, ECE_0_1"
+		(symbol "ERFRN09090Z, THD, Polymer fuse, 0.9A, 90V, ECE_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -244,7 +244,7 @@
 				)
 			)
 		)
-		(symbol "ERF-RN09090Z, THD, Polymer fuse, 0.9A/90V, ECE_1_1"
+		(symbol "ERFRN09090Z, THD, Polymer fuse, 0.9A, 90V, ECE_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -284,7 +284,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SL050-60, THD, Polymer fuse, 0.5A/60V, ECE"
+	(symbol "ERFSL050602RZ, SMD 1206, Polymer fuse, 0.5A, 60V, ECE"
 		(pin_numbers
 			(hide yes)
 		)
@@ -329,7 +329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polymer PTC Fuse, 0.5A/60V"
+		(property "Description" "Polymer PTC Fuse, Ih:0.5A, It:1.0A, Vmax:60VDC,Pd:1.5W, -40 to +85°C, SL Series"
 			(at 0 0 0)
 			(effects
 				(font
@@ -356,7 +356,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SL050-60"
+		(property "MPN" "ERFSL050602RZ"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -428,7 +428,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" ""
+		(property "OC_DIGIKEY" "5916-ERFSL050602RZCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -491,7 +491,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SL050-60, THD, Polymer fuse, 0.5A/60V, ECE_0_0"
+		(symbol "ERFSL050602RZ, SMD 1206, Polymer fuse, 0.5A, 60V, ECE_0_0"
 			(text "+t°"
 				(at 0.508 -1.651 0)
 				(effects
@@ -501,7 +501,7 @@
 				)
 			)
 		)
-		(symbol "SL050-60, THD, Polymer fuse, 0.5A/60V, ECE_0_1"
+		(symbol "ERFSL050602RZ, SMD 1206, Polymer fuse, 0.5A, 60V, ECE_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -526,7 +526,7 @@
 				)
 			)
 		)
-		(symbol "SL050-60, THD, Polymer fuse, 0.5A/60V, ECE_1_1"
+		(symbol "ERFSL050602RZ, SMD 1206, Polymer fuse, 0.5A, 60V, ECE_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
@@ -566,7 +566,289 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SN020-30, SMD 1206, Polymer fuse, 0.2A/30V, ECE"
+	(symbol "ERFSN005602RZ, SMD 1206, Polymer fuse, 50mA, 60V, ECE"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50mA/60V"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SMD_Fuse_Generic:FUSC3216X85N_1206"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0302dcd94dd6f5e9a9ded1eefb7cf5df/20151120103220.pdf"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polymer PTC Fuse, Ih:50mA, It:0.15A, Vmax:60VDC,Pd:0.4W, -40 to +85°C, SN Series"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "SMD"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "ECE"
+			(at 0 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERFSN005602RZ"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" "EZ"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" "C20416743"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "SN005-60"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" "5916-ERFSN005602RZCT-ND"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "10245"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "PTC,Fuse"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "FUSC3216X85*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ERFSN005602RZ, SMD 1206, Polymer fuse, 50mA, 60V, ECE_0_0"
+			(text "+t°"
+				(at 0.508 -1.651 0)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+		)
+		(symbol "ERFSN005602RZ, SMD 1206, Polymer fuse, 50mA, 60V, ECE_0_1"
+			(rectangle
+				(start -2.54 0.889)
+				(end 2.54 -0.889)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 1.524) (xy -1.27 -1.651) (xy -2.54 -1.651)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ERFSN005602RZ, SMD 1206, Polymer fuse, 50mA, 60V, ECE_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ERFSN020302RZ, SMD 1206, Polymer fuse, 0.2A, 30V, ECE"
 		(pin_numbers
 			(hide yes)
 		)
@@ -611,7 +893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polymer PTC Fuse, 0.2A/30V"
+		(property "Description" "Polymer PTC Fuse, Ih:0.2mA, It:0.4A, Vmax:30VDC,Pd:0.4W, -40 to +85°C, SN Series"
 			(at 0 0 0)
 			(effects
 				(font
@@ -638,7 +920,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SN020-30"
+		(property "MPN" "ERFSN020302RZ"
 			(at 0 13.97 0)
 			(effects
 				(font
@@ -710,7 +992,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" ""
+		(property "OC_DIGIKEY" "5916-ERFSN020302RZCT-ND"
 			(at 0 0 0)
 			(effects
 				(font
@@ -773,7 +1055,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN020-30, SMD 1206, Polymer fuse, 0.2A/30V, ECE_0_0"
+		(symbol "ERFSN020302RZ, SMD 1206, Polymer fuse, 0.2A, 30V, ECE_0_0"
 			(text "+t°"
 				(at 0.508 -1.651 0)
 				(effects
@@ -783,7 +1065,7 @@
 				)
 			)
 		)
-		(symbol "SN020-30, SMD 1206, Polymer fuse, 0.2A/30V, ECE_0_1"
+		(symbol "ERFSN020302RZ, SMD 1206, Polymer fuse, 0.2A, 30V, ECE_0_1"
 			(rectangle
 				(start -2.54 0.889)
 				(end 2.54 -0.889)
@@ -808,7 +1090,7 @@
 				)
 			)
 		)
-		(symbol "SN020-30, SMD 1206, Polymer fuse, 0.2A/30V, ECE_1_1"
+		(symbol "ERFSN020302RZ, SMD 1206, Polymer fuse, 0.2A, 30V, ECE_1_1"
 			(pin passive line
 				(at -5.08 0 0)
 				(length 2.54)
