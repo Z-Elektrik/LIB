@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "0ZCJ0010FF2E, SMD 1206, Polymer fuse, 0.1A, 60V, BelFuse"
+	(symbol "22u, SMD 1206, 16V, 20%, AVX"
 		(pin_numbers
 			(hide yes)
 		)
@@ -13,7 +13,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "R"
+		(property "Reference" "C"
 			(at 0 2.54 0)
 			(effects
 				(font
@@ -21,25 +21,16 @@
 				)
 			)
 		)
-		(property "Value" "0.1A/60V"
-			(at 0 -3.81 0)
+		(property "Value" "22u/16V"
+			(at 0 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SMD_Fuse_Generic:FUSC3216X85N_1206"
-			(at 0 3.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/0302dcd94dd6f5e9a9ded1eefb7cf5df/20151120103220.pdf"
-			(at 0 6.35 0)
+		(property "Footprint" "SMD_Capacitor_Polarised_Generic:CAPMP3216X180N_1206_Case-A"
+			(at 3.175 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +38,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polymer PTC Fuse, Ih:0.1A, It:0.25A, Vmax:60VDC,Pd:0.4W, -40 to +85°C, OZCJ Series"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/AVXC/AVXC-S-A0015023524/AVXC-S-A0015066651-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
+			(at 3.175 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Tantal, 16V, 20%, TAJ-Series"
 			(at 0 0 0)
 			(effects
 				(font
@@ -57,7 +57,7 @@
 			)
 		)
 		(property "Technology" "SMD"
-			(at 0 11.43 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,8 +65,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Bel Fuse"
-			(at 0 21.59 0)
+		(property "MFG" "AVX"
+			(at 0.635 4.445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,8 +74,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0ZCJ0010FF2E"
-			(at 0 13.97 0)
+		(property "MPN" "TAJA226M016RNJ"
+			(at 3.175 6.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -83,8 +83,8 @@
 				(hide yes)
 			)
 		)
-		(property "Device_Marking" "D"
-			(at 0 16.51 0)
+		(property "Device_Marking" "226C"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -93,7 +93,7 @@
 			)
 		)
 		(property "OC_LCSC" ""
-			(at 0 0 0)
+			(at 5.715 9.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,7 +102,7 @@
 			)
 		)
 		(property "OC_MOUSER" ""
-			(at 0 0 0)
+			(at 8.255 12.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +111,7 @@
 			)
 		)
 		(property "OC_RS" ""
-			(at 0 0 0)
+			(at 10.795 14.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -129,7 +129,7 @@
 			)
 		)
 		(property "OC_TME" ""
-			(at 0 8.89 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -164,8 +164,8 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "12871"
-			(at 0 19.05 0)
+		(property "Z-SYSCODE" "6363"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,7 +191,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "PTC,Fuse"
+		(property "ki_keywords" "TCAP,CAP"
 			(at 0 0 0)
 			(effects
 				(font
@@ -200,7 +200,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "FUSC3216X85*"
+		(property "ki_fp_filters" "CAPMP3216X180*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -209,20 +209,21 @@
 				(hide yes)
 			)
 		)
-		(symbol "0ZCJ0010FF2E, SMD 1206, Polymer fuse, 0.1A, 60V, BelFuse_0_0"
-			(text "+t°"
-				(at 0.508 -1.651 0)
+		(symbol "22u, SMD 1206, 16V, 20%, AVX_0_0"
+			(text "+"
+				(at -1.016 1.016 0)
 				(effects
 					(font
-						(size 0.635 0.635)
+						(size 0.75 0.75)
 					)
 				)
 			)
 		)
-		(symbol "0ZCJ0010FF2E, SMD 1206, Polymer fuse, 0.1A, 60V, BelFuse_0_1"
-			(rectangle
-				(start -2.54 0.889)
-				(end 2.54 -0.889)
+		(symbol "22u, SMD 1206, 16V, 20%, AVX_0_1"
+			(polyline
+				(pts
+					(xy -0.3302 1.27) (xy -0.3302 -1.27)
+				)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -233,10 +234,34 @@
 			)
 			(polyline
 				(pts
-					(xy 2.032 1.524) (xy -1.27 -1.651) (xy -2.54 -1.651)
+					(xy -0.3175 0) (xy -1.27 0)
 				)
 				(stroke
-					(width 0.1524)
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.3302 1.27) (xy 0.3302 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.3175 0)
+				)
+				(stroke
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -244,10 +269,10 @@
 				)
 			)
 		)
-		(symbol "0ZCJ0010FF2E, SMD 1206, Polymer fuse, 0.1A, 60V, BelFuse_1_1"
+		(symbol "22u, SMD 1206, 16V, 20%, AVX_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
+				(at -2.54 0 0)
+				(length 1.27)
 				(name "1"
 					(effects
 						(font
@@ -264,8 +289,8 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.27)
 				(name "2"
 					(effects
 						(font
