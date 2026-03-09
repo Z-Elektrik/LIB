@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "PC-GK2.1, THD, DC Power Barrel Jack, PCB, Horizontal, Ninigi"
+	(symbol "4840.2202, THD, DC Power Barrel Jack, 5.7x2.0mm, PCB, Horizontal, Schurter"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "PC-GK2.1"
+		(property "Value" "4840.2202"
 			(at 0 -5.08 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_Connector_DC_Ninigi:MPD_EJ508A"
+		(property "Footprint" "THD_Connector_DC_Schurter:CONNDCJACK_3N_4840.2202_SCHURTER"
 			(at -1.27 11.43 0)
 			(effects
 				(font
@@ -43,7 +43,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "DC Power Barrel Jack, Male, 5.5x2.1mm, PCB, Horizontal"
+		(property "Description" "DC Power Barrel Jack, Male, 5.7x2.0mm, 0.5A, 12VDC, PCB, Horizontal"
 			(at 0 21.59 0)
 			(effects
 				(font
@@ -61,7 +61,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Ninigi"
+		(property "MFG" "Schurter"
 			(at 0 19.05 0)
 			(effects
 				(font
@@ -70,7 +70,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PC-GK2.1"
+		(property "MPN" "4840.2202"
 			(at 0 16.51 0)
 			(effects
 				(font
@@ -88,7 +88,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_LCSC" ""
+		(property "OC_LCSC" "C3095939"
 			(at -2.54 7.62 0)
 			(effects
 				(font
@@ -97,7 +97,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_MOUSER" ""
+		(property "OC_MOUSER" "693-4840.2202"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -106,7 +106,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_RS" ""
+		(property "OC_RS" "269-3835"
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -124,7 +124,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_TME" "PC-GK2.1"
+		(property "OC_TME" "4840.2202"
 			(at 0 21.59 0)
 			(effects
 				(font
@@ -142,7 +142,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_DIGIKEY" ""
+		(property "OC_DIGIKEY" "486-4186-ND"
 			(at 0 29.21 0)
 			(effects
 				(font
@@ -151,7 +151,7 @@
 				(hide yes)
 			)
 		)
-		(property "OC_SOS" ""
+		(property "OC_SOS" "249344"
 			(at 0 34.29 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" "7188"
+		(property "Z-SYSCODE" ""
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -206,7 +206,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "MPD?EJ508A*"
+		(property "ki_fp_filters" "CONNDCJACK_3?_4840.2202*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -215,7 +215,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "PC-GK2.1, THD, DC Power Barrel Jack, PCB, Horizontal, Ninigi_0_0"
+		(symbol "4840.2202, THD, DC Power Barrel Jack, 5.7x2.0mm, PCB, Horizontal, Schurter_0_0"
 			(polyline
 				(pts
 					(xy -5.715 -1.27) (xy -6.35 -2.54)
@@ -409,7 +409,472 @@
 				)
 			)
 		)
-		(symbol "PC-GK2.1, THD, DC Power Barrel Jack, PCB, Horizontal, Ninigi_1_0"
+		(symbol "4840.2202, THD, DC Power Barrel Jack, 5.7x2.0mm, PCB, Horizontal, Schurter_1_0"
+			(pin passive line
+				(at 5.08 2.54 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -2.54 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PC-GK2.1, THD, DC Power Barrel Jack, 5.5x2.1mm, PCB, Horizontal, Ninigi"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PC-GK2.1"
+			(at 0 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "THD_Connector_DC_Ninigi:CONNDCJACK_3N_PC-GK2.1_NINIGI"
+			(at -1.27 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/78afd4fb8a41e4211137cd818ea9e93d/PC-GK21.jpg"
+			(at 0 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DC Power Barrel Jack, Male, 5.5x2.1mm, PCB, Horizontal"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Technology" "THD"
+			(at 0 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Ninigi"
+			(at 0 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PC-GK2.1"
+			(at 0 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Device_Marking" ""
+			(at 0 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_LCSC" ""
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_MOUSER" ""
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_RS" ""
+			(at 0 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DISTRELEC" ""
+			(at 0 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_TME" "PC-GK2.1"
+			(at 0 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 0 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_DIGIKEY" ""
+			(at 0 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_SOS" ""
+			(at 0 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Z-SYSCODE" "7188"
+			(at 0 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Assembly_Note" ""
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comment" ""
+			(at -2.54 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+				)
+			)
+		)
+		(property "ki_keywords" "DC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CONNDCJACK_3?_PC-GK2.1*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "PC-GK2.1, THD, DC Power Barrel Jack, 5.5x2.1mm, PCB, Horizontal, Ninigi_0_0"
+			(polyline
+				(pts
+					(xy -5.715 -1.27) (xy -6.35 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -5.715 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -5.08 2.54)
+				(mid -4.894 2.989)
+				(end -4.445 3.175)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -4.445 1.905)
+				(mid -4.894 2.091)
+				(end -5.08 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 1.905) (xy -0.635 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -2.54) (xy -5.08 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.4925) (xy 0 3.4925)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.175) (xy -4.445 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 3.175) (xy -0.635 3.4925)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.905) (xy -0.635 3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.5875) (xy -0.635 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.4925) (xy 0 1.5875)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.5875) (xy -0.635 1.5875)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "PC-GK2.1, THD, DC Power Barrel Jack, 5.5x2.1mm, PCB, Horizontal, Ninigi_1_0"
 			(pin passive line
 				(at 5.08 2.54 180)
 				(length 5.08)
