@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "AM4140, THD, Yellow, Red, 20mA, Ampul"
+	(symbol "AM4140, THD, Rectangle 2x5mm, Flat, Yellow, 20mA, Ampul"
 		(pin_numbers
 			(hide yes)
 		)
@@ -29,7 +29,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_LED_Generic:LEDRRV508W70L500T200H700-2_White_Short"
+		(property "Footprint" "THD_Opto_Generic:LEDRR254W50L500T200H700-2N_FLT_NF_LL600_White"
 			(at 0 10.16 0)
 			(effects
 				(font
@@ -47,7 +47,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Yellow, Rectangle, 2x5x7mm, 600mcd, 160°, Flat clear front, 20mA"
+		(property "Description" "LED, Rectangle 2x5x7mm, Yellow 585nm, Lens:Flat, Water Clear, No-Flange, 600mcd@20mA, 160°, Vf: 1.8-2.2V@20mA"
 			(at 0 7.62 0)
 			(effects
 				(font
@@ -164,7 +164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "1722"
 			(at 0 0 0)
 			(effects
 				(font
@@ -210,7 +210,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LEDRR?508W70L500T200H??2*"
+		(property "ki_fp_filters" "LEDRR254W50L500T200H700-2?_FLT_NF_LL*_*Yellow LEDRR254W50L500T200H700-2?_FLT_NF_LL*_*White"
 			(at 0 0 0)
 			(effects
 				(font
@@ -219,7 +219,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AM4140, THD, Yellow, Red, 20mA, Ampul_0_0"
+		(symbol "AM4140, THD, Rectangle 2x5mm, Flat, Yellow, 20mA, Ampul_0_0"
 			(polyline
 				(pts
 					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
@@ -281,7 +281,7 @@
 				)
 			)
 		)
-		(symbol "AM4140, THD, Yellow, Red, 20mA, Ampul_0_1"
+		(symbol "AM4140, THD, Rectangle 2x5mm, Flat, Yellow, 20mA, Ampul_0_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.27 -1.27)
@@ -295,7 +295,7 @@
 				)
 			)
 		)
-		(symbol "AM4140, THD, Yellow, Red, 20mA, Ampul_1_1"
+		(symbol "AM4140, THD, Rectangle 2x5mm, Flat, Yellow, 20mA, Ampul_1_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -348,7 +348,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AM8774, THD, Rectange, Green, 20mA, Ampul"
+	(symbol "AM8774, THD, Rectange 2x5mm, Flat, Green, 20mA, Ampul"
 		(pin_numbers
 			(hide yes)
 		)
@@ -375,7 +375,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_LED_Generic:LEDRRV508W70L500T200H700-2_White_Short"
+		(property "Footprint" "THD_Opto_Generic:LEDRR254W50L500T200H700-2N_FLT_NF_LL600_White"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -393,7 +393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Green, Rectangle, 2x5x7mm, 1500mcd, 160°, Flat clear front, 20mA"
+		(property "Description" "LED, Rectangle 2x5x7mm, Green 517nm, Lens:Flat, Water Clear, No-Flange, 1500mcd@20mA, 160°, Vf: 3.0-3.4V@20mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -510,7 +510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "3928"
 			(at 0 0 0)
 			(effects
 				(font
@@ -556,7 +556,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LEDRR?508W70L500T200H??2*"
+		(property "ki_fp_filters" "LEDRR254W50L500T200H700-2?_FLT_NF_LL*_*Green LEDRR254W50L500T200H700-2?_FLT_NF_LL*_*White"
 			(at 0 0 0)
 			(effects
 				(font
@@ -565,7 +565,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AM8774, THD, Rectange, Green, 20mA, Ampul_0_0"
+		(symbol "AM8774, THD, Rectange 2x5mm, Flat, Green, 20mA, Ampul_0_0"
 			(polyline
 				(pts
 					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
@@ -627,20 +627,7 @@
 				)
 			)
 		)
-		(symbol "AM8774, THD, Rectange, Green, 20mA, Ampul_0_1"
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 0 194 0 1)
-				)
-			)
+		(symbol "AM8774, THD, Rectange 2x5mm, Flat, Green, 20mA, Ampul_0_1"
 			(polyline
 				(pts
 					(xy 1.27 1.27) (xy 1.27 -1.27)
@@ -654,7 +641,20 @@
 				)
 			)
 		)
-		(symbol "AM8774, THD, Rectange, Green, 20mA, Ampul_1_1"
+		(symbol "AM8774, THD, Rectange 2x5mm, Flat, Green, 20mA, Ampul_1_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 0 132 0 1)
+				)
+			)
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)
@@ -694,7 +694,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "AM8957, THD, Rectange, Red, 20mA, Ampul"
+	(symbol "AM8957, THD, Rectange 2x5mm, Flat, Red, 20mA, Ampul"
 		(pin_numbers
 			(hide yes)
 		)
@@ -721,7 +721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_LED_Generic:LEDRRV508W70L500T200H700-2_White_Short"
+		(property "Footprint" "THD_Opto_Generic:LEDRR254W50L500T200H700-2N_FLT_NF_LL600_White"
 			(at 0 6.35 0)
 			(effects
 				(font
@@ -739,7 +739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "LED, Red, Rectangle, 2x5x7mm, 800mcd, 160°, Flat clear front, 20mA"
+		(property "Description" "LED, Rectangle 2x5x7mm, Red 625nm, Lens:Flat, Water Clear, No-Flange, 800mcd@20mA, 160°, Vf: 1.8-2.2V@20mA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -856,7 +856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Z-SYSCODE" ""
+		(property "Z-SYSCODE" "5261"
 			(at 0 0 0)
 			(effects
 				(font
@@ -902,7 +902,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "LEDRR?508W70L500T200H??2*"
+		(property "ki_fp_filters" "LEDRR254W50L500T200H700-2?_FLT_NF_LL*_*Red LEDRR254W50L500T200H700-2?_FLT_NF_LL*_*White"
 			(at 0 0 0)
 			(effects
 				(font
@@ -911,7 +911,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "AM8957, THD, Rectange, Red, 20mA, Ampul_0_0"
+		(symbol "AM8957, THD, Rectange 2x5mm, Flat, Red, 20mA, Ampul_0_0"
 			(polyline
 				(pts
 					(xy -0.2032 1.8288) (xy 1.0668 3.0988)
@@ -973,7 +973,7 @@
 				)
 			)
 		)
-		(symbol "AM8957, THD, Rectange, Red, 20mA, Ampul_0_1"
+		(symbol "AM8957, THD, Rectange 2x5mm, Flat, Red, 20mA, Ampul_0_1"
 			(polyline
 				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -1000,7 +1000,7 @@
 				)
 			)
 		)
-		(symbol "AM8957, THD, Rectange, Red, 20mA, Ampul_1_1"
+		(symbol "AM8957, THD, Rectange 2x5mm, Flat, Red, 20mA, Ampul_1_1"
 			(pin passive line
 				(at -2.54 0 0)
 				(length 1.27)

@@ -1,0 +1,79 @@
+(footprint "_LIB_INFO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b67ed223-58ae-4cf0-b542-64597aa172d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74ae1b02-e1ab-474e-8de5-ee16853ea149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9abdb1d8-511e-4184-8ae1-ba066a6df985")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ba40856-1164-4ca9-b486-284b64603da1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text_box "THD LED Pravidla\n--------------------------------------------------\nPriklad: \nLEDRD254W50D300H385-2N_FLT_FD_LL500_Green\nLEDRR254W50L500T200H700-2N_FLT_NF_LL600_SH20_SO10_Yellow\nLEDRRH254W50L500T200H700-2N_FLT_NF_LL254_Red\n\n--------------------------------------------------\nSkupina LED + Radial/Axial + Tvar puzdra. \nLEDRD = Okruhla (Diameter)\nLEDRR = Obdlznikova (Rectangular)\nLEDRS = Stvorzova (Square)\nDefaultne Vertikalna montaz. Ak je horizontalne (na lezato) Prida sa {dblquote}H{dblquote}.\n\nParametre:\nLED okruhla:     LEDRD + Pitch + W + D + H - PINS + Density + _Optika + _SpodokPuzdra + _Dlzkavyvodov + 12\nLED obdlznikova: LEDRR + Pitch + L + T + H - PINS + Density + _Optika + _SpodokPuzdra + _Dlzkavyvodov\nLED Stvorcova:   LEDRS + Pitch + L + T + H - PINS + Density + _Optika + _SpodokPuzdra + _Dlzkavyvodov\n\nkde (rozmery v mm/100):\nPitch = rozteč vývodov (cca 2.54 mm)\nL   = (Lenght) dlzka tela, napr L500: 5mm\nT   = (Thickness) sirka, napr T200: 2 mm \nW   = (Width)priemer vývodu (cca 0.45-0.5 mm)\nD   = (Dimeter) priemer telesa LED (3.0 mm)\nH   = (Height) výška tela (cca 4.3-5.3 mm podľa variantu) - nie odsadenie od DPS!\nPINS+Density = pocet vyvodov a hustota (M,N,L = Most-male pady vysoka hustota, Nominal-bezna hustota, Least-velke pady mala hustota)\n12  = oznacenie vyvodov 1 a 2. Inak je A a C, alebo AG a CG - Anoda Green atd...\n\nDoplnenie tvarov tela:\nTvar optiky:\nCVX = (Convex dome) Vypuknuty obluk\nFLT = (Flat top) Rovny povrch\n\nSpodny lem:\nFR  = (Flange round) Plny lem naokolo tela \nFD  = (D-Flange) Lem v tvare pismena D - vyrez oznacuje elektrodu\nNF  = (No Flange) Bez lemu\n\nDlzka vyvodov od tela:\nLL  = (Lead Lenght) celkova dlzka kratsieho vyvodu od Spodu tela (mm/100), napr LL500: 5mm\n		Pri horizontalnej montazi je LL od spodu tela po zahnutie do DPS\n\nMinimalna montazna vyska:\nSH  = (SeatingHeight) minima;lna vyska spodu tela od DPS - niektore vyvody maju lom pod puzdrom\n\nMontazna vyska\nSO  = (StandOff) nadvihnutie puzdra nad DPS, kedze vyvody su dostatocne dlhe, moze sa puzdro {dblquote}vysunut{dblquote}\n\n--------------------------------------------------\nDescription field:\nLED Radial Diameter Vertical Mount, Dia: 3.0, Body Height: 3.85, 2 pins Nominal, Flat Top, D-Flange, Pin Length:5.00, Green\n--------------------------------------------------\nTag\nLED"
+		(start 0 -132.3975)
+		(end 168.91 6.6675)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.Cu")
+		(uuid "cf8814dd-3a59-46f7-8384-da33dd8dd8b4")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.1875)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+	)
+	(embedded_fonts no)
+)
