@@ -1,0 +1,43 @@
+name: Build KiCad PCM Package
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create clean PCM zip
+        run: |
+          mkdir build
+
+          # COPY ONLY CONTENT (NO LIB-MAIN WRAPPER)
+          cp -r SCH build/
+          cp -r PCB build/
+          cp -r 3D build/
+
+          # create metadata.json (optional, but recommended)
+          cp metadata.json build/metadata.json || true
+
+          cd build
+          zip -r ../ZElektrik.zip .
+
+      - name: Calculate SHA256
+        run: |
+          sha256sum ZElektrik.zip > SHA256.txt
+          cat SHA256.txt
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            ZElektrik.zip
+            SHA256.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
