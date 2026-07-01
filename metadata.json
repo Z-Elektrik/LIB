@@ -1,0 +1,43 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1#/definitions/PackageManifest",
+  "name": "ZElektrik Libraries",
+  "description": "SCH, PCB and 3D libraries",
+  "version": "0.0.1",
+  "author": {
+    "name": "Peto Janis",
+    "contact": {
+      "email": "peto.janis@gmail.com"
+    }
+  },
+  "maintainer": {
+    "name": "ZElektrik tech",
+    "contact": {
+      "web": "https://zelektrik.sk",
+      "email": "peto.janis@gmail.com"
+    }
+  },
+  "license": "MIT",
+
+  "type": "library",
+
+  "resources": {
+    "homepage": "https://zelektrik.sk",
+    "repository": "https://github.com/Z-Elektrik/LIB",
+    "icon": "https://z-elektrik.github.io/Zelektrik_KiCad_Repository/resources/zelektrik-logo.png"
+  },
+
+  "libraries": [
+    {
+      "type": "kicad_symbol",
+      "path": "SCH"
+    },
+    {
+      "type": "kicad_footprint",
+      "path": "PCB"
+    },
+    {
+      "type": "3d_model",
+      "path": "3D"
+    }
+  ]
+}
