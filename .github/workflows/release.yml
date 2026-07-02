@@ -18,26 +18,26 @@ jobs:
           mkdir build
 
           # COPY ONLY CONTENT (NO LIB-MAIN WRAPPER)
-          cp -r SCH build/
-          cp -r PCB build/
-          cp -r 3D build/
+          cp -r symbols build/
+          cp -r footprints build/
+          cp -r 3dmodels build/
 
           # create metadata.json (optional, but recommended)
           cp metadata.json build/metadata.json || true
 
           cd build
-          zip -r ../ZElektrik.zip .
+          zip -r ../zelektrik-lib.zip .
 
       - name: Calculate SHA256
         run: |
-          sha256sum ZElektrik.zip > SHA256.txt
+          sha256sum zelektrik-lib.zip > SHA256.txt
           cat SHA256.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            ZElektrik.zip
+            zelektrik-lib.zip
             SHA256.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
