@@ -41,7 +41,7 @@ Problémy v knižnici alebo požiadavky na doplnenie nových prvkov môžete nah
 Knižnicu môžete nainštalovať:
 
 - klonovaním repozitára pomocou Git,
-- alebo stiahnutím ZIP archívu a zachovaním pôvodnej štruktúry priečinkov.
+- alebo stiahnutím ZIP archívu, jeho rozbalením do adresára a zachovaním pôvodnej štruktúry priečinkov.
 
 V KiCade nastavte:
 
@@ -51,17 +51,17 @@ nasledujúce premenné:
 
 | Premenná | Cesta |
 |---|---|
-| `Z_LIB_3D_DIR` | priečinok s 3D modelmi |
-| `Z_LIB_FOOTPRINT_DIR` | priečinok s footprintmi |
-| `Z_LIB_SYMBOL_DIR` | priečinok so symbolmi |
+| `Z_LIB_3D_DIR` | váš priečinok s rozbalenými 3D modelmi |
+| `Z_LIB_FOOTPRINT_DIR` | váš priečinok s rozbalenými footprintmi |
+| `Z_LIB_SYMBOL_DIR` | váš priečinok s rozbalenými symbolmi |
 
 Potom pridajte knižnice:
 
 **Preferences → Manage Symbol Libraries**  
-→ pridajte všetky knižnice zo zložky `SCH`
+→ pridajte všetky knižnice zo zložky `symbols`
 
 **Preferences → Manage Footprint Libraries**  
-→ pridajte všetky knižnice zo zložky `PCB`
+→ pridajte všetky knižnice zo zložky `footprints`
 
 
 ## Licencia
@@ -71,6 +71,14 @@ Z-Elektrik/LIB je licencovaná pod licenciou
 
 Knižnicu môžete používať, upravovať a ďalej distribuovať v súlade s podmienkami tejto licencie.
 
+
+## Obsah tretích strán
+
+Niektoré 3D modely v tejto knižnici môžu pochádzať priamo od výrobcov komponentov alebo z verejne dostupných zdrojov.
+
+Tieto súbory sa naďalej riadia pôvodnými licenciami a podmienkami použitia.
+
+Licencia CERN-OHL-P sa vzťahuje iba na pôvodný obsah vytvorený pre Z-Elektrik/LIB.
 ---
 
 Udržiava **Z-Elektrik**
@@ -122,17 +130,17 @@ and add:
 
 | Variable | Path |
 |---|---|
-| `Z_LIB_3D_DIR` | 3D model directory |
-| `Z_LIB_FOOTPRINT_DIR` | footprint directory |
-| `Z_LIB_SYMBOL_DIR` | symbol directory |
+| `Z_LIB_3D_DIR` | your folder with unpacked 3D models |
+| `Z_LIB_FOOTPRINT_DIR` | your folder with unpacked footprints |
+| `Z_LIB_SYMBOL_DIR` | your folder with unpacked symbolsy |
 
 Then add the libraries:
 
 **Preferences → Manage Symbol Libraries**  
-→ add all libraries from the `SCH` folder
+→ add all libraries from the `symbols` folder
 
 **Preferences → Manage Footprint Libraries**  
-→ add all libraries from the `PCB` folder
+→ add all libraries from the `footprints` folder
 
 
 
@@ -143,6 +151,14 @@ Z-Elektrik/LIB is licensed under the
 
 You are free to use, modify and distribute this library according to the terms of the license.
 
+
+## Third-party content
+
+Some 3D models included in this library may originate from component manufacturers or publicly available sources.
+
+Such files remain subject to their original licenses and usage terms.
+
+The CERN-OHL-P license applies only to original Z-Elektrik/LIB content.
 ---
 
 Maintained by **Z-Elektrik**

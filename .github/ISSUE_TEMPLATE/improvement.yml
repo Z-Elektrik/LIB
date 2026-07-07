@@ -1,0 +1,63 @@
+name: Improvement request
+description: Suggest an improvement or extension of the library
+title: "[IMPROVEMENT] "
+labels:
+  - enhancement
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting an improvement for Z-Elektrik/LIB.
+
+        Please use this form for improvements to the library structure, data, symbols, footprints, or documentation.
+
+  - type: input
+    id: area
+    attributes:
+      label: Affected area
+      description: Which part of the library should be improved?
+      placeholder: Example: Symbol fields, Mechanical layer, Footprint naming
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Improvement type
+      options:
+        - Add new symbol field
+        - Add or improve footprint information
+        - Add mechanical documentation
+        - Improve symbol graphics
+        - Improve footprint graphics
+        - Improve 3D model
+        - Improve naming convention
+        - Improve documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the proposed improvement.
+      placeholder: |
+        Example:
+        Add manufacturer country field to symbols.
+        Add mounting information to mechanical layer.
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why would this improvement be useful?
+      placeholder: |
+        Explain the benefit for library users or production.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Additional information
+      description: Links, examples, screenshots, or references.

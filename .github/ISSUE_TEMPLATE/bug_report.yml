@@ -1,0 +1,68 @@
+name: Bug report
+description: Report an error in a symbol, footprint, 3D model, or library data
+title: "[BUG] "
+labels:
+  - bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem in Z-Elektrik/LIB.
+
+        Please use this form only for errors inside the library.
+        Installation problems, KiCad configuration, or general questions should be discussed in GitHub Discussions.
+
+  - type: input
+    id: component
+    attributes:
+      label: Component
+      description: Symbol or footprint name
+      placeholder: Example: Capacitor_SMD0805_50V_X7R_Samsung
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Problem type
+      options:
+        - Symbol data
+        - Symbol graphics
+        - Footprint assignment
+        - Footprint graphics
+        - 3D model
+        - Datasheet link
+        - Manufacturer / MPN information
+        - Distributor code
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the problem
+      description: Describe what is wrong.
+      placeholder: |
+        Example:
+        The footprint does not match the datasheet.
+        The MPN field contains an incorrect value.
+        The 3D model orientation is wrong.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What should be correct?
+      placeholder: |
+        Example:
+        Footprint should be assigned to XYZ package.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Additional information
+      description: Datasheet links, manufacturer pages, screenshots, or other useful information.
