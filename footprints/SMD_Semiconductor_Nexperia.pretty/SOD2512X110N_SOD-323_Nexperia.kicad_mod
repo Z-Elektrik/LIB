@@ -1,0 +1,187 @@
+(footprint "SOD2512X110N_SOD-323_Nexperia"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOD2516X110N_SOD-323_SC-76, Body(nom):1.64x1.28, SOD + Lead Span Nominal + Body Width X Height")
+	(tags "SOD2516,SOD-323,SC-76")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(layer "F.SilkS")
+		(uuid "e4576f38-c1e3-466f-8b9b-a0b638a3a33f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD2512X110N_SOD-323_Nexperia"
+		(at 0.1 1.9 0)
+		(layer "F.Fab")
+		(uuid "f6343256-5ace-4703-8fe8-f17e3094221e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77dba069-4b4b-4225-8831-3ac77d258564")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddb9d5e2-e6b4-4662-a7f1-1b0fcc4b10eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.889 -0.54864)
+		(end -1.27 -0.54864)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aa94571e-3b33-4a58-9b21-d78a216b7d15")
+	)
+	(fp_line
+		(start -0.889 0.6731)
+		(end 0.889 0.6731)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c00d4ed-3a20-48fc-958e-60364553df3b")
+	)
+	(fp_line
+		(start 0.889 -0.6731)
+		(end -0.889 -0.6731)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e07e0392-355b-4d83-bcef-7f3b9ccd95a4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "6927677f-72e1-4569-92dd-b1ce3fe21fcf")
+	)
+	(fp_rect
+		(start -1.45 -0.8)
+		(end 1.45 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "44291535-4944-4fa0-b59f-b926f803cec2")
+	)
+	(fp_line
+		(start -0.635 0.6)
+		(end -0.635 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4b0ddf17-19b1-4ad8-92bb-89f94fab9f99")
+	)
+	(fp_rect
+		(start -1.24968 -0.19812)
+		(end -0.89916 0.19812)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "d726b3c8-cbec-4859-aa74-d02665cbd752")
+	)
+	(fp_rect
+		(start -0.85 -0.6)
+		(end 0.85 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "81d5bca6-5ddc-48b8-9bf6-a0504e9b8ae8")
+	)
+	(fp_rect
+		(start 0.89916 -0.19812)
+		(end 1.24968 0.19812)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "67f3f2c7-01c7-4e72-be5e-7daadbd1ec1e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.85 0)
+		(layer "F.Fab")
+		(uuid "559c30ec-09d7-4c44-b483-4606a7efdc3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.075 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "22d832ec-1eb7-44f8-b1a9-3f319797e18a")
+	)
+	(pad "2" smd roundrect
+		(at 1.075 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9061e637-7ea5-4b02-9c1b-f25040d4858e")
+	)
+	(embedded_fonts no)
+	(model "${Z_LIB_3D_PRIVATE_DIR}/SMD_Semiconductor_Generic.3dshapes/SOD2516X110_SOD-323_SC-76.step"
+		(offset
+			(xyz 0 -0.64 0.09)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
