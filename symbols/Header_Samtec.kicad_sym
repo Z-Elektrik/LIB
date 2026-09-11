@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_Header_Connfly:CONHDRV3W64P127H460N_1X3_PADR+C_100_100H60"
+		(property "Footprint" "THD_Connector_Header_Samtec:CONHDRVF70W127P381X248H508-1x3N_Samtec"
 			(at 2.54 26.67 0)
 			(effects
 				(font
@@ -368,7 +368,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TMS-103-02-G-S, THD, 1x3pin Rectangled, 1.27mm, h{colon}5.08mm, Gold, Female, Vertical, Samtec"
+	(symbol "TMS-103-02-G-S, THD, 1x3pin Rectangled, 1.27mm, h{colon}5.08mm, Gold, Male, Vertical, Samtec"
 		(pin_names
 			(offset 1.016)
 			(hide yes)
@@ -392,7 +392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "THD_Header_Samtec:CONHDRVF70W127P381X248H508-1x3N_Samtec"
+		(property "Footprint" "THD_Connector_Header_Samtec:CONHDRVM70W127P381X248H508-1x3N_Samtec"
 			(at 2.54 26.67 0)
 			(effects
 				(font
@@ -410,7 +410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Header Socket Female, Vertical, 1x3 pin, 1.27, h:5.08mm, 5A, 300VAC, Gold, -55 to 125°C"
+		(property "Description" "Header Socket Male, Vertical, 1x3 pin, 1.27, h:5.08mm, 5A, 300VAC, Gold, -55 to 125°C"
 			(at 0 15.24 0)
 			(effects
 				(font
@@ -573,7 +573,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "CONHDRVF70W127P381X248H508-1x3?_*Samtec"
+		(property "ki_fp_filters" "CONHDRVM70W127P381X248H508-1x3?_*Samtec"
 			(at 0 0 0)
 			(effects
 				(font
@@ -582,7 +582,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TMS-103-02-G-S, THD, 1x3pin Rectangled, 1.27mm, h{colon}5.08mm, Gold, Female, Vertical, Samtec_1_0"
+		(symbol "TMS-103-02-G-S, THD, 1x3pin Rectangled, 1.27mm, h{colon}5.08mm, Gold, Male, Vertical, Samtec_1_0"
 			(polyline
 				(pts
 					(xy -3.175 3.175) (xy -1.905 4.445)
@@ -632,7 +632,7 @@
 				)
 			)
 		)
-		(symbol "TMS-103-02-G-S, THD, 1x3pin Rectangled, 1.27mm, h{colon}5.08mm, Gold, Female, Vertical, Samtec_1_1"
+		(symbol "TMS-103-02-G-S, THD, 1x3pin Rectangled, 1.27mm, h{colon}5.08mm, Gold, Male, Vertical, Samtec_1_1"
 			(rectangle
 				(start -3.175 4.445)
 				(end 0.635 -4.445)
@@ -652,7 +652,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(rectangle
@@ -663,7 +663,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(rectangle
@@ -674,7 +674,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(pin passive line

@@ -1,0 +1,311 @@
+(footprint "LEDM3026X65-2N_Osram"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "EIA: -, METRIC: -, JEDEC: - , IPC: LEDM3026X65-2N_Osram")
+	(tags "LEDM")
+	(property "Reference" "REF**"
+		(at -2.2225 -0.635 90)
+		(layer "F.SilkS")
+		(uuid "83cc328c-b7a6-47b2-9ffa-7ac49f4468d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LEDM3026X65-2N_Osram"
+		(at 0 2.8575 0)
+		(layer "F.Fab")
+		(uuid "136faa66-2c23-42b0-a119-0aec3575d644")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://look.ams-osram.com/m/3b97fbf553121ad9/original/KW-DSLP31-CC.pdf"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c52fae6a-d31e-4571-abfb-cc196b2bbfb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96d44da8-2ab8-4b4e-9b8c-8a8787fe34a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Label" "Label"
+		(at 0 3.81 0)
+		(layer "F.SilkS" knockout)
+		(hide yes)
+		(uuid "550859d8-948c-4820-8015-7eb8075c6287")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.5 -1.3)
+		(end -1.499998 1.300001)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8744b65d-a7d7-44d2-be1e-0e3f5d683764")
+	)
+	(fp_line
+		(start -1.5 -1.3)
+		(end -1.425 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8406eb49-9eff-4275-9d56-ca941dad7014")
+	)
+	(fp_line
+		(start -1.5 1.3)
+		(end -1.35 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e96661a5-505f-42f3-b658-d26de732e69f")
+	)
+	(fp_line
+		(start 1.35 1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f12cfe06-d389-4e67-8963-32b1150dfb18")
+	)
+	(fp_line
+		(start 1.425 -1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb7dee57-3ce7-4163-b182-6f6aff581dcb")
+	)
+	(fp_line
+		(start 1.425 -1.3)
+		(end 1.5 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a12af53d-bea2-4920-9c58-d11949e6a1e9")
+	)
+	(fp_line
+		(start 1.5 1.3)
+		(end 1.5 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9040a084-072c-4393-9fb0-f86e453eebbe")
+	)
+	(fp_line
+		(start 1.599999 -0.95)
+		(end 1.6 -1.399999)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb3d6204-667b-48fd-846b-6ca37a775935")
+	)
+	(fp_circle
+		(center -1.5875 0.635)
+		(end -1.3875 0.635)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "77a71abd-bf0a-4524-a8cc-bea2d7f93b26")
+	)
+	(fp_circle
+		(center 1.5875 0.635)
+		(end 1.7875 0.635)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "e95e9d53-fc7f-4042-bc78-94d352a9b5be")
+	)
+	(fp_rect
+		(start -1 -1.2)
+		(end 1 0.2)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "0d2d7c18-11a7-4c09-a5e3-4f5d9a31a5f7")
+	)
+	(fp_rect
+		(start -0.875 0.825)
+		(end 0.875 1.325)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "3d3ee79d-5660-46a3-934b-cff1fee6dd78")
+	)
+	(fp_rect
+		(start -0.25 -1.775)
+		(end 0.25 -1.475)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "68cca330-f1cf-4194-aafc-18e7b933b817")
+	)
+	(fp_rect
+		(start -0.25 1.475)
+		(end 0.25 1.775)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "cc1b4412-d69e-4e62-ab7d-61ec77fc232b")
+	)
+	(fp_rect
+		(start -1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2ae48b0e-dd43-42ac-a807-95c6bf9d6ab9")
+	)
+	(fp_rect
+		(start -1.5 -1.3)
+		(end 1.5 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "63ad900f-c1f1-4c66-9348-5d25e037931e")
+	)
+	(fp_poly
+		(pts
+			(xy 1.5 -1.3) (xy 0.9 -1.3) (xy 1.5 -0.7)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3b5ac39c-58ce-4d24-9a29-2925f10effe4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0807d9e3-8326-49ab-a1e2-a12b603b5222")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" smd custom
+		(at 0 1.075)
+		(size 2.15 0.6)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.075 -0.3) (xy -1.075 0.3) (xy -0.4 0.3) (xy -0.4 0.8) (xy 0.4 0.8) (xy 0.4 0.3) (xy 1.075 0.3)
+					(xy 1.075 -0.3)
+				)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "e91cdcb4-94d1-408c-be12-e50ffe876444")
+	)
+	(pad "C" smd custom
+		(at 0 -0.5)
+		(size 2.4 1.75)
+		(layers "F.Cu" "F.Mask")
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1.2 -0.875) (xy -0.4 -0.875) (xy -0.4 -1.375) (xy 0.4 -1.375) (xy 0.4 -0.875) (xy 1.2 -0.875)
+					(xy 1.2 0.875) (xy 0.4 0.875) (xy -1.2 0.875)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0dae77f7-fa11-4488-a956-91909a800d70")
+	)
+	(embedded_fonts no)
+	(model "${Z_LIB_3D_DIR}/SMD_LED_Osram.3dshapes/LEDM3026X65-2_Osram.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
