@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "M8AS-03PMMR-SF8001"
+	(property "Value" "RHT-634-3281-4P"
 		(at 0 -23.495 180)
 		(layer "F.Fab")
 		(uuid "f84d6e02-2f8f-4b91-b99c-21962cc5aa5c")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.renhotec.com/wp-content/uploads/2024/09/Drawing-for-M8-Male-Panel-Mount-Receptacle-Shielded-Right-Angle-PCB.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -11457,34 +11457,44 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
-		(at 1.7 -1.95)
-		(size 2 2)
-		(drill 1.3)
+	(pad "1" thru_hole oval
+		(at 1.7 -1.95 330)
+		(size 1.8 3)
+		(drill 1.3
+			(offset 0 -0.55)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "85d5a631-0f7c-49f3-a619-56f1d5ef81e0")
 	)
-	(pad "2" thru_hole circle
-		(at 1.075 0)
-		(size 2 2)
-		(drill 1.3)
+	(pad "2" thru_hole oval
+		(at 1.075 0 30)
+		(size 1.8 3)
+		(drill 1.3
+			(offset 0 0.55)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7c3eaf71-d7da-4068-a80b-77f960d130f6")
 	)
-	(pad "3" thru_hole circle
-		(at -1.7 -1.95)
-		(size 2 2)
-		(drill 1.3)
+	(pad "3" thru_hole oval
+		(at -1.7 -1.95 30)
+		(size 1.8 3)
+		(drill 1.3
+			(offset 0 -0.55)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
 		(uuid "eb72c63c-c546-4d29-a2f0-5c91361cf5c9")
 	)
-	(pad "4" thru_hole circle
-		(at -1.075 0)
-		(size 2 2)
-		(drill 1.3)
+	(pad "4" thru_hole oval
+		(at -1.075 0 330)
+		(size 1.8 3)
+		(drill 1.3
+			(offset 0 0.55)
+		)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "85fe6298-c795-4b97-a7a2-f986487221db")
