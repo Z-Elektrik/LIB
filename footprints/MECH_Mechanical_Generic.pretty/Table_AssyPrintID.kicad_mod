@@ -1,0 +1,235 @@
+(footprint "Table_AssyPrintID"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3f22cfa0-ca5a-4109-b20c-c73bd3f9a1aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5f3aed9-2410-4bdf-a1f4-492a6cc79554")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d05bbe8-4139-4aef-ab0b-fdbd0ab13cbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6d4cfd7-1669-4be3-9065-33a48928074b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_text user "Cesta:"
+		(at 0 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "04ece381-9a6f-49c1-aaf1-2a35b8e054fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${FILEPATH}"
+		(at 5.08 -1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e58df67-d3fe-4b6c-9c54-34ecc37eab17")
+		(effects
+			(font
+				(size 1 0.8)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(table
+		(column_count 4)
+		(layer "F.Fab")
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+		)
+		(column_widths 24 10 30 10)
+		(row_heights 3.5 3.5)
+		(cells
+			(table_cell "Názov"
+				(start 0 -10.5)
+				(end 24 -7)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "524c4ec0-ea3b-461b-b447-5dc000c93895")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Revízia"
+				(start 24 -10.5)
+				(end 34 -7)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "b451f11f-726d-4319-bd92-15524b101cf9")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(table_cell "Spoločnosť"
+				(start 34 -10.5)
+				(end 64 -7)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "f8c4866d-9a4e-482b-bc8e-75c754a4efdf")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "Pohľad"
+				(start 64 -10.5)
+				(end 74 -7)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "e6f306da-23be-4647-9ea2-666d2d8e9532")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(table_cell "${PROJECTNAME}"
+				(start 0 -7)
+				(end 24 -3.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "537e7462-2636-4df3-a2e0-869b847a6ba8")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "${REVISION}"
+				(start 24 -7)
+				(end 34 -3.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "0770b5a9-8470-48da-ab44-5a03ef632c90")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+			(table_cell "${COMPANY}"
+				(start 34 -7)
+				(end 64 -3.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "ec61f03f-0e1a-4dd2-9608-74ac8d420c4a")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left)
+				)
+			)
+			(table_cell "@{if(\"${LAYER}\" == \"F.Cu\", \"TOP\", \"BOT\")}"
+				(start 64 -7)
+				(end 74 -3.5)
+				(margins 1.0025 1.0025 1.0025 1.0025)
+				(span 1 1)
+				(layer "F.Fab")
+				(uuid "03ecdab5-9e35-448e-9ff8-9cf0d25fbc33")
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
