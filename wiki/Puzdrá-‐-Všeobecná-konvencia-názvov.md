@@ -18,13 +18,21 @@ Názvoslovie každého puzdra vychádza z formátu:
 
         '<Predpona><Parametre><PrimárnyRozmer>-<PočetVývodov><Hustota>_<VlastnostiNávrhu>_<SpôsobMontáže>_<OznačenieVýrobcom>_<Výrobca>'
 
+### Poradie hodnoty a kvalifikátora
+
+Všetky číselné rozmerové údaje sa zapisujú v poradí **HODNOTA + KVALIFIKÁTOR**. Najprv sa uvedie číselná hodnota v stotinách milimetra a za ňou písmeno určujúce druh rozmeru.
+
+Príklady: **50W** (0,50 mm), **254P** (2,54 mm), **1250X** (12,50 mm), **508Y** (5,08 mm), **780H** (7,80 mm).
+
+Opačné poradie, napríklad **W50**, **P254** alebo **X1250**, sa nepoužíva.
+
 ---
 
 ### Predpona puzdra
 
 Určuje základnú kategóriu komponentu prípadne aj podkategóriu daného prvku.
 
-Napríklad: **CAP**C1608, **RES**AH60W768P250D630L, **CONHDR**VF64W254P1200X508Y780H-12N, ...
+Napríklad: **CAP**C1608, **RES**AH60768W250P630D, **CONHDR**VF64W254P1200X508Y780H-12N, ...
 
 Zoznam je na stránke [[Puzdrá ‐ Základné predpony]]
 
@@ -109,7 +117,7 @@ Viac: [[Puzdrá ‐ Všeobecný primárny rozmer]]
 
 Udáva celkový počet vývodov puzdra, alebo pri symetrických počet radov X počet vývodov v rade (napr. niektoré konektory)
 
-Napríklad: CAPC1608, RESAH60W768P250D630L, CONHDRVF64W254P1200X508Y780H**-12**N, ...
+Napríklad: CAPC1608, RESAH60768W250P630D, CONHDRVF64W254P1200X508Y780H**-12**N, ...
 
 Viac: [[Puzdrá ‐ Všeobecný počet vývodov]]
 
@@ -123,7 +131,7 @@ Tokeny: **L, N, M**
 
 Hustota určuje požadovanú úroveň zhustenia vývodov a spájkovacích plôch vzhľadom na mechanické rozmery komponentu.
 
-Napríklad: CAPC1608, RESAH60W768P250D630L, CONHDRVF64W254P1200X508Y780H-12**N**, ...
+Napríklad: CAPC1608, RESAH60768W250P630D, CONHDRVF64W254P1200X508Y780H-12**N**, ...
 
 Viac: [[Puzdrá ‐ Všeobecná definícia hustoty]]
 

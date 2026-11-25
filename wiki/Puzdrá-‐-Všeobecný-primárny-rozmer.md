@@ -4,7 +4,11 @@ Primárny rozmer je prvý rozmerový údaj v názve puzdra a určuje fyzické ro
 
 Jeho význam závisí od konkrétnej kategórie komponentu.
 
+Rozmerové údaje sa zapisujú v poradí **HODNOTA + KVALIFIKÁTOR**. Číselná hodnota je uvedená v stotinách milimetra a za ňou nasleduje písmeno určujúce os alebo druh rozmeru.
 
+**Správne:** 1250X, 508Y, 780H, 1200D, 1000L.
+
+**Nesprávne:** X1250, Y508, H780, D1200, L1000.
 
 Použité tokeny:
 Token | Význam | Príklad
