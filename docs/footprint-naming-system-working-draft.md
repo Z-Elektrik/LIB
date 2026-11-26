@@ -355,7 +355,9 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 - [PCB Libraries – Footprint Expert: Design Options](https://www.pcblibraries.com/Products/FPX/UserGuide/Console%20Options/3.2%20Design.asp)
 - [PCB Libraries – Footprint Expert Naming Convention](https://www.pcblibraries.com/Products/FPX/UserGuide/default.asp?ch=4)
 - [PCB Libraries – Surface Mount naming convention](https://www.cskl.de/fileadmin/csk/dokumente/produkte/pcbl/pcb-footprint-expert-guideline/pcb-footprint-expert-guidline-csk_files/part84.htm)
-- [PCB Libraries – aktuálna tabuľka konvencie (fórum)](https://www.pcblibraries.com/forum/pcbl-footprint-naming-convention_topic3681.html)\n- [IEC 61188-7:2017 – Electronic component zero orientation for CAD library construction (preview PDF)](https://cdn.standards.iteh.ai/samples/22959/72e624a1b6b2487e9759fa0a309144d1/IEC-61188-7-2017.pdf)\n- [PCB Libraries – Footprint Expert: predvolená orientácia PAD1 podľa IEC 61188-7](https://www.pcblibraries.com/Products/FPX/UserGuide/Component%20Options/default.asp?ch=11.10)
+- [PCB Libraries – aktuálna tabuľka konvencie (fórum)](https://www.pcblibraries.com/forum/pcbl-footprint-naming-convention_topic3681.html)
+- [IEC 61188-7:2017 – Electronic component zero orientation for CAD library construction (preview PDF)](https://cdn.standards.iteh.ai/samples/22959/72e624a1b6b2487e9759fa0a309144d1/IEC-61188-7-2017.pdf)
+- [PCB Libraries – Footprint Expert: predvolená orientácia PAD1 podľa IEC 61188-7](https://www.pcblibraries.com/Products/FPX/UserGuide/Component%20Options/default.asp?ch=11.10)
 
 ---
 
