@@ -201,11 +201,37 @@ Preto zatiaľ platí:
 
 Tento konflikt je otvorenou otázkou systému a nesmie sa považovať za vyriešený.
 
+### Kontrola doterajších rozhodnutí voči IEC 61188-7:2017
+
+Táto kontrola sa týka iba rozsahu IEC 61188-7 – nulovej orientácie komponentov pre tvorbu CAD knižníc. Norma neurčuje syntax názvov footprintov ani všeobecný systém pomenovania mechanických rozmerov. Preto nemožno samotnú syntax ZElektrik označiť za odklon od tejto normy.
+
+| Doterajšie pravidlo ZElektrik | Výsledok kontroly |
+|---|---|
+| PAD1 určuje fyzická polarizačná/orientačná značka | **V súlade.** IEC požaduje zhodu polohy PAD1 so značkou polarity; pri funkčných označeniach (katóda, anóda, báza, emitor, kolektor) sa má priradiť zodpovedajúce označenie PAD1. |
+| Zachovanie písmenových názvov PADov | **Bez rozporu v princípe.** Názov PADu môže zostať funkčný; treba jednoznačne určiť, ktorý funkčný vývod zodpovedá referenčnej pozícii PAD1. |
+| PAD1 vždy vľavo pri dvojvývodových súčiastkach | **V súlade s príkladmi normy.** Level B pri bežných dvojvývodových diskrétnych súčiastkach nemení orientáciu voči Level A. |
+| PAD1 vľavo dole pri viacvývodových súčiastkach | **Všeobecne správny smer, nie univerzálne pravidlo pre každú rodinu.** Norma uvádza polohu vľavo alebo vľavo dole a konkrétne orientácie v tabuľkách podľa typu puzdra. |
+| X je vždy dlhší rozmer tela; Y kratší | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje pomenovanie rozmerov tela X/Y. |
+| X má byť vždy vodorovná os footprintu | **Konflikt s niektorými orientáciami Level B.** TSSOP je v Level B zobrazený s dlhšou osou zvislo, zatiaľ čo SOIC/SOP/SSOP vodorovne. Toto pravidlo preto nemožno aplikovať univerzálne. |
+| BODY/OVERALL: X/Y/Z a OX/OY/OZ | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje túto nomenklatúru rozmerov. |
+| HODNOTA + KVALIFIKÁTOR; P, W, D, OD, SH | **Mimo rozsahu tejto normy.** Ide o vlastnú syntax ZElektrik; táto norma ju ani nepredpisuje, ani nezakazuje. |
+| Hustota L/N/M a koncový zápis počtu vývodov | **Mimo rozsahu tejto normy.** IEC 61188-7 nedefinuje hustotu ani syntax názvov. |
+| Nepoužívanie samostatného SPAN | **Bez konfliktu s IEC 61188-7.** Norma neurčuje tokeny názvov footprintov ani povinnosť používať označenie Span. |
+
+### Ďalšie body normy, ktoré zatiaľ nemáme v konvencii doriešené
+
+- **Počiatok (origin):** Pri SMD norma všeobecne odporúča stred obrysovej oblasti/courtyard; pri konektoroch a pohyblivých častiach uvádza osobitné podmienky. Pri THD môže byť počiatkom ťažisko alebo terminál; ak sa použije terminál, je to stred ľavého terminálu pri horizontálnom zobrazení a nezávisí od jeho elektrickej funkcie.
+- **Jednovývodové komponenty:** Norma má osobitné pravidlá pre SMD aj THD. Napríklad pri THD má vývod smerovať od tela komponentu a počiatkom je tento vývod. Tieto prípady treba preveriť samostatne.
+- **Konektory a pohyblivé časti:** Počiatok sa určuje aj podľa mechanického stavu, napr. uzamknutá poloha konektora alebo dodaná poloha pohyblivej časti.
+- **Courtyard a land pattern:** Norma požaduje koordináciu polohy komponentu, land patternu a obrysovej oblasti v knižnici. Samotné pravidlá geometrie land patternov odkazujú na sériu IEC 61188-5; ich súlad treba preveriť samostatne.
+
+**Záver auditu:** Z doterajších rozhodnutí je jediným priamo identifikovaným konfliktom s IEC 61188-7 požiadavka, aby dlhšia os tela (X) bola vždy vodorovná. Ostatné pravidlá pomenovania nie sú predmetom tejto normy; pravidlo PAD1 podľa fyzickej značky je s ňou v súlade. Pred vyhlásením úplného súladu knižnice treba ešte preveriť konkrétne rodiny podľa tabuliek Level B, počiatky footprintov a súvisiace požiadavky IEC 61188-5.
+
 ### Ďalšie pravidlá IEC relevantné pre knižnicu
 
 IEC 61188-7:2017 okrem nulovej orientácie uvádza aj tieto zásady:
 - komponent, land pattern a obrysová/courtyard oblasť majú byť v knižnici navzájom súradnicovo zhodné;
-- počiatok land patternu môže byť odlišný od počiatku použitého pri osádzaní;
+- počiatok land patternu môže byť odlišný od počiatku použitého pri osádzaní; pri SMD sa všeobecne odporúča stred courtyard, pri THD možno použiť ťažisko alebo stred ľavého terminálu;
 - odporúča sa počiatok v ťažisku tela komponentu;
 - orientácia a poloha vývodov sú nezávislé od spôsobu dodania komponentu (páska, zásobník, trubica).
 
