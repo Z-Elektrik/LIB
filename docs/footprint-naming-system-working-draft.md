@@ -13,7 +13,7 @@ Rozmer sa zapisuje číselnou hodnotou v stotinách milimetra, za ktorou nasledu
 Príklady zápisu:
 
 - doterajší zápis `50W` je historický zápis šírky THD vývodu; v novom systéme sa táto veličina zapisuje ako `50B`
-- `254P` – 2,54 mm, rozteč vývodov
+- `254P` – 2,54 mm, rozstup vývodov
 - `1250L` – 12,50 mm, najdlhší rozmer tela
 - `508W` – 5,08 mm, druhý rozmer tela
 - `800MH` – 8,00 mm, maximálna celková výška komponentu
@@ -67,11 +67,13 @@ Rozmerové označenia rozdeľujeme na **mechanické rozmery tela** a **celkové 
 | `MW` | Kratší pôdorysný rozmer maximálneho vonkajšieho obrysu (Maximum Width) |
 | `MH` | Maximálna celková výška komponentu (Maximum Height) |
 | `MD` | Maximálny vonkajší priemer komponentu (Maximum Diameter) |
-| `P` | Rozteč vývodov / vzdialenosť osí otvorov alebo terminálov |
+| `P` | Rozstup (*Pitch*) – vzdialenosť medzi stredmi dvoch susediacich vývodov alebo terminálov |
 | `B` | Rozmer prierezu THD vývodu: pri kruhovom vývode priemer, pri nekruhovom vývode jeho väčší priečny rozmer |
 | `SH` | Standoff Height – výška osadenia tela voči referenčnej rovine PCB |
 
 Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej platí poradie **HODNOTA + KVALIFIKÁTOR**. Napríklad `650L` znamená 6,50 mm a `800ML` znamená 8,00 mm.
+
+Kvalifikátor `P` označuje rozstup (*Pitch*) medzi stredmi dvoch susediacich vývodov alebo terminálov. Používa sa rovnako pre SMD aj THD: pri SMD ide o vzdialenosť stredov susediacich terminálov/plošiek, pri THD o vzdialenosť osí susediacich vývodov, respektíve otvorov. Pri viacerých vývodoch ide o vzdialenosť medzi susediacimi pozíciami, nie o vzdialenosť medzi krajnými vývodmi.
 
 - `L` je vždy dlhší z dvoch pôdorysných rozmerov tela; `W` je kratší. Pri štvorcovom tele platí `L = W`.
 - `H` označuje výšku samotného tela.
@@ -161,7 +163,7 @@ Kvalifikátor `B` je určený pre priečny rozmer THD vývodu. Samostatný kvali
 PCB Libraries Footprint Expert oddeľuje rozmery tela od geometrie vývodov. V jeho konvencii sa podľa rodiny puzdra uvádzajú napríklad:
 
 - rozmery tela (Body Length, Width, Height),
-- rozteč vývodov (Pin Pitch),
+- rozstup vývodov (Pin Pitch),
 - rozpätie vývodov (Lead Span),
 - rozmery terminálov (Lead Length × Width),
 - rozmery tepelnej plošky (Thermal Tab Length × Width).
@@ -173,7 +175,7 @@ Dôležité je, že PCB Libraries nepoužíva jeden univerzálny zoznam tokenov 
 Nie nevyhnutne Thomasovu syntax, ale jeho rozlíšenie fyzických veličín:
 
 - telo nie je to isté ako vývody;
-- rozteč vývodov nie je to isté ako rozpätie vývodov;
+- rozstup vývodov nie je to isté ako rozpätie vývodov;
 - rozmery terminálu nie sú to isté ako rozmery tela;
 - celkový mechanický obrys nemusí byť automaticky jediným vhodným identifikátorom land patternu.
 
@@ -291,7 +293,7 @@ Navrhovaný názov:
 - `60B` – priečny rozmer THD vývodu 0,60 mm (pri kruhovom vývode priemer)
 - `230D` – priemer tela 2,30 mm
 - `650L` – najdlhší rozmer tela 6,50 mm
-- `1524P` – rozteč vývodov 15,24 mm
+- `1524P` – rozstup vývodov 15,24 mm
 - `-2N` – 2 vývody, hustota Nominal
 - `0207` – komerčné označenie veľkosti
 
@@ -317,7 +319,7 @@ Pracovný príklad s telom s priemerom 3 mm a samostatne definovanou výškou os
 `LEDRD50B254P300D500H-2N_CVX_FD_LL500_SH102_Red_HueyJann`
 
 - `50B` – priečny rozmer THD vývodu 0,50 mm (pri kruhovom vývode priemer)
-- `254P` – rozteč vývodov 2,54 mm
+- `254P` – rozstup vývodov 2,54 mm
 - `300D` – priemer tela 3,00 mm
 - `500H` – výška samotného tela 5,00 mm
 - `SH102` – Standoff Height 1,02 mm
@@ -335,7 +337,7 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 
 ## 8. Otvorené otázky
 
-- [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
+- [ ] Potvrdiť, či `P` označuje rozstup aj pri dvojvývodových súčiastkach a THD.
 - [ ] Presne definovať referenčné plochy pre rozmery `H` a `MH`.
 - [x] Vyriešená kolízia `W`: druhý pôdorysný rozmer tela označuje `W`, priečny rozmer THD vývodu označuje `B`.
 - [x] Rozhodnuté: obdĺžnikové pôdorysy používajú `L/W` a `ML/MW`; kruhové pôdorysy používajú `D/MD`.
