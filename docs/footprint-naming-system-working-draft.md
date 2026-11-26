@@ -14,9 +14,9 @@ Príklady zápisu:
 
 - `50W` – 0,50 mm, šírka THD vývodu
 - `254P` – 2,54 mm, rozteč vývodov
-- `1250X` – 12,50 mm, rozmer tela v osi X
-- `508Y` – 5,08 mm, rozmer tela v osi Y
-- `800OZ` – 8,00 mm, celkový rozmer v osi Z
+- `1250L` – 12,50 mm, najdlhší rozmer tela
+- `508W` – 5,08 mm, druhý rozmer tela
+- `800OH` – 8,00 mm, celková výška komponentu
 
 Poradie kvalifikátor + hodnota (napr. `W50`) sa v ZElektrik konvencii nepoužíva.
 
@@ -48,64 +48,56 @@ Príklad rodiny rezistorovej siete (iba ilustračný tvar, nie definícia rozmer
 
 ### Geometrické rozmery
 
+Rozmerové označenia rozdeľujeme na **mechanické rozmery tela** a **celkové vonkajšie rozmery komponentu**. Nezávisia od natočenia footprintu v súradnicovom systéme KiCadu.
+
 | Kvalifikátor | Zamýšľaný význam |
 |---|---|
-| `X` | Rozmer samotného tela v osi X |
-| `Y` | Rozmer samotného tela v osi Y |
-| `Z` | Rozmer samotného tela v osi Z |
-| `D` | Priemer samotného tela |
-| `OX` | Celkový vonkajší rozmer komponentu v osi X |
-| `OY` | Celkový vonkajší rozmer komponentu v osi Y |
-| `OZ` | Celkový vonkajší rozmer komponentu v osi Z |
+| `L` | Najdlhší rozmer samotného tela |
+| `W` | Druhý rozmer samotného tela |
+| `H` | Výška samotného tela |
+| `D` | Priemer samotného kruhového tela |
+| `OL` | Najdlhší celkový vonkajší rozmer komponentu |
+| `OW` | Druhý celkový vonkajší rozmer komponentu |
+| `OH` | Celková výška komponentu |
 | `OD` | Celkový vonkajší priemer komponentu |
 | `P` | Rozteč vývodov / vzdialenosť osí otvorov alebo terminálov |
-| `W` | Šírka THD vývodu |
+| `W` | Šírka THD vývodu – vyhradené použitie v kontexte geometrie vývodov |
+| `SH` | Standoff Height – výška osadenia tela voči referenčnej rovine PCB |
 
-Hodnoty X, Y a Z predstavujú tri priestorové osi. V tomto návrhu sa nepoužívajú samostatné rozmerové kvalifikátory `H` (height), `L` (length) ani `S` (span). Výška je rozmer v osi Z; dĺžka a šírka sa vyjadrujú podľa orientácie komponentu osami X a Y. Pri kruhovom tele sa používa `D`.
+Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej platí poradie **HODNOTA + KVALIFIKÁTOR**. Napríklad `650L` znamená 6,50 mm a `800OL` znamená 8,00 mm.
 
-Kvalifikátory s prefixom `O` označujú Overall – maximálny vonkajší rozmer celého komponentu vrátane vývodov, kontaktov a mechanických častí, ktoré presahujú samotné telo. Používajú sa rovnaké osi ako pri rozmeroch tela: X/Y/Z, prípadne priemer D.
+- `L` je vždy dlhší z dvoch pôdorysných rozmerov tela; `W` je kratší. Pri štvorcovom tele platí `L = W`.
+- `H` označuje výšku samotného tela.
+- Pri kruhovom pôdoryse sa namiesto `L/W` používa `D`.
+- `OL/OW` opisujú dva pôdorysné rozmery maximálneho vonkajšieho obrysu celého komponentu. `OL` je dlhší alebo rovnaký ako `OW`.
+- `OH` označuje celkovú výšku komponentu vrátane častí presahujúcich telo.
+- Pri kruhovom celkovom obryse sa používa `OD`; ak vývody alebo mechanické časti vytvárajú obdĺžnikový obrys, použijú sa `OL/OW`.
 
-Kvalifikátor `W` je vyhradený pre šírku THD vývodu. Jeho prítomnosť v názve zároveň rozlišuje THD footprint od SMD footprintu. Preto sa `W` nesmie používať na označenie šírky SMD terminálu. Samostatný kvalifikátor pre šírku SMD terminálu zatiaľ neurčujeme.
+**L/W/H a OL/OW/OH nie sú osi KiCadu.** L a W sa určujú podľa veľkosti mechanických rozmerov, nie podľa toho, či ležia pozdĺž osi X alebo Y footprintu. Orientácia vývodov preto nemení význam L a W. Napríklad bežný rezistor 1206 a rezistorová sieť s rovnakým rozmerom tela môžu mať rovnaké L/W, aj keď je rozloženie vývodov otočené o 90°.
+
+Kvalifikátor `W` sa používa aj pre šírku THD vývodu, napr. `60W`. Kontext názvu a poradie geometrických tokenov musia umožniť jednoznačné dekódovanie; prípadné riziko kolízie medzi `W` ako šírkou tela a `W` ako šírkou THD vývodu treba vyriešiť pri finalizácii syntaxe. Pre SMD sa `W` nesmie používať na označenie šírky terminálu.
 
 ### Pravidlo pre rozmery BODY a OVERALL
 
-- `X/Y/Z/D` vždy označujú rozmery samotného tela komponentu.
-- `OX/OY/OZ/OD` vždy označujú maximálne vonkajšie rozmery celého komponentu.
+- `L/W/H/D` vždy označujú rozmery samotného tela komponentu.
+- `OL/OW/OH/OD` vždy označujú maximálne vonkajšie rozmery celého komponentu.
 - Ak je pre identifikáciu puzdra alebo výber footprintu potrebný iba jeden druh rozmeru, uvedie sa iba tento rozmer.
-- Ak sú dôležité oba druhy rozmerov, uvedú sa samostatne. Celkový rozmer sa nesmie zamieňať s rozmerom tela.
-- Pri kruhovom tele sa používa `D`; ak je celkový vonkajší obrys kruhový, použije sa `OD`. Ak vývody alebo mechanické časti vytvárajú obdĺžnikový obrys, použijú sa `OX` a `OY`.
+- Ak sú dôležité oba druhy rozmerov, uvedú sa samostatne.
+- Celkový rozmer sa nesmie zamieňať s rozmerom tela.
 
-Kvalifikátory musia mať stabilný význam bez ohľadu na rodinu súčiastky. Názov má byť čitateľný človekom a zároveň jednoznačne strojovo dekódovateľný; preto sa význam nesmie meniť podľa poradia tokenov v konkrétnej rodine.
-
-## 4. Telo puzdra verzus celkový vonkajší rozmer
-
-**Všeobecné pravidlo:** Názov footprintu má obsahovať iba tie geometrické parametre, ktoré sú potrebné na jednoznačné rozlíšenie konkrétneho puzdra alebo jeho land patternu. Rozsah uvádzaných parametrov sa môže líšiť podľa rodiny súčiastok.
-
-Rozmery BODY a OVERALL sa preto uvádzajú samostatne iba pri rodinách, pri ktorých má toto rozlíšenie praktický význam. Nie je potrebné mechanicky uvádzať oba rozmery pri každej súčiastke.
-
-Pri jednoduchých pasívnych SMD súčiastkach, ako sú rezistory a kondenzátory (napr. rodiny `RESC` a `CAPC`), spravidla postačuje bežné označenie veľkosti puzdra. Samostatné rozmery tela a celkového obrysu by názov zbytočne komplikovali bez pridania užitočnej rozlišovacej informácie.
-
-### Rozmery tela (BODY)
-
-Rozmery označené `X`, `Y`, `Z` a `D` opisujú samotné telo komponentu. Nezahŕňajú vývody, kontakty ani iné časti, ktoré z tela vyčnievajú.
-
-### Celkové rozmery (OVERALL)
-
-Rozmery označené `OX`, `OY`, `OZ` a `OD` opisujú maximálny vonkajší obrys celého komponentu. Nezáleží na tom, či presahujúce časti vyčnievajú na jednej strane, na protiľahlých stranách alebo v niekoľkých smeroch.
-
-Z tohto dôvodu sa nepoužíva samostatný kvalifikátor `SPAN`. Pri symetricky vyčnievajúcich vývodoch môže byť Lead Span číselne rovnaký ako celkový rozmer; pri jednostranných alebo nepravidelne rozmiestnených vývodoch by však Span nevyjadroval všeobecný vonkajší obrys. `OVERALL` je univerzálnejšie označenie.
+Rozmery L/W a OL/OW sú zoradené podľa veľkosti, nie podľa orientácie v CAD. Pri štvorcovom obryse sú príslušné rozmery rovnaké a ich vzájomné priradenie nemá praktický význam.
 
 ### Výška a referenčné plochy
 
-Rozmer v osi Z sa musí určovať podľa skutočných fyzických referenčných plôch, nie podľa názvu parametra použitého výrobcom v datasheete.
+Rozmer H a OH sa musí určovať podľa skutočných fyzických referenčných plôch, nie podľa názvu parametra použitého výrobcom v datasheete.
 
-Napríklad pri SOIC môže byť parameter `A1` celkovou výškou od dosadacej roviny vývodov po hornú plochu puzdra. Ak tento rozmer predstavuje celkovú výšku komponentu, v našom názvosloví sa označí `OZ`, aj keď ho datasheet opisuje ako rozmer súvisiaci s telom. Samotná výška tela sa označí `Z`, ak je potrebná a známa.
+Napríklad pri SOIC môže byť parameter A1 celkovou výškou od dosadacej roviny vývodov po hornú plochu puzdra. Ak tento rozmer predstavuje celkovú výšku komponentu, v našom názvosloví sa označí OH, aj keď ho datasheet opisuje ako rozmer súvisiaci s telom. Samotná výška tela sa označí H, ak je potrebná a známa.
 
 ### Výška osadenia (Standoff Height)
 
-Výška osadenia `SH` je samostatný parameter polohy tela voči referenčnej rovine PCB. Nie je náhradou za rozmer tela ani za celkový rozmer komponentu. Môže byť potrebná napríklad pri umiestnení priradeného 3D modelu.
+Výška osadenia SH je samostatný parameter polohy tela voči referenčnej rovine PCB. Nie je náhradou za rozmer tela ani za celkový rozmer komponentu. Môže byť potrebná napríklad pri umiestnení priradeného 3D modelu.
 
-Preto sa `SH` zachováva ako samostatný doplnkový údaj a nezamieňa sa s `Z` ani `OZ`.
+Preto sa SH zachováva ako samostatný doplnkový údaj a nezamieňa sa s H ani OH.
 
 ### Šírka SMD terminálov
 
@@ -115,7 +107,47 @@ Preto sa `SH` zachováva ako samostatný doplnkový údaj a nezamieňa sa s `Z` 
 - **Gull-wing puzdrá (napr. SOIC, QFP):** šírka vývodu môže byť dôležitým geometrickým parametrom, ale do názvu patrí iba vtedy, ak pomáha rozlíšiť puzdro alebo land pattern.
 - **QFN a podobné puzdrá:** rozmery terminálov môžu byť dôležité pre geometriu plošiek; ich uvádzanie v názve sa posúdi podľa konkrétnej rodiny a potreby rozlíšenia.
 
-Kvalifikátor `W` sa pri SMD nepoužíva, pretože je vyhradený pre THD a jeho použitie by narušilo rozlíšenie technológie footprintu. Samostatný kvalifikátor pre šírku SMD terminálu zatiaľ neurčujeme.
+Samostatný kvalifikátor pre šírku SMD terminálu zatiaľ neurčujeme.
+
+## 4. Telo puzdra verzus celkový vonkajší rozmer
+
+**Všeobecné pravidlo:** Názov footprintu má obsahovať iba tie geometrické parametre, ktoré sú potrebné na jednoznačné rozlíšenie konkrétneho puzdra alebo jeho land patternu. Rozsah uvádzaných parametrov sa môže líšiť podľa rodiny súčiastok.
+
+Rozmery BODY a OVERALL sa preto uvádzajú samostatne iba pri rodinách, pri ktorých má toto rozlíšenie praktický význam. Nie je potrebné mechanicky uvádzať oba rozmery pri každej súčiastke.
+
+Pri jednoduchých pasívnych SMD súčiastkach, ako sú rezistory a kondenzátory (napr. rodiny RESC a CAPC), spravidla postačuje bežné označenie veľkosti puzdra. Samostatné rozmery tela a celkového obrysu by názov zbytočne komplikovali bez pridania užitočnej rozlišovacej informácie.
+
+### Rozmery tela (BODY)
+
+Rozmery označené L, W, H a D opisujú samotné telo komponentu. Nezahŕňajú vývody, kontakty ani iné časti, ktoré z tela vyčnievajú. L a W sú zoradené podľa veľkosti; nevyjadrujú osi footprintu.
+
+### Celkové rozmery (OVERALL)
+
+Rozmery označené OL, OW, OH a OD opisujú maximálny vonkajší obrys celého komponentu. Nezáleží na tom, či presahujúce časti vyčnievajú na jednej strane, na protiľahlých stranách alebo v niekoľkých smeroch.
+
+Z tohto dôvodu sa nepoužíva samostatný kvalifikátor SPAN. Pri symetricky vyčnievajúcich vývodoch môže byť Lead Span číselne rovnaký ako celkový rozmer; pri jednostranných alebo nepravidelne rozmiestnených vývodoch by však Span nevyjadroval všeobecný vonkajší obrys. OVERALL je univerzálnejšie označenie.
+
+### Výška a referenčné plochy
+
+Rozmer OH sa musí určovať podľa skutočných fyzických referenčných plôch, nie podľa názvu parametra použitého výrobcom v datasheete.
+
+Napríklad pri SOIC môže byť parameter A1 celkovou výškou od dosadacej roviny vývodov po hornú plochu puzdra. Ak tento rozmer predstavuje celkovú výšku komponentu, v našom názvosloví sa označí OH. Samotná výška tela sa označí H, ak je potrebná a známa.
+
+### Výška osadenia (Standoff Height)
+
+Výška osadenia SH je samostatný parameter polohy tela voči referenčnej rovine PCB. Nie je náhradou za rozmer tela ani za celkový rozmer komponentu. Môže byť potrebná napríklad pri umiestnení priradeného 3D modelu.
+
+Preto sa SH zachováva ako samostatný doplnkový údaj a nezamieňa sa s H ani OH.
+
+### Šírka SMD terminálov
+
+Šírka vývodu má pri THD priamy význam pre návrh otvoru a jeho tolerancie. Pri SMD je situácia odlišná: šírka terminálu môže ovplyvniť geometriu plošky, ale nie je automaticky potrebná v názve footprintu.
+
+- **Čipové súčiastky (RESC, CAPC):** samostatnú šírku terminálu spravidla netreba uvádzať; obvykle postačuje označenie veľkosti puzdra.
+- **Gull-wing puzdrá (napr. SOIC, QFP):** šírka vývodu môže byť dôležitým geometrickým parametrom, ale do názvu patrí iba vtedy, ak pomáha rozlíšiť puzdro alebo land pattern.
+- **QFN a podobné puzdrá:** rozmery terminálov môžu byť dôležité pre geometriu plošiek; ich uvádzanie v názve sa posúdi podľa konkrétnej rodiny a potreby rozlíšenia.
+
+Kvalifikátor W pre šírku THD vývodu zostáva vyhradený pre THD; nepoužíva sa na označenie šírky SMD terminálu. Samostatný kvalifikátor pre šírku SMD terminálu zatiaľ neurčujeme.
 
 ## 5. Inšpirácia: Thomas Hausherr / PCB Libraries
 
@@ -185,7 +217,13 @@ Pri písmenových označeniach sa zachová funkčný názov PADu. Napríklad pri
 
 Ak puzdro nemá jednoznačnú polarizačnú značku, orientácia a referenčný vývod sa určia podľa príslušného diagramu IEC a dokumentácie výrobcu. Nesmie sa svojvoľne predpokladať, že ľubovoľný vývod je PAD1.
 
-### Dôležitý otvorený konflikt: osi X/Y a orientácia Level B
+### Vzťah mechanických rozmerov a orientácie footprintu
+
+Mechanické rozmery L/W/H a OL/OW/OH sú nezávislé od osí L/W/H v KiCade. L je vždy najdlhší pôdorysný rozmer tela a W druhý rozmer; ich priradenie sa nemení podľa natočenia footprintu ani podľa orientácie vývodov.
+
+IEC 61188-7:2017 Level B určuje nulovú orientáciu footprintu podľa konkrétnej rodiny puzdra. Preto môže dlhšia os tela ležať v KiCade pozdĺž X pri jednej rodine a pozdĺž Y pri inej. To nie je rozpor: názov footprintu opisuje mechanickú geometriu, zatiaľ čo IEC určuje CAD orientáciu.
+
+
 
 Naša rozmerová konvencia predbežne stanovuje:
 - X = vždy dlhší rozmer pôdorysu samotného tela;
@@ -211,9 +249,9 @@ Táto kontrola sa týka iba rozsahu IEC 61188-7 – nulovej orientácie komponen
 | Zachovanie písmenových názvov PADov | **Bez rozporu v princípe.** Názov PADu môže zostať funkčný; treba jednoznačne určiť, ktorý funkčný vývod zodpovedá referenčnej pozícii PAD1. |
 | PAD1 vždy vľavo pri dvojvývodových súčiastkach | **V súlade s príkladmi normy.** Level B pri bežných dvojvývodových diskrétnych súčiastkach nemení orientáciu voči Level A. |
 | PAD1 vľavo dole pri viacvývodových súčiastkach | **Všeobecne správny smer, nie univerzálne pravidlo pre každú rodinu.** Norma uvádza polohu vľavo alebo vľavo dole a konkrétne orientácie v tabuľkách podľa typu puzdra. |
-| X je vždy dlhší rozmer tela; Y kratší | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje pomenovanie rozmerov tela X/Y. |
-| X má byť vždy vodorovná os footprintu | **Konflikt s niektorými orientáciami Level B.** TSSOP je v Level B zobrazený s dlhšou osou zvislo, zatiaľ čo SOIC/SOP/SSOP vodorovne. Toto pravidlo preto nemožno aplikovať univerzálne. |
-| BODY/OVERALL: X/Y/Z a OX/OY/OZ | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje túto nomenklatúru rozmerov. |
+| L/W/H a OL/OW/OH opisujú mechanické rozmery | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje syntax pomenovania mechanických rozmerov. |
+| L/W sa neurčujú podľa osí X/Y footprintu | **Bez konfliktu.** Mechanické rozmery sú nezávislé od CAD orientácie určenej podľa Level B. |
+| BODY/OVERALL: L/W/H a OL/OW/OH | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje túto nomenklatúru rozmerov. |
 | HODNOTA + KVALIFIKÁTOR; P, W, D, OD, SH | **Mimo rozsahu tejto normy.** Ide o vlastnú syntax ZElektrik; táto norma ju ani nepredpisuje, ani nezakazuje. |
 | Hustota L/N/M a koncový zápis počtu vývodov | **Mimo rozsahu tejto normy.** IEC 61188-7 nedefinuje hustotu ani syntax názvov. |
 | Nepoužívanie samostatného SPAN | **Bez konfliktu s IEC 61188-7.** Norma neurčuje tokeny názvov footprintov ani povinnosť používať označenie Span. |
@@ -253,7 +291,7 @@ Navrhovaný názov:
 
 - `60W` – šírka THD vývodu 0,60 mm
 - `230D` – priemer tela 2,30 mm
-- `650X` – dĺžka tela 6,50 mm
+- `650L` – najdlhší rozmer tela 6,50 mm
 - `1524P` – rozteč vývodov 15,24 mm
 - `-2N` – 2 vývody, hustota Nominal
 - `0207` – komerčné označenie veľkosti
@@ -264,12 +302,12 @@ Celkový rozmer vrátane vývodov sa neuvádza, pretože v tomto príklade nie j
 
 Pracovný príklad:
 
-`SOIC127P400X800OX175OZ-16_SOIC-16N`
+`SOIC127P400W800OL175OH-16_SOIC-16N`
 
 - `127P` – Pitch 1,27 mm
-- `400X` – šírka samotného tela 4,00 mm
-- `800OX` – celková šírka komponentu vrátane vývodov 8,00 mm
-- `175OZ` – celková výška komponentu 1,75 mm, ak ide o rozmer od dosadacej roviny po hornú plochu puzdra (napr. príslušný rozmer A1)
+- `400W` – kratší rozmer samotného tela 4,00 mm
+- `800OL` – najdlhší celkový pôdorysný rozmer komponentu vrátane vývodov 8,00 mm
+- `175OH` – celková výška komponentu 1,75 mm, ak ide o rozmer od dosadacej roviny po hornú plochu puzdra (napr. príslušný rozmer A1)
 
 Ak sa uvádza samostatná výška tela, označí sa `Z`. Klasifikácia rozmeru ako BODY alebo OVERALL sa riadi skutočnými referenčnými plochami, nie iba označením v datasheete.
 
@@ -282,10 +320,10 @@ Pracovný príklad s telom s priemerom 3 mm a samostatne definovanou výškou os
 - `50W` – šírka THD vývodu 0,50 mm
 - `254P` – rozteč vývodov 2,54 mm
 - `300D` – priemer tela 3,00 mm
-- `500Z` – výška samotného tela 5,00 mm
+- `500H` – výška samotného tela 5,00 mm
 - `SH102` – Standoff Height 1,02 mm
 
-Ak je potrebné uviesť aj celkovú výšku komponentu, použije sa `OZ`. `SH` zostáva samostatným údajom o výške osadenia a polohe 3D modelu.
+Ak je potrebné uviesť aj celkovú výšku komponentu, použije sa `OH`. `SH` zostáva samostatným údajom o výške osadenia a polohe 3D modelu.
 
 ### Kruhový komponent s kruhovým rozmiestnením vývodov
 
@@ -300,12 +338,12 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 
 - [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
 - [ ] Vyriešiť vzťah medzi normalizovanými rozmermi X/Y (X je dlhší rozmer tela) a orientáciou footprintov podľa IEC Level B; napr. SOIC a TSSOP majú odlišnú orientáciu dlhej osi.
-- [ ] Presne definovať referenčné plochy pre rozmery Z a OZ.
+- [ ] Presne definovať referenčné plochy pre rozmery H a OH.
 - [ ] Určiť, ktoré doplnkové údaje (napr. `SH`, `LL`, farba, výrobca) majú zostať v samostatnej časti názvu a aké bude ich poradie.
-- [ ] Preveriť kruhové a valcové telá (`D`, `OD`) a orientované montáže.
+- [ ] Preveriť kruhové a valcové telá (`D`, `OD`) a orientované montáže.\n- [ ] Definitívne vyriešiť prípadnú kolíziu kvalifikátora `W` (druhý rozmer tela verzus šírka THD vývodu) a zabezpečiť jednoznačné strojové dekódovanie.
 - [ ] Preveriť orientáciu každej používanej rodiny podľa tabuliek IEC 61188-7:2017 Level B (LED, rezistorové siete, konektory, DIP, SOIC/QFP, TSSOP, BGA a ďalšie).
 - [ ] Overiť, či každý podstatný geometrický rozdiel vedie k odlišnej identifikácii footprintu.
-- [ ] Preveriť jednoznačnosť a strojovú dekódovateľnosť všetkých tokenov vrátane viacpísmenových kvalifikátorov `OX/OY/OZ/OD`.
+- [ ] Preveriť jednoznačnosť a strojovú dekódovateľnosť všetkých tokenov vrátane viacpísmenových kvalifikátorov `OL/OW/OH/OD`.
 
 ## 9. Zdroje
 
