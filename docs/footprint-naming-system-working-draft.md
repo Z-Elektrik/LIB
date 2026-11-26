@@ -48,7 +48,7 @@ Príklad rodiny rezistorovej siete (iba ilustračný tvar, nie definícia rozmer
 
 | Kvalifikátor | Zamýšľaný význam | Stav |
 |---|---|---|
-| `W` | Šírka vývodu alebo terminálu | Návrh |
+| `W` | Šírka THD vývodu | Návrh – vyhradené pre THD |
 | `P` | Rozteč vývodov / vzdialenosť osí otvorov alebo terminálov | Návrh – treba potvrdiť použitie aj pri dvojvývodových a THD súčiastkach |
 | `X` | Rozmer tela v osi X | Otvorená definícia |
 | `Y` | Rozmer tela v osi Y | Otvorená definícia |
@@ -59,7 +59,7 @@ Príklad rodiny rezistorovej siete (iba ilustračný tvar, nie definícia rozmer
 
 Kvalifikátor musí mať stabilný význam. Nemal by meniť význam podľa toho, či ide o SMD alebo THD. Ak sa rovnaký fyzický parameter v rôznych rodinách označuje odlišne, treba najskôr preveriť možnosť zjednotenia.
 
-Pri šírke vývodu/terminálu sa predbežne počíta s jednotným kvalifikátorom `W` pre THD aj SMD. To však neznamená, že sa šírka musí uvádzať v názve každého SMD footprintu. Samostatný kvalifikátor `B` pre šírku SMD terminálu sa v tomto návrhu nezavádza.
+Kvalifikátor `W` je vyhradený pre šírku THD vývodu. Jeho prítomnosť v názve zároveň rozlišuje THD footprint od SMD footprintu. Preto sa `W` nesmie používať na označenie šírky SMD terminálu.
 
 ## 4. Telo puzdra verzus rozmery vývodov a celkový obrys
 
@@ -97,7 +97,7 @@ Samostatné kvalifikátory pre celkový obrys X/Y zatiaľ **nie sú navrhnuté a
 - **Gull-wing puzdrá (napr. SOIC, QFP):** šírka vývodu môže byť dôležitým geometrickým parametrom, ale do názvu patrí iba vtedy, ak pomáha rozlíšiť puzdro alebo land pattern.
 - **QFN a podobné puzdrá:** rozmery terminálov môžu byť dôležité pre geometriu plošiek; ich uvádzanie v názve sa posúdi podľa konkrétnej rodiny a potreby rozlíšenia.
 
-Zatiaľ sa teda nepovažuje za potrebné zaviesť osobitný kvalifikátor `B` pre SMD šírku. Ak bude šírku terminálu potrebné v názve uviesť, predbežným kandidátom zostáva spoločný kvalifikátor `W`. Jeho presné použitie však ešte treba potvrdiť.
+Kvalifikátor `W` sa pri SMD nepoužíva, pretože je vyhradený pre THD a jeho použitie by narušilo rozlíšenie technológie footprintu. Samostatný kvalifikátor pre šírku SMD terminálu zatiaľ neurčujeme. Ak sa neskôr ukáže, že tento údaj musí byť súčasťou názvu niektorej SMD rodiny, treba navrhnúť iný, jednoznačný kvalifikátor.
 
 ## 5. Inšpirácia: Thomas Hausherr / PCB Libraries
 
@@ -148,7 +148,7 @@ Názov musí vedieť rozlíšiť minimálne rozteč vývodov v rade, vzdialenos�
 - [ ] Rozhodnúť, či je pre vzdialenosť medzi radmi vývodov potrebný samostatný kvalifikátor `S`, alebo sa dá použiť existujúci parameter.
 - [ ] Presne definovať `X` a `Y` ako rozmery tela, nie automaticky celkového obrysu.
 - [ ] Rozhodnúť, či a ako označovať celkový vonkajší obrys komponentu.
-- [ ] Presne definovať `L`, `W` a ich použitie pre rozmery SMD terminálov aj THD vývodov.
+- [ ] Presne definovať `L` a ďalšie prípadné rozmery SMD terminálov; `W` zostáva vyhradené pre šírku THD vývodu.
 - [ ] Definovať referenčné plochy pre výšku `H`.
 - [ ] Preveriť kruhové a valcové telá (`D`) a orientované montáže.
 - [ ] Preveriť LED, rezistorové siete, konektory, DIP, SOIC/QFP, BGA a ďalšie rodiny.
