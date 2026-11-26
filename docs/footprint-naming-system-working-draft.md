@@ -59,9 +59,17 @@ Príklad rodiny rezistorovej siete (iba ilustračný tvar, nie definícia rozmer
 
 Kvalifikátor musí mať stabilný význam. Nemal by meniť význam podľa toho, či ide o SMD alebo THD. Ak sa rovnaký fyzický parameter v rôznych rodinách označuje odlišne, treba najskôr preveriť možnosť zjednotenia.
 
+Pri šírke vývodu/terminálu sa predbežne počíta s jednotným kvalifikátorom `W` pre THD aj SMD. To však neznamená, že sa šírka musí uvádzať v názve každého SMD footprintu. Samostatný kvalifikátor `B` pre šírku SMD terminálu sa v tomto návrhu nezavádza.
+
 ## 4. Telo puzdra verzus rozmery vývodov a celkový obrys
 
-Pri rozmeroch X a Y treba jednoznačne rozlíšiť, čo sa meria. Tento dokument zatiaľ navrhuje oddeľovať:
+**Všeobecné pravidlo:** Názov footprintu má obsahovať iba tie geometrické parametre, ktoré sú potrebné na jednoznačné rozlíšenie konkrétneho puzdra alebo jeho land patternu. Rozsah uvádzaných parametrov sa môže líšiť podľa rodiny súčiastok.
+
+Rozmery tela a celkový vonkajší rozmer sa preto uvádzajú samostatne iba pri rodinách, pri ktorých má toto rozlíšenie praktický význam – napríklad pri LED alebo konektoroch. Nie je potrebné mechanicky uvádzať oba rozmery pri každej súčiastke.
+
+Pri jednoduchých pasívnych SMD súčiastkach, ako sú rezistory a kondenzátory (napr. rodiny `RESC` a `CAPC`), spravidla postačuje bežné označenie veľkosti puzdra. Samostatné rozmery tela a celkového obrysu by názov zbytočne komplikovali bez pridania užitočnej rozlišovacej informácie.
+
+Pri rozmeroch X a Y treba jednoznačne rozlíšiť, čo sa meria. Podľa potreby rodiny puzdier možno rozlišovať:
 
 1. **Rozmery tela (Body dimensions)** – rozmery samotného puzdra bez vývodov.
 2. **Rozmery vývodov/terminálov (Lead/Terminal dimensions)** – rozmery a poloha kovových vývodov alebo terminálov.
@@ -71,14 +79,25 @@ Tieto údaje nie sú zameniteľné. Napríklad 3 mm radiálna LED má telo s pri
 
 ### Predbežný smer
 
-Odporúča sa nepreberať automaticky jeden všeobecný rozmer X/Y pre celý komponent. Namiesto toho treba najskôr pomenovať samostatne:
+Odporúča sa nepreberať automaticky jeden všeobecný rozmer X/Y pre celý komponent. Namiesto toho treba podľa konkrétnej rodiny najskôr určiť, ktoré z nasledujúcich údajov sú skutočne potrebné:
 
 - rozmery tela,
 - rozteč alebo rozpätie vývodov,
 - rozmery vývodov/terminálov,
+- celkový vonkajší obrys, ak je odlišný a dôležitý,
 - prípadné ďalšie rozmery, ktoré skutočne odlišujú geometriu footprintu.
 
 Samostatné kvalifikátory pre celkový obrys X/Y zatiaľ **nie sú navrhnuté ani schválené**. Treba zistiť, či je celkový obrys potrebný v názve, alebo či ho možno jednoznačne odvodiť z rozmerov tela, polohy vývodov a ich geometrie.
+
+### Šírka SMD terminálov
+
+Šírka vývodu má pri THD priamy význam pre návrh otvoru a jeho tolerancie. Pri SMD je situácia odlišná: šírka terminálu môže ovplyvniť geometriu plošky, ale nie je automaticky potrebná v názve footprintu.
+
+- **Čipové súčiastky (RESC, CAPC):** samostatnú šírku terminálu spravidla netreba uvádzať; obvykle postačuje označenie veľkosti puzdra.
+- **Gull-wing puzdrá (napr. SOIC, QFP):** šírka vývodu môže byť dôležitým geometrickým parametrom, ale do názvu patrí iba vtedy, ak pomáha rozlíšiť puzdro alebo land pattern.
+- **QFN a podobné puzdrá:** rozmery terminálov môžu byť dôležité pre geometriu plošiek; ich uvádzanie v názve sa posúdi podľa konkrétnej rodiny a potreby rozlíšenia.
+
+Zatiaľ sa teda nepovažuje za potrebné zaviesť osobitný kvalifikátor `B` pre SMD šírku. Ak bude šírku terminálu potrebné v názve uviesť, predbežným kandidátom zostáva spoločný kvalifikátor `W`. Jeho presné použitie však ešte treba potvrdiť.
 
 ## 5. Inšpirácia: Thomas Hausherr / PCB Libraries
 
@@ -92,7 +111,7 @@ PCB Libraries Footprint Expert oddeľuje rozmery tela od geometrie vývodov. V j
 
 Pri SMD čipových súčiastkach sa uvádzajú rozmery tela a samostatne rozmery terminálu. Pri SOIC/QFP sa používa Lead Span, pretože ten lepšie opisuje rozstup/rozpätie vývodov než samotná šírka tela. Pri THD sa prvý rozmer často vzťahuje na Lead Spacing alebo vzdialenosť otvorov; ďalšie rozmery opisujú vývody a telo.
 
-Dôležité je, že PCB Libraries nepoužíva jeden univerzálny zoznam tokenov bez ohľadu na rodinu puzdra. Štruktúra názvu sa prispôsobuje fyzickej geometrii danej rodiny.
+Dôležité je, že PCB Libraries nepoužíva jeden univerzálny zoznam tokenov bez ohľadu na rodinu puzdra. Štruktúra názvu sa prispôsobuje fyzickej geometrii danej rodiny. Uvedenie parametra v technickom opise alebo v konvencii výrobcu však samo osebe neznamená, že ho musíme uvádzať aj v názve ZElektrik footprintu.
 
 ### Čo z toho chceme prevziať
 
@@ -117,7 +136,7 @@ Rezistorová sieť s ôsmimi vývodmi, hustota Nominal. Rozmerová časť zatia�
 
 ### Radiálna LED s telom 3 mm
 
-Finálny názov zatiaľ neurčujeme. Pri návrhu musí byť možné zachovať samostatnú informáciu o priemere tela LED (3 mm) a zároveň odlíšiť rozteč/umiestnenie vývodov a prípadnú geometriu ohnutých vývodov.
+Finálny názov zatiaľ neurčujeme. Pri návrhu musí byť možné zachovať samostatnú informáciu o priemere tela LED (3 mm) a zároveň odlíšiť rozteč/umiestnenie vývodov a prípadnú geometriu ohnutých vývodov. Ak je dôležitý aj celkový obrys, môže sa uviesť samostatne.
 
 ### DIP
 
