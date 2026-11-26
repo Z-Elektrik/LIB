@@ -140,7 +140,78 @@ Nie nevyhnutne Thomasovu syntax, ale jeho rozlíšenie fyzických veličín:
 
 ZElektrik si zachová vlastné jednotné poradie **HODNOTA + KVALIFIKÁTOR**. Na rozdiel od rodinne závislej interpretácie tokenov chceme, aby každý kvalifikátor mal stabilný geometrický význam.
 
-## 6. Ilustračné príklady
+## 6. Orientácia footprintov – IEC 61188-7:2017, Level B
+
+Pre orientáciu komponentov v knižnici sa prijíma **IEC 61188-7:2017, Level B** ako základná konvencia. Norma v druhom vydaní z roku 2017 výslovne uvádza Level B ako preferovanú orientáciu pre nové CAD knižnice.
+
+Toto pravidlo sa týka nulovej orientácie komponentu v CAD knižnici (pohľad zhora), nie orientácie súčiastky na výrobnej páske, v zásobníku alebo v podávači osadzovacieho stroja.
+
+### Základné pravidlá
+
+- Footprinty a komponenty sa zobrazujú v pohľade zhora.
+- Poloha referenčného vývodu PAD1 musí zodpovedať polarizačnej/orientačnej značke na fyzickom puzdre.
+- Ak výrobca namiesto čísel používa funkčné označenia vývodov (napr. cathode, anode, base, emitter, collector), knižničný opis musí priradiť príslušný vývod k referenčnej pozícii PAD1.
+- Skutočné názvy PADov v KiCade sa zachovávajú. PAD označený napr. `C` alebo `K` sa nepremenúva na `1`; musí však obsadiť polohu, ktorá podľa IEC zodpovedá PAD1.
+- Orientácia sa určuje podľa pravidiel Level B pre konkrétnu rodinu puzdra. Nie je správne aplikovať polohu PAD1 vľavo dole mechanicky na všetky typy komponentov.
+- Pri dvojvývodových súčiastkach zostáva PAD1 vľavo; Level A a Level B sa pri týchto príkladoch zhodujú.
+- Pri viacvývodových súčiastkach je PAD1 na ľavej alebo ľavej dolnej pozícii podľa konkrétneho typu puzdra a tabuliek normy.
+- Level použitý v knižnici musí byť jednoznačne deklarovaný v dokumentácii knižnice ako Level B.
+
+### Príklady podľa IEC
+
+| Rodina / puzdro | Orientácia Level B |
+|---|---|
+| Čipový rezistor, kondenzátor, induktor | PAD1 vľavo, PAD2 vpravo |
+| Tvarované polarizované puzdro / dióda | PAD1 podľa polarizačnej značky, spravidla vľavo |
+| Hliníkový elektrolytický kondenzátor | PAD1 podľa značky polarity, v príklade normy vľavo |
+| SOT23-3 | PAD1 vľavo dole |
+| SOT23-5, SOT343, SOT223 | Orientácia podľa príslušného diagramu Level B |
+| SOIC, SOP, SSOP | PAD1 vľavo dole; dlhá os puzdra vodorovne |
+| TSSOP | PAD1 vľavo dole; dlhá os puzdra zvisle |
+| TO252 / DPAK | Veľká ploška hore; PAD1 a PAD2 dole |
+
+Tabuľka je orientačný výber, nie úplný zoznam. Pri ostatných rodinách sa musí skontrolovať príslušný diagram v IEC 61188-7:2017.
+
+### Fyzická značka a názov PADu
+
+Referenčný PAD1 sa určuje podľa značky, ktorá na puzdre identifikuje príslušný vývod, napríklad:
+
+- IC – jamka alebo iná značka vývodu 1;
+- THT LED – orezaný okraj označujúci katódu;
+- elektrolytický kondenzátor – značka polarity (napr. pásik označujúci záporný vývod);
+- SMD dióda – pásik označujúci katódu.
+
+Pri písmenových označeniach sa zachová funkčný názov PADu. Napríklad pri dióde môže byť referenčným PADom `C` (cathode), pri tranzistore príslušný vývod podľa fyzickej značky a dokumentácie výrobcu.
+
+Ak puzdro nemá jednoznačnú polarizačnú značku, orientácia a referenčný vývod sa určia podľa príslušného diagramu IEC a dokumentácie výrobcu. Nesmie sa svojvoľne predpokladať, že ľubovoľný vývod je PAD1.
+
+### Dôležitý otvorený konflikt: osi X/Y a orientácia Level B
+
+Naša rozmerová konvencia predbežne stanovuje:
+- X = vždy dlhší rozmer pôdorysu samotného tela;
+- Y = vždy kratší rozmer pôdorysu samotného tela.
+
+Zároveň sme uvažovali, že dlhší rozmer X bude vždy ležať na vodorovnej osi X footprintu. To však **nie je univerzálne kompatibilné s orientáciami Level B**. Napríklad IEC uvádza SOIC v horizontálnej a TSSOP vo vertikálnej orientácii dlhej osi.
+
+Preto zatiaľ platí:
+- význam X ako dlhšieho rozmeru tela zostáva zachovaný;
+- Level B sa dodržiava podľa rodiny puzdra;
+- vzťah medzi pomenovaním rozmerov X/Y a fyzickými osami kreslenia footprintu sa musí ešte rozhodnúť;
+- nesmieme otočiť footprint proti Level B len preto, aby dlhší rozmer tela ležal vodorovne.
+
+Tento konflikt je otvorenou otázkou systému a nesmie sa považovať za vyriešený.
+
+### Ďalšie pravidlá IEC relevantné pre knižnicu
+
+IEC 61188-7:2017 okrem nulovej orientácie uvádza aj tieto zásady:
+- komponent, land pattern a obrysová/courtyard oblasť majú byť v knižnici navzájom súradnicovo zhodné;
+- počiatok land patternu môže byť odlišný od počiatku použitého pri osádzaní;
+- odporúča sa počiatok v ťažisku tela komponentu;
+- orientácia a poloha vývodov sú nezávislé od spôsobu dodania komponentu (páska, zásobník, trubica).
+
+Tieto body budú predmetom samostatnej kontroly pri audite existujúcich footprintov.
+
+## 7. Ilustračné príklady
 
 Príklady zobrazujú aktuálny pracovný smer. Nie sú ešte finálnou syntaxou všetkých rodín.
 
@@ -199,23 +270,23 @@ Pri kruhovom tele a kruhovom vonkajšom obryse možno uviesť napríklad:
 
 Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, použijú sa `OX` a `OY` namiesto `OD`.
 
-## 7. Otvorené otázky
+## 8. Otvorené otázky
 
 - [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
-- [ ] Potvrdiť globálnu orientáciu osí X/Y/Z a spôsob určovania orientácie komponentu.
+- [ ] Vyriešiť vzťah medzi normalizovanými rozmermi X/Y (X je dlhší rozmer tela) a orientáciou footprintov podľa IEC Level B; napr. SOIC a TSSOP majú odlišnú orientáciu dlhej osi.
 - [ ] Presne definovať referenčné plochy pre rozmery Z a OZ.
 - [ ] Určiť, ktoré doplnkové údaje (napr. `SH`, `LL`, farba, výrobca) majú zostať v samostatnej časti názvu a aké bude ich poradie.
 - [ ] Preveriť kruhové a valcové telá (`D`, `OD`) a orientované montáže.
-- [ ] Preveriť LED, rezistorové siete, konektory, DIP, SOIC/QFP, BGA a ďalšie rodiny.
+- [ ] Preveriť orientáciu každej používanej rodiny podľa tabuliek IEC 61188-7:2017 Level B (LED, rezistorové siete, konektory, DIP, SOIC/QFP, TSSOP, BGA a ďalšie).
 - [ ] Overiť, či každý podstatný geometrický rozdiel vedie k odlišnej identifikácii footprintu.
 - [ ] Preveriť jednoznačnosť a strojovú dekódovateľnosť všetkých tokenov vrátane viacpísmenových kvalifikátorov `OX/OY/OZ/OD`.
 
-## 8. Zdroje
+## 9. Zdroje
 
 - [PCB Libraries – Footprint Expert: Design Options](https://www.pcblibraries.com/Products/FPX/UserGuide/Console%20Options/3.2%20Design.asp)
 - [PCB Libraries – Footprint Expert Naming Convention](https://www.pcblibraries.com/Products/FPX/UserGuide/default.asp?ch=4)
 - [PCB Libraries – Surface Mount naming convention](https://www.cskl.de/fileadmin/csk/dokumente/produkte/pcbl/pcb-footprint-expert-guideline/pcb-footprint-expert-guidline-csk_files/part84.htm)
-- [PCB Libraries – aktuálna tabuľka konvencie (fórum)](https://www.pcblibraries.com/forum/pcbl-footprint-naming-convention_topic3681.html)
+- [PCB Libraries – aktuálna tabuľka konvencie (fórum)](https://www.pcblibraries.com/forum/pcbl-footprint-naming-convention_topic3681.html)\n- [IEC 61188-7:2017 – Electronic component zero orientation for CAD library construction (preview PDF)](https://cdn.standards.iteh.ai/samples/22959/72e624a1b6b2487e9759fa0a309144d1/IEC-61188-7-2017.pdf)\n- [PCB Libraries – Footprint Expert: predvolená orientácia PAD1 podľa IEC 61188-7](https://www.pcblibraries.com/Products/FPX/UserGuide/Component%20Options/default.asp?ch=11.10)
 
 ---
 
