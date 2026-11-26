@@ -6,7 +6,7 @@
 
 Cieľom je jednotný systém označovania pre SMD aj THD.
 
-**Základné pravidlo: HMDNOTA + KVALIFIKÁTOR.**
+**Základné pravidlo: HODNOTA + KVALIFIKÁTOR.**
 
 Rozmer sa zapisuje číselnou hodnotou v stotinách milimetra, za ktorou nasleduje kvalifikátor. Rozmery sa uvádzajú v metrických jednotkách.
 
@@ -56,15 +56,15 @@ Rozmerové označenia rozdeľujeme na **mechanické rozmery tela** a **celkové 
 | `W` | Druhý rozmer samotného tela |
 | `H` | Výška samotného tela |
 | `D` | Priemer samotného kruhového tela |
-| `ML` | Najdlhší maximálny vonkajší rozmer komponentu (Maximum Length) |
-| `MW` | Druhý maximálny vonkajší rozmer komponentu (Maximum Width) |
+| `ML` | Najdlhší pôdorysný rozmer maximálneho vonkajšieho obrysu (Maximum Length) |
+| `MW` | Kratší pôdorysný rozmer maximálneho vonkajšieho obrysu (Maximum Width) |
 | `MH` | Maximálna celková výška komponentu (Maximum Height) |
 | `MD` | Maximálny vonkajší priemer komponentu (Maximum Diameter) |
 | `P` | Rozteč vývodov / vzdialenosť osí otvorov alebo terminálov |
 | `B` | Rozmer prierezu THD vývodu: pri kruhovom vývode priemer, pri nekruhovom vývode jeho väčší priečny rozmer |
 | `SH` | Standoff Height – výška osadenia tela voči referenčnej rovine PCB |
 
-Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej platí poradie **HMDNOTA + KVALIFIKÁTOR**. Napríklad `650L` znamená 6,50 mm a `800ML` znamená 8,00 mm.
+Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej platí poradie **HODNOTA + KVALIFIKÁTOR**. Napríklad `650L` znamená 6,50 mm a `800ML` znamená 8,00 mm.
 
 - `L` je vždy dlhší z dvoch pôdorysných rozmerov tela; `W` je kratší. Pri štvorcovom tele platí `L = W`.
 - `H` označuje výšku samotného tela.
@@ -170,7 +170,7 @@ Nie nevyhnutne Thomasovu syntax, ale jeho rozlíšenie fyzických veličín:
 - rozmery terminálu nie sú to isté ako rozmery tela;
 - celkový mechanický obrys nemusí byť automaticky jediným vhodným identifikátorom land patternu.
 
-ZElektrik si zachová vlastné jednotné poradie **HMDNOTA + KVALIFIKÁTOR**. Na rozdiel od rodinne závislej interpretácie tokenov chceme, aby každý kvalifikátor mal stabilný geometrický význam.
+ZElektrik si zachová vlastné jednotné poradie **HODNOTA + KVALIFIKÁTOR**. Na rozdiel od rodinne závislej interpretácie tokenov chceme, aby každý kvalifikátor mal stabilný geometrický význam.
 
 ## 6. Označovanie vývodov a nulová orientácia footprintov – IEC 61188-7:2017, Level B
 
@@ -244,7 +244,7 @@ Táto kontrola sa týka iba rozsahu IEC 61188-7 – nulovej orientácie komponen
 | L/W/H a ML/MW/MH opisujú mechanické rozmery | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje syntax pomenovania mechanických rozmerov. |
 | L/W sa neurčujú podľa osí X/Y footprintu | **Bez konfliktu.** Mechanické rozmery sú nezávislé od CAD orientácie určenej podľa Level B. |
 | BMDY/OVERALL: L/W/H a ML/MW/MH | **Mimo rozsahu tejto normy.** IEC 61188-7 neurčuje túto nomenklatúru rozmerov. |
-| HMDNOTA + KVALIFIKÁTOR; P, W, D, MD, SH | **Mimo rozsahu tejto normy.** Ide o vlastnú syntax ZElektrik; táto norma ju ani nepredpisuje, ani nezakazuje. |
+| HODNOTA + KVALIFIKÁTOR; P, W, D, MD, SH | **Mimo rozsahu tejto normy.** Ide o vlastnú syntax ZElektrik; táto norma ju ani nepredpisuje, ani nezakazuje. |
 | Hustota L/N/M a koncový zápis počtu vývodov | **Mimo rozsahu tejto normy.** IEC 61188-7 nedefinuje hustotu ani syntax názvov. |
 | Nepoužívanie samostatného SPAN | **Bez konfliktu s IEC 61188-7.** Norma neurčuje tokeny názvov footprintov ani povinnosť používať označenie Span. |
 
