@@ -340,7 +340,7 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 
 - [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
 - [ ] Presne definovať referenčné plochy pre rozmery `H` a `OH`.
-- [ ] Vyriešiť kolíziu kvalifikátora `W): v novom systéme označuje druhý rozmer tela, ale v doterajšom návrhu bol vyhradený pre šírku THD vývodu. Pre THD šírku treba zvoliť iný jednoznačný kvalifikátor; dovtedy sú staršie príklady s `50W` iba provizórne.
+- [ ] Vyriešiť kolíziu kvalifikátora `W`: v novom systéme označuje druhý rozmer tela, ale v doterajšom návrhu bol vyhradený pre šírku THD vývodu. Pre THD šírku treba zvoliť iný jednoznačný kvalifikátor; dovtedy sú staršie príklady s `50W` iba provizórne.
 - [ ] Potvrdiť, či `L/W` a `OL/OW` používame výhradne pre obdĺžnikové pôdorysy; kruhové pôdorysy budú používať `D/OD`.
 - [ ] Doriešiť sémantiku hustoty `L/N/M` (Least/Nominal/Most) a pravidlá výberu variantu; táto časť zostáva otvorená.
 - [ ] Určiť, ktoré doplnkové údaje (napr. `SH`, `LL`, farba, výrobca) majú zostať v samostatnej časti názvu a aké bude ich poradie.
