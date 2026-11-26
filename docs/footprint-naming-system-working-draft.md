@@ -172,7 +172,7 @@ Nie nevyhnutne Thomasovu syntax, ale jeho rozlíšenie fyzických veličín:
 
 ZElektrik si zachová vlastné jednotné poradie **HODNOTA + KVALIFIKÁTOR**. Na rozdiel od rodinne závislej interpretácie tokenov chceme, aby každý kvalifikátor mal stabilný geometrický význam.
 
-## 6. Orientácia footprintov – IEC 61188-7:2017, Level B
+## 6. Označovanie vývodov a nulová orientácia footprintov – IEC 61188-7:2017, Level B
 
 Pre orientáciu komponentov v knižnici sa prijíma **IEC 61188-7:2017, Level B** ako základná konvencia. Norma v druhom vydaní z roku 2017 výslovne uvádza Level B ako preferovanú orientáciu pre nové CAD knižnice.
 
@@ -215,7 +215,7 @@ Referenčný PAD1 sa určuje podľa značky, ktorá na puzdre identifikuje prís
 
 Pri písmenových označeniach sa zachová funkčný názov PADu. Napríklad pri dióde môže byť referenčným PADom `C` (cathode), pri tranzistore príslušný vývod podľa fyzickej značky a dokumentácie výrobcu.
 
-Ak puzdro nemá jednoznačnú polarizačnú značku, orientácia a referenčný vývod sa určia podľa príslušného diagramu IEC a dokumentácie výrobcu. Nesmie sa svojvoľne predpokladať, že ľubovoľný vývod je PAD1.
+Ak puzdro nemá jednoznačnú polarizačnú značku, orientácia a referenčný vývod sa určia podľa príslušného diagramu IEC a dokumentácie výrobcu. Nesmie sa svojvoľne predpokladať, že ľubovoľný vývod je PAD1. Pri rodinách, ktoré norma nepokrýva dostatočne konkrétne, treba v knižnici stanoviť a zdokumentovať konzistentné rodinné pravidlo; pri konektoroch treba zohľadniť aj funkčné/mating rozhranie a mechanickú orientáciu.
 
 ### Vzťah mechanických rozmerov a orientácie footprintu
 
@@ -287,7 +287,7 @@ Pôvodný názov:
 
 Navrhovaný názov:
 
-`RESAD60W230D650X1524P-2N_0207`
+`RESAD60W230D650L1524P-2N_0207`
 
 - `60W` – šírka THD vývodu 0,60 mm
 - `230D` – priemer tela 2,30 mm
@@ -309,13 +309,13 @@ Pracovný príklad:
 - `800OL` – najdlhší celkový pôdorysný rozmer komponentu vrátane vývodov 8,00 mm
 - `175OH` – celková výška komponentu 1,75 mm, ak ide o rozmer od dosadacej roviny po hornú plochu puzdra (napr. príslušný rozmer A1)
 
-Ak sa uvádza samostatná výška tela, označí sa `Z`. Klasifikácia rozmeru ako BODY alebo OVERALL sa riadi skutočnými referenčnými plochami, nie iba označením v datasheete.
+Ak sa uvádza samostatná výška tela, označí sa `H`. Klasifikácia rozmeru ako BODY alebo OVERALL sa riadi skutočnými referenčnými plochami, nie iba označením v datasheete.
 
 ### Radiálna LED
 
 Pracovný príklad s telom s priemerom 3 mm a samostatne definovanou výškou osadenia:
 
-`LEDRD50W254P300D500Z-2N_CVX_FD_LL500_SH102_Red_HueyJann`
+`LEDRD50W254P300D500H-2N_CVX_FD_LL500_SH102_Red_HueyJann`
 
 - `50W` – šírka THD vývodu 0,50 mm
 - `254P` – rozteč vývodov 2,54 mm
@@ -332,13 +332,13 @@ Pri kruhovom tele a kruhovom vonkajšom obryse možno uviesť napríklad:
 - `D1800` – priemer tela 18,00 mm
 - `OD2200` – maximálny vonkajší priemer 22,00 mm
 
-Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, použijú sa `OX` a `OY` namiesto `OD`.
+Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, použijú sa `OL` a `OW` namiesto `OD`.
 
 ## 8. Otvorené otázky
 
 - [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
 - [ ] Vyriešiť vzťah medzi normalizovanými rozmermi X/Y (X je dlhší rozmer tela) a orientáciou footprintov podľa IEC Level B; napr. SOIC a TSSOP majú odlišnú orientáciu dlhej osi.
-- [ ] Presne definovať referenčné plochy pre rozmery H a OH.
+- [ ] Presne definovať referenčné plochy pre rozmery H a OH.\n- [ ] Vyriešiť kvalifikátor pre šírku THD vývodu: `W` je teraz súčasťou L/W/H a nesmie mať súčasne druhý význam.\n- [ ] Potvrdiť, či `L/W` a `OL/OW` používame výhradne pre obdĺžnikové pôdorysy; kruhové pôdorysy budú používať `D/OD`.
 - [ ] Určiť, ktoré doplnkové údaje (napr. `SH`, `LL`, farba, výrobca) majú zostať v samostatnej časti názvu a aké bude ich poradie.
 - [ ] Preveriť kruhové a valcové telá (`D`, `OD`) a orientované montáže.\n- [ ] Definitívne vyriešiť prípadnú kolíziu kvalifikátora `W` (druhý rozmer tela verzus šírka THD vývodu) a zabezpečiť jednoznačné strojové dekódovanie.
 - [ ] Preveriť orientáciu každej používanej rodiny podľa tabuliek IEC 61188-7:2017 Level B (LED, rezistorové siete, konektory, DIP, SOIC/QFP, TSSOP, BGA a ďalšie).
