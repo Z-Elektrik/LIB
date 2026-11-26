@@ -20,29 +20,36 @@ Príklady zápisu:
 
 Poradie kvalifikátor + hodnota (napr. `W50`) sa v ZElektrik konvencii nepoužíva.
 
-## 2. Počet vývodov a hustota
+## 2. Počet vývodov a profil land patternu
 
-Počet vývodov a hustota osadenia sa zapisujú na konci názvu:
+Počet vývodov a použitý profil land patternu sa zapisujú na konci názvu:
 
-`-<POČET VÝVMDOV><HUSTOTA>`
+`-<POČET VÝVODOV><PROFIL>`
+
+Počet vývodov je povinný. Označenie profilu je voliteľné iba pri základnom profile výrobcu.
 
 | Označenie | Význam |
 |---|---|
-| `L` | Least |
-| `N` | Nominal |
-| `M` | Most |
+| bez prípony profilu, napr. `-2` | Land pattern odporúčaný výrobcom komponentu a prevzatý z jeho datasheetu |
+| `ZD` | Základný profil ZElektrik – východisková geometria knižnice bez ohľadu na technológiu osádzania |
+| `ZM` | Profil ZElektrik pre ručné spájkovanie – upravená geometria so zväčšenými ploškami |
+| `L` / `N` / `M` | IPC-7351 Density Level C / B / A (Least / Nominal / Most), iba ak je land pattern skutočne navrhnutý podľa príslušnej metodiky |
 
 Príklady:
 
-- `-2N` – 2 vývody, Nominal
-- `-8N` – 8 vývodov, Nominal
-- `-40N` – 40 vývodov, Nominal
+- `-2` – 2 vývody, land pattern podľa odporúčania výrobcu v datasheete
+- `-2ZD` – 2 vývody, základný profil ZElektrik
+- `-2ZM` – 2 vývody, profil ZElektrik pre ručné spájkovanie
+- `-8ZD` – 8 vývodov, základný profil ZElektrik
+- `-2L`, `-2N`, `-2M` – 2 vývody, príslušná hustotná úroveň IPC-7351
 
-Tento zápis sa používa pre SMD aj THD, vrátane pasívnych sietí. Počet vývodov a hustota tvoria jeden koncový údaj. Samostatný kvalifikátor `Q` pre počet vývodov sa preto v tomto návrhu nepoužíva.
+**Samostatný profil `Z` sa nepoužíva.** Základným profilom ZElektrik je vždy `ZD`; nie je potrebné zavádzať všeobecné `Z` ako ďalšiu úroveň.
 
-Príklad rodiny rezistorovej siete (iba ilustračný tvar, nie definícia rozmerov):
+Neprítomnosť označenia profilu má presný význam: geometria plošiek a ich rozstup sú prevzaté z odporúčaného land patternu výrobcu uvedeného v datasheete. Nestačí, že rozmery tela alebo vývodov boli odčítané z datasheetu a land pattern bol následne navrhnutý samostatne.
 
-`RESCxxxxx-8N`
+Profil `ZD` predstavuje východiskovú geometriu ZElektrik bez ohľadu na technológiu osádzania. Profil `ZM` je osobitný variant určený na ručné spájkovanie, pri ktorom sú plošky zväčšené. Ďalšie profily možno doplniť podľa potreby; ich význam sa musí definovať samostatne. Číselné označenia budúcich profilov sa zatiaľ nezavádzajú.
+
+Označenia `L/N/M` sa zachovávajú výhradne pre hustotné úrovne IPC-7351 pri SMD land patternoch, ktoré skutočne zodpovedajú tejto metodike. Nie sú všeobecným označením ľubovoľnej menšej alebo väčšej geometrie. Pre THD sa nimi nevyhlasuje súlad s IPC-7251, keďže táto norma nebola vydaná ako finálna publikovaná norma.
 
 ## 3. Predbežný zoznam kvalifikátorov
 
@@ -332,7 +339,7 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 - [ ] Presne definovať referenčné plochy pre rozmery `H` a `MH`.
 - [x] Vyriešená kolízia `W`: druhý pôdorysný rozmer tela označuje `W`, priečny rozmer THD vývodu označuje `B`.
 - [x] Rozhodnuté: obdĺžnikové pôdorysy používajú `L/W` a `ML/MW`; kruhové pôdorysy používajú `D/MD`.
-- [ ] Doriešiť sémantiku hustoty `L/N/M` (Least/Nominal/Most) a pravidlá výberu variantu; táto časť zostáva otvorená.
+- [x] Rozlíšené profily land patternu: `-<počet>` = odporúčanie výrobcu prevzaté z datasheetu; `ZD` = základný profil ZElektrik; `ZM` = profil pre ručné spájkovanie so zväčšenými ploškami. Samostatné `Z` sa nepoužíva. `L/N/M` zostávajú vyhradené pre príslušné úrovne IPC-7351.
 - [ ] Určiť, ktoré doplnkové údaje (napr. `SH`, `LL`, farba, výrobca) majú zostať v samostatnej časti názvu a aké bude ich poradie.
 - [ ] Preveriť kruhové a valcové telá (`D`, `MD`) a orientované montáže.
 - [ ] Preveriť orientáciu každej používanej rodiny podľa tabuliek IEC 61188-7:2017 Level B (LED, rezistorové siete, konektory, DIP, SOIC/QFP, TSSOP, BGA a ďalšie).
