@@ -127,9 +127,9 @@ Názov musí vedieť rozlíšiť minimálne rozteč vývodov v rade, vzdialenos�
 
 - [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
 - [ ] Rozhodnúť, či je pre vzdialenosť medzi radmi vývodov potrebný samostatný kvalifikátor `S`, alebo sa dá použiť existujúci parameter.
-- [ ] Presne definovať `X` a `Y) ako rozmery tela, nie automaticky celkového obrysu.
+- [ ] Presne definovať `X` a `Y` ako rozmery tela, nie automaticky celkového obrysu.
 - [ ] Rozhodnúť, či a ako označovať celkový vonkajší obrys komponentu.
-- [ ] Presne definovať `L`, `W) a ich použitie pre rozmery SMD terminálov aj THD vývodov.
+- [ ] Presne definovať `L`, `W` a ich použitie pre rozmery SMD terminálov aj THD vývodov.
 - [ ] Definovať referenčné plochy pre výšku `H`.
 - [ ] Preveriť kruhové a valcové telá (`D`) a orientované montáže.
 - [ ] Preveriť LED, rezistorové siete, konektory, DIP, SOIC/QFP, BGA a ďalšie rodiny.
