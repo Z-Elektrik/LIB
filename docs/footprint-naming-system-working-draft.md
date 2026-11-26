@@ -12,7 +12,7 @@ Rozmer sa zapisuje číselnou hodnotou v stotinách milimetra, za ktorou nasledu
 
 Príklady zápisu:
 
-- `50W` – 0,50 mm, šírka THD vývodu
+- doterajší zápis `50W` – 0,50 mm, šírka THD vývodu (kolízia s novým významom W; čaká na premenovanie)
 - `254P` – 2,54 mm, rozteč vývodov
 - `1250L` – 12,50 mm, najdlhší rozmer tela
 - `508W` – 5,08 mm, druhý rozmer tela
@@ -61,7 +61,7 @@ Rozmerové označenia rozdeľujeme na **mechanické rozmery tela** a **celkové 
 | `OH` | Celková výška komponentu |
 | `OD` | Celkový vonkajší priemer komponentu |
 | `P` | Rozteč vývodov / vzdialenosť osí otvorov alebo terminálov |
-| `W` | Šírka THD vývodu – vyhradené použitie v kontexte geometrie vývodov |
+| `W` | Druhý pôdorysný rozmer tela; doterajšie použitie W pre šírku THD vývodu sa musí premenovať |
 | `SH` | Standoff Height – výška osadenia tela voči referenčnej rovine PCB |
 
 Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej platí poradie **HODNOTA + KVALIFIKÁTOR**. Napríklad `650L` znamená 6,50 mm a `800OL` znamená 8,00 mm.
@@ -75,7 +75,7 @@ Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej plat
 
 **L/W/H a OL/OW/OH nie sú osi KiCadu.** L a W sa určujú podľa veľkosti mechanických rozmerov, nie podľa toho, či ležia pozdĺž osi X alebo Y footprintu. Orientácia vývodov preto nemení význam L a W. Napríklad bežný rezistor 1206 a rezistorová sieť s rovnakým rozmerom tela môžu mať rovnaké L/W, aj keď je rozloženie vývodov otočené o 90°.
 
-Kvalifikátor `W` sa používa aj pre šírku THD vývodu, napr. `60W`. Kontext názvu a poradie geometrických tokenov musia umožniť jednoznačné dekódovanie; prípadné riziko kolízie medzi `W` ako šírkou tela a `W` ako šírkou THD vývodu treba vyriešiť pri finalizácii syntaxe. Pre SMD sa `W` nesmie používať na označenie šírky terminálu.
+Kvalifikátor `W` je v tomto návrhu použitý pre druhý pôdorysný rozmer tela. Jeho predchádzajúce použitie pre šírku THD vývodu (napr. `60W`) je preto v kolízii a musí sa nahradiť iným kvalifikátorom. Kým sa nový kvalifikátor nedohodne, staršie príklady s `W` pre THD šírku sú iba provizórne.
 
 ### Pravidlo pre rozmery BODY a OVERALL
 
@@ -181,13 +181,15 @@ Toto pravidlo sa týka nulovej orientácie komponentu v CAD knižnici (pohľad z
 ### Základné pravidlá
 
 - Footprinty a komponenty sa zobrazujú v pohľade zhora.
-- Poloha referenčného vývodu PAD1 musí zodpovedať polarizačnej/orientačnej značke na fyzickom puzdre.
-- Ak výrobca namiesto čísel používa funkčné označenia vývodov (napr. cathode, anode, base, emitter, collector), knižničný opis musí priradiť príslušný vývod k referenčnej pozícii PAD1.
-- Skutočné názvy PADov v KiCade sa zachovávajú. PAD označený napr. `C` alebo `K` sa nepremenúva na `1`; musí však obsadiť polohu, ktorá podľa IEC zodpovedá PAD1.
+- Označenie vývodov je predvolene číselné (1, 2, 3, ...).
+- Ak výrobca alebo zaužívané označenie súčiastky používa funkčné/písmenové názvy vývodov (napr. A/K, G/D/S, B/C/E), tieto názvy sa v KiCade zachovajú.
+- Písmenové názvy nemenia pravidlo orientácie: vývody sa pri určovaní nulovej orientácie posudzujú tak, ako keby boli očíslované. Vývod, ktorý zodpovedá referenčnej pozícii pinu 1 podľa fyzickej značky a dokumentácie výrobcu, obsadí polohu PAD1 podľa príslušného diagramu IEC. Samotný názov PADu sa však nemení na číslo.
+- Poloha referenčného vývodu PAD1 musí zodpovedať polarizačnej/orientačnej značke na fyzickom puzdre a pravidlám pre danú rodinu puzdra.
 - Orientácia sa určuje podľa pravidiel Level B pre konkrétnu rodinu puzdra. Nie je správne aplikovať polohu PAD1 vľavo dole mechanicky na všetky typy komponentov.
 - Pri dvojvývodových súčiastkach zostáva PAD1 vľavo; Level A a Level B sa pri týchto príkladoch zhodujú.
 - Pri viacvývodových súčiastkach je PAD1 na ľavej alebo ľavej dolnej pozícii podľa konkrétneho typu puzdra a tabuliek normy.
 - Level použitý v knižnici musí byť jednoznačne deklarovaný v dokumentácii knižnice ako Level B.
+- Ak puzdro nemá jednoznačnú polarizačnú značku alebo ho norma nepokrýva dostatočne konkrétne, orientácia a referenčný vývod sa určia podľa dokumentácie výrobcu a zdokumentovaného pravidla pre danú rodinu. Pri konektoroch treba zohľadniť aj mating rozhranie a mechanickú orientáciu.
 
 ### Príklady podľa IEC
 
@@ -234,7 +236,7 @@ Zároveň sme uvažovali, že dlhší rozmer X bude vždy ležať na vodorovnej 
 Preto zatiaľ platí:
 - význam X ako dlhšieho rozmeru tela zostáva zachovaný;
 - Level B sa dodržiava podľa rodiny puzdra;
-- vzťah medzi pomenovaním rozmerov X/Y a fyzickými osami kreslenia footprintu sa musí ešte rozhodnúť;
+- mechanické rozmery L/W/H a OL/OW/OH sú nezávislé od osí KiCadu;
 - nesmieme otočiť footprint proti Level B len preto, aby dlhší rozmer tela ležal vodorovne.
 
 Tento konflikt je otvorenou otázkou systému a nesmie sa považovať za vyriešený.
@@ -287,9 +289,9 @@ Pôvodný názov:
 
 Navrhovaný názov:
 
-`RESAD60W230D650L1524P-2N_0207`
+`RESAD??230D650L1524P-2N_0207`
 
-- `60W` – šírka THD vývodu 0,60 mm
+- `??` – šírka THD vývodu 0,60 mm; kvalifikátor zatiaľ neurčený
 - `230D` – priemer tela 2,30 mm
 - `650L` – najdlhší rozmer tela 6,50 mm
 - `1524P` – rozteč vývodov 15,24 mm
@@ -315,9 +317,9 @@ Ak sa uvádza samostatná výška tela, označí sa `H`. Klasifikácia rozmeru a
 
 Pracovný príklad s telom s priemerom 3 mm a samostatne definovanou výškou osadenia:
 
-`LEDRD50W254P300D500H-2N_CVX_FD_LL500_SH102_Red_HueyJann`
+`LEDRD??254P300D500H-2N_CVX_FD_LL500_SH102_Red_HueyJann`
 
-- `50W` – šírka THD vývodu 0,50 mm
+- `??` – šírka THD vývodu 0,50 mm; kvalifikátor zatiaľ neurčený
 - `254P` – rozteč vývodov 2,54 mm
 - `300D` – priemer tela 3,00 mm
 - `500H` – výška samotného tela 5,00 mm
@@ -329,19 +331,22 @@ Ak je potrebné uviesť aj celkovú výšku komponentu, použije sa `OH`. `SH` z
 
 Pri kruhovom tele a kruhovom vonkajšom obryse možno uviesť napríklad:
 
-- `D1800` – priemer tela 18,00 mm
-- `OD2200` – maximálny vonkajší priemer 22,00 mm
+- `1800D` – priemer tela 18,00 mm
+- `2200OD` – maximálny vonkajší priemer 22,00 mm
 
 Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, použijú sa `OL` a `OW` namiesto `OD`.
 
 ## 8. Otvorené otázky
 
 - [ ] Potvrdiť, či `P` označuje rozteč aj pri dvojvývodových súčiastkach a THD.
-- [ ] Vyriešiť vzťah medzi normalizovanými rozmermi X/Y (X je dlhší rozmer tela) a orientáciou footprintov podľa IEC Level B; napr. SOIC a TSSOP majú odlišnú orientáciu dlhej osi.
-- [ ] Presne definovať referenčné plochy pre rozmery H a OH.\n- [ ] Vyriešiť kvalifikátor pre šírku THD vývodu: `W` je teraz súčasťou L/W/H a nesmie mať súčasne druhý význam.\n- [ ] Potvrdiť, či `L/W` a `OL/OW` používame výhradne pre obdĺžnikové pôdorysy; kruhové pôdorysy budú používať `D/OD`.
+- [ ] Presne definovať referenčné plochy pre rozmery `H` a `OH`.
+- [ ] Vyriešiť kolíziu kvalifikátora `W): v novom systéme označuje druhý rozmer tela, ale v doterajšom návrhu bol vyhradený pre šírku THD vývodu. Pre THD šírku treba zvoliť iný jednoznačný kvalifikátor; dovtedy sú staršie príklady s `50W` iba provizórne.
+- [ ] Potvrdiť, či `L/W` a `OL/OW` používame výhradne pre obdĺžnikové pôdorysy; kruhové pôdorysy budú používať `D/OD`.
+- [ ] Doriešiť sémantiku hustoty `L/N/M` (Least/Nominal/Most) a pravidlá výberu variantu; táto časť zostáva otvorená.
 - [ ] Určiť, ktoré doplnkové údaje (napr. `SH`, `LL`, farba, výrobca) majú zostať v samostatnej časti názvu a aké bude ich poradie.
-- [ ] Preveriť kruhové a valcové telá (`D`, `OD`) a orientované montáže.\n- [ ] Definitívne vyriešiť prípadnú kolíziu kvalifikátora `W` (druhý rozmer tela verzus šírka THD vývodu) a zabezpečiť jednoznačné strojové dekódovanie.
+- [ ] Preveriť kruhové a valcové telá (`D`, `OD`) a orientované montáže.
 - [ ] Preveriť orientáciu každej používanej rodiny podľa tabuliek IEC 61188-7:2017 Level B (LED, rezistorové siete, konektory, DIP, SOIC/QFP, TSSOP, BGA a ďalšie).
+- [ ] Doriešiť počiatok (origin) footprintov pre SMD, THD, jednovývodové komponenty, konektory a pohyblivé časti.
 - [ ] Overiť, či každý podstatný geometrický rozdiel vedie k odlišnej identifikácii footprintu.
 - [ ] Preveriť jednoznačnosť a strojovú dekódovateľnosť všetkých tokenov vrátane viacpísmenových kvalifikátorov `OL/OW/OH/OD`.
 
