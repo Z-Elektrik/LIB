@@ -337,7 +337,7 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 
 ## 8. Otvorené otázky
 
-- [ ] Potvrdiť, či `P` označuje rozstup aj pri dvojvývodových súčiastkach a THD.
+- [x] Potvrdené: `P` označuje rozstup (*Pitch*) medzi stredmi susediacich vývodov/terminálov; platí rovnako pre SMD aj THD, vrátane dvojvývodových súčiastok.
 - [ ] Presne definovať referenčné plochy pre rozmery `H` a `MH`.
 - [x] Vyriešená kolízia `W`: druhý pôdorysný rozmer tela označuje `W`, priečny rozmer THD vývodu označuje `B`.
 - [x] Rozhodnuté: obdĺžnikové pôdorysy používajú `L/W` a `ML/MW`; kruhové pôdorysy používajú `D/MD`.
