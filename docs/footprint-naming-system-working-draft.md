@@ -24,21 +24,26 @@ Poradie kvalifikátor + hodnota (napr. `W50`) sa v ZElektrik konvencii nepouží
 
 Počet vývodov a použitý profil land patternu sa zapisujú na konci názvu:
 
-`-<POČET VÝVODOV><PROFIL>`
+`-<POČET VÝVODOV alebo USPORIADANIE><PROFIL>`
 
-Počet vývodov je povinný. Označenie profilu je voliteľné iba pri základnom profile výrobcu.
+Počet vývodov je povinný. Pri bežnom zápise sa uvádza iba celkový počet vývodov. Ak je dôležité vyjadriť pravidelné viacradové usporiadanie, použije sa zápis `<POČET RADOV>X<CELKOVÝ POČET VÝVODOV>`. Druhá hodnota teda predstavuje celkový počet vývodov, nie počet vývodov v jednom rade. Pri pravidelnom a rovnomernom rozložení sa počet vývodov v jednotlivých radoch odvodí z týchto údajov.
+
+Označenie profilu je voliteľné iba pri základnom profile výrobcu.
 
 | Označenie | Význam |
 |---|---|
-| bez prípony profilu, napr. `-2` | Land pattern odporúčaný výrobcom komponentu a prevzatý z jeho datasheetu |
+| bez prípony profilu, napr. `-2` alebo `-2X10` | Land pattern odporúčaný výrobcom komponentu a prevzatý z jeho datasheetu |
 | `ZD` | Základný profil ZElektrik – východisková geometria knižnice bez ohľadu na technológiu osádzania |
 | `ZM` | Profil ZElektrik pre ručné spájkovanie – upravená geometria so zväčšenými ploškami |
 | `L` / `N` / `M` | IPC-7351 Density Level C / B / A (Least / Nominal / Most), iba ak je land pattern skutočne navrhnutý podľa príslušnej metodiky |
 
 Príklady:
 
-- `-2` – 2 vývody, land pattern podľa odporúčania výrobcu v datasheete
+- `-2` – 2 vývody, bez potreby vyjadriť viacradové usporiadanie; land pattern podľa odporúčania výrobcu v datasheete
+- `-10` – 10 vývodov v nepravidelnom alebo inom usporiadaní, ktoré sa nevyjadruje zápisom pravidelnej viacradovej zostavy
+- `-2X10` – 2 rady, spolu 10 vývodov (pri rovnomernom rozložení 5 vývodov v každom rade)
 - `-2ZD` – 2 vývody, základný profil ZElektrik
+- `-2X10ZD` – 2 rady, spolu 10 vývodov, základný profil ZElektrik
 - `-2ZM` – 2 vývody, profil ZElektrik pre ručné spájkovanie
 - `-8ZD` – 8 vývodov, základný profil ZElektrik
 - `-2L`, `-2N`, `-2M` – 2 vývody, príslušná hustotná úroveň IPC-7351
@@ -67,13 +72,16 @@ Rozmerové označenia rozdeľujeme na **mechanické rozmery tela** a **celkové 
 | `MW` | Kratší pôdorysný rozmer maximálneho vonkajšieho obrysu (Maximum Width) |
 | `MH` | Maximálna celková výška komponentu (Maximum Height) |
 | `MD` | Maximálny vonkajší priemer komponentu (Maximum Diameter) |
-| `P` | Rozstup (*Pitch*) – vzdialenosť medzi stredmi dvoch susediacich vývodov alebo terminálov |
+| `P` | Rozstup (*Pitch*) – vzdialenosť medzi stredmi dvoch susediacich vývodov alebo terminálov v jednom rade |
+| `R` | Rozstup radov (*Row spacing*) – vzdialenosť medzi osami susedných radov vývodov |
 | `B` | Rozmer prierezu THD vývodu: pri kruhovom vývode priemer, pri nekruhovom vývode jeho väčší priečny rozmer |
 | `SH` | Standoff Height – výška osadenia tela voči referenčnej rovine PCB |
 
 Hodnoty sa zapisujú v stotinách milimetra, bez desatinnej bodky. Naďalej platí poradie **HODNOTA + KVALIFIKÁTOR**. Napríklad `650L` znamená 6,50 mm a `800ML` znamená 8,00 mm.
 
-Kvalifikátor `P` označuje rozstup (*Pitch*) medzi stredmi dvoch susediacich vývodov alebo terminálov. Používa sa rovnako pre SMD aj THD: pri SMD ide o vzdialenosť stredov susediacich terminálov/plošiek, pri THD o vzdialenosť osí susediacich vývodov, respektíve otvorov. Pri viacerých vývodoch ide o vzdialenosť medzi susediacimi pozíciami, nie o vzdialenosť medzi krajnými vývodmi.
+Kvalifikátor `P` označuje rozstup (*Pitch*) medzi stredmi dvoch susediacich vývodov alebo terminálov v jednom rade. Používa sa rovnako pre SMD aj THD: pri SMD ide o vzdialenosť stredov susediacich terminálov/plošiek, pri THD o vzdialenosť osí susediacich vývodov, respektíve otvorov. Pri viacerých vývodoch v rade ide o vzdialenosť medzi susediacimi pozíciami, nie o vzdialenosť medzi krajnými vývodmi. Ak má súčiastka viacero odlišných pravidelných rozstupov alebo nepravidelné rozloženie kontaktov bez jedného charakteristického pitch, `P` sa uvedie iba vtedy, keď má jednoznačný význam; inak sa vynechá.
+
+Kvalifikátor `R` označuje vzdialenosť medzi osami susedných radov vývodov (*Row spacing*). Pri dvojradovom puzdre ide o vzdialenosť medzi osami oboch radov. Pri troch alebo viacerých radoch označuje rozstup susedných radov, ak je ich rozloženie pravidelné. `R` nie je počet radov a nezamieňa sa s `MW`: `R` opisuje rozstup kontaktných radov, zatiaľ čo `MW` opisuje maximálnu vonkajšiu šírku celého komponentu.
 
 - `L` je vždy dlhší z dvoch pôdorysných rozmerov tela; `W` je kratší. Pri štvorcovom tele platí `L = W`.
 - `H` označuje výšku samotného tela.
@@ -337,7 +345,9 @@ Ak vývody alebo mechanické časti vytvárajú skôr obdĺžnikový obrys, pou�
 
 ## 8. Otvorené otázky
 
-- [x] Potvrdené: `P` označuje rozstup (*Pitch*) medzi stredmi susediacich vývodov/terminálov; platí rovnako pre SMD aj THD, vrátane dvojvývodových súčiastok.
+- [x] Potvrdené: `P` označuje rozstup (*Pitch*) medzi stredmi susediacich vývodov/terminálov v jednom rade; platí rovnako pre SMD aj THD.
+- [x] Potvrdené: `R` označuje vzdialenosť medzi osami susedných radov vývodov (*Row spacing*); nezamieňa sa s maximálnou vonkajšou šírkou `MW`.
+- [x] Potvrdený zápis počtu vývodov: `-N` pre celkový počet vývodov; `-RXN` pre počet radov a celkový počet vývodov (napr. `-2X10` = dva rady, spolu desať vývodov).
 - [ ] Presne definovať referenčné plochy pre rozmery `H` a `MH`.
 - [x] Vyriešená kolízia `W`: druhý pôdorysný rozmer tela označuje `W`, priečny rozmer THD vývodu označuje `B`.
 - [x] Rozhodnuté: obdĺžnikové pôdorysy používajú `L/W` a `ML/MW`; kruhové pôdorysy používajú `D/MD`.
